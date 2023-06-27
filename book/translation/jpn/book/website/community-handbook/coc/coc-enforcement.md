@@ -1,58 +1,76 @@
 (ch-coc-enforcement)=
-# 4 強制マニュアル
+# 4 Enforcement Manual
 
-これが施行マニュアルであり、それに続くチューリングウェイプロジェクトの研究チームです。 私たちが一貫性と公平性を確保するために、私たちは問題に対応するときに使用されます。 行動規範の施行は尊重すべきであり、嫌がらせ行為を含めてはなりません。
+This is the enforcement manual followed by the Turing Way project research team.
+It's used when we respond to an issue to make sure we're consistent and fair.
+Enforcement of the Code of Conduct should be respectful and not include any harassing behaviours.
 
-## 4.1 行動規範委員会
+## 4.1 The Code of Conduct Committee
 
-行動規範委員会は次のとおりです。
+The Code of Conduct committee is:
 
 * Kirstie Whitaker: kwhitaker@turing.ac.uk
 * Anna Krystalli: a.krystalli@sheffield.ac.uk
 * Ben Murton: bmurton@turing.ac.uk
 
-コミュニティが成長するにつれて,我々は,コア開発チームの外のメンバーを含むより大きな委員会の構築を目指す。
+As the community grows, we will seek to build a larger committee including members outside of the core development team.
 
-## 4.2 緊急事態：一方的に行動する
+## 4.2 Urgent Situations: Acting Unilaterally
 
-事故が物理的な危険を伴う場合、または誰の安全に対する脅威(暴力の脅威など)を伴う場合。 どのコミュニティメンバーでも―そして―一方的に行動すべきです どんなコミュニティメンバーの安全を守るために これには、法執行機関(またはその他の現地担当者)に連絡し、チューリングウェイチームに代わって話すことが含まれます。
+If the incident involves physical danger, or involves a threat to anyone's safety (such as threats of violence), any member of the community may -- and should -- act unilaterally to protect the safety of any community member.
+This can include contacting law enforcement (or other local personnel) and speaking on behalf of the Turing Way team.
 
-この行為が進行中の場合、コミュニティメンバーは、コンセンサスに達する前に、状況を広めるために、直ちに行動することができます。 進行中の状況では、任意のメンバーは、この執行マニュアルで利用可能なツールを使用することができます。 ネットでの禁止やブロック、物理的な空間からの除去などです
+If the act is ongoing, any community member may act immediately, before reaching consensus, to diffuse the situation.
+In ongoing situations, any member may at their discretion employ any of the tools available in this enforcement manual, including bans and blocks online, or removal from a physical space.
 
-個人のコミュニティメンバーが一方的に行動する場合 できるだけ早くキルスティー・ウィテカーに通知し、24時間以内にレビューのために行動を報告しなければなりません。
+In situations where an individual community member acts unilaterally, they must inform Kirstie Whitaker as soon as possible, and report their actions for review within 24 hours.
 
-## 4.3 緊急性の低い状況
+## 4.3 Less-Urgent Situations
 
-当委員会は、事件の報告を受けた際に、事故を検討し、その能力を最大限に発揮することを決定します。
+Upon receiving a report of an incident, the CoC committee will review the incident and determine, to the best of their ability:
 
-- これが継続的な状況であろうと
-- 誰の身体にも脅威があるかどうか
-- 何があったの?
-- このイベントが行動規範違反であるかどうか
-- もし誰かが悪い役者だったら
+- whether this is an ongoing situation
+- whether there is a threat to anyone's physical safety
+- what happened
+- whether this event constitutes a Code of Conduct violation
+- who, if anyone, was the bad actor
 
-この情報は、直接または書面で収集されます。 CoC委員会は、事件を取り巻く情報をまとめた書面による要約を行う。 すべての参加者は、「コミュニティメンバー1」、「コミュニティメンバー2」、または「リサーチチームメンバー1」と呼ばれる概要レポートで匿名化されます。 "匿名化されていないキー"は別のファイルに保存され、時間の経過とともに同じ人に対して繰り返されるレポートをリンクするためにのみアクセスされます。
+This information will be collected either in person or in writing.
+The CoC committee will provide a written summary of the information surrounding the incident.
+All participants will be anonymised in the summary report, referred to as "Community Member 1", "Community Member 2", or "Research Team Member 1".
+The "de-anonymising key" will be kept in a separate file and only accessed to link repeated reports against the same person over time.
 
-COC委員会は、1週間以内に合意された決議を得ることを目指す。 その時間内に解像度を決めることができない場合 CoC委員会のメンバーは、報告者に対して、更新と予測される解決のためのスケジュールで応答します。
+The CoC committee will aim to have a resolution agreed upon within one week.
+In the event that a resolution can't be determined in that time, a member of the CoC committee will respond to the reporter(s) with an update and projected timeline for resolution.
 
-## 4.4 解像度
+## 4.4 Resolutions
 
-CoC委員会は、問題の報告書を調査するすべてのメンバーのコンセンサスによって決議について合意を求める。 委員会が一週間以上コンセンサスとデッドロックに達することができない場合 チューリングウェイプロジェクトの主任研究者として、ウィテカー博士はネクタイを破ります。 ウィテカー博士が利益相反のために議論に参加できない場合 CoC委員会の外部メンバーとしてベン・マートン博士が決定します。
+The CoC committee will seek to agree on a resolution by consensus of all members investigating the report in question.
+If the committee cannot reach consensus and deadlocks for over a week, Dr Whitaker, as lead investigator of the Turing Way project, will break the tie.
+If Dr Whitaker is unable to take part in the discussion due to a conflict of interest, Dr Ben Murton, as an external member of the CoC committee, will make the decision.
 
-可能な応答は次のとおりです:
+Possible responses may include:
 
-* 影響を受けたコミュニティメンバー間の仲介会話または合意。
-* コミュニティメンバーからの口頭または書面による謝罪、公的または私的な要請。
-* 行動規範の下でのコミュニティの責任を明らかにする公表。
-* 報告された問題が本行動規範の範囲外または違反でない場合は何もありません。
-* 研究チームのメンバーと関係者とのプライベート対話。 この場合、会話を持っている人は記録保持のために書かれた概要を提供します。
-* 研究チームのメンバーから関係者(s)への非公開の書面による叱責。 この場合、研究チームのメンバーは、電子メールを介して個人にその叱責をお届けします, 記録保持のためのカースティ・ウィテカーc'ing.
-* 事件の公表、理想的には違反が発生したのと同じ場所(リストサーフ違反のリストサーフなど)。 そしてGitHub違反の場合)。 委員会は、後世のためにこのメッセージを他の場所で公開することを選択することができます.
-* オンラインスペースから課された「タイムアウト」。 Kirstie Whitaker は、この「タイムアウト」を関係する個人に伝えます。
-* 一部またはすべての Turing Way プロジェクト空間からの永続的または一時的な禁止（GitHub、オンライン通話、または対面イベントなど）。 研究チームは、将来的に見直されるように、すべての禁止事項の記録を維持します。 行動規範安全チームが構築されているか、または維持されているかに拡張されています。 コミュニティのメンバーがイベントから削除された場合、そのコミュニティはイベントの一部に対して払い戻されることはありません。
+* A mediated conversation or agreement between the impacted community members.
+* A request for a verbal or written apology, public or private, from a community member.
+* A public announcement clarifying community responsibilities under the Code of Conduct.
+* Nothing, if the issue reported is not a violation or outside of the scope of this Code of Conduct.
+* A private in-person conversation between a member of the research team and the individual(s) involved.
+  In this case, the person who has the conversation will provide a written summary for record keeping.
+* A private written reprimand from a member of the research team to the individual(s) involved.
+  In this case, the research team member will deliver that reprimand to the individual(s) over email, cc'ing Kirstie Whitaker for record keeping.
+* A public announcement of an incident, ideally in the same venue that the violation occurred (such as on the listserv for a listserv violation; and GitHub for a GitHub violation).
+  The committee may choose to publish this message elsewhere for posterity.
+* An imposed "time out" from online spaces.
+  Kirstie Whitaker will communicate this "time out" to the individual(s) involved.
+* A permanent or temporary ban from some or all Turing Way project spaces (like on GitHub, online calls or in-person events).
+  The research team will maintain records of all such bans so that they may be reviewed in the future, extended to a Code of Conduct safety team as it is built, or otherwise maintained.
+  If a member of the community is removed from an event they will not be reimbursed for any part of the event that they miss.
 
-決議が合意されると, それが制定される前に、. CoC委員会のメンバーは、元の記者およびその他の影響を受けた当事者に連絡し、提案された決議を説明する。 CoC委員会のメンバーは、この決議が受け入れられるかどうかを尋ね、記録に対するフィードバックに注意する必要があります。 しかし、CoC委員会はこのフィードバックを行う必要はありません。
+Once a resolution is agreed upon, but before it is enacted, a member of the CoC committee will contact the original reporter and any other affected parties and explain the proposed resolution.
+The CoC committee member will ask if this resolution is acceptable, and must note feedback for the record.
+However, the CoC committee is not required to act on this feedback.
 
-## 4.5 利益<unk>
+## 4.5 Conflicts of Interest
 
-ウィテカー博士が報告された違反を評価または強制することができないような利益相反が発生した場合。 ベン・マートンがキルスティーの代わりになるだろう。
+In the event of any conflict of interest such that Dr Whitaker is not able to evaluate or enforce the reported violation, Ben Murton will take Kirstie's place.

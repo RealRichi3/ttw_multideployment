@@ -1,84 +1,93 @@
 (cm-social-media-twitter-tips)=
-# Twitterで始まるためのヒント
+# Tips for Starting with Twitter
 
-Twitterには、月間アクティブユーザー数が3億5,300万人います。 あなたは280文字に制限されており、スタイルはLinkedinのような他のプラットフォームよりも非公式でおしゃべりです。 他のソーシャルメディアプラットフォームと同様に、リンク、写真(1200 x 628 ピクセル)、ビデオ(最大 2 分 20 秒)を使用できます。
+Twitter has 353 million monthly active users.
+You are limited to 280 characters and the style is more informal and chatty than other platforms like Linkedin.
+You can use links, photos (1200 x 628 pixels) and videos (max 2 minutes 20 secs) in similar ways to the other social media platforms.
 
-以下は、個人的な学術目的でTwitterを使用するための一般的なヒントです。 いくつかのヒントは、「twitterを使用する科学者のための実用的なヒント」 {cite:ps}`Chabrol2021twitter` から適応されています。
+Below are general tips for starting to use Twitter for personal academic purposes. Some of the tips have been adapted from 'Practical tips for scientists using twitter' {cite:ps}`Chabrol2021twitter`.
 
-しかし、Twitterから始めるときには、まずそれを使用する目的が何であるかを考慮することが重要です。 これにより、Twitter上で自分の声(どのように聞きたいのか、どのようなトピックに集中しているのか、全体的なメッセージ)を発展させることができます。
+But when starting with Twitter it is important to first consider what your purpose for using it is.
+This will help you develop your voice (how you want to be heard, what topics you focus on, your overall message) on Twitter.
 
-**1. 良いTwitterのハンドルを選択し、良い経歴を書く**
+**1. Choose a good Twitter handle and write a good bio**
 
-* あなたがしている研究に関連する写真、カバー画像と短いバイオを追加します。
-* プロフィールは、教育機関の@、資金調達機関、および件名の一般的なハッシュタグを使用してアカウントにリンクすることができます。
-* プロジェクトや組織の特定の Twitter アカウントと個人アカウントを持っている場合もあります。
+* Add a photo, cover image and short bio that is relevant to the research you are doing.
+* Your bio can be linked to accounts such as your institution using their @, your funding body and common hashtags for your subject.
+* You might want to have a specific Twitter account for your project or organisation as well as a personal one.
 
-**2. リストを作成**
+**2. Make lists**
 
-* これは、多くの人々をフォローするのに役立ち、イベントに使用することができます。
-* リストは公開することができます。
+* This helps you to follow lots of people and can be used for events.
+* Lists can be made public.
 
-**3. 各ツイートのオーディエンスについて考える**
+**3. Think about your audience for each tweet**
 
-* 皆さんのツイートは皆さんの研究コミュニティをターゲットにしているかもしれませんが、より広範囲の人々に向けられているかもしれません。 したがって、使用する言語について慎重に考え、専門用語や主語に固有の頭字語を避け、詳細な情報へのリンクを追加します。
+* It might be that all your tweets are to target your research community but some may also be for the wider public.
+Therefore, think carefully about the language you use, avoid jargon and subject-specific acronyms, and add links to more information.
 
-**4. サブジェクト固有のハッシュタグを追加**
+**4. Add subject-specific hashtags**
 
-* あなたは280文字しか持っていないので、関心のある異なるグループにリンクするためにハッシュタグを使用することは、そこにあなたのメッセージを得るための重要な方法です。
-* ハッシュタグ付きのツイートは個人のエンゲージメントをほぼ100%向上させることができます。
-* 例えば、#MondayMotivationや#FridayFeelingなど、週の各日に通常のハッシュタグもあります。
+* You only have 280 characters so using hashtags to link to different groups of interest is an important way to get your message out there.
+* Tweets with hashtags can increase engagement by almost 100% for individuals.
+* There are also regular hashtags for each day of the week, for example, #MondayMotivation or #FridayFeeling.
 
-**5. ツイートに他のアカウントを含める**
+**5. Include some other accounts in your tweet**
 
-* @を使ってツイートを他のアカウントにリンクすると、リツイートが増えるため、ツイートがさらに広がります。
-* Twitterのフォロワーが大きい他の研究者や組織を見つけることは良いアイデアです。 これにより、あなたのツイートは可能な限り最大のリーチを提供します。
+* Linking your tweet to other accounts using @ will mean you get more retweets and therefore will spread your tweet further.
+* It is a good idea to find other researchers and organisation that have large Twitter followings.
+This gives your tweet the largest reach possible.
 
-**6. ビジュアルを追加**
+**6. Add visuals**
 
-* あなたのつぶやきに注意を引くために画像やgifを使用することができます。
-* 画像がない場合 リンクは画像を生成しますので、リンクが最新であり、あなたのツイートに関連する画像を持っていることを確認してください。
-* さらに、より多くの人がコンテンツにアクセスできるように、画像の説明を追加することもできます。 ここでは、 [人々が画像にアクセスできるようにする方法](https://help.twitter.com/en/using-twitter/picture-descriptions) のtwitterヘルプページへのリンクがあります。
+* You can use images and gifs to draw attention to your tweets.
+* If you don't have an image, a link will generate an image so make sure that the link is up to date and has a relevant image for your tweet.
+* Yow also have the option to add a description of the image so that content is accessible to more people. Here is a link to the twitter help page on [how to make images accessible for people](https://help.twitter.com/en/using-twitter/picture-descriptions).
 
-**7. 「@」でツイートしないでください**
+**7. Don't start a tweet with '@'**
 
-* これらは返信として扱われるので、隠されます。
+* These are treated as replies so become hidden.
 
-**8. 機密データに注意してください**
+**8. Be careful with sensitive data**
 
-* プロジェクトまたは教育機関でソーシャルメディアに関するポリシーを確認してください。
-* プロジェクトによっては、プロジェクト内の特定の時間まで進捗状況についてツイートすることができず、ソーシャルメディアの利用を最初から奨励するものもあります。
+* Make sure you are aware of the policy concerning social media in your project or institution.
+* Some projects will not allow you to tweet about progress until a certain time in the project and others will encourage the use of social media from the start.
 
-**9. 自分の面倒を見る**
+**9. Take care of yourself**
 
-* 一部の人々は議論を開始したり、あなたに向かって攻撃的で楽しいことを見つけるので、あなたがTwitter上で持っているすべてのインタラクションは楽しいです。
-* これらの人々と交流しないことが最善です。
-* [チャールズの引数ルール](https://geekfeminism.wikia.org/wiki/Charles%27_Rules_of_Argument) に従うことができます。 これは、引数の返事を受け取った場合は、誤解を説明した後、再度返信しないでください。 他の人をあなたの防衛に来させなさい。
-* それが続く場合は、この人をブロックし、乱用を報告することができます。
-* [アカウント](https://help.twitter.com/en/using-twitter/blocking-and-unblocking-accounts) をブロックする方法についてのTwitterのヘルプページへのリンクがあります。
+* Not all the interactions that you have on Twitter will be pleasant as some people find fun in starting arguments or being offensive towards you.
+* It is best not to interact with these people.
+* You can follow [Charles' Rules of Arguments](https://geekfeminism.wikia.org/wiki/Charles%27_Rules_of_Argument).
+This sets out that if you receive an argumentative reply, you should state your position once explaining any misunderstandings and then do not reply again.
+Let others come to your defence.
+* If it continues, you can block this person and report the abuse.
+* Here is a link to the Twitter help page about [how to block accounts](https://help.twitter.com/en/using-twitter/blocking-and-unblocking-accounts).
 
-Twitterの利用を開始すると、あなたの分野の新しい論文や有用なリソースについてのツイートが必要になるかもしれません。 ワークショップやカンファレンスなどのイベントに参加したり他の人をリツイートしたりして 彼らの仕事をハイライトしました
+Starting to use Twitter might involve tweeting about new papers and useful resources in your field, events that you go to such as workshops and conferences, and retweeting other people in your field to highlight their work.
 
-また、あなた自身を紹介するための一連のイントロつぶやきから始めたいと思うかもしれません, これまでのあなたのキャリアとあなたの現在の仕事. これをプロフィールに固定して、常に人々が最初に見るものにすることができます。
+You might also want to start with a series of intro tweets to introduce yourself, your career so far and your current work.
+You can pin this to your profile so that it is always what people see first.
 
 
-## Twitter利用規約
+## Twitter Terms
 
-これらの条件は {cite:ps}`Cheplygina2020twitter` から採用されています。
+These terms are adapted from {cite:ps}`Cheplygina2020twitter`.
 
-* 確認手順 - TweetDeck を使用して投稿する前にプロセスのツイートをチェックすることを有効にします。
-* Direct message (DM) — 送信者と特定された受信者にのみ見えるプライベートメッセージ。 デフォルトでは、通常のTwitterメッセージは全世界に表示されます。 Twitterアカウントを持っていない人(Googleなどの検索エンジンを介して)も含めます。
-* Hashtag (#) — キーワードを定義することで、共通のテーマでツイートを簡単に見つけられるようにするために使用される。 たとえば、イベント(#BookDash)やキャリアトーク(#PhDChat)に関するツイートなどです。
-* ハットのヒントまたはハードスルー(HT) - ツイートのソースに感謝するために使用されます。
-* いいね(♡ ) - 返信せずにフィードバックを与えるための迅速な方法、つぶやきのようにあなたを示すために使用されます。
-* ツイートを嫌うのに似たような機能はありません。
-* List — 公開(フォローは誰でも可能)または非公開(非公開)できるTwitterユーザーのリスト。
-* リストは、特定のトピックについてツイートするアカウントをフォローするために使用できますが、あなたは自分自身をフォローしたくありません。
-* ライブツイート — イベントの短い概要をツイートすることができます。例えば、会議での講演などです。
-* メンション (@) — アカウントのアカウントを持っている人に言及すると（「この@CaAl のペーパーは素晴らしいです」）、あなたのツイートは通知に表示されます。
-* 通知 — あなたについてのコメントや返信、リツイート、お気に入りのツイート。
-* Quote-tweet — コメントを追加しながら、誰か他の人によるツイートを引用で共有します。
-* リツイート (RT) — 他の人が作ったツイートをシェアする。
-* サブツイート — 自分のハンドルに明示的に言及せずに誰かについてツイートすることで、自分のコメントを知らされないようにします。
-* スレッド (Thread) — 1つのテーマについての一連のツイート、例えば新しい研究論文についての10回のツイート。
-* タイムライン (Timeline) - フォローしている人からのツイート。
-* Tweetdeck - 複数のアカウントをツイートおよび実行するために使用できるアプリ。
+* Confirmation step - Enabling a checking process tweets before posting using Tweetdeck.
+* Direct message (DM) — A private message that is only visible to the sender and the specifically identified recipients.
+By default, regular Twitter messages are visible to the whole world, including (via search engines such as Google) people who do not have a Twitter account.
+* Hashtag (#) — Used to make it easier to find tweets with a common theme by defining keywords, for example, tweets about an event (#BookDash) or career talks (#PhDChat).
+* Hat Tip or Heard Through (HT) - Used for thanking the source of a tweet.
+* Like (♡) - Used for showing you like a tweet—a fast way to give feedback without replying.
+* There is no similar function for disliking a tweet.
+* List — A list of Twitter users that can be public (followed by anyone) or private.
+* Lists can be used to follow accounts that tweet about specific topics, but which you don’t want to follow yourself.
+* Live-tweeting — Tweeting short summaries of an event, for example of a conference talk, as it is happening.
+* Mentioning (@) — If you mention someone with their account handle (“This paper by @CaAl is great”), your tweet will show up in their notifications.
+* Notifications — Tweets that mention you and replies, retweets and likes for your tweets.
+* Quote-tweet — Sharing a tweet by someone else in a quote, while adding your comments.
+* Retweet (RT)— Sharing a tweet that was originally made by someone else.
+* Subtweeting — Tweeting about somebody without explicitly mentioning their handle, so that they are not informed of your comment.
+* Thread — A series of tweets on one subject, for instance, ten tweets about a new research paper.
+* Timeline — The tweets from the people you follow.
+* Tweetdeck - App that can be used to tweet and run multiple accounts.

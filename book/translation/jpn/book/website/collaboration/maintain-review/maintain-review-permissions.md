@@ -1,18 +1,24 @@
 (cl-maintain-review-permissions)=
-# 所有権と権限
-チームまたは組織が所有するプロジェクトには、さまざまな貢献者がいます。
+# Ownership and Permissions
+In any team or organisation owned project, there are different contributors.
 
-プロジェクトのオーナーは、一般的にプロジェクトを開始する個人またはチームです。 定義されたビジョンと目標を持ってプロジェクトを作成する時に参加することもできます 所有者は、外部の投稿者に異なる [権限レベル](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) を付与する権利を有します。
+Owners of a project are individuals or teams who generally start a project, or join it at the time of project creation with a defined vision and goals.
+The owners have the right to give different [levels of permission](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) to outside contributors.
 
-Githubには、読み取り、トリアージ、書き込み、メンテナンス、adminという5つの権限レベルがあります。
-* 読者はコードではないコントリビューターで、GitHubの課題でコンテンツを読んだりディスカッションに参加したりします。
-* トリアージ権限を持つことで、コントリビューターは書き込み権限なしに課題やプルリクエストを管理できます。
-* 書き込み権限を使用すると、コントリビューターはプロジェクトに変更をプッシュできます。
-* 権限の維持はプロジェクトマネージャーに対して行われますが、機密性の高いアクションや破壊的なアクション(プロジェクトの削除など)にはアクセスできません。
-* 管理者は、敏感で破壊的な行動を含むプロジェクトに完全にアクセスでき、他の貢献者を作成する権限を与える責任があります。
+In Github, there are five levels of permissions: read, triage, write, maintain, and admin.
+* Readers are non-code contributors who are read the content or join discussions on GitHub issues.
+* With triage permission, contributors can manage issues and pull requests without write access.
+* Write permission allows contributors to push changes to the project.
+* Maintain permission is for project managers but have no access to sensitive or destructive actions (such as project deletion).
+* Admins are people who have full access to the project, including sensitive and destructive actions, and are responsible for granting permission to make other contributors.
 
-これらのロールは、多くの場合、 [CODEOWNERSファイル](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners) やワーキングファイルの方法などのプロジェクトファイルで定義されます (例として _チューリング方法_の [作業方法](https://github.com/alan-turing-institute/the-turing-way/blob/main/ways_of_working.md) を参照してください)。 これらのファイルは、コアプロジェクトチームとプロジェクトのメンテナンスの役割を担当するメンバーへの洞察を提供します。
+These roles are often defined in a project file such as a [CODEOWNERS file](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners) or a Ways of Working file (see _The Turing Way_'s [Ways of Working](https://github.com/alan-turing-institute/the-turing-way/blob/main/ways_of_working.md) as an example).
+These files provide insight into the core project team and members responsible for maintenance roles in the project.
 
-この章では、トリアージを持つ人は誰でも、権限を書き、維持することをメンテナと呼びます。 メンテナーは、必要に応じて課題の作成やプルリクエストの作成に携わっています。 彼らはコードベースまたはプロジェクトを更新し、貢献を見直すのに役立ちます。 彼らはしばしばプルリクエストを承認しマージすることができます。 彼らはまた、他の誰かにレビューを要求することができます。
+In this chapter, anyone with triage, write and maintain permission is referred to as maintainers.
+Maintainers are involved with creating issues and pull requests whenever required.
+They keep the codebase or project updated and help in reviewing contributions.
+They can often approve and merge pull requests.
+They can also request reviews from someone else.
 
-*権限レベルの詳細については、GitHub の [ドキュメント](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization) をご覧ください。*
+*For more information on permission level, please see this [documentation on GitHub](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization).*

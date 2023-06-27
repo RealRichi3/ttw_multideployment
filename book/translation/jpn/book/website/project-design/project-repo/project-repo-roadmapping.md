@@ -1,60 +1,74 @@
 (pd-project-repo-roadmapping)=
-# ロードマッピング
+# Roadmapping
 
-あなたのプロジェクトで大きな仕事を計画する場合 あなたの潜在的な貢献者と共有するための作品の概要を作成することは良いアイデアです。 ロードマップは目標とビジョンをカバーし、完了する必要があるタスクのタイムラインを含める必要があります 新しい貢献者がプロジェクトで何が起きているのか、次に何が起きているのかを理解するのに役立つのです
+If you plan a large piece of work in your project, it is a good idea to produce an outline of the work to share with your potential contributors.
+Your roadmap should cover your goal and vision and include a timeline for tasks that need to be completed, thus helping new contributors to your project to get an understanding of what is currently happening on the project and what's coming next.
 
-```{figure} ../../figures/project-roadmap.jpg
+```{figure} ../../figures/project-roadmap.*
 ---
 name: project-roadmap
-alt: スマホを持った手に、マイルストーン1、2、3のマークが付いたマップを表示します。 地図やナビゲーター用のこの電話アプリは、研究プロジェクトのマイルストーンやプロジェクトのロードマップを理解するのに役立ちます。
+alt: image shows a hand holding a smartphone with a map that is marked with milestones 1, 2 and 3. This phone app for map or navigator analogy is helpful to understand milestones and project roadmaps in research projects.
 ---
-プロジェクトのロードマップについての図.
-_Scriberiaによるチューリング方法_プロジェクトのイラスト。 CC-BY 4.0ライセンスの下で使用される。 DOI: 10.5281/zenodo.3332807.
+Illustration about project roadmap.
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
 ```
 
-ロードマップを作成するには、重要なマイルストーンをマップすることが重要です。 マイルストーンと関連する課題を達成するために必要なタスクは、リソースと時間を効率的に割り当てるのに役立ちます。 マイルストーンは、プロジェクトの目的、コミュニティイベント、貢献者の開発または時間枠を中心に整理できます。 GitHub で作業している場合 [GitHubのプロジェクト ボード](https://help.github.com/en/articles/tracking-the-progress-of-your-work-with-project-boards) を使用すると、詳細を提供する問題に関するすべてのタスクを管理し、関連する情報を共同で公然と収集することができます。
+To create a roadmap, it is important to map out the key milestones, tasks needed to accomplish the milestones and related challenges to help you allocate your resources and time to work on them efficiently.
+Milestones can be organised around your project's objectives, community events, contributors development or timeframes.
+If you work on GitHub, you can use [GitHub's Project board](https://docs.github.com/en/github-ae@latest/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards) to manage all the tasks on issues where you provide details and collect relevant information collaboratively and openly.
 
-ロードマップは、プロジェクトの次の側面を説明するために、ランディングページまたはREADMEファイルに記述することができます。
+A roadmap can be described in the landing page or README file to describe the following aspects of your project:
 
-1. プロジェクトの概要とプロジェクトの現在の状況を示すための概要。
-2. 他の人がどのように関わることができるのか、どのような即時のタスクができるのかを説明するオンボーディング情報。
-3. 行う必要があるタスクを記述するプロジェクトの短期目標と長期目標の両方のタイムライン どのような貢献者が次にどのように進んでいるのか たとえば、プロジェクトの新しいリリースが行われたり、イベントがホストされたりする場合です。
+1. Project summary to provide an overview and the current status of your project.
+2. Onboarding information describing how others can get involved and what immediate tasks they can do.
+3. Timeline with both short-term and long-term goals for your project describing tasks that need to be done, what contributors are working on and where it is going to happen next.
+For example, if a new release of the project will be made or an event will be hosted.
 
-詳細については、 [Open Life Science](https://docs.google.com/presentation/d/e/2PACX-1vSMCLWnN1_lO4ofD9cCjN9TJxyHYIvBFfgarOlwi95G4JJ5m672v-sYFbvfRyHPag83XviEJBrIecga/pub?start=false&loop=false&delayms=3000) トレーニングとメンタリングプログラムによる [このプレゼンテーション](https://openlifesci.org/) を参照してください。
+For details, please see [this presentation](https://docs.google.com/presentation/d/e/2PACX-1vSMCLWnN1_lO4ofD9cCjN9TJxyHYIvBFfgarOlwi95G4JJ5m672v-sYFbvfRyHPag83XviEJBrIecga/pub?start=false&loop=false&delayms=3000) by the [Open Life Science](https://openlifesci.org/) training and mentoring program.
 
-## ケーススタディ：Autospacesプロジェクト
+## Case Study: AutSPACES Project
 
-*このケーススタディは、AutoSPACESプロジェクト(2021)のコミュニティマネージャであるLotty Coupetによって起草されました。*
+*This case study has been drafted by Lotty Coupet, a community manager of the AutSPACES project (2021).*
 
-[AutoSPACEs](https://github.com/alan-turing-institute/AutSPACEs) は、自閉症の人々とその支援者が研究者やオープンソースコミュニティと共同で作成した市民科学プラットフォームです。 私たちがどこにいて、何をすべきかをうまく伝えるために、AutoSPACEプロジェクトは非常に詳細なロードマップを作成しました。
+[AutSPACEs](https://github.com/alan-turing-institute/AutSPACEs) is a citizen science platform co-created by autistic people and their supporters alongside researchers and the open source community.
+To successfully communicate where we are and what needs to be done, the AutSPACEs project has created a highly detailed Roadmap.
 
-**どうやって始めたのでしょう？**
+**How did we get started?**
 
-ロードマップの作成をキックスタートするために、GitHubのissues関数を使用してロードマップの作成を開始しました。 ここでは、GitHubリポジトリで問題を提起し、ロードマップに含めるべき提案されたマイルストーンとその周辺のタスクについて、貢献者にコメントしてもらいます。
+To kickstart the creation of a Roadmap we used the issues function in GitHub to begin the journey of creating a Roadmap.
+Here, we have raised an issue in our GitHub repository where we invite contributors to comment on any proposed milestones and surrounding tasks that should be included in the roadmap.
 
-コミュニティマネージャーはすべての情報を照合して、コミュニティに堪能なロードマップを作成します。
+The Community Manager will collate all the information to produce a Roadmap that will be proficient for the community.
 
-**ロードマップには何が含まれていますか？**
+**What does our Roadmap include?**
 
-ロードマップには、詳細なタスクを持つチェックリストが含まれている課題のリストから構成される高レベルのマイルストーンが含まれます。 これにより、コントリビューターはプロジェクト内で参加を開始できる場所を通知します。
+The road map will include high-level milestones which are made up of a list of issues of which each contains a checklist with granular tasks.
+This will inform any contributor where they can start participating within the project.
 
-マイルストーンは、このプロジェクトではティックリストではなく全体的なテーマと見なされています。 この背景にあるアイデアは、仕事が継続的であると信じているので、私たちはマイルストーンをオフにしたくないということです。 あらゆる面で見直しと反復の対象となります
+Milestones, in this project, are seen more as an overarching theme rather than a tick list.
+The idea behind this is that we don't want to tick off a milestone as we believe work is continuous, open and subject to review and iteration in all aspects.
 
-主要なタイムラインと依存関係は、すべての貢献者がそれぞれのタスクがより広範なプロジェクトにどのように適合するかを知ることができるようになるためハイライトされます。 プロジェクトの戦略的方向と相関するタスクの優先順位付けが行われます; この時点で行われる必要があること。
+Key timelines and dependencies will be highlighted as this will allow for all contributors to know how each task fits into the wider project.
+There will be a prioritisation of tasks that correlate with the strategic direction of the project; what is needed to be done at this point.
 
-**どこにロードマップを設置しますか？**
+**Where will we put our Roadmap?**
 
-Autotspacesプロジェクトは市民科学と参加研究プロジェクトです。 これは、貢献者の多くがGitHubを使用するための技術的な専門知識を持っていないことを意味します。 そのため、すべての人がロードマップにアクセスできるようにする必要があり、GitHub経由でアクセスするだけではありません。 したがって、私たちのロードマップはホストされます:
-- 当社のウェブサイト
-- 内部使用のための共有ドキュメント(Excelシート)
+The AutSPACEs project is a Citizen Science and Participatory Research project.
+This means that many of our contributors do not have the technical expertise to use GitHub.
+Therefore, we need to ensure that our roadmap is accessible for all and thus not only accessed via GitHub. Therefore, our roadmap will be hosted:
+- On our website
+- In a shared document for internal use (Excel sheet)
 - Github repository (MarkDown file)
 
-ただし、ロードマップにはIssueへのリンクがリポジトリに含まれるため、この技術的な障壁に対処します。 これを克服するために、アカウントの作成や課題リストへのアクセスなど、GitHub で基本的なスキルを教える予定です。
+However, we will address this technical barrier as our roadmap will include a link to issues in the repository.
+To overcome this, we have planned to teach basic skills in GitHub, such as creating an account and accessing our issues list.
 
-**どのように更新しますか？**
+**How will we keep it updated?**
 
-ロードマップおよび同様のプロジェクト計画の主な課題の一つは、それらが時代遅れになる危険性です。 プロジェクトがどこにあるのか、どこに行く必要があるのかを伝えるのに役立つのではなく、混乱を招くことがあります。
+One of the main issues with Roadmaps and similarly project plans is the risk of them becoming out of date.
+It can confuse rather than help in communicating where the project is and where it needs to go.
 
-AutoSPACEsプロジェクトは、コミュニティからの更新、ソフトウェア開発状況、研究進捗を記録した、隔週の進捗レポートを作成します。 前回のアップデート以降に完了したタスクと、次のステップにする必要があります。
+The AutSPACEs project creates a fortnightly progress report recording updates from the community, software development status and research progress, as well as what tasks have been completed since the last update and what should be the next steps.
 
-これらのアップデートは、ロードマップの将来のアップデートに活用されます。 このプロセスにより、私たちのロードマップとタスクの優先順位が常に最新であることを確認することができます。
+These updates drive and feed into the future updates of the roadmap.
+This process allows us to ensure that our roadmap and tasks priorities are always up to date.

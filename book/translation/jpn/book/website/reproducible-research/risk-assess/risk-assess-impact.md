@@ -1,12 +1,14 @@
-# リスクアセスメント: 複雑さと影響
+# Risk assessment: complexity and impact
 
-私たちは皆、リスクアセスメントを常に使用しています。 場合によっては、活動が安全であることを確認するための正式な手順です。 しかし、ほとんどの場合、彼らは一瞬のことを考えています- このコーヒーは熱すぎますか? バスは来ますか。 ソフトウェアも変わらず、下記のようなリスクアセスメントアプローチを使用することで、作業を成功させ、持続可能にすることができます。
+We all use risk assessments all the time. Sometimes they’re formal procedures to ensure an activity is safe, but most of the time they’re the thought of a moment- Is this coffee too hot?
+Is there a bus coming? Software is no different, and using a risk assessment approach like the one described below can really help make your work successful and sustainable.
 
-## リスク行列
+## The risk matrix
 
-リスク行列は、あなたが興味を持っていることで何が起こっているかを定量化する非常に一般的な方法です。 一方の軸は何らかの方法で露出を測定し、もう一方は事故の影響を測定します。 起源から離れるほど、リスクを受け入れるためには、より多くの安全対策が必要です。
+A risk matrix is a very popular way of quantifying what’s going on with the thing you’re interested in. One axis measures exposure in some way, and the other the impact of a mishap.
+The further from the origin, the more safeguards are needed to make the risk acceptable.
 
-```{figure} ../../figures/risk-matrix.png
+```{figure} ../../figures/risk-matrix.*
 ---
 name: risk-matrix
 alt: Impact vs complexity risk matrix
@@ -14,32 +16,50 @@ alt: Impact vs complexity risk matrix
 Impact vs complexity risk matrix
 ```
 
-私たちの場合、2つの軸として「複雑さ」と「影響」を使用します。 いくつかのケーススタディは、それがどのように動作するかを示しています…
+In our case, we will use ‘complexity’ and ‘impact’ as the two axes. Some case studies illustrate how it works…
 
-ケース 1
+Case 1
 
-> リチャードは、簡単なパターンに応じて、ジョブの名前が異なると、部門のクラスターに100の小規模な仕事を提出する必要があります。 これは退屈で、彼は外に出て遊びたいと思っています。 そこでリチャードは、すべての仕事を提出するために、短いシェルスクリプトを書くことにしました。 彼は数秒間停止し、尋ねます:
+> Richard needs to submit 100 small jobs to the department cluster, with the names of the jobs varying according to a simple pattern. This is tedious and he wants to go outside and play. Therefore, Richard decides to write a short shell script to submit all the jobs. He pauses for a few seconds and asks:
 
-> これはどれほど複雑なのでしょうか？ テキストの約1画面になります。
+> How complicated is this? It’ll only be about 1 screen of text.
 
-> もしうまくいかなかったら？ ジョブが送信されず、実行されません。失敗メールが届きます。
+> What’s if it goes wrong? The jobs won’t submit or run and I’ll get some failure emails.
 
-> ここで、Richardは、この小さなソフトウェアの複雑さと影響の両方が低いと判断します。 したがって、バージョン管理と文書作成を使用することは、現在不均衡です。 彼は、ターミナルへの送信ラインをエコーすることによってドライランを行うことにしました, 彼はそれを迅速なチェックを与えることができます.
-> 数週間後、研究室の誰かが同じことをしたいと考えていました。 リチャードは脚本を提供してくれていて、とても上手くいっています。 ゴールポストは移動しました。 リチャードはリスクを再評価するまであと数秒間一時停止します…
-> …5年後 Richardのスクリプトは大きなワークフロー制御システムに進化し、複数の大学が1000のジョブをさまざまなコンピューティングリソースに送信する複雑なワークフローを管理することができます。 ソフトウェアは現在、ソフトウェアのガバナンスと方向を設定する正式なプロジェクトボードを持っています。 それが持続可能であり、世界中の100人のユーザーのニーズを満たすことを保証します。
+> Here, Richard decides that both the complexity and impact of this tiny piece of software are low. Therefore, using version control and writing documentation is disproportionate right now. He decides to do a dry run by echoing the submit line to the terminal so he can give it a quick check.
 
-ケース 2...
+>A few weeks later, someone else in the lab wants to do the same thing. Richard offers his script as it worked quite well for him. The goalposts have moved. Richard pauses for a few more seconds to and reassesses the risk…
 
-> Jemmaはデータの可視化に問題があります。 通常のライブラリはデータのフォーマットに対応できません。 セスの金曜日の午後のプロジェクトについて聞いたことがあります。同じような問題を解決するために、このライブラリのラッパーを書いています。 彼らはコーヒーを持っていて、一緒に働くことに決めます。 このコーヒーの間、彼らは彼らがどのようにうまく機能するかについていくつかの決定をします- これは彼らのリスクアセスメントです。 Sethは、インラインドキュメントを改善し、共有する前にいくつかのユースケース例を追加することに同意します。 JemmaはSethがコードを入れるリポジトリをセットアップすることに同意します。
+>…5 years later, Richard’s script has evolved into a large workflow control system allowing several universities to manage complex workflows  consisting of 1000’s of jobs being submitted to a range of different compute resources. The software now has a formal project board that sets the governance and direction of the software, ensuring that it is sustainable and meets the needs of the 100s of users worldwide.
 
-> 時間が経つにつれて、より多くの人々がこのソフトウェアを利用し始めます。機能要求により、基礎となるライブラリに複雑さと変更が加えられ、破損が生じます。 JemmaとSethは、間違った結果の影響が出版結果に問題を引き起こす可能性があるため、物事が少し危険になっていることに同意します。 したがって、継続的な統合テストと、物事が持続可能であることを保証するレビュープロセスを導入します。
+Case 2...
 
-これらのケーススタディの重要なポイントは、ソフトウェアのすべての部分が異なっている必要があるということです。 これらの要件は時間とともに変化することがあります バージョン管理、テスト、ドキュメント、およびその他の持続可能性の概念の使用は、リスク管理に有用です。 これらのツールを使用すると、ソフトウェアが間違っていることにさらされません。 最初から全てを使うことでイノベーションを起こすことができます リスクアセスメントのアプローチは、今のところ適切なバランスを見つけるのに役立ちます。 時々、または何か事情が変わったときにトピックを再確認します。
+> Jemma has a problem with visualising some data. The usual library can’t cope with the format her data. She’s heard about Seth’s Friday afternoon project where he’s written a wrapper around this library to solve what seems to be the same problem. They have a coffee and decide to work together. During this coffee, they make some decisions about how they’re going to work successfully together- this is their risk assessment. Seth agrees to go away and improve the inline documentation and add some use case examples before sharing. Jemma agrees to set up a repository into which Seth will put the code.
 
-## 複雑さの測定の詳細
+> Over time, more people start to make use of this software, with feature requests adding complexity and changes in the underlying library causing breakages. Jemma and Seth agree that things are getting a bit risky because the impact of wrong results might cause problems with publishing results. They therefore introduce continuous integration tests and a review process to ensure things remain sustainable.
 
-複雑さの一つの指標は線数です。 より多くのラインは間違いを犯すためにあるより多くの場所を有する。 しかし、他にも気になることがあります。 どのくらいのライブラリに依存していますか? いくつの機能がありますか? これらすべてはコードベースの複雑さを測ります 複雑さは他の形態を取ることもできます。 いくつのユースケースがありますか？ あなたのブロブカウントソフトウェアは、バイオサイエンスの塊を数えるためにのみ使用されますか? CCTVの画像でブロブをカウントするために使用している人はいますか? 人々はどのような種類のコンピュータを使用していますか? CPU? GPU？ ラズベリーパイ？ あなたのソフトウェアの広い視野を取る。
+The key point of these case studies is that every piece of software has different needs to be sustainable, and these requirements can change over time. The use of version control, testing, documentation and other sustainability concepts are useful for managing risk. Using none of these tools leaves your software exposed to things going wrong, but using all of them from the outset can get in the way of innovation.
+The risk assessment approach helps you find the right balance for now. Revisit the topic once in a while, or when something circumstances change.
 
-## 影響測定の詳細
+## More about measuring complexity
 
-ソフトウェアが動作しない場合はどうなりますか? 時々、それはちょうど数分間あなたを悩ませる。 しかし、間違って行く他のソフトウェアは、巨大な結果を持つことができます - あなたの主要な紙の巻き戻し、あるいは命が失われている。 影響を測定するには、ソフトウェアが何に使用されているかについて十分な知識が必要です。 事態が悪くなるまでこれを追跡することは時々困難である場合もあります。 ただし、 「このソフトウェアは私の論文の分析に使っていますか?」のような質問をすることで、パスでこれを試すことができます。 再度、あなたのソフトウェアの広い視野を取る。
+One measure of complexity is line count.
+The more lines you have the more places there are to make a mistake. However, there are other things one might care about.
+How many libraries do you depend on? How many functions are there? All of these measure the complexity of the codebase.
+Complexity can take other forms too.
+How many use cases are there?
+Does your blob counting software only get used for counting blobs in the biosciences?
+Are there people using it to count blobs in CCTV images?
+What types of computer are people using it on?
+CPU? GPU? Raspberry Pi?
+Take a broad view of your software.
+
+## More about measuring impact
+
+What happens when (not if) your software doesn’t work?
+Sometimes, it just annoys you for a few minutes.
+However, other software going wrong can have huge consequences- the retraction of your seminal paper or even lives being lost.
+Measuring the impact requires good knowledge of what your software is being used for.
+It can sometimes be difficult to keep track of this until things go wrong.
+ However, one can try to head this off at the pass by asking questions like ‘is this piece of software I use for the analysis in my paper any good?’.
+Again, take a broad view of your software.

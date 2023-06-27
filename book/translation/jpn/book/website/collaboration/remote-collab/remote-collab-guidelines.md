@@ -1,83 +1,93 @@
 (cl-remote-collab-guidelines)=
-# リモートコラボレーションガイドライン
+# Guidelines for Remote Collaboration
 
-この文脈で ガイドラインは一連のルールまたはプロトコルであり、誰もが効果的かつ成功的なコラボレーションのために分散したチーム内で情報をやり取りするための共通の基盤を作ることができます。
+In this chapter, guidelines are a set of recommendations or protocols that can create a common ground for everyone to communicate and exchange information within a distributed team for effective and successful collaboration.
+The main motivation is to set clear expectations around communication tools, etiquette for online meetings, tasks, timelines and schedules in advance for the remote and distributed collaborative working arrangement in a team or community.
 
-主な動機は、通信ツール、オンライン会議、タスクのエチケットへの期待に関する明確なガイドラインを設定することです。 スケジュールとスケジュールは事前にリモートで分散された共同作業の手配のためにチームやコミュニティで。
-
-## コミュニケーションとコラボレーションのモード
+## Mode of communication and collaboration
 <!---Add details and more points point to other chapters for details--->
 
-これは以下のような詳細を提供する必要があります。
-- オンライン通話への参加/参加に使用されるツール/ソフトウェア。
-- 主催者の期待通りの経験を参加者に提供できる装備の種類に対する推奨事項。
-- 相互作用とデータ交換を安全に保つために維持される措置。
-- 参加者がこれらのリソースやツールにアクセスできるようにする方法。
-- これらのツールの可視性とアクセシビリティを向上させる方法。
+This should provide details regarding:
+- The tools/software to be used for joining/attending the online calls.
+- Recommendations for the types of equipment that can provide participants with the experience as expected by the organisers.
+- Measures that will be kept in place to keep interactions and data exchange secure.
+- How participants can gain access to these resources and tool.
+- Ways to improve visibility and accessibility to these tools.
 
-共同作業ツールの一覧については、 {ref}`このサブチャプター<cl-remote-collab-tools>` を参照してください。
+For a list of collaborative tools check out {ref}`cl-event-tools`.
 
-## 非公式のやりとりのためのさまざまな方法
+## Different ways for informal interactions
 <!---Add details and more points point to other chapters for details--->
-非公式の相互作用は、参加者の完全なエンゲージメントを確保するのに役立つため、以下の方法を提供します。
-- 事前に計画されたソーシャルディスカッション/インタラクションプランを設定することで、ミーティング間のカジュアルなチームの会話を促します。
-- さまざまなタイムゾーンの人々が、属性を追いつけて構築できるようにします(共有ノートやサマリーメールなど)。
+Informal interactions are instrumental for ensuring full engagement of your participants, therefore provide ways for:
+- Encouraging casual team conversations between meetings by setting some pre-planned social discussions/interaction plans.
+- Helping people from different time zones to catch up and build a sense of belonging (for example, by shared notes or summary emails).
 
-## データ、リソース、ドキュメントの共有
+Check out an example of informal coffee chats in {ref}`cl-informal-chats`.
+
+## Sharing data, resources and documentation
 <!---Add details and more points point to other chapters for details--->
-データ(研究データ、個人情報)、リソース(ツールと機器)、ドキュメント(ポリシー、マニュアル)を共有するためのいくつかの推奨事項とガイドラインをまとめます。
+Put together some recommendations and guidelines for sharing data (research data, personal information), resources (tools and equipment) and documentation (policies, manuals).
 
-これらの推奨事項は以下のとおりです:
-- 研究データを共有するための推奨プラットフォーム(公開および非公開)。
-  - データ、ドキュメント、分析スクリプトを共有する最も適切な方法を決定します。 GoogleやGitHubなどの同様のプラットフォーム上で共有ドライブやリポジトリを提供するなど。
-- データやパスワードなどの機密情報を保護する方法。
-- アカウントの設定とアクセスを維持するためのマニュアルとトレーニング。
-- 簡単に見つけることができる組織からの異なるドキュメントの場所。
-- セットアップとトラブルシューティングのためのヘルプデスクまたはサポート。
+These recommendations should include:
+- The preferred platform for sharing research data (published and unpublished).
+  - Decide on the most appropriate way to share data, documents, analysis scripts, such as by providing shared drives and repositories on Google, GitHub or other similar platforms.
+- How to protect sensitive information such as data and password.
+- Manuals and training for setting up an account and maintaining access.
+- Locations of different documents from the organisation that are easy to find.
+- Helpdesk or support for setup and troubleshooting.
 
-## 会議、スケジュール、議題の計画
+We have provided related recommendations in {ref}`cl-event-tools` and {ref}`cl-organising-meetings`.
+
+## Planning meetings, scheduling, and agenda
 <!---Add details and more points point to other chapters for details--->
-プロジェクトの開始時に重要なタスクとマイルストーンを確立し、ミーティングがどのように計画され、スケジュールされ、組織されるかを決定します。
-- 会議の頻度を決め、プロトコルを設定します。
-- プロトコルが確立されると、タスクと目標についての共通の理解を確保するために、チーム内でプロトコルを循環させてレビューします。
-- タイムゾーン全体で効果的な会議をスケジュールし、定期的なタイムスロットを持っており、混乱を避けるためにカレンダー招待を送信します。
-- 議題の収集に全員の入力を招待します。
-- チームが大きい場合は、サブプロジェクトグループに分割してより強力なネットワークを作成します。
-- チームの椅子やノートテイカーのスケジュールを回転させる。
+Establish key tasks and milestones at the beginning of the project to determine how meetings will be planned, scheduled and organised.
+- Decide on the frequency of your meetings and set a protocol.
+- Once a protocol has been established, circulate and review it within the team to ensure a common understanding of tasks and goals.
+- Schedule meetings that are effective across time zones, have a regular time slot and send out calendar invites to avoid confusions.
+- Invite everyone's input in collecting agenda points.
+- If a team is big, split into sub-project groups to create a stronger network.
+- Rotating schedule for chairs and note-takers from the team.
 
-## オンラインミーティングとコミュニケーションのためのEtiquette
+We have provided related recommendations in {ref}`cl-event-tools` and {ref}`cl-organising-meetings`.
+
+## Etiquette for online meetings and communications
 <!---Add details and more points point to other chapters for details--->
-参加者は、どのように会議に参加することが期待されるかを知っている必要があります。 これには、継続的な議論にどのように貢献できるか(物理的に手を挙げるか、コールホスティングソフトウェアの機能を使用する)に関する詳細が含まれています。 話すのが快適でない場合や全体的に歓迎される環境を作る方法を教えてくれます
-- グループ全体とサブグループ内のコミュニケーションの形式を確立します。
-  - たとえば、コールのためのズーム、ドキュメントのためのGoogle Docs、アクションポイントのためのTrelloなど、使用されるツールを明確に伝えます。
-- 割り当てられた椅子とメモテイカーで事前に定義された議題を作成して、非公式性と焦点の損失を防ぎます。
-- 包括的なインタラクションのための安全なスペースをオンラインで作成するための事前コミュニケーションガイドライン:
-  - 話していないときにマイクをミュートする。
-  - クローズドミーティングでビデオカメラをオンにします。
-  - 通話が録音されている場合、ビデオをオフにするオプションを指定します。
-  - 議論に参加するために「手を挙げる」方法、チャット、物理的に、または絵文字を使用する方法に関するヒントを共有します。
-  - スピーカー、椅子、メモ取得者および異なる責任を持つ人々のためのガイドラインを送りなさい。
-- 会議に参加して退会する方法を明確に伝えます。
-  - 遅く入会または早めに出発するための特別なルールはありますか?
-- 柔軟性の維持と形式性の低下を目指してください
-  - これは、自宅から働いていると周りの家族やペットを持っている人々のために特に便利です。
+Your participants must know how they are expected to participate in a meeting.
+This includes details on how they can contribute to an ongoing discussion (raise hand physically, or use a feature in your call hosting software), how they can share thoughts if they don't feel comfortable talking or how they can help create an overall welcoming environment.
+- Establish a format of communication within the whole group and subgroups.
+  - Communicate clearly which tool will be used, for example, Zoom for the call, Google Docs for documentation, Trello for action points.
+- Create a pre-defined agenda with an allocated chair and note-taker to prevent informality and loss of focus.
+- Pre-communicate guidelines for creating a safe space for inclusive interactions online, including:
+  - Muting microphone when not talking.
+  - Keeping video camera on when in a closed meeting.
+  - Give the option to switch off the video if the call is being recorded.
+  - Share tips on how to 'raise hand' to participate in a discussion, on chat, physically, or using an emoji.
+  - Send out a guideline for speakers, chairs, note takers and people with different responsibilities.
+- Communicate clearly how to join and leave a meeting.
+  - Is there a particular rule for joining late or leaving early?
+- Aim to maintain flexibility and reduce formality
+  - This is particularly useful for people who are working from home and will have their family members and pets around.
 
-## 説明責任を作成するためのメールとコミュニケーションをフォローアップ
+We have provided related recommendations for organisers in {ref}`cl-organising-meetings` and participants in {ref}`cl-event-participation`.
+
+## Follow up emails and communications for creating accountability
 <!---Add details and more points point to other chapters for details--->
-ミーティング後の参加者とのフォローアップは、ミーティングからの主要なメッセージを両方共有するための良い方法です さまざまな人々のために作成され、必要に応じてフィードバックを求めるアクションポイント。
-- 誰もが自分の役割と責任が何であるかを知っていることを確認してください。
-- 定期的にチームや個人をフォローアップします。
-  - これはマイクロマネージメントではなく成功を祝うために行われるべきです。
+Following up with the participants after the meeting is a good way to both share the key messages from the meeting, action points that have been created for different people and to ask for feedback when needed.
+- Make sure that everyone knows what their role and responsibilities are.
+- Follow up with teams and individuals regularly.
+  - This should be done to celebrate success rather than micromanaging.
 
-## チームを従事させ続けるためのいくつかのヒント
+## A few more tips for keeping the team engaged
 <!---Add details and more points point to other chapters for details--->
-- リーダーシップチームの責任を明確に設定します(ホスト、メモ取得者、ゲートキーパー、および技術サポート)。
-- 内向性または外向性の両方に適したエンゲージメントモードを選択します。
-- 仕事を超えたスキル構築とトレーニングの機会を創り出す。
-- バーチャルコーヒーやオンラインゲームのような非公式の会議をスケジュールします。
+- Set the leadership teams responsibilities clearly (host, note-taker, gatekeeper and technical support).
+- Choose modes of engagement that are suitable for both introverts or extroverts.
+- Create opportunities for skill-building and training beyond work.
+- Schedule informal meetings like virtual coffees and online games.
 
-## 詳細を読む
+We have provided more recommendations in {ref}`cl-remote-collab-team`.
 
-- [Deanna deBara, The ultimate guide to remote meeting in 2020](https://slackhq.com/ultimate-guide-remote-meetings), January 2, 2020
+## Further reading
 
-***チャプタータグ**: このチャプターは、 `チューリングデータ研究グループ` (`turing-dsg` ) のためにキュレーションされています。*
+- [Deanna deBara, The ultimate guide to remote meetings in 2020](https://slackhq.com/ultimate-guide-remote-meetings), January 2, 2020
+
+***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*

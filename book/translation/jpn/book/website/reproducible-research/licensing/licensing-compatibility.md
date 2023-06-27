@@ -1,227 +1,272 @@
 (rr-licensing-compatibility)=
-# ライセンスの互換性
+# License Compatibility
 
-プログラムで複数の外部コンポーネントを使用している場合、結合作業のライセンスに複数の異なる制約が生じる可能性があります。 これらの制約が矛盾する場合、結果を合法的に配布することはできません(独占的なソフトウェアが関与している場合)。 合法的に合法的には作れないかもしれません)
+If you use multiple external components in your program, then you may end up with multiple different constraints on the license of the combined work.
+If these constraints conflict, then you cannot legally distribute the result (if proprietary software is involved, then you may not legally be able to make the combined work at all).
 
-2つのライセンスが組み合わされた作業のライセンスに互換性のない制約を指定する場合、それらは _互換性がありません_。
+If two licenses specify incompatible constraints on the license of the combined work, then they are _incompatible_.
 
-例えば、GNU GPL は独占的ライセンスと矛盾します。 GPLの下で組み合わされた作業をライセンスする必要があるため、追加の制限はありません。 独占的なライセンスの下で作業の一部を持つことは、そのような追加の制限です。 ですから、そのような組み合わせを配布することはできません (GPL コードの著作権者が特別な許可を与えている場合を除きます)。
+The GNU GPL, for instance, is incompatible with proprietary licenses, because it requires the combined work to be licensed under the GPL, with no additional restrictions allowed.
+Having a part of the work under a proprietary license is such an additional restriction, so you cannot distribute such a combination (unless the copyright owner of the GPL code gives special permission).
 
-問題を解決するためにソフトウェアの異なる部分を一緒に使用する場合 結果を広げたいと思うのは答えなければならない質問です
+When you use different pieces of software together to solve a problem, and want to distribute the result, here are the questions you have to answer:
 
-- そこにはどの作品があり、何から派生しているのか?
-- 派生物を配布することはできますか? ライセンスはこれを許容し、互換性がありますか?
-- ワークはどのようにライセンスされるべきですか?
+- Which separate works are there, and what is derived from what?
+- Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
+- How should the work(s) be licensed?
 
-次のセクションでは、これがどのように行われるかをいくつか説明します。
+The next section shows some examples of how this is done.
 
 (rr-licensing-compatibility-examples)=
-## 例
+## Examples
 
-このセクションの多くの例は [xtas](http://xtas.net) に関係しています。 xtasは多くのサードパーティ製ライブラリを再利用するPython用の自然な言語処理ツールキットです。 したがって、さまざまな優れた例を提供します。
+Many of the examples in this section relate to [xtas](http://xtas.net).
+xtas is a natural language processing toolkit for Python that reuses many third-party libraries, programs and data sets, and therefore provides a variety of excellent examples.
 
-```{figure} ../../figures/xtas-overview96.png
+```{figure} ../../figures/xtas-overview96.*
 ---
 name: xtas-overview96
-alt: xtasのグラフィカルな概要。 大きな長方形は、ワークxtasを表します。 この長方形の中には、xtas Python コードを表す広い低い長方形があります。Apache License v2 の下でライセンスされています。 この下には、xtasで使用されているそれぞれPythonライブラリ、ソフトウェア、およびデータを表す3つのサイドバイサイドの正方形があります。 Python ライブラリの正方形には、3 つのボックスがあります。 最初のボックスには、「BSD」、「MIT」、「ALv2」という単語が含まれています。 2番目のボックスには「LGPLv2.1」が含まれています。 3つ目のボックスには「GPLv2+」が含まれています。 ソフトウェア広場には、4つのボックスがあります。 最初のボックスには「Webサービス」が含まれています。 2番目のボックスには「LGPL v2.1+」が含まれています。 3番目のボックスには「Researchのみ」があり、4番目のボックスには「GPL 2+/3+」が含まれています。 データ四角には、4つのボックスが含まれています。 最初のボックスには「CC BY-SA 3.0」が含まれています。 2番目の箱には「研究のみ」が入っています。 3番目のボックスには「ライセンスなし」が含まれており、4番目のボックスには「CoNLL'02 のみ」が含まれています。
+alt: A graphical overview of xtas. A large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Underneath this, there are three side-by-side squares, representing respectively Python libraries, software, and data, that are used by xtas. Within the Python libraries square, there are three boxes. The first box contains the words "BSD", "MIT" and "ALv2". The second box contains "LGPLv2.1". The third box contains "GPLv2+". Within the Software square, there are four boxes. The first box contains "Web Service". The second box contains "LGPL v2.1+". The third box contains "Research only", and the fourth box contains "GPL 2+/3+". The Data square also contains four boxes. The first box contains "CC BY-SA 3.0". The second box contains "Research Only". The third box contains "No license, US" and the fourth box contains "CoNLL'02 only".
 ---
-xtasのグラフィカルな概要。
+A graphical overview of xtas.
 ```
 
-xtas自体はPythonで書かれており、一般的なフリーライセンスの下でライセンスされている多くのPythonライブラリを使用しています。 これらには、単純な BSD と MIT ライセンス、パーミッシブ Apache ライセンス バージョン 2 が含まれています。 (ALv2)、GNU Lesser General Public License version 2.1 (LGPLv2.1)、GNU General Public License version 2以降(GPLv2+)。
+xtas itself is written in Python, and it uses a number of Python libraries that are licensed under common free licenses.
+These include the simple permissive BSD and MIT licenses, the permissive Apache License version 2.0 (ALv2), the GNU Lesser General Public License version 2.1 (LGPLv2.1), and the GNU General Public License version 2 or later (GPLv2+).
 
-(GPLv2+ Python ライブラリへの依存は非推奨であることに注意してください。 しかしこれらの例のためにはまだそこにあると仮定します)
+(Note that the dependency on the GPLv2+ Python library is deprecated, but for the sake of these examples, we will assume it to still be there.)
 
-xtasのPythonコードは、Apache License 2.0の下で配布されています。 xtas著者が著作権を所有しているので、 彼らはそれを好きな方法でライセンス供与することができます(GPL依存に関してはグレーの領域がありますが、下記参照)。 xtasの著者は、組み合わせた作品やバイナリを配布していませんが、以下の例ではあります。 それがどのようにライセンスされるべきかを考慮するために、複合的な作業があると仮定します
+xtas' Python code is distributed under the Apache License version 2.0.
+Since the xtas authors own the copyright, they can license it any way they like (although there is a gray area concerning GPL dependencies, see below).
+The xtas authors do not distribute any combined works or binaries, but in the examples below, we will assume that there is a combined work, so that we can consider how it should be licensed.
 
-以下の例では、これのほとんどを単純化し、1つまたはいくつかの依存関係を順番に見ていきます。
+In the following examples, we will simplify most of this away and look at one or a few dependencies in turn.
 
 (rr-licensing-compatibility-examples-apachevsbsd)=
-### Apache と BSD
+### Apache vs. BSD
 
-```{figure} ../../figures/xtas-snowball96.png
+```{figure} ../../figures/xtas-snowball96.*
 ---
 name: xtas-snowball96
-alt: xtas-vs. Snowballの例のイラスト。  大きな長方形は、ワークxtasを表します。 この長方形の中には、xtas Python コードを表す広い低い長方形があります。Apache License v2 の下でライセンスされています。 その下には、"Snowball Stemmer" と "Python lib BSD" という単語を含む正方形があります。
+alt: An illustration of the xtas vs. Snowball example.  A large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "Snowball Stemmer" and "Python lib BSD".
 ---
-xtas vs. Snowballの例のイラストです。
+An illustration of the xtas vs. Snowball example.
 ```
 
-xtasは、Pythonベースのステミングライブラリである [Snowball](https://snowballstem.org/)を使用しています。 Snowballは3節のBSDライセンスの下で公開されています。 xtasとSnowballのみを考慮すると、次の3つの質問に答えることができます。
+xtas uses [Snowball](https://snowballstem.org/), a Python-based stemming library. Snowball is published under the 3-clause BSD license.
+Considering only xtas and Snowball, we can answer the three questions as follows:
 
-#### そこにはどの作品があり、何から派生しているのか?
+#### Which separate works are there, and what is derived from what?
 
-Snowball、xtasのPythonコード、組み合わせたxtaの3つの作品があります。 組み合わせた作品は、SnowballとxtasのPythonコードから派生したもので、どちらも独立した作品です。
+There are three works: Snowball, the xtas Python code, and the combined work xtas.
+The combined work is derived from Snowball and xtas Python code, which are both independent works.
 
-ALv2とLGPL v2に注意してください。 ライブラリと組み合わせて動作するように意図されているソースコードは、派生的な作業ではないと明記してください。 2進数は(静的または動的に)結合されています。 GPLを含む他のライセンスは、これに関して明示的な声明を出さない。
+Note that the ALv2 and the LGPL v2.1 explicitly state that source code that is intended to work in combination with a library is not a derivative work, while the binary resulting from (statically or dynamically) linking the pieces together is.
+Other licenses, including the GPL, do not make any explicit statement about this.
 
-私の知る限りでは、これにはケース法はありません。これらの例ではケース法とみなします。
+As far as I know, there is no case law on this; we will assume it to be the case in these examples.
 
-#### 派生物を配布することはできますか? ライセンスはこれを許容し、互換性がありますか?
+#### Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
 
-スノーボールは許諾ライセンスの下でライセンスされています。 そのライセンスの下で再配布することができ、派生作品のライセンスには制約がありません。 xtasの著者は、彼らが望む任意の方法でそれをライセンスすることができます。
+Snowball is licensed under a permissive license.
+It can be redistributed under that license, and there are no constraints on the license of derivative works.
+The xtas authors can license it any way they want.
 
-#### ワークはどのようにライセンスされるべきですか?
+#### How should the work(s) be licensed?
 
-xtas Python コードと xtas を組み合わせた作業は Apache ライセンス v2.0 の下でライセンスされています。
+The xtas Python code, and the xtas combined work, are licensed under the Apache License v2.0.
 
-xtas著者がSnowballを再配布する場合は、Snowball著者によって付与されたBSDライセンスの下で行う必要があります。 (彼らは著作権を所有していないので、スノーボールに対して追加の許可を与えることはできませんし、追加の制限は同じ理由で強制できません。
+If xtas authors redistribute Snowball, they must do so under the BSD license granted by Snowball authors.
+(They cannot give additional permissions for Snowball, since they do not own the copyright, and additional restrictions would be unenforceable for the same reason.)
 
 (rr-licensing-compatibility-examples-apachevslgpl)=
-### ApacheとLGPLの比較
+### Apache vs. LGPL
 
-```{figure} ../../figures/xtas-chardet96.png
+```{figure} ../../figures/xtas-chardet96.*
 ---
 name: xtas-chardet96
-alt: xtas vs chardetの例の図。 大きな長方形は、ワークxtasを表します。 この長方形の中には、xtas Python コードを表す広い低い長方形があります。Apache License v2 の下でライセンスされています。 その下には、"chardet" と "Python lib LGPLv2.1" という単語を含む正方形があります。
+alt: An illustration of the xtas vs. chardet example. A large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "chardet" and "Python lib LGPLv2.1".
 ---
-xtas vs. chardetの例を示します。
+An illustration of the xtas vs. chardet example.
 ```
 
-xtasは、テキストの文字列で使用される文字セットを検出するためのPythonライブラリである [chardet](https://pypi.org/project/chardet/)を使用します。 Chardet は GNU Lesser General Public License v2.1 の下で公開されています。 xtasとchardetのみを考慮すると、以下の3つの質問に答えることができます。
+xtas uses [chardet](https://pypi.org/project/chardet/), a Python library for detecting the character set used in a string of text. Chardet is published under the GNU Lesser General Public License v2.1.
+Considering only xtas and chardet, we can answer the three questions as follows.
 
-#### そこにはどの作品があり、何から派生しているのか?
+#### Which separate works are there, and what is derived from what?
 
-chardet、xtasのPythonコード、そして組み合わせた作業の3つの作業があります。 組み合わせた作業は、chardetとxtasのPythonコードから派生します。 その他は独立した作品である。
+There are three works: chardet, the xtas Python code, and the combined work.
+The combined work is derived from chardet and xtas Python code.
+The others are independent works.
 
-#### 派生物を配布することはできますか? ライセンスはこれを許容し、互換性がありますか?
+#### Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
 
-Chardetは脆弱なコピーレフトライセンスの下でライセンスされているので、そのライセンスの条項の下で再配布することができます。 派生物は、あらゆるライセンスの下でライセンスされることができます。 しかしながら、LGPL v2.1 は、受信者がライブラリを変更し、修正したライブラリを派生的な作業とともに使用することができる(そして許可される)ことを要求します。
+Chardet is licensed under a weak copyleft license, so it can be redistributed under the terms of that license.
+Derivative works can be licensed under any license.
+However, the LGPL v2.1 requires that the recipient can (and is allowed to) modify the library and use the modified library with the derivative work.
 
-#### ワークはどのようにライセンスされるべきですか?
+#### How should the work(s) be licensed?
 
-xtas 全体と xtas Python コードは、どのような方法でもライセンスすることができるので、彼らは Apache ライセンス v2.0 を使用しました。 彼らが chardet を配布する場合、彼らはその著作権所有者によって付与された LGPL v2.1 ライセンスの下で行わなければなりません。
+xtas as a whole, and the xtas Python code, can be licensed in any way the authors want, so they used the Apache License v2.0.
+If they distribute chardet, they must do so under the LGPL v2.1 license granted by its copyright owners.
 
 (rr-licensing-compatibility-examples-apachevsgplv2)=
-### Apache 対 GPLv2
+### Apache vs. GPLv2
 
-```{figure} ../../figures/xtas-unidecode96.png
+```{figure} ../../figures/xtas-unidecode96.*
 ---
 name: xtas-unidecode96
-alt: xtas と unidecode の例の図。 大きな長方形は、ワークxtasの組み合わせを表します。 この長方形の中には、xtas Python コードを表す広い低い長方形があります。Apache License v2 の下でライセンスされています。 その下には、"unidecode" と "Python lib GPLv2+" という単語を含む正方形があります。
+alt: An illustration of the xtas vs. unidecode example. The large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "unidecode" and "Python lib GPLv2+".
 ---
-xtas vs. unidecode の例を示します。
+An illustration of the xtas vs. unidecode example.
 ```
 
-xtasは以前、 [unidecode](https://pypi.org/project/Unidecode/)を使用しました。これは、Unicode® Standardに従ってエンコードされたテキストをASCII近似に変換するためのPythonライブラリです。 Unidecode は GNU General Public License バージョン 2 以降(GPLv2+) の下で公開されています。 xtasとunidecodeのみを考慮すると、以下の3つの質問に答えることができます。
+xtas previously used [unidecode](https://pypi.org/project/Unidecode/), a Python library for converting text encoded according to The Unicode® Standard into an ASCII approximation of it.
+Unidecode is published under the GNU General Public License version 2 or later (GPLv2+).
+Considering only xtas and unidecode, we can answer the three questions as follows.
 
-#### そこにはどの作品があり、何から派生しているのか?
+#### Which separate works are there, and what is derived from what?
 
-3つの作業があります: unidecode, xtas Python コード, そして、組み合わせた作業です。 これらの組み合わせは、unidecode と xtas Python コードに由来します。
+There are three works: unidecode, the xtas Python code, and the combined work. The combined work derives from unidecode and the xtas Python code.
 
-xtas Python コードが unidecode の派生的な作業であるかどうかは、法律によって明確に定義されていません。 これには事件法がありません Apache ライセンスと LGPL は、それらのライセンスの目的ではないと明示的に述べています。 しかし、GPL にはそのような条項は含まれていません。
+Whether the xtas Python code is a derivative work of unidecode is not clearly defined by the law, and there is no case law on this.
+The Apache license and the LGPL explicitly state that it is not for the purpose of those licenses, but the GPL does not contain such a clause.
 
-これらは個別に開発されており、xtasコードにunidecodeからのコードはありません。 ここでは派生的な仕事ではないと仮定します
+As they are developed separately, and there is no code from unidecode in the xtas code, we assume here that it is not a derivative work.
 
-#### 派生物を配布することはできますか? ライセンスはこれを許容し、互換性がありますか?
+#### Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
 
-Unidecode は強力なコピーレフトライセンスの下でライセンスされているので、そのライセンスの条件の下で再配布されます。 派生物は、同一のライセンスの下でライセンスされなければなりません。
+Unidecode is licensed under a strong copyleft license, so it is redistributed under the terms of that license. Derivative works must be licensed under the same license.
 
-Unidecode は GPL バージョン 2 以降でライセンスされています。 これは _disjunctive license_ として知られています。 unidecode の著作権者は誰でも、GPLv2 ライセンスだけでなく、GPLv3 ライセンスも提供します。 そして将来作成されるかもしれないGNU GPL のそれ以降のバージョンでさえも積極的に。 潜在的なユーザーは、これらのライセンスのいずれかを受け入れることができます。 作品を複製したり派生作品を作ったりしたいのです
+Unidecode is licensed under the GPL version 2 or later. This is known as a _disjunctive license_.
+The copyright owners of unidecode offer everyone a GPLv2 license, but also a GPLv3 license, and even proactively any later version of the GNU GPL that may be created in the future.
+A potential user may choose to accept any one of these licenses, or a combination of them, if they want to copy the work or make derivative works.
 
-#### ワークはどのようにライセンスされるべきですか?
+#### How should the work(s) be licensed?
 
-xtasの著者がunidecodeを配布する場合、彼らはGPLバージョン2以降の下でそうするべきです。 他人のコードから任意にライセンスを削除するのは意味がありません 組み合わせた作業のxtaは、同じライセンスまたはそれらのサブセットの下で配布する必要があります。 xtas Python コードは、任意の方法でライセンスされることができます。
+If the xtas authors distribute unidecode, they should do so under the GPL version 2 or higher, as arbitrarily removing licenses from someone else's code does not make sense.
+The combined work xtas must be distributed under the same licenses or a subset of them.
+The xtas Python code can be licensed in any way they want.
 
-xtasの著者は、xtas Pythonコードのライセンスを選択する必要があります。それは、unidecodeが配布できるライセンスの少なくとも1つと互換性があり、他の人が組み合わされた作品を組み立てて配布できるようにします。 ALv2 は GPLv3 と互換性があります(技術的な理由により、GPLv2 とは互換性がありません)。
+The xtas authors should choose a license for the xtas Python code that is compatible with at least one of the licenses that unidecode can be distributed under so that others can assemble and distribute combined works.
+The ALv2 is compatible with the GPLv3 (but not with the GPLv2, for technical reasons), so they can use it here.
 
-組み合わせた作業は、GPL バージョン 3 以降でライセンスされる必要があります。 GPLv2の下でも使用できることが重要である場合。 xtas の著者は xtas Python コードを ALv2 と GPLv2 の両方の下でライセンスすることができます (意味: 彼らは両方のライセンスを提供し、ユーザーはどちらかまたは両方を受け入れることができます)、そしてGPLバージョン2以降の下での組み合わせ作業。
+The combined work should then be licensed under the GPL version 3 or later.
+If it is important that it can be used under the GPLv2 as well, then the xtas authors can license the xtas Python code under both the ALv2 and the GPLv2 (meaning, they offer both licenses, and the user can choose to accept either or both), and the combined work under the GPL version 2 or later.
 
-最後に、xtas Python のソースコードは unidecode の派生的な作業であることが後で決定されるかもしれません。 unidecode のいずれも作品に含まれていなくても、 xtasの著者は、xtasのPythonコードをunidecodeが配布されているGPLライセンスの少なくとも1つの下に配布しなければなりません。 その場合、これらは ALv2 と GPLv2+ のライセンスセットの下で xtas を提供することができます。
+Finally, it may be decided later that the xtas Python source code is a derivative work of unidecode because it calls into it.
+Even if none of unidecode is included in the work, then the xtas authors must distribute the xtas Python code under at least one of the GPL licenses that unidecode is distributed under.
+In that case, they can offer xtas under the ALv2 and GPLv2+ set of licenses.
 
-最も簡単な解決策は、単純に xtas Python コードと GPLv3 の下で派生した作業をライセンスすることです。
+The simplest solution, in this case, would be to simply license the xtas Python code and the derived work under the GPLv3.
 
-おそらく今までにはっきりしているように。 コピーレフトの強いライセンスの下にある依存関係は、ソフトウェアに基づいて独占的な作品を作れるようにしたい場合、あなたの人生を複雑にします。
+As is probably clear by now, dependencies that are under a strong copyleft license complicate your life if you want people to be able to make proprietary works based on your software.
 
 (rr-licensing-compatibility-examples-apachevsall)=
 ### Apache vs BSD vs LGPL vs GPLv2
 
-```{figure} ../../figures/xtas-all-python-libs96.png
+```{figure} ../../figures/xtas-all-python-libs96.*
 ---
 name: xtas-all-python-libs96
-alt: xtasとすべてのPythonライブラリの例のイラスト。 大きな長方形は、ワークxtasを表します。 この長方形の中には、xtas Python コードを表す広い低い長方形があります。Apache License v2 の下でライセンスされています。 この下には三つの正方形があります。 最初の正方形には "Snowball" と "Python lib BSD" という単語が含まれています。 2 番目の正方形は "chardet" と "Python lib LGPLv2.1" です。 3 番目の正方形には、"unidecode" と "Python lib GPLv2+" という単語が含まれています。
+alt: An illustration of the xtas and all Python libraries example. A large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below this, there are three squares. The first square contains the words "Snowball" and "Python lib BSD". The second square contains "chardet" and "Python lib LGPLv2.1". The third square contains the words "unidecode" and "Python lib GPLv2+".
 ---
-xtaとすべてのPythonライブラリの例を示します。
+An illustration of the xtas and all Python libraries example.
 ```
 
-ここでは、上記の3つの例すべてを同時に検討します。
+Now, we will consider all three of the above examples at the same time.
 
-#### そこにはいくつの作品があり、何から派生しているのでしょうか?
+#### How many separate works are there, and what is derived from what?
 
-Snowball, chardet, unidecode, xtas Python コード, xtas を組み合わせた作品の5つがあります。 組み合わせた作業は、そのすべての構成要素から派生します。
+There are five works: Snowball, chardet, unidecode, the xtas Python code, and xtas the combined work. The combined work is derived from all its components.
 
-#### 派生物を配布することはできますか? ライセンスはこれを許容し、互換性がありますか?
+#### Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
 
-xtas 以外の 4 つのコンポーネントはフリーソフトウェアライセンスの下にあり、xtas の作者は xtas Python コードの著作権を所有しています。 つまり5つの部品は全てxta作家によって配布できます BSD, LGPLv2. そしてGPLv2+はGPLバージョン2以上で組み合わせた作業をライセンス許諾することを許可しています。 少なくとも1つのライセンスがあります
+The four non-xtas components are under free software licenses, and the xtas authors own the copyright to the xtas Python code, so all five components can be distributed by the xtas authors.
+The BSD, LGPLv2.1 and GPLv2+ all allow licensing the combined work under the GPL version 2 or higher, so there is at least one license that the combined work can be licensed under.
 
-#### ワークはどのようにライセンスされるべきですか?
+#### How should the work(s) be licensed?
 
-xtas Python コードは、Apache License v2 の下でライセンスされ、GPL バージョン 3 以降で組み合わされた動作でライセンスされる必要があります。 (上記の {ref}`の Unicode の例 <rr-licensing-compatibility-examples-apachevsgplv2>` を参照してください。
+The xtas Python code should be licensed under the Apache License v2 and the combined work under the GPL version 3 or higher.
+(See the {ref}`unicode example <rr-licensing-compatibility-examples-apachevsgplv2>` above for alternatives.)
 
 
-### 外部プログラムに発信
+### Call External Program
 
-xtasはJavaで書かれ、GNU GPLバージョン3以降で配布されている [スタンフォードのCoreNLPプログラム](https://stanfordnlp.github.io/CoreNLP/)を実行することができます。 ユーザーが対応する xtas 関数を呼び出すと、CoreNLP は xtas によって開始されます。 ユーザーの入力はパイプを介して送信され、CoreNLP出力はユーザーに返されるか、さらに処理されます。
+xtas can run the [Stanford CoreNLP program](https://stanfordnlp.github.io/CoreNLP/), which is written in Java and distributed under the GNU GPL version 3 or later. When the user calls the corresponding xtas function, CoreNLP is started by xtas, the user's input is sent to it through a pipe, and then the CoreNLP output is handed back to the user or processed further.
 
-```{figure} ../../figures/xtas-corenlp1-96.png
+```{figure} ../../figures/xtas-corenlp1-96.*
 ---
 name: xtas-corenlp1-96
-alt: xtas と CoreNLP の例の図。 正方形は、組み合わせた作業 xtasを表します。 この正方形の中には、xtas Python コードを表す広い低い長方形があります。Apache License v2 の下でライセンスされています。 その下には、"Stanford CoreNLP" と "Java プログラム GPLv3+" という単語を含む正方形があります。
+alt: An illustration of the xtas vs. CoreNLP example. The square represents the combined work xtas. Within this square, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "Stanford CoreNLP" and "Java program GPLv3+".
 ---
-xtas vs. CoreNLP 例の例です。
+An illustration of the xtas vs. CoreNLP example.
 ```
 
-この状況の解釈としては、ライブラリ内で関数を呼び出すことと、xtasのどの配布とも変わらないということです。 ですから、CoreNLPを含む全体として、GPLv3+の下にあるべきです。 この解釈に貢献することは、必要に応じてxtasがCoreNLPを自動的にダウンロードしてインストールするという事実です。
+One interpretation of this situation is that it is no different from calling a function in a library and that any distribution of xtas, as a whole, including CoreNLP, should therefore be under the GPLv3+.
+Contributing to this interpretation is the fact that xtas will download and install CoreNLP automatically if needed.
 
-```{figure} ../../figures/xtas-corenlp2-96.png
+```{figure} ../../figures/xtas-corenlp2-96.*
 ---
 name: xtas-corenlp2-96
-alt: xtas と CoreNLP の例の別の図。 左側の正方形は、組み合わせた作業xtaを表します。 この正方形には、xtas Python コードを表す長方形があり、Apache License v2 の下でライセンスされています。 右側はCoreNLPを表す別の正方形で、"Stanford CoreNLP" と "Java プログラム GPLv3+" のテキストがあります。 正方形の間には2つの矢印があり、1つはxtaからCoreNLPまでを指す上部に、1つはCoreNLPからxtaまでを指す下部にあります。
+alt: Another illustration of the xtas vs. CoreNLP example. The square on the left represents the combined work xtas. Within this square, there is a rectangle representing the xtas Python code, licensed under the Apache License v2. On the right is a separate square representing CoreNLP, with the text "Stanford CoreNLP" and "Java program GPLv3+". Between the squares are two arrows, one at the top pointing from xtas to CoreNLP, and one at the bottom pointing from CoreNLP to xtas.
 ---
-xtas vs. CoreNLP 例のもう一つの例です。
+Another illustration of the xtas vs. CoreNLP example.
 ```
 
-別の解釈としては、xtas と CoreNLP は別々の作品であり、xtas は CoreNLP とその標準的なユーザーインターフェイスを介して通信するだけであるということです。
+Another interpretation is that xtas and CoreNLP are separate works and that xtas merely communicates with CoreNLP over its standard user interface.
 
-この解釈では、xtasはユーザーがPython言語からCoreNLPプログラムを使用するのに役立つ別個のプログラムです。 CoreNLPの派生物ではありません ここではパッケージインストーラとコマンドシェルと同様に xtas を考えることができます。 それは明らかにインストールされたパッケージや始めたプログラムの派生的なものではありません
+In this interpretation xtas is a separate program that helps a user use the CoreNLP program from the Python language, and not a derivative work of CoreNLP.
+One can consider xtas analogous to a package installer and a command shell here, which are clearly not derivative works of the packages they install or the programs they start.
 
-この解釈の下で (CoreNLPを含まない) 全体として xtas は任意のライセンスの下で配布することができます (もちろん他の依存関係によって課される制限に従います)。
+Under this interpretation, xtas as a whole (not including CoreNLP) can be distributed under any given license (subject to restrictions imposed by its other dependencies of course).
 
-実際には、xtas の作者は CoreNLP をまったく配布しません。それらは xtas Python コードを Apache License version 2 の下でのみ配布します。
+In practice, the xtas authors do not distribute CoreNLP at all; they only distribute the xtas Python code, under the Apache License version 2.
 
 
-### GPLv3 vs 独占ライセンス
+### GPLv3 vs Proprietary License
 
-この例では、 [OpenIFSの全球循環モデル](https://confluence.ecmwf.int/display/OIFS) と [DALESの大渦シミュレーションモデル](https://github.com/dalesteam/dales) を組み合わせたいと考えています。 これらのモデルはどちらもライブラリとして利用可能であるため、プロジェクトではOpenIFSとDalesのライブラリを単一のプログラムに組み合わせる必要があります。
+In this example project we want to combine the [OpenIFS global circulation model](https://confluence.ecmwf.int/display/OIFS) with the [DALES large-eddy simulation model](https://github.com/dalesteam/dales).
+Both these models are available as libraries, so the project entails combining the OpenIFS and Dales libraries into a single program.
 
-(これは簡単な例ですが、このプロジェクトの現実は、ノッチまたは2つ以上の複雑なものです。 以下は私たちがしていることではありません)
+(This is a simplified example, the reality of this project is a notch or two more complicated, and the below is not exactly what we do.)
 
-OpenIFSライブラリ(ECMWF気象モデルコードの一部)は、プログラムの実行とプライベートな変更を可能にする独占的なライセンスの下で利用可能です。 プログラムや派生物の配布は許されていません DALESはGPLバージョン3で公開されています。
+The OpenIFS library (part of the ECMWF weather model code) is available under a proprietary license that allows running the program and making private modifications, but does not allow distributing the program or any derivatives.
+DALES is published under the GPL version 3.
 
-#### そこにはいくつの作品があり、何から派生しているのでしょうか?
+#### How many separate works are there, and what is derived from what?
 
-OpenIFS、DALES、私たちが書いたプログラムの残りの部分、そしてそれらすべての組み合わせの4つの作品があります。 組み合わせた作業は、その構成要素に由来します。
+There are four works: OpenIFS, DALES, the rest of the program written by us, and the combination of them all. The combined work is derived from its components.
 
-#### 派生物を配布することはできますか? ライセンスはこれを許容し、互換性がありますか?
+#### Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
 
-OpenIFSライセンスは再配布を許可していないため、配布できません。 DALESはGPLv3の下で配布できます。 残りのプログラムは私たちによって書かれており、必要に応じて私たちによってライセンスされることができます。
+The OpenIFS license does not allow redistribution, so it cannot be distributed. DALES can be distributed, under the GPLv3.
+The rest of the program is written by us and can be licensed by us if we want to.
 
-OpenIFSが組み込まれているため、全体の作業を配布することはできません。 もしOpenIFSが含まれていなければ、DALESの依存性のためにGPLv3の下で配布されなければなりません。
+The whole combined work cannot be distributed, since it incorporates OpenIFS.
+If it did not include OpenIFS, it would have to be distributed under the GPLv3, because of the DALES dependency.
 
-#### 私たちはこれを個人的に行うことができますか?
+#### Can we work on this privately, without distributing anything?
 
-GPLは、変更されたソフトウェアがまったく配布されていない場合には、それによってカバーされるソフトウェアのプライベートな変更を、制限なしに行うことを可能にします。 OpenIFSライセンスでは、プライベート修正も可能です。 そのため、ライセンスに違反することなく、このプロジェクトに取り組むことができます(そして、組み合わせた作業を準備して実行する)。 結果を誰とも共有しない限りはね
+The GPL allows making private modifications of software covered by it, with no restrictions, provided the changed software is not distributed at all.
+The OpenIFS license also allows making private modifications.
+So we can work on this project (and prepare and run combined works) without violating the licenses, as long as we do not share the results with anyone.
 
-しかし、組織外の人と協力したい場合は、異なる法人間で資料を交換し、分配としてカウントされることを意味します。 私たちは、独自のコード(ALv2の下で公然と公開することさえできます)とDALESを使用してそれを行うことができます。 しかし、OpenIFSや組み合わせた作品はありません。
+However, if we want to collaborate with someone outside our organization, this means that we exchange materials between different legal entities, which counts as distribution.
+We can do that with our own code (which we can even publish openly under the ALv2) and with DALES, but not with OpenIFS or any combined works.
 
-#### このような状況では、他にどのような選択肢がありますか?
+#### What other options are there in this kind of situation?
 
-システムを別々のプロセスで動作させ、よく文書化された汎用インターフェイス上で相互に通信する独立したプログラムに分割することができます。 このように、情報を交換するいくつかの独立した作品だけを組み合わせた作品はないだろう。 しかし、単一の作品ではなく、プログラムがどのように分離されているのかは不明である。
+We can try to split up the system into independent programs that run in separate processes and communicate with each other over well-documented, generic interfaces.
+In this way, there would never be a combined work, just a few independent works that exchange information.
+However, to not be considered a single work, how separate the programs have to be is unclear.
 
-また、OpenIFSとDALESの著作権者に、私たちの組織と外部の間で組み合わせた作品を共有する許可を求めることもできます。 それはすべての不確実性を取り除くでしょうが、一般的に実用的ではないかもしれません。
+We could also ask the OpenIFS and DALES copyright owners for permission to share combined works between our organization and the outsider.
+That would remove all uncertainty, but may not be practical in general.
 
-別のオプションは、依存関係のいずれかを私たちが書くもので置き換えることです。 これは通常非現実的です, 両方の時間の制約に起因し、新しいバージョンは、既存のものの科学的な系統を持っていないので.
+Another option would be to replace one of the dependencies by one we write.
+This is usually impractical, both due to time constraints and because the new version would not have the scientific pedigree of the existing one.
 
-ここでの根本的な問題は、GPLが私たちが使用するソフトウェアのすべての人に共有させようとすることです。 独占的なソフトウェアは単一の所有者の手に支配を維持しようとします
+The fundamental issue here is that the GPL tries to make everyone shared stewards of the software we use, while proprietary software tries to keep control in the hands of a single owner.
 
-単一のプロジェクトでそれらを組み合わせることは複雑であり、法的リスクなしではありません、あなたはそれを避けるべきです。 それができない場合は、慎重に歩くべきです。
+Combining them in a single project is complicated and not without legal risk, and you should avoid it.
+If that is not possible, you should tread carefully.

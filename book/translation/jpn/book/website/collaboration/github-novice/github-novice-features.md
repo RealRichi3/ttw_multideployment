@@ -1,60 +1,66 @@
 (cl-github-novice-features)=
-# もっとGitHubの機能を使う
+# Using more GitHub features
 
-リポジトリが設定されたので、より多くのものを追加し、その便利な機能を使用する準備ができました。
+Now that your repo is set up, you are ready to add more stuff to it and use some of its useful features.
 
-## フォルダ（ディレクトリ）、ファイル、コミットを追加する
+## Adding more folders (directories), files and commits
 
-* 「ファイルを追加」ボタンをクリックしてファイルをアップロードするか、新しいファイルを作成することで、リポジトリにさらにファイルを追加できます。
-* 新しいファイルを作成したり、ファイルをアップロードするたびに、 {ref}`コミットメッセージ<rr-vcs-commit-messages>` を追加して、変更内容を覚えやすくする必要があります。
-* git (および GitHub ) はフォルダ/ディレクトリを追跡しないので、空のフォルダを作成することはできません。
-
-
-**新しいファイルを追加して新しいフォルダを作成します:**
-
-* 「ファイルを追加」ボタンをクリックし、新しいファイルを作成します。
-* これにより、空白のファイルを編集できます。
-* ファイルに名前を付けるときは、最初にフォルダの名前(既存または新規)を入力し、次にスラッシュを入力します。 次にファイルの名前を付けます: "folder-name/file-name. xt".
-* ファイルのコンテンツを編集します。
-* "コミット"ボタンを使用して変更を保存します。 {ref}`コミットメッセージ<rr-vcs-commit-messages>` を入力してください。変更内容を覚えておくと便利です。
-
-このファイルは、指定したフォルダに表示されます。 ランディングページにフォルダが表示されます。 青いフォルダシンボルをクリックすると、そのフォルダ内のファイルが表示されます。
-
-## GitHubの「Insight」機能をご覧ください
-
-* GitHub で、リポジトリのメインランディングページに移動します。
-* リポジトリ名で「Insights」をクリックします。
-* 左のサイドバーで、「コミュニティ」をクリックします。
-  * ここでは、リポジトリに含める推奨ファイルがあります。 これらのファイルは、コミュニティ内の共同編集者やメンバーと作業する場合に特に便利です。
-  * "License" ファイルは最も重要なものの一つです。なぜなら、リポジトリ内のマテリアルをどのように使用することができる(またはできない)かを他の人に伝えるからです。
-  * コラボレーションについては、必ず「貢献」と「説明」を参照してください。
-  * 可能な限り、「行動規範」を追加して、あなたのプロジェクトを他の人を歓迎し、包含するようにしましょう。
-* 他の興味深い点は「貢献者」（プロジェクトに貢献する人）です 「トラフィック」（プロジェクトページにアクセスし、いつそれを行うか）と「コミット」（プロジェクトで行われたコミットのタイムラインと数）。
-
-## GitHubの「プロジェクト」機能を探索する
-GitHubのプロジェクトボードは、作業の整理と優先順位付けに役立ちます。 To-do、進行中、完了した列でタスクを追跡するためのかんばん機能です。 各項目は特定の課題やプルリクエストにリンクして、進捗状況を追跡することができます。 この機能は、他の人があなたのリポジトリに貢献したり、あなたが計画していることを知らせるのに役立つ素晴らしい方法です。
+* You can add more files to your repo by clicking the "add file" button and either uploading files or creating a new one.
+* Each time you create a new file or upload files you will need to add a {ref}`commit message<rr-vcs-commit-messages>` to help you remember what changes you made.
+* Note that git (and thus GitHub) does not track folders/directories, so you cannot create an empty folder.
 
 
-## GitHub 機能を使用してコラボレーションを促進する
-これは、リポジトリがこれらの機能の多くを含めるように設定されている場合のように見えるものであり、歓迎された共同作業スペースになります。
+**Create a new folder by adding a new file:**
 
-```{figure} ../../figures/github-project.jpg
+* Click on the "add file" button and then create a new file.
+* This will give you a blank file to edit.
+* When naming the file, first type in the name of the folder (existing or new) and then a forward slash, followed by the name of the file: "folder-name/file-name.ext".
+* Edit the content of the file.
+* Save your changes using the "commit" button. Remember to type a {ref}`commit message<rr-vcs-commit-messages>` to help you remember what changes you made.
+
+This file will appear in the folder that you named.
+You will be able to see the folder on your landing page.
+If you click on the blue folder symbol, it brings you to the files within that folder.
+
+## Explore the ‘Insight’ features of GitHub
+
+* On GitHub, navigate to the main landing page of the repository.
+* Under your repository name, click "Insights".
+* In the left sidebar, click “Community”.
+  * Here you will find recommended files to include in your repo.
+  These files are especially useful when working with collaborators or members in your community.
+  * The "License" file is one of the most important, because it tells others how they can (or can't) use the materials in your repo.
+  * For collaborations, be sure to look at "Contributing" and "Description".
+  * Whenever possible, add a "Code of conduct" to make your project welcoming and inclusive for others.
+* Other interesting things to look at are “Contributors” (those who contribute to your project), “Traffic” (who visits your project page and when do they do so) and “Commits” (a timeline and number of commits made on your project).
+
+## Explore the ‘Projects’ features of GitHub
+Project boards on GitHub help you organize and prioritize your work.
+It is a kanban feature to track your tasks with to-do, in progress and done columns.
+Each item can be linked to specific issues or pull requests to help you track your progress.
+This feature is a great way to help others contribute to your repo or let them know what you have planned.
+
+
+## Using GitHub Features to foster collaboration
+This is what a repository looks like when it is set up to include many of these features, making it a welcoming, collaborative workspace.
+
+```{figure} ../../figures/github-project.*
 ---
 name: github-project
-alt: 共同プロジェクト・リポジトリの注釈付きダイアグラム。 キャプションで説明します。
+alt: Annotated diagram of a collaborative project repository. Explained in the caption.
 align: left
 ---
-共同プロジェクト・リポジトリの注釈付きダイアグラム。
-- 画像の左側のラベル:
-  - **1. プロジェクト:** このリポジトリのプロジェクトボードを表示します。
-  - **2. Issues:** このリポジトリで発生したすべてのタスク。
-  - **3. ファイル:** リポジトリ内のすべてのファイルです。
-  - **4. ランディングページまたは README.md ファイル:** あなたのREADME.md ファイルは自動的にあなたのサイトのランディングページとしてレンダリングされます。
-- 画像の右側のラベル:
-  - **5. Insights:** リポジトリで起きたすべてのアクティビティを表示します。 
-  - **6. リポジトリの詳細を編集:** プロジェクトの簡単な説明を書いてラベルを追加できます。
-  - **7. リポジトリの説明。**
-  - **8. GitHub ページへのリンク:** このリポジトリによって生成されたウェブサイト。
-  - **9. トピックラベル:** リポジトリに関連するトピックラベルは、他の人があなたのプロジェクトを見つけるのに役立ちます。
-  - **10. ライセンス:** リポジトリに付けたライセンス。
+Annotated diagram of a collaborative project repository.
+- Labels on the left-hand side of the image:
+  - **1. Project:** This shows you the project boards for this repo.
+  - **2. Issues:** All the tasks that have been raised on this repo.
+  - **3. Files:** These are all the files in the repo.
+  - **4. Landing page or `README.md` file:** Your `README.md` file is automatically rendered as a landing page for your site.
+- Labels on the right-hand side of the image:
+  - **5. Insights:** This shows you all the activity that has happened on your repo. 
+  - **6. Edit repo details:** You can write a short description of your project and add labels.
+  - **7. Description of the repository.**
+  - **8. Link for GitHub pages:** Website generated by this repo.
+  - **9. Topic labels:** Topic labels related to your repo can help other people find your project.
+  - **10. License:** The license that you have put on your repo.
 ```

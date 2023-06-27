@@ -1,14 +1,41 @@
 (rr-rdm-checklist)=
 # Checklist
+Below follow two checklists, one for individual researchers and one for research teams:
 
-<!-- This is a different style than the other chapters, but I really love what Alex provided so I just kept it. -->
+# Individual Researcher Checklist
 
-- 生データに触れないでください。 合理的な場所にそれをバックアップし、読み取り専用のコピーを維持します。
+- Do not touch the raw data. 
+Back it up somewhere reasonable and keep a read-only copy (see {ref}`Data Storage and Organisation<rr-rdm-storage>`).
 
-- 計画を立ててください！ データをどこに保存するか、それが何と呼ばれるかを決めます。 いつ/それを削除する必要がある場合は、それを収集し始め、データ管理プランでメモします。 機密データを収集する場合は、最初から共有するための同意を計画してください!
+- Set up a {ref}`Data Management Plan<rr-rdm-dmp>` to decide how the data is managed. 
+This is especially relevant if you collect {ref}`sensitive data<pd-sdp>` and need to plan for consent for sharing!
 
-- すべてを記録します。 電子メールに返信する最悪の人は、チャンネルXのサンプリング頻度について知っています。 いいえ、彼ではなく、実際には1年前からあなた自身です。 ドキュメントをデータで保管してください！
+- Document everything and keep the documentation with the data (see {ref}`Documentation and Metadata<rr-rdm-metadata>`) to ensure your data is reusable. 
 
-- 単語に表示したいデータを作成します。 あなたが夢見ていた仕事を得るためにうまく分析するために必要なデータセットを誰かがあなたに提供しようとしていると想像してください。 どのようにしたいですか？ それはあなたの見るべき方です。
+- Try not to re-invent the wheel. 
+Before you start creating a new schema, storage format or naming protocol, try to find an existing tool: have a (quick) internet search or ask your colleagues (see {ref}`Documentation and Metadata<rr-rdm-metadata>`).  
 
-- ホイールを再発明しないようにしてください。 クレイジーな新しいスキーマ、ストレージフォーマット、または命名プロトコルの作成を開始する前に、迅速なgoogleを持っているか、同僚に尋ねてください。 すでに使用されているものは、より良い解決策があると思っても、長期的にはより良い可能性があります。
+Something that is already being used is likely to be better in the long run.
+
+- Follow any procedures required by your research group, institute, or country (ethics, integrity codes, policies on data management/open science)
+
+See also the [Harvard checklist](https://osf.io/593t6). 
+
+# Research Team Checklist: 
+This list is based on [Borghi and van Gulick 2022](https://doi.org/10.1162/99608f92.9497f68e) {cite:ps}`Borghi2022checklist`.
+
+Discuss the checklist with your team!
+  
+- Every member of the research team is able to find and use the data, code, documentation and other materials related to this project (project's research materials).
+    - We will continue to do so ten years from now.
+    - Our documentation is maintained and reviewed regularly. 
+    - The documentation describes the data management practices of the project and includes roles and responsibilities of individual team members      
+- We have established on/off boarding procedures.
+- Another researcher from outside the research group but in the same field would be able to find and use the project's research materials.
+- We have a standardised set of data management practices, including file naming conventions and folder structures (see {ref}`Data Storage and Organisation<rr-rdm-storage>`).
+- The data is stored and backed up on recommended data storage systems.
+- We reviewed all applicable policies (institution, funder, potential publisher).
+- We have read through and understand other relevant agreements, licenses, or other requirements.
+- We have sought out community standards and best practices related to our data.
+- We have set up a {ref}`Data Management Plan<rr-rdm-dmp>` to help us decide what research objects will be made publicly available.   
+

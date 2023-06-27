@@ -1,23 +1,26 @@
-(ch-coorking)=
-# コミュニティコワーキングコール
+(ch-coworking)=
+# Community Coworking Calls
 
-コワーキングの概念は、一般的に、リモートの従業員やフリーランサーなど、独立して働くさまざまな人々と物理的なオフィス空間を共有することに関連付けられています。 これにより、家で一人で働いているときに孤立感を感じる人々が伝統的なオフィス設定を使用することができます。 仕事のルーチンを作って自分のオフィス空間を共有する他人との交わりを構築します
+The concept of coworking is generally associated with the practice of sharing physical office space with different people who work independently such as remote employees or freelancers.
+This allows people, who otherwise may feel isolated while working alone at home, to use traditional office setups, create a work routine, and build a sense of companionship with others who they share their office spaces with.
 
-_チューリングウェイ_ コミュニティは世界中に分布しています。 私たちのメンバーは多様な背景から来ています, 異なるスキルや興味, 多くの異なる仕事を働いています, そして、多種多様な理由のためにこのプロジェクトに貢献. 彼らはまた、ほとんどの場合、このオープンソースプロジェクトに貢献するために未払いです。
+_The Turing Way_ community is distributed around the world.
+Our members are from diverse backgrounds, different skills and interests, working many different jobs, and contribute to this project for a great variety of reasons.
+They are also, for the most part, unpaid to contribute to this open source project.
 
-オンラインのコワーキングコールを使用して、コワーキングの実践を _The Turing Way_ にもたらします。 それを通じて、私たちは人とのやりとりに似たエネルギーとインスピレーションの感覚を開発するつもりですが、時間と旅行の約束なし。
+We bring the practice of coworking to _The Turing Way_ using online coworking calls, through which we intend to develop a sense of energy and inspiration similar to in-person interactions but without the time and travel commitments.
 
-```{figure} ../figures/coworking.png
+```{figure} ../figures/coworking.*
 ---
 height: 300px
-name: コワーキング
-alt: 一緒に仕事をしている人々のグループのイラスト
+name: coworking
+alt: An illustration of a group of people who are working together and discussing something
 ---
-グループコワーキングのイラスト。 
-(https://www.manypixels) o/gallery/) 
- 私たちのコワーキングコールは、コミュニティメンバーが希望するタスクに時間を割り当てて、それらを完了させる機会を提供します。 自分たちの計画やアイデアを共有したり説明責任を保持したりすることができる他の人たちの支援を受けて、部分的にも完全に。
+An illustration of a group coworking. [Royalty free image from Many Pixels](https://www.manypixels.co/gallery/)
+Our coworking calls provide opportunities for community members to allocate time to their desired tasks in _The Turing Way_ and get them done, partially or fully, with the support of others in the call who can help discuss their plans, share ideas or hold accountability.
 ```
 
-この章では、コワーキングコールを行う動機、割り当てられた時間を有効に活用するためのテクニックについて学びます。 私たちが主催する2種類の通話: {ref}`コラボカフェ <ch-coworking-collabcafe>` と {ref}`ウィークリーCoworking<ch-coworking-weekly>` とそのフォーマット。
+In this chapter, you will learn about the motivation behind holding coworking calls, techniques we use for making effective use of the allocated time, the two types of calls we host: {ref}`Collaboration Cafes <ch-coworking-collabcafe>` and {ref}`Weekly Coworking<ch-coworking-weekly>` and their formats.
 
-このようなコラボイベントをできるだけ多くの人に役に立たせたいと考えています。 [これらの呼び出しをより歓迎し、あなたのために役立つ他の方法がある場合は、](/README.md#get-in-touch) チームメンバーにお知らせください。
+We want to make collaborative events like these as useful as possible for as many people as possible.
+Please [let the team members know](/README.md#get-in-touch) if there are other ways we can make these calls more welcoming and helpful for you.

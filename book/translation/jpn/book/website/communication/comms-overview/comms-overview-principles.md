@@ -1,15 +1,20 @@
 (cm-comms-overview-principles)=
-# より広いオーディエンスとコミュニケーションするための原則
+# Principles of Communicating with Wider Audiences
 
-研究者は、より広い聴衆にそのアクセシビリティを広げるために、技術的に彼らの研究を伝えることを考慮する必要があります。 これにより、研究が異なる学問分野や非専門的な観客に与える影響が増大します。
+Researchers should consider communicating their research less technically to expand its accessibility to wider audiences.
+This will increase the impact of the research on different academic disciplines and also on non-specialist audiences.
 
-あなたは、書かれた、または話されたコミュニケーションの読みやすさについて慎重に考える必要があります。
+You need to think carefully about the readability of any written or spoken communications.
 
-## 考慮すべき主なポイント:
+## Main Points to Consider:
 
-* **あなたの聴衆を識別する** - 最初にあなたがコミュニケーションしたいと思う聴衆を確立することは重要である。このことは、読みやすさのレベルと、あなたが使用できる技術的言語のレベルを決定する。
-    * オーディエンスの特性を評価し、整理するために。 {ref}`プロジェクトデザインガイド<pd-persona>` で参照されているようなペルソナ作成ツールを使用できます。
-    * 通常、この章で取り上げるメディアごとに同じコンテンツを消費するオーディエンスが多いことに注意してください。
-* **あなたのスタイルを変える** - アカデミックライティングはしばしば非常に形式的であり、「著者が提案する...」などの多くの受動的な声を使います。 このスタイルは学問的でない聴衆には向いていないため、目的とする聴衆に合わせて書く必要があります。
-* **アクセス可能にする** - ライティングの技術的レベルを下げるだけでなく。 訓練でよく使われる略語を取り除くか少なくともそれを説明するか確認してください それぞれの分野には、他の科学分野でも理解できない頭字語があります。 また、さまざまなオーディエンスが、考慮しなければならないアウトプットに物理的にアクセスできるという問題もあります。 できるだけ多くの研究コミュニケーションの障壁を取り除くことは、その有効性を高めます。
+* **Identify your audience** - It is important to first establish the audience that you want to communicate with as this will determine the level of readability and therefore the level of technical language that you can use.
+    * To assess and organise the characteristics of your audiences, you can use a persona creation tool like the one referenced in the {ref}`Guide for Project Design<pd-persona>`.
+    * Keep in mind that there are usually many different audiences that consume the same content you publish in each of the media that we'll cover in this chapter.
+* **Change your style** - Academic writing is often very formal and uses a lot of passive voice such as 'the authors suggest ...'.
+This style does not suit a non-academic audience and therefore your writing needs to be adapted to suit the audience you are aiming for.
+* **Make it accessible** - As well as making the technical level of your writing lower, you also need to get rid of any commonly used abbreviations used in your discipline or at least make sure that you explain them.
+Each discipline has its acronyms that even other scientific fields do not understand.
+There are also issues concerning different audiences being physically able to access the output that must be considered.
+Removing as many barriers to research communication as possible will increase its effectiveness.
 

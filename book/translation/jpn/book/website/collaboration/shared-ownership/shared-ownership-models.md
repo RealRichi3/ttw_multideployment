@@ -1,32 +1,43 @@
-(cl-shared-ownershow-models)=
-# 共有オーナーシップモデル
+(cl-shared-ownership-models)=
+# Shared Ownership Models
 
-この章を書いている時点で、以下の共有コード所有権のモデルを特定しました。
+At the time of writing this chapter, We have identified the following models of shared code ownership:
 
-## アクセス権レベルに基づくロール
+## Roles Based on Level of Access
 
-オープンソースプロジェクトに貢献しているGitHubユーザーのために。 folloing roles are defined by the access levels: “Read -> Triage -> Write -> Maintainen -> Admin” (see [GitHub page for reference](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/managing-team-access-to-an-organization-repository)). 異なるアクセスレベルは、コントリビューターがプロジェクトで持つ権利と責任の順序の増加を定義します(詳細については [GitHub ドキュメント](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/repository-permission-levels-for-an-organization) を参照してください)。
+For the GitHub users contributing to an open source project, folloing roles are defined by the access levels: “Read -> Triage -> Write -> Maintain -> Admin” (see [GitHub page for reference](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/managing-team-access-to-an-organization-repository)).
+The different access levels define the increasing order of rights and responsibilities a contributor has in a project (see [GitHub documentation](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/repository-permission-levels-for-an-organization) for details).
 
-GitHub 組織の場合、 [さまざまなロールとアクセスレベルを持つチーム](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams) にメンバーを整理するオプションがあります。 GitHub 組織のオーナー権限は、必要に応じてコントリビューターに権限レベルを付与するなど、組織アカウントを管理する人々のグループに付与できます([詳細は](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization) を参照)。
+For GitHub organisations, there are options to [organise members into teams](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams) with different roles and access levels.
+Owner permissions for a GitHub organisation can be given to a group of people who manage the organization account such as granting permission levels to contributors as needed ([see details](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization)).
 
-メンバーのデフォルトの最小権限は、読み取り、フォーク、問題の作成、バグの修正、マイナーな変更の提案を許可します。 しかし、それは新しい貢献者がプロジェクトに参加するための簡単な道であり、コミュニティの一部のように感じるには十分ではありません。 共有所有感を育むためには、基本的なレベルのアクセスは、新しい貢献を確認できる「作家」である必要があります。 変更を行い承認することにより、プロジェクトの開発とメンテナンスの責任を共有することができます。
+The default minimum permissions for members allows reading, forking, creating issues, fixing bugs and suggesting minor changes.
+It is an easy pathway for new contributors to enter a project, however, not sufficient to feel like a part of the community.
+To foster a sense of shared ownership, the basic level of access should be ‘writers’, who can review new contributions, and make and approve changes allowing them to share responsibility for the development and maintenance of a project.
 
-これらのロールが明示的に定義されていない場合、 どの程度のアクセス権と次のレベルへの昇進の方法を見つけるために貢献者に負担をかけることになる
+If these roles are not explicitly defined, the burden will be put on contributors to find out what level of access they have and how they can be promoted to the next levels.
 
-## オープンソースのリーダーシップとガバナンス
+## Open Source Leadership and Governance
 
-以前の例とは異なり、ロールがアクセスレベルに基づいて「安心」されています。 オープンソースプロジェクトのリーダーシップとガバナンスの側面の下で、すべての貢献者の役割を正式化するためにより意図的なアプローチをとることができます。 これにより、特定の興味や可用性を持つ貢献者がプロジェクトを特定し、プロジェクトに参加することができます。 [オープンソースガイド](https://opensource.guide/leadership-and-governance/) プロジェクトは、メンテナ、貢献者、コミッターの役割を設定するための基本的なフレームワークを提供します。 さらに、彼らが共有所有権を容易にする [貢献者に会う方法を説明します](https://opensource.guide/building-community/#share-ownership-of-your-project)。 より大きなコミュニティでは、異なる委員会のメンバー、ワーキンググループ、特別な利益グループを含むように役割を拡大することができます。 開発、メンテナンス、持続可能性の異なる分野に焦点を当てた指導者、トレーナー、コミュニティマネージャー。 役割に加えて、ガバナンスには意思決定プロセスも含まれています - さまざまなステークホルダーがどのように関与しているか、そしてこれらがどのように透過的に伝えられているか。
+Unlike the previous example, where the roles are ‘assumed’ based on access level, a more intentional approach can be taken to formalise roles for all contributors under the leadership and governance aspect of an open source project.
+This allows contributors with specific interests or availability to identify and step into the project.
+The [Open Source Guides](https://opensource.guide/leadership-and-governance/) project provides a basic framework for setting roles for the maintainers, contributors and committers.
+Furthermore, they describe how to meet contributors where they are to [facilitate shared ownership](https://opensource.guide/building-community/#share-ownership-of-your-project).
+In bigger communities, roles can be expanded to include members of different committees, working groups, special interest groups, mentors, trainers and community managers who focus on different areas of development, maintenance and sustainability.
+In addition to the roles, governance also includes the decision-making processes - how different stakeholders are involved and how these are transparently communicated.
 
-## 貢献者の役割とパスウェイの定義
+## Defining Roles and Pathways for Contributors
 
-議論されたように 明確に定義された役割と責任のセットは、個人またはグループが共通の目的意識を構築し、プロジェクトの共有された所有権に関する明確な期待を設定することを可能にします。 これらの役割は、プロジェクトのタスク、責任、スキル要件に基づいて開発することができます。
+As discussed, a clearly defined set of roles and responsibilities allow individuals or groups to build a sense of common purpose and set a clear expectation around shared ownership in the project.
+These roles can be developed based on the tasks, responsibilities and skill requirements in the project.
 
-```{figure} ../../figures/mountain-of-engagement.png
+```{figure} ../../figures/mountain-of-engagement-graphic.*
 ---
-name: mountain of Engagement
-alt: 図のタイトルで説明されているオープンソースプロジェクト貢献者のための「Mountain of Engagement」を開発するための5つのステップ。
+name: mountain-of-engagement
+alt: Five steps for developing a “Mountain of Engagement” for Open Source project contributors described in the figure title.
 ---
-オープンソースプロジェクトの「Mountain of Engagement」は、(1) あなたの仕事との人々の交流のリストから始まります。 (2)3-5バンド/エンゲージメントレベルを深める。 (3)そうすれば、自分のやりとりをバンドごとにブレインストーミングし、それぞれのバンドに名前をつけることができます。 (4)あなたの仕事では、何が働くか、何が働かないのかを特定することができます。 (5) これにより、貢献者にもっと機会を与えるために、あなたの仕事を優先させることができます。
+A “Mountain of Engagement” for Open Source project starts with (1) A list of people's interaction with your work, and (2) 3-5 deepening bands/levels of engagement. (3) Then you can brainstorm and group your interactions into bands of engagement, and give each band a name. (4) With your work you can then identify what works and what doesn't work. (5) This gives the insight to prioritise your work to create more opportunities for your contributors.
 ```
 
-これらの役割は、契約上または非公式であり、有給または非有給のボランティアによって取られ、法的または社会的な政策によって支えられる場合があります。 貢献者へのエンゲージメントのためのこれらの役割と経路は、 [Mozilla Open Leadership](https://docs.google.com/presentation/d/1ipIUc1t6ogOpyK9gU_PPgD-UvW0Gs73pMIAdCLOG72Y/present?token=AC4w5VhpTqbOWqPsxwOsnzqMG_DYvAqvGA%3A1596111012295&includes_info_params=1&eisi=CJfzpO_49OoCFYbTJAodKr0HAQ#slide=id.p) と [Open Life Science](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/) によって説明されている [Mountain of Engagement](https://openlifesci.org/) を使用して理解することができます。 目的は、貢献者が役割から「オブザーバー」、「支持者」、「貢献者」、「リーダー」、そして最後に「オーナー」として移動する際に、貢献者の関与レベルを特定することです。
+These roles can be contractual or informal, taken by paid or non-paid volunteers, and supported by legal or social policies. These roles and pathways for engagement for the contributors can be understood using [Mountain of Engagement](https://docs.google.com/presentation/d/1ipIUc1t6ogOpyK9gU_PPgD-UvW0Gs73pMIAdCLOG72Y/present?token=AC4w5VhpTqbOWqPsxwOsnzqMG_DYvAqvGA%3A1596111012295&includes_info_params=1&eisi=CJfzpO_49OoCFYbTJAodKr0HAQ#slide=id.p) as described by [Mozilla Open Leadership](https://mozilla.github.io/open-leadership-training-series/articles/building-communities-of-contributors/) and [Open Life Science](https://openlifesci.org/).
+The purpose is to identify levels of engagement of contributors as they move from their roles as “observers”, “endorsers”, “contributors”, “leaders” and finally, “owners”.

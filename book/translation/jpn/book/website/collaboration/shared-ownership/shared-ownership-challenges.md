@@ -1,16 +1,27 @@
-(cl-shared-ownershow-challenges)=
-# 所有権モデルを適用する課題 Retroactively
+(cl-shared-ownership-challenges)=
+# Challenges with Applying Ownership Models Retroactively
 
-プロジェクトオーナーシップモデルはオープンソースの理想的なフレームワークを表していますが、いくつかの問題は、さまざまなプロジェクトでその採用を大きく妨げています。 具体的には、以下に挙げるいくつかの理由で、共有所有権モデルを遡って適用することは困難です。
+While the project ownership models represent the ideal frameworks in open source, some issues hinder their adoption widely across different projects.
+Specifically, it is difficult to apply shared ownership models retroactively for a few reasons described below.
 
-## <unk>
+## Strong Ownership
 
-"strong-ownership"モデルは、単一の貢献者または小規模な開発者グループがプロジェクトに対して強い所有感を感じるときです。 基本的には、プロジェクトの所有権を少数の個人に割り当てます。ソースコードは自由に利用できるかもしれませんが。 プロジェクトは共同作業のために開放されていなかったり、貢献を奨励しなかったりすることがよくあります。 これは2つの問題であり、短期的にはソフトウェアの改善に役立つ効果的なユーザーや開発者コミュニティの構築を防ぎます。 コードが所有者と一緒に引退することを意味するかもしれません 多くのコードスイート、特にHPC(High-Performance Computing)を使用しているもの、古くから確立された分野のもの、より一般的にレガシーコードがあります。 特に強い所有権の問題に陥りやすく民主化の試みに抵抗力があります
+A “strong-ownership” model is when a single contributor or small group of developers feel a strong sense of ownership over the project.
+It essentially assigns ownership of the project to a few individuals: although the source code may be freely available, projects are often not open for collaboration or do not incentivise contribution.
+This is a two-pronged problem - in the immediate term it prevents the building up of effective user and developer communities who could help to improve the software and in the long term, it may mean that codes retire along with their owners.
+Many code suites, especially those using High-Performance Computing (HPC), those in long-established fields and legacy code more generally, are particularly prone to these problems of strong ownership and are resistant to attempts at democratisation.
 
-## 旧または研究所が資金を提供したプロジェクト
+## Old or Institute-funded Projects
 
-新しいプロジェクト、特に確立された機関の外部からのプロジェクトのために、共有所有権モデルを採用することは容易であるかもしれません。 古いプロジェクトや根深い規範を持つ新しいプロジェクトのプロセスが妨げられます 研究ソフトウェアは、研究グループ内の個人によって開発され、組織内または規制された研究環境内で動作します。 例えば、国の資金調達された研究は、他の国の法的要件を常に遵守するとは限らない国内法で運営されています。 これらの研究自体をホストする組織は、国の法律と国際的な利益によって制約されています。 これらの機関の構造は、所有権に依存しています。 例えば、 共同資金調達のための協業協定の締結は 知的財産権の所有権を定義する必要があることが多いのです たとえソフトウェアがオープンソースであってもです これは、より大きな法的枠組みの一部である可能性があります。ソフトウェアが人ではなく、プロジェクトまたはコミュニティによって所有されていることを指定することは、参加を奨励するのに理想的です。 ソフトウェアの法的所有権が争われたり悪いことに悪影響を及ぼす可能性もあります
+While it may be easier to adopt a shared ownership model for new projects, especially those originating outside of established institutions, the process is hampered when working with old projects, or those new projects that arise within ingrained norms of research software.
+Research software is developed by individuals within research groups, which operate within an organisation or a regulated research environment.
+For instance, nationally-funded research operates under national laws that may not always comply with the legal requirements in other countries.
+Organisations hosting these research themselves are constrained by national laws and international interests.
+The very structure of these institutions depends on ownership.
+For example, we have found that arranging collaboration agreements for joint funding is often held up by the need to define ownership of the intellectual property, even if the software is open source.
+This may be part of the larger legal framework: specifying that software is owned by a project or community rather than a person may be ideal for encouraging participation, but it could also be open to abuse if the legal ownership of the software can be disputed, or worse, appropriated by bad actors.
 
-## フィックスフォワードアプローチ
+## Fix-Forward Approach
 
-制度レベル以外にも、オープンソースプロジェクトは国境を越えるべきです。 しかし、我々はまた、組織が他の国で合法的に登録されているソフトウェアの使用を制限する可能性があることを発見しました {cite:ps}`EU2013legal`. これは残念ながらオープンソースの哲学に反していますが、次のセクションで私たちの主なテーマのためのいくつかの解決策を探求しています。 私たちはオープンソースのサブカルチャーを提唱することを学ぶことができます
+Beyond the institutional level, open source projects should transcend national borders, but we have also found that organisations might restrict the use of software that is legally registered in another country {cite:ps}`EU2013legal`.
+This, unfortunately, goes against the open source philosophy, but, as we explore some solutions for our main theme in the next section, we can learn to advocate for the subculture of open source within the organisation culture in which we operate.

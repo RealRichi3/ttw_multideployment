@@ -1,32 +1,37 @@
 (pd-project-repo-contributors)=
-# 貢献者とコミュニケーションの道
+# Contributors and Communication Pathways
 
-あなたが作成したものが他の人によって使用され、彼らがアイデアやフィードバックを共有して新しい機能や改善を追加すれば、あなたのプロジェクトは良くなる可能性があります。 プロジェクトを設計するとき、目標と目標は貢献者と同じくらい重要です。 プロジェクトを設計するとき 貢献者が誰で、どのようにプロジェクトでコラボレーションするかを考えることが重要です ( {ref}`pd-project-repo-readme` と {ref}`pd-project-repo-roadmapping` で説明されています)。
+Your project is likely to be better if what you create is used by others and they share their ideas and feedback to add new features or improvements.
+When designing your project, the Goals and aims are as important as their contributors.
+When designing your project, it is important to think about who the contributors are and how they will collaborate in the project (as described in {ref}`pd-project-repo-readme` and {ref}`pd-project-repo-roadmapping`).
 
-また、このサブチャプターで議論する貢献者への明確な期待を設定し、参加を促進するために利用可能なリソースを記述することも重要です。 あなたがそれらを歓迎することによってあなたの貢献者との作業関係 彼らと関わり、彼らを支援することで、貢献者は彼らの貢献を評価し、興奮するようになります。
+It is also important to set clear expectations for your contributors and describe resources available to facilitate their participation, which discuss in this subchapter.
+The working relationships you establish with your contributors by welcoming them, engaging with them and supporting them, makes your contributors feel valued and excited about their contributions.
 
-(pd-project-repo-contributors)=
-## 貢献者を特定する
+(pd-project-repo-contributing-contributors)=
+## Identifying Your Contributors
 
-コミュニティプロジェクトのほとんどのコラボレーションは、貢献者とともに確立され、維持されています。 効果的なコラボレーションは、すべての貢献者が、多様な視点とスキルを組み合わせて有意義なリソースを生み出す可能性を与えられることを意味します。 例えば、ドキュメントやコードの開発、バグの修正、新機能の提案、他の機能のサポートなど、さまざまな方法でプロジェクトに貢献します。
+Most collaborations in community projects are established and maintained with the contributors.
+Effective collaboration means that all contributors are given the possibility to combine their diverse perspectives and skills to create meaningful resources.
+They contribute to the project in various ways, for example by developing documentation or code, fixing bugs, suggesting new features or supporting others.
 
-多様なコラボレーターをターゲットにするには、プロジェクトの {ref}`Persona<pd-persona>` をデザインしてください。
+To make sure that you target a diverse set of collaborators, start by designing {ref}`Persona<pd-persona>` for your project.
 
 ```{note}
-ペルソナは、既存のメンバーまたは潜在的な将来のメンバーの実際の観察と理解に基づいて、想像上のユーザーまたはメンバーの詳細です。
-これらのペルソナがプロジェクトに取り組む経路と組み合わせると、意味があります。
+A persona is a detail of an imaginary user or member, based on real-world observations and understandings of existing members or potential future members.
+It is meaningful when paired with pathways through which these personas engage with a project.
 ```
 
-参加したい貢献者のアイデアをキャプチャするいくつかのペルソナを選択した場合 プロジェクトに参加して貢献できる経路を開発できます( {ref}`ペルソナ<pd-persona-contributors>` を参照)。
+When you have selected a few personas that capture your idea of contributors who want to involve, you can develop pathways that they can take to engage and contribute to your project (see {ref}`Persona<pd-persona-contributors>`).
 
 (pd-project-repo-contributing-communication)=
-## 通信経路の設定
+## Setting Communication Pathways
 
-通信経路を設定する際には、以下のような重要なことがあります。
-- コミュニティがこれらのチャンネルを見つけて、それらのチャンネルを購読/購読解除するのはどのくらい簡単ですか?
-- 彼らは管理されていますか？ チャンネルがすべての人にとって無料の場合、過小評価されていないグループは参加できません。
-- コミュニティのメンバーが興味のある特定の会話を見つけて参加するのはどのくらい簡単ですか?
-- 「ノイズの多い」チャンネル（例えば、多くの通知）になりますか？
-- ユーザーは、どのような種類の情報を受信するかを制御またはフィルタリングできますか?
+When setting up your communication pathways, there are some important things to consider such as the following:
+- How easy is it for the community to find these channels and subscribe/unsubscribe to them?
+- Are they moderated? Under-represented groups may not participate if a channel is free for all.
+- How easy is it for members of the community to find and join specific conversations they are interested in?
+- Will it be a “noisy” channel (for example, lots of notifications)?
+- Can users control or filter what kind of information they receive?
 
-プロジェクトの通信チャンネルを設定するために考慮できるさまざまな機能を理解するには、 {ref}`cm-os-comms` を参照してください。
+See {ref}`cm-os-comms` to understand various features you can consider for setting a communication channel for your project.

@@ -1,92 +1,115 @@
 (cm-podcasts-personal-stories)=
-# 個人的なストーリー - ポッドキャスト
+# Personal stories - Podcasts
 
-## ゾーイ・イングラムとエマ・ハリス：オリオンオープンサイエンスのポッドキャスト
+## Zoe Ingram and Emma Harris: Orion Open Science Podcast
 
-ORION Open Scienceのポッドキャストは、Open Scienceに関連するさまざまなトピックについて興味深いゲストとの一連のインタビューで構成されています。
+The ORION Open Science podcast is structured around a series of interviews with interesting guests about a variety of topics related to Open Science.
 
-それはまた、 **Leiza Bengtson** 博士によって共同ホストされ、共同制作されています。
+It is also co-hosted and co-produced by **Dr. Luiza Bengtsson**.
 
-Podcast についての詳細情報を知りたい場合は、 [ウェブサイト](https://www.orion-openscience.eu/publications/training-materials/201902/podcasts) と PodBean の [ポッドキャスト](https://orionopenscience.podbean.com/) をご覧ください。
+If you want to find out more information about the podcast then look at their [website](https://www.orion-openscience.eu/publications/training-materials/201902/podcasts) and the [podcast on PodBean](https://orionopenscience.podbean.com/).
 
-**Zoe Ingram** と **Emma Harris** の非常に成功し、楽しいブログシリーズについてのインタビューの質問に答えてくれたことに感謝したいと思います。
+We would like to thank **Zoe Ingram** and **Emma Harris** for answering our interview questions about their very successful and enjoyable blog series.
 
-## 1. なぜポッドキャストを始めたのですか。
+## 1. Why did you start your podcast?
 
-**Emma** - 現在、オープンサイエンスにはポッドキャストがかなり多いが（素晴らしい）。 2018年にはオープンサイエンスラジオだけがあったが、ドイツ語でしかなかった。
+**Emma** - While there are a good number of podcasts on Open Science now (which is great), back in 2018 there was only Open Science Radio, which was excellent but often only in German.
 
-**Zoe** - 私たちはオリオンオープンサイエンスプロジェクトの一員であり、私たちのタスクはトレーニングを行っているので、Luizaはトレーニング材料の一部としてポッドキャストを行うことは良いアイデアであると判断しました。
+**Zoe** - We are part of the Orion Open Science Project and our task is doing training so Luiza decided that doing the podcast as part of the training material would be a good idea.
 
-**Emma** - 私たちは、ポッドキャスト、さまざまなトピックに関する専門家とのインタビューの形式を感じました。 オープンサイエンスの概念を研究者や他の人に伝えるための簡単で楽しい方法になるでしょう eラーニングやオンラインワークショップの台頭であっても、伝統的なトレーニングでどれだけの人に手を差し伸べることができるかには上限があります。 ポッドキャストは、誰もがアクセスすることができます, オープンサイエンスのさまざまな側面は、詳細に探索するために.
+**Emma** - We felt that a podcast, with the format of interviews with experts on different topics, would be an easy and entertaining way of communicating open science concepts to researchers and others. 
+Even with the rise of e-learning and online workshops, there is an upper limit on how many people you can reach with traditional training. The podcast allows everyone to have access, and for different aspects of open science to be explored in-depth.
 
-## 2. どうやって始めたのですか。
+## 2. How did you get started?
 
-**Zoe** - それは、私たちの誰も以前にしなかったことでした。 私たちは妻がこの分野で技術を持っている同僚を持っていたので、彼女は私たちに始める方法を教えてくれました。 彼女は話すことについてエマとルイザにフィードバックを与え、ポッドキャストで話すための彼らの声を調整する方法.
+**Zoe** - It was something that none of us had done before. 
+We had a colleague whose wife had skills in this area so she taught us how to get started. She gave Emma and Luiza feedback about speaking and how to adjust their voices for speaking on the podcast.
 
-**Emma** - 私たちはちょうど人々にインタビューを始め、そうすることによって学んだ。 初期のポッドキャストのクオリティが低いし、私たちはかなりぎこちない! しかし、ゆっくりと私たちはよりリラックスし、より有能なものの技術的側面を扱う方法を学びました。
+**Emma** - We just started interviewing people and learned by doing, so the early podcasts are lower in quality and we are pretty awkward! But slowly we learned to be more relaxed and how to handle the technical side of things more competently.
 
-**Zoe** - サウンドエディターを手に入れました。 これは、これを行う際の技術的および時間的制約のためのものでした。
+**Zoe** - We did get a sound editor to help with it. This was for the technical and time constraint in doing this.
 
-私たちはジングルを作り、新しいシーズンに向けて新しいジングルがあります。
+We made a jingle and there is a new jingle for the new season.
 
-## 3. あなたのポッドキャストがあなたの研究/プロジェクト/コミュニティに影響を与えていると思いますか?
+## 3. What impact do you think your podcast is making on your research/project/community?
 
-**Zoe** - 誰がブラックボックスに物事を送っているのかを知るのは難しい。 私たちは、テーマやボランティアが参加することを提案したい人々からのポッドキャストについてのメールやフィードバックを受け取っています.
+**Zoe** - It is hard to know who is listening as you are sending things out to a black box. 
+We do get mail and feedback about the podcast from people that want to suggest themes and volunteer take part.
 
-**Emma** - グローバルなインパクトはいつも私を幸せにしてくれる - 私たちは世界中の人々をショーに参加させ、さらに多くの国からリスナーから聞いたことがあります。 このポッドキャストには数字には多くの聴衆がいませんが、地理的には非常に多様です。
+**Emma** - The global impact always makes me happy - we have people from all over the world on the show and have heard from listeners from even more countries. 
+I think the podcast does not have a huge audience in numbers but it is very geographically diverse.
 
-エピソードは非常に有用で、特定のトピックに取り組んでいます。 例えば私は最近Creative Commons Licensesに関する講演を行い、誰かがそれを見逃して情報を欲しがっている人に手紙をくれました。 そこで私はクリエイティブ・コモンズのCEOである Cable Greenとのポッドキャストのエピソードを紹介しました だから、彼らは優れたオープン教育リソースであるだけでなく、一般的に興味深いものです。
+The episodes are very useful and engaging on particular topics. 
+For example, I recently gave a talk on Creative Commons Licenses and someone wrote to me who had missed it and wanted some information, so I referred them to the podcast episode we did with Cable Green, the CEO of Creative Commons. 
+So they are an excellent open educational resource, as well as being generally interesting.
 
-**Zoe** - 私は人々と話すのが好きで、私が出会った研究所のビールアワーを見逃し、彼らの研究について科学者に話すことができました。 オープンサイエンスについてこういった会話をするのは楽しいです。
+**Zoe** - I like talking to people and have missed our Institute's Beer Hour in which I got to meet and speak to scientists about their work. 
+I enjoy having these types of conversations about open science.
 
-ポッドキャストは柔軟性があり、誰かが話を聞くことを言うよりも会話に従う方が簡単だと思います。 これは、情報を取り込む別の方法であるため、別のアクティビティを行っている間、誰かがポッドキャストを聞くことができることを意味します。
+I think the podcast is a format that is flexible and it is easier to follow a conversation than say listening to someone give a talk. 
+This means that someone can listen to the podcast while they are doing another activity as it is a different way to take in information.
 
-Luizaは、私たちがゲストからそんなに多くを学ぶことができることはどのような利益であるかを指摘しました。 非常に多くのペースの速い開発の上に滞在することは困難です。 ですから私たちは幸運にも会話を通じて情報の深さに到達し 答えられるべき質問をすることができました また、他の研究者の仕事を聞いて人々を繋げていると思います。
+Luiza pointed out what a benefit it is for us to be able to learn so much from the guests. 
+It is hard to stay on top of so many fast-paced developments. 
+So, we are in that sense lucky to be able to get to the level of depth of information through the conversations and ask the questions that we want to be answered. 
+I also think it connects people as they hear about other researchers work.
 
-## 4. ポッドキャストで一番使っているツール/ソフトウェアは何ですか?
+## 4. What tools/software do you use most in your podcast?
 
-**Emma** - パンデミック前に使用したマイクは、H6 Zoomだった。 オンラインインタビューの場合:Zencastrとマイクを内蔵したまともなヘッドセット。 編集はAdobe Premier Proで行われました。
+**Emma** - The mic we used pre-pandemic was an H6 Zoom. 
+For online interviews: Zencastr and a decent headset with a built-in mic. 
+Editing was done on Adobe Premiere Pro.
 
-**Zoe** - Podcast はPodBean でホストされています。 私たちは、オープンソースのフリーソフトウェアであるので、Audacity に行って編集しようと考えています。
+**Zoe** - The podcast is hosted on PodBean. 
+We are thinking of going over to Audacity for editing as it is free, open source software.
 
-## 5. ポッドキャストを始めることに興味があるかもしれない他の人のための上のヒントはありますか?
+## 5. Do you have any top tips for other people that might be interested in starting a podcast?
 
-**Emma** - あなたの聴衆を決め、彼らに応える、彼らの懸念と関心は何ですか? それらを反映した素材を作ります。
+**Emma** - Decide on your audience and cater to them, what are their concerns and interests? 
+Create material that reflects those things.
 
-「テープで」リラックスするのは非常に難しいです。たとえあなたが良いスピーカーであったとしても。 不安を感じるのは普通ですから、緊張しても驚かないでください。 これを克服するために行うべき最もよい事は記録を押し、そしてちょうど人々とチャットすることである。 暖かい/アイスブレーカータイプの演習でも、誰もが快適になります。
+It is incredibly hard to relax ‘on tape’, even if you are a good public speaker. 
+It is normal to feel anxious so don’t be surprised if you get very tense. 
+The best thing to do to overcome this is to press record and then just chat with people, even do some warm-up/ice breaker type exercises to get everyone comfortable.
 
-あなたはあなたの声を嫌うだろう、誰もがそうするが、あなたは時間内にそれを受け入れることを学ぶでしょう。 誰かがあなたの隣に座っているように、普通に話すことを目指してください。 あなたが話すとき笑顔、それは違いを生じます。
+You will hate your voice, everybody does, but you will learn to accept it in time. 
+Aim to speak normally, as you would to someone sitting next to you. Smile when you speak, it makes a difference.
 
-正しい発音が得られるように、録音で少なくとも一度は自分の名前を言ってもらえるようにしてください(そして、人々の好みの代名詞もチェックしてください)。
+Always ensure you get people to say their name at least once on the recording so you have the correct pronunciation (and check people’s preferred pronouns too).
 
-彼らが話すようにいくつかの簡単なメモを取り、以前のポイントに戻ったり、フォローアップの質問をすることができます。
+Take some brief notes as they speak so you can come back to earlier points or ask follow-up questions.
 
-品質を目指して、量ではなく、1つの素晴らしいエピソードを4つよりも月に持っている方が良いです。 しかし、あなたが多くの視聴者を持っている場合は、おそらく毎週または隔週であることが最善です。
+Aim for quality, not quantity, better to have one great episode a month than four okay ones. 
+However, if you are looking to have a large audience it is probably best to be weekly or biweekly.
 
-**Zoe** - 会話としてそれを行い、観客のアイデアを念頭に置いてください。 リスナーがアイデアを実践するための情報を得るために質問をすることを確認してください - 人々が行動を取るように力を与えます。
+**Zoe** - Do it as a conversation and have an idea of the audience in mind. 
+Make sure that you ask questions to get the information for listeners to put ideas into practice - empower people to take action.
 
-リスナーベースを開始しようとしている場合 Twitterでフォロワーが多い人にインタビューしてリツイートできるようにしましょう
+If you are trying to start a listener base, then try to interview people that have a lot of followers on Twitter so they can retweet.
 
-また、時間がかかり、多くのエネルギーを消費するため、インタビューの一日をブロックすることを確認してください。
+Also, make sure you block the whole day for the interview as it is time-consuming and takes up a lot of energy.
 
-## 6. あなたは避けるべきことについて何かヒントがありますか?
+## 6. Do you have any tips on things to avoid?
 
-**Emma** - 競争ではなく、コラボレーションとクロスプロモーションの機会として他のポッドキャストを参照してください。
+**Emma** - See other podcasts as opportunities for collaboration and cross-promotion, not competition.
 
-あなたがインタビューしている場合は、本当に重要な点を言わない限り、ゲストが良く聞こえるようにし、コンテンツを編集する必要があります。
+Don’t be vain: if you are interviewing you should try and ensure your guests sound good and edit your content down unless you are making a truly important point.
 
-「愚かな質問」を恐れないでください。もしあなたがあなたのリスナーがそうでない可能性がある何かを理解していない場合。
+Don’t be afraid to ask ‘stupid questions’: if you don’t understand something your listeners might not either.
 
-**Zoe** - 誰も悪い音を好まないので、騒々しい環境では録音しない。
+**Zoe** - Nobody likes bad sound so don’t record in noisy environments - particularly outside in windy conditions.
 
-## 7. 将来どこでポッドキャストを見ることができますか？
+## 7. Where do you see your podcast going in the future?
 
-**Zoe** - [Open Science Conference 2021](https://www.open-science-conference.eu/) でポスターを発表しました。 それは、それらを取り上げ、オープンサイエンスの [FOSTER分類](https://www.fosteropenscience.eu/resources)にマッピングしたトークを見ました。 これは、私たちが最も取り上げたトピックと、私たちがまだする必要があるトピックを強調しています。
+**Zoe** - We presented a poster at the [Open Science Conference 2021](https://www.open-science-conference.eu/). 
+It looked at the talks that had been covered and mapped these on to the [FOSTER taxonomy of Open Science](https://www.fosteropenscience.eu/resources). 
+This has highlighted what topics we have covered most and what topics we still need to do.
 
-ポッドキャストはオリオンオープンサイエンスプロジェクトの一環であり、これは9月に終了する予定です。 だから私たちはそれが終わるかもしれないことに満足しておらず、今後どうやってポッドキャストに資金を提供できるかを調べています。
+The podcast is part of the Orion open science project and this will end in September. 
+So we are not happy that it might end and we are looking into how we can fund the podcast going forward.
 
-## 8. 上記の質問でカバーされていないインタビューに追加したいことはありますか?
+## 8. Is there anything else that you want to add to the interview that has not been covered in the questions above?
 
-**Emma** - 私は挑戦し、革新しようとしていると思います。 ポッドキャストの形式はラジオ番組がどのようにインスピレーションを与えたかを調べるのと似ています ユニークなコンテンツやフォーマットを見つけましょう！
+**Emma** - I guess to try and innovate, the podcast format can be quite similar to look at how radio programming has presented the material in different ways for inspiration. Find a unique content or format!
 
-*このインタビューはエマ・カルーンが行ったものです。*
+*This interview was conducted by Emma Karoune.*

@@ -2,38 +2,38 @@
 # Checklist
 
 (rr-open-checklist-data)=
-## オープンデータ
+## Open Data
 
 
-- データがシンプルで標準的なフォーマット、または機械と人間が読めるフォーマットであることを確認してください。
-- データが何であるか、収集された方法、およびそれを見つけた人に対する関連する強み/弱みを明確に記述するために、メタデータをチェック、再フォーマット、または作成します。
-- 関連性のある、簡単に見つけられるリポジトリまたはリポジトリを特定し、そこにアップロードします。
-- DOIのような永続的な識別子をデータに割り当てます。
+- Ensure your data is in a simple, standard format or formats which is machine and human-readable.
+- Check, reformat or create metadata to clearly describe what the data is, how it was collected, and any associated strengths/weaknesses to someone that finds it.
+- Identify a relevant, easily discoverable repository or repositories to host your data, and upload it there.
+- Assign your data a persistent identifier such as a DOI.
 
 (rr-open-checklist-software)=
-## オープンソースソフトウェア
+## Open Source Software
 
-- 自由にアクセス可能なリポジトリにコードを入れてください。
-- 他のユーザーに使用権、コピー、変更権を付与するライセンスを含めます。 プロジェクトに最適なライセンスを選択するために、 {ref}`rr-licensing` の章を使用できます。
-- プロジェクトに関する有用な情報が含まれている README ファイルを含めてください。例えば、プロジェクトの使用/インストール方法、テストの実行方法などです。
-- プロジェクトで他の人に協力してほしい場合は、貢献ガイドラインが含まれています。
+- Put your code in a freely accessible repository.
+- Include a licence granting others the right to use, copy and modify your work. You can use the {ref}`rr-licensing` chapter to help you pick the most appropriate licence for your project.
+- Include a README file containing useful information about a project such as what it is, how to use/install it and how to run any tests.
+- If you want others to collaborate on the project include contribution guidelines.
 
 (rr-open-checklist-hardware)=
-## ハードウェアを開く
+## Open Hardware
 
-- 実用的なオープンハードウェアを使用してください。
-- あなたが公然と入手可能に開発するあらゆるハードウェアのための詳細な文書と設計を作りなさい。
-- 他のユーザーに使用権、コピー、変更権を付与するライセンスを含めます。 この [](https://choosealicense.com/) ウェブサイトを使用して、プロジェクトに最適なライセンスを選択することができます。
-- プロジェクトに関する有用な情報を含む README ファイルを含めます(例えば、プロジェクトの内容や使用されている資料など)。
+- Use open hardware where practical.
+- Make detailed documentation and designs for any hardware you develop openly available.
+- Include a licence granting others the right to use, copy and modify your work. You can use [this](https://choosealicense.com/) website to help you pick the most appropriate licence for your project.
+- Include a README file containing useful information about a project (for example, what it is and the materials used).
 
 (rr-open-checklist-access)=
-## オープンアクセス
+## Open Access
 
-- オープンアクセスのジャーナルであなたの研究を公開します。
-- 自由にアクセス可能な公開リポジトリにあなたの作品のコピーまたはプリプリントを保存します。
+- Publish your research in an open-access journal.
+- Store a copy or preprint of your work in a freely accessible public repository.
 
 (rr-open-checklist-notebooks)=
-## ノートブックを開く
+## Open Notebooks
 
-- 電子ラボノートブックにメモを保管してください。
-- ノートブックをオンラインで公開します。
+- Keep notes in an Electronic Lab Notebook.
+- Make your notebooks publicly accessible online.

@@ -1,10 +1,10 @@
 (cl-maintain-review-resources)=
-# リソース
+# Resources
 
-* [オープンソースのためのコミュニティコミュニケーション](https://the-turing-way.netlify.app/open-source-comms/intro.html) は、このコミュニティ主導のプロジェクトに参加するためのいくつかの関連情報を持っています。
-* [GitHub help](https://help.github.com/en) は GitHub プロジェクトでのコラボレーションに関するほぼすべてを知るのに最適なリソースです。
-* [オープンソースガイド](https://opensource.guide/) ではオープンソースに関するガイドを提供しています。 メンテナンスまたは貢献してください。ほとんどのトピックはこれらのガイドで取り上げられています。
-* [オープンソースの研究ツールの使用に関する記事](https://opensource.com/education/15/11/tools-analyze-collaborate-share-research)
-* [プルリクエストに関するガイド](https://www.atlassian.com/blog/git/written-unwritten-guide-pull-requests)
-* [ワークフローをガイドする方法](https://www.atlassian.com/git/tutorials/comparing-workflows)
-* [オープンソースとアカデミアに関するブログ](https://opensource.com/article/19/9/how-open-source-academic-work)
+* [Community communications for open source](https://the-turing-way.netlify.app/open-source-comms/intro.html) has some relevant information for getting involved with this community-driven project.
+* [GitHub help](https://help.github.com/en) is a great resource to know about almost everything concerning collaborating on a GitHub project.
+* [Guide to Open Source](https://opensource.guide/) provides guides related to Open Source. Be it maintaining or contributing, most of the topics have been covered in these guides.
+* [An article on using Open source research tools](https://opensource.com/education/15/11/tools-analyze-collaborate-share-research)
+* [A guide on Pull requests](https://www.atlassian.com/blog/git/written-unwritten-guide-pull-requests)
+* [How to guide to workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
+* [A Blog on Open source and academia](https://opensource.com/article/19/9/how-open-source-academic-work)

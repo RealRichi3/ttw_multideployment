@@ -1,24 +1,31 @@
 (rr-code-reuse)=
-# 再利用可能なコード
-ソフトウェアプロジェクトは、データ処理に使用する小さなスクリプトから、データ分析に使用するノートブックまでの範囲があります。 アルゴリズムを実装したソフトウエアライブラリです ソフトウェアプロジェクトの大きさや小ささにかかわらず、コードを再利用可能にすることが重要です。
+# Reusable Code
+Your software project could range from a small script you use for data processing to a notebook used for data analysis, or a software library implementing your algorithms.
+Regardless of how big or small your software project is, it is important to make your code reusable.
 
-ソフトウェアの種類によって、再利用可能な要件が異なります: 小さなスクリプトの場合。 十分なドキュメントを持っているだけで十分かもしれませんが、ミッションクリティカルなソフトウェアライブラリでは徹底的なテストが必要かもしれません。 最も基本的なレベルでは、コードをオンラインに入れるだけで長く続く可能性があります。 研究ソフトウェアをより再利用可能にするためのより精巧なアプローチは、研究ソフトウェアのためのFAIR原則(FAIRS原則) {cite:ps}`ChueHong2021FAIR4RS` に従うことです。
+Different types of software have different requirements for being reusable: for a small script, having sufficient documentation might be enough, while for a mission critical software library, thorough testing might be necessary.
+At the most basic level, all you need to do is put your code online somewhere that is likely to last a long time. 
+A more elaborate approach to making your research software more reusable is by following the FAIR Principles for Research Software (FAIR4RS Principles) {cite:ps}`ChueHong2021FAIR4RS`.
 
-コードを再利用可能にすることについて話すとき、私たちが何を意味するかを明確にすることは有用です。 
-{ref}`再現性の定義表<rr-overview-definitions-reproducibility>` では、同じデータと同じコードを使用する再現性のある研究を定義しました。 しかしながら、コードの再利用については多くの形式を取ることができます。まったく同じコードを実行したい場合があります(コンパイルされたプログラミング言語の場合)。 全く同じバイナリファイルを意味するかもしれません) あるいはソースコードを変更して我々のニーズに合うように拡張したいかもしれません Freire and Chirigati {cite:ps}`Freire2018Reproductibility` は、変更できるものに応じて、異なるレベルの再現性の枠組みを提供します。 再現性、再実行可能、ポータブル、拡張可能、変更可能な次のレベルを定義します。
+When we talk about making code reusable, it is useful to clarify what we mean. 
+In the {ref}`Table of Definitions for Reproducibility<rr-overview-definitions-reproducibility>` we defined reproducible research as using the same data and the same code.
+However, when we talk about code re-use this can take many forms: we may want to run the exact same code (for compiled programming languages, this could even mean the exact same binary file), or we may want to modify the source code and extend it in some particular way to fit our needs.
+Freire and Chirigati {cite:ps}`Freire2018Reproducibility` provide a framework of different levels of reproducibility, depending on what can be modified. 
+They define the following levels of reproducibility: repeatable, re-runnable, portable, extendable and modifiable.
 
-再現性のある定義をFreireフレームワークに以下のようにマッピングすることができます。
+We can map the definitions of reproducibly on the Freire framework as follows:
 
-| Freire framework | 再現性の定義                                   |
-| ---------------- | ---------------------------------------- |
-| 繰り返し可能           | 再現可能 (同じデータ、同じ分析)                        |
-| 再実行              | 堅牢な & Replicable (同じコード、異なるデータ/分析/パラメータ) |
-| Portable         | *考慮されていない* (同じコード/データ、異なる環境)             |
-| 拡張可能             | (部分的に) 一般化可能                             |
-| 変更可能             | (部分的に) 一般化可能                             |
+| Freire framework | Definitions of reproducibly |
+|------------------|---|
+| Repeatable       | Reproducible (same data, same analysis) |
+| Re-runnable      | Robust & Replicable (same code, different data/analysis/parameters) |
+| Portable         | *Not considered* (same code/data, different environment) |
+| Extendable       | (partly) Generalisable |
+| Modifiable       | (partly) Generalisable |
 
-移植性は以前は考慮されていませんでしたが、ソフトウェアの環境が異なります (異なるハードウェアなど)。 オペレーティングシステム、あるいは同等のハードウェアに新しくインストールした場合でも、ソフトウェアの動作に影響を及ぼす可能性があります(例えば依存関係に影響を及ぼす可能性があります)。
+Portability was not previously considered, but for software a different environment (such as different hardware, operating system or even a fresh install on comparable hardware) may affect the ability for the software to work (for example it may affect dependencies).
 
-また、Generalisable は 2 つの概念をカプセル化します: Extendable (他のソフトウェアと統合する能力) と Modifiable (その機能を拡張するために実装の一部を変更する能力)。
+Also, Generalisable encapsulates two concepts: Extendable (the ability to integrate with other software)
+and Modifiable (the ability to change part of the implementation to extend its functionality).
 
-この章の残りの部分では、あなたのコードが再利用可能であることを確認するために、おすすめのリストを提供します。
+In the rest of this chapter we provide list of recommendations you can follow to make sure your code is reusable.

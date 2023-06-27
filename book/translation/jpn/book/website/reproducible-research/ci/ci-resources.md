@@ -1,64 +1,64 @@
 (rr-ci-resources)=
-# チェックリストとリソース
+# Checklist and Resources
 
 ## Checklist
 
-- 少なくとも1人他の人とコラボレーションするプロジェクトがあります
-- GitHubにプロジェクトを置く
-- プロジェクトメンバーが定期的にこの中央リポジトリに作業をコミットさせます
-- そのプロジェクトには少なくともいくつかのテストが必要です
-- `ci.yml` ファイルを以下のように書きます。
-  - `.github/workflow` 内でなければなりません
-  - YMAL の `キー` を使用してワークフローをトリガーする GitHub イベントの名前を定義します。
-  - `jobs` と `runs-on` を使用してジョブを実行する特定のホストマシンを定義します。
-  - before_install ステップでプロジェクトを実行するために必要な依存関係をインストールするコードを含みます。
-  - プロジェクト テストを実行するスクリプトが含まれています
-- プロジェクトのGitHubリポジトリに `ci.yml` ファイルをコミット
-- 新しいコミットがプッシュされるたびに、Travisはテストを実行し、結果を返します。 コミットがテスト/テストを失敗させることを報告する場合は、できるだけ早く問題を見つけて修正してください
+- Have a project that you collaborate on with at least one other person
+- Put the project on GitHub
+- Have project members regularly commit their work to this central repository
+- That project should have at least some tests
+- Write a `ci.yml` file which:
+  - Must be inside `.github/workflows`
+  - Define the name of the GitHub event that triggers the workflow using `on` key on the YMAL.
+  - Defines a specific host machine on which to run the job using `jobs` and `runs-on`.
+  - Includes code to install any dependencies required to run the project in a before_install step
+  - Contains a script to run the project tests
+- Commit the `ci.yml` file to the project's GitHub repository
+- Each time a new commit is pushed CI will run the tests and return the results. If these report that a commit causes test/tests to fail then find and fix the problem as soon as possible
 
-## 次に学ぶべきこと
+## What to learn next
 
-まだテストの章を読んでいない場合は、CIを最大限に活用するために、さまざまな種類のテストとその利点についてもっと学ぶことをお勧めします。
+If you have not already read the testing chapter it is suggested to do so to learn more about the different kinds of tests and their benefits in order to make the most of CI.
 
-## 定義/用語集
+## Definitions/glossary
 
-**継続的な統合:** プロジェクトメンバーの作業を定期的に集中版に組み合わせるプロセス。 CIとも呼ばれる。 CIソフトウェアは通常、統合によって導入された競合やバグを特定するために、プロジェクトの統合バージョンでテストを実行します。
+**Continuous integration:** The process of regularly combining the work of project members into a centralised version. Also called CI. CI software typically runs tests on the integrated version of a project to identify conflicts and bugs introduced by the integration.
 
-**構築:** ジョブのグループ。 たとえば、ビルドには2つのジョブがあり、それぞれ異なるバージョンのプログラミング言語を持つプロジェクトをテストします。 すべてのジョブが完了すると、ビルドは終了します。
+**Build:** A group of jobs. For example, a build might have two jobs, each of which tests a project with a different version of a programming language. A build finishes when all of its jobs are finished.
 
-**計算環境:** プロジェクトが実行されている環境(オペレーティングシステム、インストールされているソフトウェア、およびその両方のバージョンを含む)。
+**Computational environment:** The environment where a project is run, including the operating system, the software installed on it, and the versions of both.
 
-**GitHub:** 広く使われているバージョン管理プラットフォーム。
+**GitHub:** A widely used version control platform.
 
-**GitHub Actions:** GitHubリポジトリ上で動作するCI/CDサービスです。
+**GitHub Actions:** It is a CI/CD service that runs on GitHub repos.
 
-**Workflow** リポジトリの _.github/workflow_ ディレクトリに格納された YAML ファイルです。
+**Workflows** They are YAML files stored in the _.github/workflows_ directory of a repository.
 
-**アクション** **ワークフロー** でインポートして使用できるパッケージです。 GitHub は **[Actions Marketplace](https://github.com/marketplace?type=actions)** を提供し、ワークフローで使用するアクションを見つけます。
+**Action** It is a package you can import and use in your **workflow**. GitHub provides an **[Actions Marketplace](https://github.com/marketplace?type=actions)** to find actions to use in workflows.
 
-**Job** 一連の **ステップ** を実行する仮想マシンです。 **ジョブ** はデフォルトで並列化されますが、 **ステップ** はデフォルトでシーケンシャルです。
+**Job** It is a virtual machine that runs a series of **steps**. **Jobs** are parallelized by default, but **steps** are sequential by default.
 
-## 実践的なチュートリアル
+## Practical Tutorials
 
-- GitHub Actionsを使い始めるために、Padokは [ハンドオンチュートリアル](https://github.com/padok-team/github-actions-tutorial) を提供し、自動的にテストするワークフローを構築できます。 簡単なマイクロサービスをビルド、リリース、デプロイします。
-- GitHub Learning Labでは、GitHubアクションを学ぶための [実用的なプロジェクトのインタラクティブガイドも提供しています](https://lab.github.com/githubtraining/github-actions:-continuous-integration)。
+- To get you started with GitHub Actions, Padok provides [a hand-on tutorial](https://github.com/padok-team/github-actions-tutorial) where you can build a workflow that automatically tests, builds, releases, and deploys a simple microservice.
+- GitHub Learning Lab also offers an interactive guide for [practical projects to learn GitHub actions](https://lab.github.com/githubtraining/github-actions:-continuous-integration).
 
-## 参照
+## References
 
-- [CI](https://github.com/travis-ci/docs-travis-ci-com/blob/master/user/for-beginners.md) **MIT**
+- [What is CI](https://github.com/travis-ci/docs-travis-ci-com/blob/master/user/for-beginners.md) **MIT**
 - [SSI blog](https://software.ac.uk/using-continuous-integration-build-and-test-your-software?_ga=2.231776223.1391442519.1547641475-1644026160.1541158284) **Creative Commons Attribution Non-Commercial 2.5 License**
-- [連続統合、継続展開、継続配信の違い](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**
-- [python の CI](https://docs.python-guide.org/scenarios/ci/) **Attribution-NonCommercial-ShareAlike 3.0 Unported**
-- [GitHub のアクションを始める: 概念とチュートリアル](https://www.padok.fr/en/blog/github-actions)
-- [GitHub Actions を使用した CI/CD チュートリアル](https://dev.to/michaelcurrin/intro-tutorial-to-ci-cd-with-github-actions-2ba8)
-- [Docker コンテナーアクションの作成](https://docs.github.com/en/actions/creating-actions/creating-a-docker-container-action)
+- [The difference between continuous integration, continuous deployment, and continuous delivery](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
+- [CI with python](https://docs.python-guide.org/scenarios/ci/) **Attribution-NonCommercial-ShareAlike 3.0 Unported**
+- [Getting started with GitHub Actions: concepts and tutorial](https://www.padok.fr/en/blog/github-actions)
+- [CI/CD tutorial using GitHub Actions](https://dev.to/michaelcurrin/intro-tutorial-to-ci-cd-with-github-actions-2ba8)
+- [Creating a Docker container action](https://docs.github.com/en/actions/creating-actions/creating-a-docker-container-action)
 
-### 使用するマテリアル: Githubのアクションとは何ですか?どのように機能しますか?
+### Materials used: What is Github actions and how does it work?
 
-- [GitHub Actions チートシート](https://resources.github.com/whitepapers/GitHub-Actions-Cheat-sheet/)
-- [GitHub ドキュメント: アクション - コアコンセプト](https://docs.github.com/en/actions/getting-started-with-github-actions/core-concepts-for-github-actions)
-- [GitHub ドキュメント: アクション - ワークフローの構成と管理](https://docs.github.com/en/actions/configuring-and-managing-workflows)
+- [GitHub Actions Cheat Sheet](https://resources.github.com/whitepapers/GitHub-Actions-Cheat-sheet/)
+- [GitHub docs: Actions - Core concepts](https://docs.github.com/en/actions/getting-started-with-github-actions/core-concepts-for-github-actions)
+- [GitHub docs: Actions - Configuring and managing workflows](https://docs.github.com/en/actions/configuring-and-managing-workflows)
 
-## 謝辞
+## Acknowledgements
 
-シェフィールド大学RSEグループのDavid Jonesに有用な議論に感謝します。
+Thanks to David Jones of the University of Sheffield RSE group for useful discussions.

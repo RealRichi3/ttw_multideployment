@@ -1,16 +1,19 @@
-(rrr-binderhub-inntroduction)=
-# BinderHub の紹介
+(rr-binderhub-inntroduction)=
+# Introduction to BinderHub
 
-[BinderHub](https://binderhub.readthedocs.io/en/latest/index.html) は、コードのリポジトリをGitHubから起動できるクラウドベースのテクノロジーです。 GitLabなど)は、ブラウザウィンドウでコードを実行し、対話することができます。 ユニークなURLが生成され、インタラクティブなコードを簡単に共有できます。
+[BinderHub](https://binderhub.readthedocs.io/en/latest/index.html) is a cloud-based technology that can launch a repository of code (from GitHub, GitLab, and others) in a browser window such that the code can be executed and interacted with.
+A unique URL is generated allowing the interactive code to be easily shared.
 
-これらのBinderインスタンスの目的は、研究者がソフトウェアの依存関係を文書化し、楽しいものを作ることを奨励することによって、研究プロジェクトの再現性を促進することです。 インタラクティブな環境!
+The purpose of these Binder instances is to promote reproducibility in research projects by encouraging researchers to document their software dependencies and produce fun, interactive environments!
 
-Binder, as a user interface コードをバージョン管理する必要があり、Binderの機能を利用するためには計算環境を文書化する必要があるため、再現性に役立ちます。 コードリポジトリへの変更ごとに、Binderインスタンスの新しいビルドも強制されます。 設定ファイルが更新されないとBinderインスタンスが壊れるので、これは計算環境の継続的な統合のためのプロキシとして機能します。
+Binder, as a user interface, is useful for reproducibility because the code needs to be version controlled and the computational environment needs to be documented in order to benefit from the functionality of Binder.
+Each change to the code repository also forces a new build of the Binder instance.
+This acts as a proxy for continuous integration of the computational environment as the Binder instance will break if the configuration file is not updated.
 
-継続的インテグレーション {ref}`<rr-ci>` について詳しくはこちら .
+Learn more about Continuous Integration {ref}`here<rr-ci>`.
 
-## BinderHubはどのように機能しますか?
+## How does a BinderHub work?
 
-BinderHub は、Binderインスタンスを作成および起動するために、さまざまなツールとリソースに依存しています。
+BinderHub relies on different tools and resources in order to create and launch the Binder instances.
 
-詳細については、 [BinderHub アーキテクチャ](https://binderhub.readthedocs.io/en/latest/overview.html) のハイレベルな説明を参照してください。
+For more information, see this [high-level explanation of the BinderHub architecture](https://binderhub.readthedocs.io/en/latest/overview.html).

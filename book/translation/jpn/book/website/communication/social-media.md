@@ -1,73 +1,85 @@
 (cm-social-media)=
-# リサーチコミュニケーションのためのSNS
+# Social Media for Research Communications
 
-世界中に何十億ものソーシャルメディアのユーザーがいる。 現在、研究者はソーシャルメディアや他のインターネットベースの通信プラットフォームで自分の研究を宣伝することが一般的です。 ソーシャルメディアを使用して、アカデミックまたはレイオーディエンスの両方でさまざまなグループと通信できます。
+There are billions of users of social media around the world.
+It is now common practice for the researcher to advertise their work on social media or other internet-based communication platforms.
+You can use social media to communicate with many different groups both academic or lay audiences.
 
 (cm-social-media-benefits)=
-## ソーシャルメディアを利用するメリット
+## Benefits of Using Social Media
 
-* 迅速かつ簡単にあなた、あなたのチームや教育機関が行うことを示します。
-* あなたが取り組んでいるトピックやプロジェクトの認識を構築します。
-* ほとんどのアカウントをセットアップして無料で運営できるため、費用はかかりません。 ただし、ソーシャルメディアのアカウントを正常に維持するには時間がかかります。
-* フォロワー、訪問やダウンロードの面であなたが持っている影響への洞察を提供します。
-* あなたのウェブサイトへの訪問を増やし、検索ランキングに影響を与えます。
-* 関連するプロジェクト、分野、組織で他の人が何をしているかを知ることができます。
-* これらのネットワークを通じて人間関係を構築し共同作業を行うことができます
+* Quickly and easily showcases what you, your team or your institution do.
+* Builds awareness of a topic or project that you are working on.
+* Doesn’t cost anything as most accounts can be set up and run for free.
+Although, maintaining a social media account successfully can be time-consuming.
+* Provides an insight into the impact that you are having in terms of followers, visits and downloads.
+* Increases visits to your website and affects search rankings.
+* You can find out about what others are doing in related projects, disciplines or organisations.
+* You can build relationships, and hopefully collaborations, through these networks.
 
 (cm-social-media-platforms)=
-## ソーシャル メディア プラットフォーム
+## Social Media Platforms
 
-ResearchGateやAcademia.eduなどの学術ベースのソーシャルメディアサイトや、Twitter、Facebook、Instagram、Youtube、Linkedinなどの一般的なサイトを利用できます。
+You could use academic-based social media sites such as ResearchGate or Academia.edu or more general ones such as Twitter, Facebook, Instagram, Youtube and Linkedin.
 
-2,000万人以上の研究者(2021年春からの数字)がResearchGateに登録しているため、論文を共有する絶好の機会となります。 メッセージング機能で同僚と接続し、プロジェクトを宣伝するために使用できます。 Academia.eduまたはMendeleyを使用するには似たような利点がありますが、Researchgateほど使用されていません。
+More than 20 million researchers (figure from spring 2021) have signed up to ResearchGate and it can therefore offer a great opportunity for sharing papers, connecting with colleagues through the messaging feature and can be used to advertise projects.
+There are similar benefits to using Academia.edu or Mendeley, although they are not used as much as Researchgate.
 
-これらのサイトの定期的な批判は、オフにするのは難しい一定の更新であなたの電子メールのスパムです。
+A regular criticism of these sites is the spamming of your email with constant updates that are hard to turn off.
 
-一般的なソーシャルメディアサイトは学術的な観客に非常に人気があり、最近のネイチャー調査 {cite:ps}`Noorden2014social` では、研究者はFacebookではなくTwitterとLinkedinを専門的な用途に使用していることが強調されています。
+More general social media sites are very popular with academic audiences and a recent Nature survey {cite:ps}`Noorden2014social` highlighted that researchers mostly use Twitter and Linkedin for professional use rather than Facebook.
 
-また、今回の調査では、Twitterは他のソーシャルメディアプラットフォーム(例えば、以下の議論)に比べて幅広い用途を持っていたことが示されました。 仕事の内容を投稿し仲間を発見し 推薦された論文を発見し 他の研究についてコメントする 多くの研究者にとって選択の伝達手段となっており、これまで以上に早い段階で研究討論を展開しています。
+This survey also showed that Twitter had a wider range of uses compared to the other social media platforms, such as following discussions, posting work content, discovering peers, discovering recommended papers and commenting on others research.
+It has become the communication channel of choice for many researchers and is opening up research discussions at a much earlier stage than previously seen.
 
-Twitterは個人の学術プロフィールを構築するために使用できます。 研究プロジェクトを通じて使用することができますし、組織が自分の仕事やメッセージを促進するためにも使用することができます。 非科学者が即座に新しい研究を見つけられるようにすることで、より広範なコミュニティに研究を可視化し、理解できるようにすることができます。 科学者はまた、公衆によって直接連絡することができます, 通信のより親しみやすいレベルを可能にする {cite:ps}`Kelesidou2021scicomm`.
+Twitter can be used to build up a personal academic profile, for use throughout a research project and can also be used by organisations to promote their work and message.
+It can make research more visible and understandable to wider communities by allowing non-scientists to find new research instantaneously.
+Scientists can also be contacted directly by the public, which enables a more approachable level of communication {cite:ps}`Kelesidou2021scicomm`.
 
-その人気と学術目的のための幅広い用途のために、次の2つのサブ章では、Twitterの使用に焦点を当てています。 しかし、以下は、Twitter、Linkedin、Facebook、Instagramなどの研究者が使用する最も一般的なソーシャルメディアサイトの概要です。
+Due to its popularity and wide range of uses for academic purposes, the next two sub-chapters focus on using Twitter.
+However, below is an overview of the most popular general social media sites used by researchers - Twitter, Linkedin, Facebook and Instagram.
 
 ### Twitter
 
-* 月間アクティブユーザー数は3億5300万人です
-* それは他のプラットフォームよりもフォーマルではなく、学術的な観客に非常に人気があります。
-* 文字制限は小さく、わずか280です。 しかし、スレッドでツイートを結合することができます。
-* あなたのつぶやきや写真で他の人にタグを付けることができます。
-* ツイートには、リンク、写真(1200×628ピクセル)と動画(最大2分20秒)を追加できます。 動画へのリンクを追加することもできます。
-* 画像がない場合、リンクを追加するとプレビュー画像が生成されます。
-* それは会話とおしゃべりプラットフォームです。 だからつぶやきでおしゃべりし、あなたのつぶやきをより楽しくするために画像やGIFを使用してください。
+* They have 353 million monthly active users.
+* It is less formal than other platforms and very popular with academic audiences.
+* Character limit is small, only 280. But you can join tweets in threads.
+* You can tag others in your tweets or photos.
+* You can add links, photos (size 1200 x 628 pixels) and videos (max 2 minutes 20 seconds) in tweets. You can also add links to videos.
+* If you don't have an image, adding a link will generate a preview image.
+* It is a conversational and chatty platform. So be chatty in tweets and use images and gifs to make your tweets more fun.
 
 ### Linkedin
 
-* 月間アクティブユーザー数は２億５千万人です
-* それはTwitterやFacebookよりも形式的で専門的なコミュニケーションチャンネルです。
-* キャラクター制限はTwitterの63,206よりも大きい。
-* 投稿に他の人にタグを付けることができます。
-* 投稿には、リンク、写真(1200×628ピクセル)と動画(最大10分)を追加できます。
-* それは、採用やプロのネットワークのためのインタラクティブなCVとして使用されています。
-* 投稿を簡潔に保つことは良いアイデアです。
-* 特定のセクターや業界をターゲットにすることができます。
-* 投稿に画像がなくリンクがある場合。 リンクのプレビューになりますので、リンクしているページが最新の状態であることを確認してください 関連画像があります。
+* They have 250 million monthly active users.
+* It is a more formal and professional communication channel than Twitter and Facebook.
+* Character limit is larger than Twitter at 63,206.
+* You can tag others in your posts.
+* You can add links, photos (size 1200 x 628 pixels) and videos (max 10 minutes) in posts.
+* It is used as an interactive CV, for recruitment and professional networking.
+* Keeping posts brief is a good idea.
+* You can target a particular sector or industry.
+* If you have no image for your post but do have a link, it will make a preview of the link so make sure the page you are linking to is up to date and has a relevant image.
 
 ### Facebook
 
-* 毎月28億人のアクティブユーザーがいます
-* 文字制限はLinkedinと同じ63,206です。
-* 他のユーザーにタグを追加できます。
-* 投稿には、リンク、写真(1200×628ピクセル)と動画(最大240分、最大4GBサイズ)を追加できます。
-* コミュニティベースのプラットフォームなので、そのコミュニティを作成して関連性を持たなければなりません。
-* 企業は、Facebookがニュースフィードのアルゴリズムで友人や家族を優先する投稿を支払わなければなりません。 プロの組織にとっては最適なプラットフォームではないのです
+* They have 2.8 billion monthly active users.
+* Character limit the same as Linkedin at 63,206.
+* You can add tags to other users.
+* You can add links, photos (size 1200 x 628 pixels) and videos (up to 240 minutes and max 4GB size file) to your posts.
+* It is a community-based platform so you have to create that community and be relevant to it.
+* Businesses have to pay for their posts to be seen as Facebook prioritises friends and family in the news feed algorithm.
+So it's not the best platform for professional organisations.
 
 ### Instagram
 
-* 月間アクティブユーザー数は12億人です
-* 文字数制限は2,200です。 Twitterよりも大きいですが、FacebookやLinkedinより小さいです。
-* 他のユーザーにタグを追加できます。
-* あなたのプロフィールにリンクを追加することができますので、投稿ではありません。 しかし、Linktreeを使用してリンクを機能させることができます。
-* 写真は正方形(1080 x 1080 ピクセル)。
-* ビデオの長さは3秒から60秒です。最大ファイルサイズは4GBです。 物語の長さは15秒です
-* それは視覚的なメディアプラットフォームですので、プロフェッショナルな使用のために効果的にそれを使用するためにビデオの銀行が必要です。
+* They have 1.2 billion monthly active users.
+* Character limit is 2,200.
+So larger than Twitter but less than Facebook and Linkedin.
+* You can add tags to other users.
+* You can only add links in your bio so not in posts.
+But you can feature links using Linktree.
+* Photos are square (1080 x 1080 pixels).
+* Video length between 3 and 60 seconds, max file size is 4GB.
+Stories are 15 seconds long.
+* It is a visual media platform so you need a bank of videos to use it effectively for professional use.

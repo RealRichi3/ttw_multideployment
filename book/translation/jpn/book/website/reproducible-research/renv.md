@@ -1,37 +1,45 @@
 (rr-renv)=
-# 再現可能な環境
+# Reproducible Environments
 
-(rr-renv-requireites)=
-## 前提条件
+(rr-renv-prerequisites)=
+## Prerequisites
 
-| 前提条件                                                                     | 重要度    | メモ                                  |
-| ------------------------------------------------------------------------ | ------ | ----------------------------------- |
-| [コマンドラインでの経験](https://programminghistorian.org/en/lessons/intro-to-bash) | 必要な    | コマンドラインを介してソフトウェアをダウンロードする経験は特に便利です |
-| {ref}`rr-vcs`                                                            | 役に立つもの | git や GitHub を使用した体験は役に立ちます         |
+| Prerequisite | Importance | Notes  |
+| ------------ | ---------- | ------ |
+| [Experience with the command line](https://programminghistorian.org/en/lessons/intro-to-bash) | Necessary  | Experience with downloading software via the command line is particularly useful |
+| {ref}`rr-vcs` | Helpful | Experience using git and GitHub are helpful |
 
-**推奨スキルレベル**: _中級-上級_
+**Recommended Skill Level**: _Intermediate-Advanced_
 
 (rr-renv-summary)=
 ## Summary
 
-すべてのコンピュータには、そのオペレーティングシステムからなる固有の計算環境 [{term}`def<Computational Environment>`] があります。 インストールされたソフトウェア、インストールされたソフトウェアパッケージのバージョン、および後述するその他の機能。 研究プロジェクトが1台のコンピュータで実行され、別のコンピュータに転送されたとします。 上記のいずれかの考慮事項に依存している場合、分析が同じ結果を実行または生成できる保証はありません。
+Every computer has its unique computational environment [{term}`def<Computational Environment>`] consisting of its operating system, installed software, versions of installed software packages, and other features that we will describe later.
+Suppose a research project is carried out on one computer but transferred to a different computer.
+There is no guarantee that the analysis will be able to run or generate the same results if the analysis is dependent on any of the considerations listed above.
 
-研究を再現できるようにするために それが行われた計算環境は他の人が複製できるように捕獲されなければなりません 本章では,計算環境を捉えるためのさまざまな方法について解説し,その強みと弱みについて解説する.
+In order for research to be reproducible, the computational environment that it was conducted in must be captured in such a way that others can replicate it.
+This chapter describes a variety of methods for capturing computational environments and gives guidance on their strengths and weaknesses.
 
-### 計算環境とは?
+### What is a Computational Environment?
 
-大まかに言うと、計算環境はプログラムが実行されるシステムです。 これには、ハードウェアの機能(CPU内のコア数など)とソフトウェアの機能(オペレーティングシステムなど)が含まれます。 プログラミング言語、パッケージ、インストールされているソフトウェアの他の部分、およびそれらのバージョンと構成)。
+In broad terms, a computational environment is the system where a program is run.
+This includes features of hardware (such as the numbers of cores in any CPUs) and features of software (such as the operating system, programming languages, supporting packages, other pieces of installed software, along with their versions and configurations).
 
-ソフトウェアのバージョンは [セマンティック バージョニング](https://semver.org) によって定義されることが多い。 このシステムでは、ソフトウェアの各バージョンを定義するために、例えば、2.12.4 などの3つの数字が使用されます。 ソフトウェアに変更が加えられると、そのバージョンはインクリメントされます。 これらの3つの数字はパターン _MAJOR.MINOR.PATCH_に従い、次のようにインクリメントされます:
+Software versions are often defined via [semantic versioning](https://semver.org).
+In this system, three numbers - for example, 2.12.4 - are used to define each version of a piece of software.
+When a change is made to the software, its version is incremented.
+These three numbers follow the pattern _MAJOR.MINOR.PATCH_, and are incremented as follows:
 
-- *MAJOR*: 重要な変更
-- *MINOR*: 機能を追加
-- *PATCH*: バグ修正
+- *MAJOR*: significant changes
+- *MINOR*: to add functionality
+- *PATCH*: for bug fixes
 
-(rr-renv-usefic)=
-## これが便利な理由
+(rr-renv-useful)=
+## Why This is Useful
 
-計算環境がなぜ重要なのか例を見てみましょう。 とてもシンプルなPythonスクリプトを持っているとします。
+Let us go through an example of why computational environments are important.
+Say I have a very simple Python script:
 
 ```
 a = 1
@@ -39,22 +47,40 @@ b = 5
 print(a/b)
 ```
 
-5 で割ったものは `0.2`で、スクリプトが Python 3 を使って実行された場合はこれが表示されます。 しかし、Python 2 のような若干古いバージョンの Python が使用されている場合、結果が出力されるのは `0` です。 これは、Python 2 で整数の除算が 整数に適用されるためです。 (通常の) 除算は Python 3 では整数を含むすべての型に適用されます。
+One divided by five is `0.2`, and this is what is printed if the script is run using Python 3.
+However, if a slightly older version of Python, such as Python 2, is used, the result printed is `0`.
+This is because integer division is applied to
+integers in Python 2, but (normal) division is applied to all types, including integers, in Python 3.
 
-したがって、この単純なスクリプトは、実行される計算環境によって異なる __ の回答を返します。 間違ったバージョンの Python を使うのは簡単です。 そして、完全に有効なコードの断片が 環境によって異なる結果をもたらす方法を実証しています。 そのような問題がこのような単純なスクリプトに影響する可能性がある場合。 複雑な解析手順には何千行ものコードと何十もの依存するパッケージが含まれているかを想像してみてください。
+Therefore this simple script returns _different_ answers depending on the computational environment in which it is run.
+Using the wrong version of Python is easy to do, and demonstrates how a perfectly valid piece of code can
+give different results depending on its environment.
+If such issues can impact a simple script like this, imagine how many could appear in a complex analysis procedure which may involve thousands of lines of code and dozens of dependent packages.
 
-研究者は、彼らが研究を行っている計算環境を理解し、キャプチャする必要があります, それは3つの当事者に影響を与える可能性があります:
+Researchers need to understand and capture the computational environments in which they are conducting their work, as it has the potential to impact three parties:
 
-### 研究者
+### Researchers
 
-研究者の作業環境は、ソフトウェアの更新、新しいソフトウェアのインストール、異なるコンピュータへの移行とともに進化します。 プロジェクト環境が把握されていない場合、研究者は数ヶ月または数年後にプロジェクトに戻る必要があります(研究に共通するように)。 自信を持ってそうすることはできません 特定の研究環境がどのような変化が起きているのか、そしてそれらの変化がコードを実行する能力にどのような影響を与えるのかを知ることはできません。 そして結果についてです
+Researchers' working environments evolve as they update software, install new software, and move to different computers.
+If the project environment is not captured and the researchers need to return to their project after months or years (as is common in research), they will be unable to do so confidently.
+They will have no way of knowing what changes to a specific research environment have occurred and what impact those changes might have on their ability to run the code, and on the results.
 
-### 共同編集者
+### Collaborators
 
-多くの研究が現在共同で行われており、複数の異なる計算環境を研究することで、潜在的なバグの地雷原が開かれています。 この種の問題を解決しようとすると、しばしば時間がかかり、イライラすることがあります。計算環境の違いを研究者が理解する必要があるためです。 そしてその効果を知っています さらに悪いことに、いくつかのバグは検出されず、結果に影響を与える可能性があります。
+Much research is now collaborative, and researching multiple different computational environments opens up a minefield of potential bugs.
+Trying to fix these kinds of issues is often time-consuming and frustrating as researchers have to figure out what the differences between computational environments are, and their effects.
+Worse, some bugs may remain undetected, potentially impacting the results.
 
-### 科学
+### Science
 
-学術研究は過去10年間で著しく進化してきました 研究過程を捉えて普及させる方法についても同じことは言えない。 普及のための主な方法 - 学術的な出版 - 1660年代の科学雑誌の出現以来、ほとんど変わっていません。 これは、科学的な成果を検証、複製、および拡張するのにもはや十分ではありません。 研究プロセスのあらゆる側面を共有する必要性の認識が高まっているにもかかわらず。 今日の学術出版物は多くの場合基礎的な分析から 切り離されています そして重要なのは 計算環境です 再現性のある研究をするためには、研究者は、その結果だけでなく、含まれる分析全体を公開し、配布する必要があります。 解析は _mobile_ である必要があります。 計算の移動度は、定義、作成する能力として定義されます。 ワークフローが他の場所で実行できることを確信しながら、ワークフローをローカルに維持します。 本質的には、計算の可動性とは、ソフトウェアスタック全体を格納できることを意味します。 データファイルをライブラリのスタックを通して移動させてシステムからシステムへ確実に移動させます 展開可能な場所に限定された研究は、複製可能な範囲で即座に制限されます。
+Scholarly research has evolved significantly over the past decade, but the same cannot be said for the methods by which research processes are captured and disseminated.
+The primary method for dissemination - the scholarly publication - is largely unchanged since the advent of the scientific journal in the 1660s.
+This is no longer sufficient to verify, reproduce, and extend scientific results.
+Despite the increasing recognition of the need to share all aspects of the research process, scholarly publications today are often disconnected from the underlying analysis and, crucially, the computational environment that produced the findings.
+For research to be reproducible, researchers must publish and distribute the entire contained analysis, not just its results.
+The analysis should be _mobile_.
+Mobility of Compute is defined as the ability to define, create, and maintain a workflow locally while remaining confident that the workflow can be executed elsewhere.
+In essence, mobility of compute means being able to contain the entire software stack, from data files up through the library stack, and reliably move it from system to system.
+Any research that is limited to where it can be deployed is instantly limited in the extent that it can be reproduced.
 
-この章では、計算環境とコードをキャプチャ、保存、共有して、研究が再現できるようにする方法について説明します。
+This chapter will describe how to capture, preserve and share computational environments and code to ensure research is reproducible.

@@ -1,21 +1,26 @@
 (rr-binderhub-build)=
-# 独自のBinderHubを構築する
+# Build your own BinderHub
 
-[mybinder.org](https://mybinder.org/) は無料で、毎週ほぼ100kのBinder起動をホストする公開の BinderHub です。 なぜ自分のものを作りたいと思うのでしょうか？
+[mybinder.org](https://mybinder.org/) is the free, public BinderHub that hosts almost 100k Binder launches per week.
+Why might you want to build your own?
 
-バインダー[{term}`def<Binder>`]はボランティアによってメンテナンスされているオープンソースプロジェクトであり、利用可能なサービスを提供しながら、実行コストを可能な限り低く抑えるため、ユーザーに特定の計算制限の範囲内に留まるよう要請します。 独自のBinderHubをホスティングすることで、ユーザーにはるかに柔軟でカスタマイズされたリソースを提供できます。
+Binder [{term}`def<Binder>`] is an open source project maintained by volunteers and as such they ask that users stay within certain computational limitations in order to keep running costs as low as possible whilst still providing a usable service.
+By hosting your own BinderHub, you can offer your users much more flexible and tailored resources.
 
-これらのカスタマイズには以下のものがあります:
+These customisations could include:
 
-- 認証
-- 1ユーザーあたりのより大きな計算リソース
-- 特注のライブラリのスタックとパッケージ、
-- プライベートリポジトリへのアクセスを許可しています
-- ユーザーの永続的なストレージ
-- 特定の教育機関またはチーム内の共有を制限します。
+- authentication,
+- greater computational resources per user,
+- bespoke library stacks and packages,
+- allowing access to private repos,
+- persistent storage for users,
+- restrict sharing within a certain institution or team.
 
-## BinderHub を展開するときに直面する可能性のある問題
+## Issues you may face when deploying a BinderHub
 
-BinderHubsは、大学や研究機関の間でますます人気が高まっています。 これは、同じセットのノートブックの複数のインスタンスをチュートリアルやワークショップの設定で使用することができるためです。
+BinderHubs are becoming increasingly popular amongst universities and research institutes.
+This is because they can facilitate multiple instances of the same set of notebooks for use in a tutorial or workshop setting.
 
-組織に代わってクラウドホストの BinderHub をデプロイする場合は、組織のクラウド プラットフォームサブスクリプションに特定の権限が必要になる場合があります。 必要な権限は、アクセス可能なクラウドプラットフォームとITサービスポリシーによって異なります。 最低でも。 ユーザートラフィックを管理するために、リソースに [ロールベースのアクセス制御(RBAC)](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview) を割り当てる必要があります。
+If you are deploying a cloud-hosted BinderHub on behalf of your organisation, you may need specific permissions on your organisation's cloud platform subscription.
+Which permissions you require will vary based on the cloud platform you have access to and your IT Services policies.
+At minimum, you'll need to be able to assign [Role Based Access Control (RBAC)](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview) to your resources so they can act autonomously in order to manage user traffic.

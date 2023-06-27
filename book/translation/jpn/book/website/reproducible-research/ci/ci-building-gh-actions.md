@@ -1,34 +1,36 @@
 (rr-ci-building-gh-actions)=
-# Github アクションのブロックの作成
+# Building a Block of a Github Actions
 
-前述のように、ワークフローファイルは `.yml` または `.yaml` のファイル拡張子を持つ YAML 構文を使用します。 YAML を初めて利用していて、詳細を知りたい場合は、 {ref}`YMAL についてのセクション<rr-renv-yaml>` をご覧ください。 このワークフローファイルは、リポジトリの `.github/workflow` ディレクトリに保存する必要があります。
+As described previously, workflow files use YAML syntax, which has either a `.yml` or `.yaml` file extension.
+If you're new to YAML and want to learn more, {ref}`see our section about YMAL<rr-renv-yaml>`.
+This workflow files must be stored in the `.github/workflows` directory of your repository.
 
-各ワークフローは個別の YAML で定義されます。 Hello Worldの例を使ってワークフローの構築ブロックを紹介します。
+Each workflow is defined in a separate YAML. We will introduce the building block of a workflow using Hello World Example:
 
 ```
 name:
-    Hello World パッケージ
+    Hello World package
 on:
   push:
     branches: [ main ]
 Jobs:
   build:
     runs-on: ubuntu-latest
-    step:
-      - uses: actions/checkout@v2
-```
+    steps:
+      - uses: actions/checkout@v3
+```  
 
-**1. 名前**
+**1. name**
 
-これはワークフローの名前であり、オプションです。 GitHub はリポジトリのアクションページに表示するためにこの名前を使用します。
+This is the name of the workflow and it is optional. GitHub will use this name to be displayed on the repository's actions page.
 ```
 name:
-    Hello World パッケージ
+    Hello World package
 ```
 
-**2. オン**
+**2. on**
 
-`フィールドの` は GHA を指定します。 たとえば、 `push` や `pull` が `main` ブランチにあるときはいつでもワークフローを実行できます。
+The `on` field tells GHA when to run. For example, we can run the workflow anytime there's a `push` or a `pull` on the `main` branch.
 ```
 on:
   push:
@@ -36,11 +38,13 @@ on:
   pull_request:
     branches: [ main ]
 ```
-ワークフローをトリガーするために使用できるイベントがたくさんあります。 [こちら](https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions) をご覧ください。
+There are many events which can be used to trigger a workflow. You can explore them [here](https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions).
 
-**3. 仕事とステップ**
+**3. jobs and steps**
 
-このブロックは、Action ワークフローのコアコンポーネントを定義します。 ワークフローは `ジョブ` で構成されます。 すべてのジョブはまた、特定のホストマシンを実行する必要があります。 `runs-on:` フィールドは、指定する方法です。 テンプレートワークフローは、LinuxベースのオペレーティングシステムであるUbuntuの最新バージョンで `build` ジョブを実行しています。
+This block defines the core component of an Action workflow. Workflows are made of `jobs`.
+Every job also needs a specific host machine on which to run, the `runs-on:` field is how we specify it.
+The template workflow is running the `build` job in the latest version of Ubuntu, a Linux-based operating system.
 
 ```
 jobs:
@@ -48,27 +52,33 @@ jobs:
   runs-on: ubuntu-latest
 ```
 
-ワークフローの `ビルド` と `テスト` 関数を、ワークフローがトリガーされたときに実行される複数のジョブに分けることもできます。 ジョブは `ステップ` で構成されています。 これにより、各ジョブで何を実行するかを定義できます。 ステップを定義する方法は3つあります。
+We can also separate the `build` and `test` functions of our workflow into more than one job that will run when our workflow is triggered. Jobs are made of `steps`.
+These allow you define what to run in each job.
+There are three ways to define steps.
 
-- `で` を使う
-- `run` で
-- `の名前` で
+- With `uses`
+- With `run`
+- With `name`
 
 ```
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    step:
-    - uses: actions/checkout@v2
+    steps:
+    - uses: actions/checkout@v3
   test:
-    step:
+    steps:
     - name: npm install
       run: |
         npm install
         npm test
 ```
 
-最も基本的なアクションは `actions/checkout@v2` です。 これは、ワークフローがリポジトリのコンテンツにアクセスできるようにするために、 [`checkout`](https://github.com/actions/checkout) という名前の GitHub が提供するアクションを使用します。 ジョブのすべてのステップは、ジョブに関連付けられたランナーで順番に実行されます。 デフォルトでは、ステップが失敗した場合、ジョブの次のステップはスキップされます。 runキーワードは、ランナー環境で新しいプロセスとシェルを表します。 複数行のコマンドを指定すると、各行は同じシェルで実行されます。
+The most basic action is `actions/checkout@v3`.
+This uses a GitHub provided action called [`checkout`](https://github.com/actions/checkout) to allow the workflow to access the contents of the repository.
+All the steps of a job run sequentially on the runner associated with the job.
+By default, if a step fails, the subsequent steps of the job are skipped. Each run keyword represents a new process and shell in the runner environment.
+When you provide multi-line commands, each line runs in the same shell.
 
-利用可能なすべてのオプションの包括的なガイドを提供することは、この概要の範囲を超えています。 私たちは、前のセクションの [公式リファレンスドキュメント](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions) および/またはCI構成のオープンソースプロジェクトの参照を研究することを強くお勧めします。
+Providing a comprehensive guide of all the available options is beyond the scope of this overview, and instead, we would urge you to study [official reference documentation](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions) and/or the CI configuration open-source projects references in the previous section.

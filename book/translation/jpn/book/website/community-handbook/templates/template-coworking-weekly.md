@@ -1,81 +1,80 @@
-(ch-template-coorking-weekly)=
-# 毎週のコワーキングコールテンプレート
+(ch-template-coworking-weekly)=
+# Weekly Coworking Call Template
 
-*HackMDには永続的な文書が存在します: [https://hackmd.io/@malvikasharan/TW-coorking](https://hackmd.io/@malvikasharan/TW-coworking) これは毎週月曜日に日付と時刻で更新されます。*
+*A permanent document exists in the HackMD: [https://hackmd.io/@malvikasharan/TW-coworking](https://hackmd.io/@malvikasharan/TW-coworking) that is updated every Monday with the dates and times for the respective week.*
 
-## _The Turing Way_ オンラインコワーキング時間
+## _The Turing Way_ online coworking hours
 
-**What?** _チューリングウェイ_ は **再現可能なデータ科学と研究** のための軽い意見のガイドです。 _The Turing Way_ チームは、コミュニティメンバーがリアルタイムで連携できるよう、毎週1時間のコワーキングコールを行っています。
+**What?** _The Turing Way_ is a **lightly opinionated guide to reproducible data science and research**.
+_The Turing Way_ team hosts 1-hr long coworking calls each week for the community members to work together in real time.
 
-*詳細はこちらをご覧ください: https://the-turing-way.netlify.app/community-handbook/coorking.html*
+*Read more about it here: https://the-turing-way.netlify.app/community-handbook/coworking.html*
 
-**誰? **** **再現性、倫理性に興味のあるすべての人** 包括的なデータサイエンスと研究は、The Turing Way project、コミュニティ、および/またはこの呼び出しの全部または一部に参加することを歓迎します*</p>
-* 自宅で仕事をしていて、 _The Turing Way_ コワーキングアワーに接続したい場合は、11:00 - 12:00 BSTの間で今週以下に提供されるスロットにサインアップしてください。
-* _The Turing Way_で既に取り組んでいるタスクに参加してください 皆さんがお話ししたいアイデアは あなたがレビューしたいプルリクエストや過去に始めて終わるのに苦労してるもの
-* プロジェクトへのオリエンテーションを新しいメンバーとして取得したい場合や、チームメンバーとつながりたい場合は、これは良い場所です!
+**Who?** **Everyone** interested in reproducible, ethical, and inclusive data science and research are welcome to join the full or any part of The Turing Way project, community, and/or this call.*
+* If you are working from home and want to connect for _The Turing Way_ co-working hour - sign up for a slot provided below for this week between 11:00 - 12:00 BST.
+* Join us with a task that you are already working on in _The Turing Way_, an idea that you want to discuss, a pull request that you want to review, or something you started in the past and struggling to finish.
+* If you want to get an orientation to the project as a new member or connect with the team members - this would be a good place too!
 
-_The Turing Way_ のコワーキングアワーに参加したい場合は、 11:00 - 12:00 の間の今週のために提供されるスロットにサインアップしてください。
+If you would like to join _The Turing Way_ co-working hour - sign up for a slot provided for this week between 11:00 - 12:00 BST.
 
-**ホスト:** Malvika Sharan (msharan@turing.ac.uk)
+**Host:** Malvika Sharan (msharan@turing.ac.uk)
 
-*時間の初めから参加できない場合は、 [Gitter](https://gitter.im/alan-turing-institute/the-turing-way) またはメールでホストに連絡してください。*
+*If you can't join from the beginning of the hour, please let the host know by contacting on [Gitter](https://gitter.im/alan-turing-institute/the-turing-way) or via email.*
 
-### 行動基準
+### Code of conduct
 
-* [これを読むにはしばらくお待ちください](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md)
+* [Take a moment to read this](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md)
 
-:hourglass_flowing_sand: **スケジュール:**
+:hourglass_flowing_sand: **Schedule:**
 
-**スケジュール:**
+| Duration | Activity |
+| ---- | -------- |
+| Start | 👋 Welcome |
+| 5 mins | Introductions and personal goal setting |
+| 20 mins | 🍅 1st Pomodoro session |
+| 5 mins | ☕️ Break and report out |
+| 20 mins | 🍅 2nd Pomodoro session |
+| 5 mins | Open discussion and Close 👋 |
 
-| 期間   | アクティビティ                 |
-| ---- | ----------------------- |
-| 開始   | 👋 Welcome               |
-| 5分   | 紹介と個人の目標設定              |
-| 20 分 | :tomator: 第1回ポモドーロセッション |
-| 5分   | ☕ 破壊して報告                |
-| 20 分 | :tomator: 第2回ポモドーロセッション |
-| 5分   | 議論を開き、👋                 |
+### This week/month, we will host coworking calls on the following days:
 
-### 今週/月、私たちは次の日にコワーキングコールを開催します:
-
-- DD Month YYYY: HH:MM BST (https://arewemeetingyet.comからのローカル時間のリンク)
+- DD Month YYYY: HH:MM BST (link for a local time from https://arewemeetingyet.com)
 - ...
 
-**参加リンク**: <Provide a Zoom link>
+**Joining link**: <Provide a Zoom link>
 
-**ポモドーロ時計**: https://cuckoo.team/tw-coorking
+**Pomodoro clock for these calls**: https://cuckoo.team/tw-coworking
 
-### 特定の日付に参加することを示すために以下にサインアップしてください。 *BSTで時間が与えられます*
+### Sign up below to indicate you will join on particular dates. *Time is given in BST*
 
-*サインアップしても参加できない場合は、Gitter でこの呼び出しのホストを ping してください*
-
-#### DD Month YYYY:
-
-- [11:00 英国夏時間](https://arewemeetingyet.com/London/2020-06-02/11:00/TW-coworking)
-
-- お名前/今日のご意見:
--
-
-**通話からの短いメモ**
-
--
-
-**ディスカッションからいくつかのPRがあります**
-
--
+*Please ping the host of this call on Gitter if you signed up but no longer can join*
 
 #### DD Month YYYY:
 
-- [11:00 英国夏時間](https://arewemeetingyet.com/London/2020-06-02/11:00/TW-coworking)
+- [11:00 UK Summer Time](https://arewemeetingyet.com/London/2020-06-02/11:00/TW-coworking)
 
-- お名前/今日のご意見:
+- Name / Your idea to work on today:
 -
 
-**通話からの短いメモ**
+**Short notes from the call**
 
 -
 
-**ディスカッションからいくつかのPRがあります**
+**Some PRs from the discussions**
+
+-
+
+#### DD Month YYYY:
+
+- [11:00 UK Summer Time](https://arewemeetingyet.com/London/2020-06-02/11:00/TW-coworking)
+
+- Name / Your idea to work on today:
+-
+
+**Short notes from the call**
+
+-
+
+**Some PRs from the discussions**
 
 -

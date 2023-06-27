@@ -1,89 +1,106 @@
 
 (rr-code-reuse-details)=
-# コードの再利用に関する詳細な推奨事項
+# Detailed Recommendations for Code Reuse
 
-あなた(または他の誰か)が同じことをするためにコードを再利用できることを確認してください。 このセクションには、ソフトウェアをより再利用可能にするための推奨事項のシンプルなチェックリストが含まれています。 このセクションでは、このガイドの他の関連する部分へのポインタとともに、これらの推奨事項のそれぞれについて詳しく説明します。
+Make sure you (or somebody else) can re-use your code to do the same exact thing you did.
+This section contains a simple checklist of recommendations for making your software more reusable.
+In this section contains a more in-depth explanation of each of these recommendations, with pointers to other relevant parts of this guide.
 
-## Recommendations
+## Repeatable Recommendations
 
-この段階では、コードを開いて読み取る必要もないかもしれません。 必要なすべてのステップを再実行し、あなたが持っていたのと同じ結果を得ることができるようにしたいだけです。
+At this stage, you might not even need to be able to open the code and read it, you just want to make sure you can re-run all the needed steps and obtain the same results you had.
 
-### 1. 確認してください (スペースで)
+### 1. Make sure you can find it (in space)
 
-コードは公開され、共同作業者と共有する必要があります。 誰もがそれを見つけてアクセスできるように、一意の永続的な識別子を持っています。
-
-**See also**: {ref}`rr-vcs`
-
-### 2. 見つけられることを確認してください（時間内）
-
-コードの時間的進化は、バージョン管理によって記述されているのが理想です。 これにより、過去から特定のバージョンを取得できます。
+Your code must be stored publicly and shared with collaborators. It has an unique persistent identifier, so that everyone can find it and access it.
 
 **See also**: {ref}`rr-vcs`
 
-### 3. 同じ一連の操作を実行できることを確認してください
+### 2. Make sure you can find it (in time)
 
-多くの場合、環境を整える人間は、コードを書いた人であり、コードを再実行して結果を再現できるようにするために必要なステップの正確な順序を知っている人でもあります。 これは、別の人間がそれをやり直すために、きっと注意深く記録されるでしょう。
+Ideally the temporal evolution of the code is documented with version control. This allows you to retrieve a specific version from the past.
 
-****: [再現可能な研究に関するCodeRefinery lesson](https://coderefinery.github.io/reproducible-research/)
+**See also**: {ref}`rr-vcs`
 
-### 4. あなたの環境と一連の操作が堅牢であることを確認してください。何が行われたかを再現するために人間は必要ありません。
+### 3. Make sure you can execute the same sequence of operations
 
-人間に頼りたくない。 悪意がなくても間違いを犯す傾向があります。 したがって、必要に応じて環境をスクリプト化して再作成し、すべてのステップを接着するパイプラインスクリプトによってオペレーションのシーケンスを実行させることを望んでいます。 操作のシーケンスをスクリプト化することの良い副作用は、これがステップのドキュメントとして機能することが多いことです。
+Often the human who set up the environment is also the one who wrote the code and the one who knows the exact order of steps needed to be able to re-run the code and reproduce the results.
+This could surely be carefully documented for another human to re-do it.
 
-****: {ref}`rr-renv-options` も参照してください。
+**See also**: [CodeRefinery lesson on Reproducible Research](https://coderefinery.github.io/reproducible-research/)
 
-### 5. コードをライセンスしてください
+### 4. Make sure your environment and sequence of operations is robust and no human is needed to replicate what was done
 
-あなたのコードにライセンスを添付し、人々がそれを再使用するときに引用する方法を指定してください。 再利用を可能にする許可ライセンスを使用することを検討してください。 また、ライブラリまたはソフトウェアのライセンスと互換性のあるライセンスを選択する必要があります。
+You do not want to depend on humans. 
+They tend to make errors even if they do not have bad intentions. 
+So you want your environment to be scripted and be re-created when needed and you want your sequence of operations to be run by a pipeline script that glues together all the sequence of steps.
+A nice side-effect of scripting the sequence of operations is that this often can serve as documentation of the steps.
 
-**関連項目**: {ref}`rrr-licensing-Software`, {ref}`rr-licensing-software-permissive`, {ref}`rr-licensing-compatibility`
+**See also**: {ref}`rr-renv-options`
 
-### 6. 引用可能であることを確認してください
+### 5. License your code
 
-人々がそれを再使用するときに、あなたがどのように引用されるかを指定することを確認してください。
+Make sure you attach a license to your code and specify how you want to be cited when people re-use it.
+Consider using a permissive license that allows for reuse.
+Also, you should choose a license which is compatible with the licenses of libraries or packages your software depends on.
 
-**関連項目**: {ref}`cm-citable-cite-software`
+**See also**: {ref}`rr-licensing-software`, {ref}`rr-licensing-software-permissive`, {ref}`rr-licensing-compatibility`
 
-### 7. 必要なデータを含める
+### 6. Make sure it is citable
 
-ソフトウェアが任意の種類のデータに依存している場合、データが利用可能になるはずです。
+Make sure to specify how you want to be cited when people re-use it.
 
-****: {ref}`rr-rdm-data` も参照。
+**See also**: {ref}`cm-citable-cite-software`
 
-## 再実行可能な推奨事項
+### 7. Include necessary data
 
-あなた(または他の人)があなたが行ったことを行うためにそれを再利用できることを確認してくださいが、異なるデータ/異なるパラメータを使用してください
+If the software depends on any sort of data, the data should be available
 
-### 1. ハードコードされたビットを削除し、コードをモジュール化する
-コードにハードコードされたデータや解析パラメータに固有の詳細が必要ではありません。 何かが再利用可能な関数になれば、それをハードコードされたパラメータから分離し、それを自身で何か(再利用可能な)ものに変えることができる。 モジュールを純粋にします: 同じ入力が与えられた場合、純粋な関数は常に同じ値を返します。 スクリプト内でファイルパスを指定する代わりに、よりポータブルで一般的で再利用可能なスクリプトのコマンドライン引数として渡すことを検討してください。
+**See also**: {ref}`rr-rdm-data`
+
+## Re-runnable recommendations
+
+Make sure you (or others) can re-use it to do the thing you did, but with different data/different parameters
+
+### 1. Remove hardcoded bits and make the code modular
+You do not want to have details specific to your data or analysis parameters hardcoded into the code.
+If something can become a reusable function, separate it from the hardcoded parameters and turn it into something (re)usable on its own.
+Make the modules pure: given the same input, a pure function always returns the same value.
+Instead of specifying file paths inside the scripts, consider passing them as command line arguments for a more portable and general and reusable script.
 
 **See also**: [CodeRefinery Modular Code Development lesson](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/#1)
 
-### 2. 作成したモジュールは、さまざまな種類の入力データまたはパラメータを取ることができることをテストします
-今後どのようにコードが再利用されるかまだわからないかもしれません。 しかしどのパラメータが許可されているかテストできれば 使用すべきでないことを防ぐことができます
+### 2. Test that the modules you made can take different types of input data or parameters
+You might not know yet how your code will be re-used in the future, but you can prevent how it should not be used if you can test which parameters are allowed.
 
-****: [自動テストに関するCodeRefinery lesson](https://coderefinery.github.io/testing/motivation/)
+**See also**: [CodeRefinery lesson on Automated testing](https://coderefinery.github.io/testing/motivation/)
 
-### 3. モジュールをパッケージ/ツールボックスに変えます
-プロジェクトの詳細を、他のプロジェクトや他の人が再利用できるビットで区切ってください。
+### 3. Turn the modules into a package/toolbox
+Separate even more the specifics of your project with the bits that can be reused in other of your projects or by other people.
 
-**See also**: {ref}`rr-renv-package`, [Packaging Software](https://scicomp.aalto.fi/scicomp/packaging-software/), [Software packaging in Python](https://aaltoscicomp.github.io/python-for-scicomp/packaging/)
+**See also**: {ref}`rr-renv-package`, [Packaging software](https://scicomp.aalto.fi/scicomp/packaging-software/), [Software packaging in Python](https://aaltoscicomp.github.io/python-for-scicomp/packaging/)
 
-## ポータブル推奨事項
-移植性とは、ソフトウェアを新しい環境に移行する能力を指します。 これは、同一の(同一ではない)マシンを指しますが、新しいハードウェアアーキテクチャ、オペレーティングシステムなどを参照することもできます。 これらはどちらもソフトウェアの再利用に重要です。
+## Portable Recommendations
+Portability refers to the ability to transfer software to a new environment.
+This could refer to an identical (but not the same) machine, but it can also refer to a new hardware architecture, operating system and such.
+Both of these are important for software reuse.
 
-### 1. それが住んでいた環境を再現できることを確認してください
-環境は、静かにコードに付随する時間の脆弱なスナップショットです。 ソフトウェアを操作した人間、データを準備するために人間がおこなった手順を含むことができます。 ハードウェア、OS、ライブラリ、外部パッケージ/ツールボックス/依存関係。 このすべてが、別の人間が同じ全ての正確なステップをやり直すために、注意深く記録することができます。
+### 1. Make sure you can recreate the environment where it lived
+The environment is a fragile snapshot in time which silently accompanies the code.
+It can include the human who operated the software, the steps the human did to prepare the data, the hardware, the OS, the libraries, external packages/toolboxes/dependencies.
+All this can be carefully documented for another human to re-do all the same exact steps.
 
-****: {ref}`rr-renv` も参照。
+**See also**: {ref}`rr-renv`
 
-## 拡張可能で変更可能な推奨事項
-他の人がコードを拡張して改善できるようにしてください。
+## Extendable and Modifiable Recommendations
+Make sure others can build on your code to extend it and improve it.
 
-### 2. 人間がコードを読み取れるようにしてください
-多くの場合、他の人のためのコードを書くことができるように、彼らはそれを(あなたの未来の自己を含む)読むことができます。 不明瞭な変数名を持つ不可解なonlinerは、1つのライナーを読みやすい変数名で複数のステップに分割するよりも速く、効率的ではありません。 さらに、コーディング規約を使用すると、他の読者に役立ちます。
+### 2. Make sure your code is readable by humans
+It often pays more to write code for other humans so they can read it (including your future self).
+A cryptic oneliner with obscure variable names is not any faster or more efficient than splitting the one liner into multiple steps with readable variable names that make sense.
+Furthermore, using coding conventions will help other readers.
 
-**See also**: {ref}`rr-code-style-and formatting`, {ref}`rr-code-quality-利点`
+**See also**: {ref}`rr-code-style-and-formatting`, {ref}`rr-code-quality-advantages`
 
-### 3. コメントがあることを確認してください
-実際のコードを書く前にコメントを書く。 誰かがコメントを読んで、コメント間のコードビットをすべてスキップして、コード全体を読むように全体像を得ることができると想像してみてください。
+### 3. Make sure comments are present
+Write comments before writing the actual code. Imagine that somebody could just read the comments and skip all the code bits between comments and get a full picture of what is going on as if they read the whole code.

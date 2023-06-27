@@ -1,14 +1,21 @@
 (rr-case-studies)=
-# 事例研究：再現可能な研究
+# Case Studies: Reproducible Research
 
-## 前提条件 / 推奨スキルレベル
+## Prerequisites / recommended skill level
 
-この章では、この {ref}`rr` で扱われているいくつかのトピックに精通していることを前提としています。 すべての例では、このガイドで説明されている同じメソッドの組み合わせを使用することを示すわけではないので、 前提条件とスキルレベルはケーススタディによって異なります したがって、それらのスキルを個別に示すことを推奨します。
+This chapter assumes familiarity with several topics covered in this {ref}`rr`.
+Since not all examples will demonstrate the use of the same combinations of methods covered in this guide, the prerequisite and skill level will vary across the case studies.
+Therefore, we recommend the authors to indicate those skills for each case study separately.
 
 ## Summary
 
-この章では、 実際にどのように再現可能な研究方法が使用され、分野全体に適用されるかを見るために使用できるケーススタディの選択が提示されています 。 自分自身で貢献する例があると思ったら、 ここ [で問題を開くには](https://github.com/alan-turing-institute/the-turing-way/issues)自由に感じてください。
+In this chapter, a selection of case studies is presented that can be used to
+see how reproducible research methods are used in practice and applied across fields.
+If you think that you might have an example to contribute yourself, feel free
+to open an issue at [here](https://github.com/alan-turing-institute/the-turing-way/issues).
 
-## これがあなたを助ける方法/これが有用である理由
+## How this will help you/ why this is useful
 
-例えば学習は新しい概念を学ぶのに効果的な方法です。 例の をあなたのニーズに合わせることで、あなたの個人的なプロジェクトを始められるかもしれません。
+Learning by example can be an effective way to learn new concepts.
+Maybe you can start your personal project by adapting one of the examples
+to your needs?

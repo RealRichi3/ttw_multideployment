@@ -1,29 +1,36 @@
 (legal-disclaimer)=
-# 法的免責事項:チューリング方法は法的アドバイスではありません!
+# Legal disclaimer: The Turing Way is not legal advice!
 
-_The Turing Way_ は、再現性のある研究のための軽い意見のガイドである。 それは ** 法的助言の源ではなく、そのように扱われるべきではありません。
+_The Turing Way_ is a lightly opinionated guide to reproducible research. 
+It is *not* a source of legal advice and should never be treated as such. 
 
-## 適切な法的助言は、適時、具体的であり、法的専門家によって与えられます。
+## Good legal advice is timely, specific, and given by a legal expert 
 
-_チューリングウェイ_ はこれらのことではありません。
+_The Turing Way_ is not these things. 
 
-_チューリングウェイ_ は、法的専門知識の源泉となるように書かれていません。 法令を参照する場合、提供される情報は大幅に簡略化されます。 目的は、あなたが行いたいことが潜在的な法的影響を持っているかどうかを確認するときに知るように基本の概要を与えることです。 本書の法律や規則に関する情報だけに基づいて重要な決断をしないでください。
+_The Turing Way_ is not written to be a source of legal expertise. 
+When laws and regulations are referenced, the information provided is heavily simplified. 
+The intent is to give you an overview of the basics so that you will know when to check whether something you want to do has potential legal ramifications. 
+Don’t make any important decisions based solely on information about laws and regulations in this book.
 
-### 法的専門知識を探す
+### Finding legal expertise
 
-大学、非営利団体、企業などの組織の一部である場合 自社または専門事務所のいずれかから法的アドバイスを受けることができます すでにあなたの機関や組織と協力しています 何か気になることがあれば、まず彼らに確認するべきです。
+If you are part of an organisation such as a university, a non-profit or a company, you can likely access legal advice either in-house or from a specialist firm that already works with your institution or organisation. 
+You should check with them first if you have any concerns.
 
-教育機関または組織に所属していない場合:
-- 多くの管轄区域でアドバイスを提供できるデータと技術に特化した法律事務所があります(以下を参照)。
-- 多くの政府は、法律や規制をオンラインで利用できるようにしていますが、専門的な訓練がなければ理解することは困難な場合があります。
-- いくつかの国・地域では、一部の慈善団体や非営利団体が法律を遵守するためのガイダンスを提供しています。 彼らは彼らが提供できる助言の限界について明確であるべきである。
+If you are not part of an institution or organisation: 
+- There are law firms that specialise in data and technology that can provide advice in many jurisdictions (see below).
+- Many governments make their laws and regulations available online: be aware, however, that these can often be difficult to understand without specialist training.
+- In some jurisdictions, some charities and non-profits produce guidance for complying with laws. They should be clear about the limits of the advice they can provide. 
 
-### 管轄権
+### Jurisdictions
 
-法律は場所によって異なる。 あなたは、あなたが運営しているどの管轄区域かを認識していること、およびあなたがすべての関連する管轄区域をカバーするすべての法律を遵守していることを確認する必要があります。 よく分からない場合は、 あなたが現在働いている場所で法律顧問に連絡することから始めましょう。彼らはまた、あなたが考えるべき他の管轄について助言することができます。
+Laws are different in different places. 
+You should make sure that you are aware of which jurisdictions you are operating in and that you are complying with all the laws that cover all the relevant jurisdictions. 
+If you are not sure, start by contacting a legal advisor in the place that you are currently working: they will also be able to advise on what other jurisdictions you should be thinking about.
 
-## 次は何ですか？
+## What's next?
 
-- 法的助言や専門知識が必要な場合は、誰に連絡すべきかを特定してください
-- あなたの権利、制限、およびあなたが求めるべき法的助言について学ぶ
-- 詳細については、 {ref}`倫理的研究ガイド<er>` を参照してください。
+- Identify who you should reach out to should you need legal advice or expertise
+- Learn about your rights, limitations and what legal advice you should seek
+- Learn more about it in the {ref}`Guide for Ethical Research<er>`

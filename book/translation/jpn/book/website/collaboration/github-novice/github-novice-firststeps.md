@@ -1,145 +1,160 @@
-(cl-github-novice-firsteps)=
-# GitHub の最初のステップ
+(cl-github-novice-firststeps)=
+# First steps on GitHub
 
-ここでは、GitHubを始めるためのステップバイステップの手順を提供します。
+Here, we provide step-by-step instructions to get started with GitHub.
 
 ## 1. Create a GitHub account
 
-[https://github.com/](https://github.com/) に移動し、GitHub ボックスにサインアップを使用して新しいアカウントを作成します。
+Go to [https://github.com/](https://github.com/) and create a new account using the sign up to GitHub box.
 
-## 2. リポジトリを作成
+## 2. Create a repository
 
-新しいアカウントを作成し、ログインしている場合は、新しいリポジトリを作成する必要があります。
+When you have created a new account and you are logged in, you need to create a new repository.
 
-リポジトリまたはリポジトリは、プロジェクト用のすべてのドキュメント、データ、その他のファイルを保存するオンラインスペースです。
+A repository or repo is the online space where you store all of the documents, data and other files for your project.
 
-* 新しいリポジトリを作成するには 右上隅の+記号(ウィンドウの上部にある黒いバンド)をクリックし、新規リポジトリをクリックする必要があります。 フォームのようなページが表示されます。
-* アカウント名が表示され、その横にリポジトリ名を入力する必要があります。
-* また、「公開」にチェックを入れたままにして（リポジトリはすべて公開されています）、「READMEファイル」を作成するためにチェックを入れてください。
-* 次に、下部にある緑色のリポジトリ作成ボタンをクリックします。
+* To create the new repository, you need to click on the + sign in the top right corner (in the black band at the top of your window) and then click New repository. This will take you to a page that looks like a form.
+* You will see the name of your account and you need to fill in a repository name next to it.
+* Also, leave the box ticked for “public” (so your repository is open to all) and then tick the box to create a “README file”.
+* Then click the green create repository button at the bottom.
 
-これはあなたが今見るべきものです。 リポジトリのランディングページです。 下の図は、すべてのボタン、タブなどが何をするかを説明します。
+This is what you should see now.
+It is the landing page for your repository.
+The diagram below explains what all the buttons, tabs and other things do!
 
-```{figure} ../../figures/github-basic-diagram.jpg
+```{figure} ../../figures/github-basic-diagram.*
 ---
-name: github-basic-ダイアグラム
-alt: 作成後のリポジトリの注釈付けられたダイアグラムで、メイン機能を説明します。 主な特徴は、図の凡例で説明されています。
+name: github-basic-diagram
+alt: Annotated diagram of repository after its creation, explaining the main features. The main features are explained in the figure legend.
 align: left
 ---
-リポジトリの基本的な作成後の注釈付けられた図で、メイン機能を説明します。 ウェブページの左側には以下の機能があります:
-- **1. ユーザー名:** GitHub ユーザーの名前 (アカウント)。 この例では、ユーザー名は「EKarone」です。
-- **2. Repository:** プロジェクトディレクトリ (repoとも呼ばれます)。 この例では、リポジトリ名は "trial-repo" です。
-- **3. コード：** このタブはランディングページに戻ります。 リポジトリに作成したフォルダが表示されます。
-- **4. Main:** これはデフォルトの開発ブランチまたはリポジトリのアクティブなブランチです。
-- **5. ブランチ:** リポジトリの並列バージョンです。
-- **6. README.md ファイル:** このファイルにはあなたのプロジェクトに関する基本情報が含まれています (この場合、プロジェクト名は "trial-repo" のみです)。 私たちがウェブサイトを作る予定の場合、これはあなたのサイトのランディング(フロント)ページとしてレンダリングされます。
+Annotated diagram of repository after its basic creation, explaining the main features. On the left side of the webpage we have the following features:
+- **1. Username:** GitHub user’s name (account). In this example, the username is “EKaroune”.
+- **2. Repository:** project directory (also known as repo). In this example, the repository name is “trial-repo”.
+- **3. Code:** this tab brings you back to your landing page. It shows you the folders that you have made in the repo.
+- **4. Main:** this is your default development branch or active branch of your repository.
+- **5. Branch:** parallel version(s) of your repository.
+- **6. `README.md` file:** this file contains basic information about your project (in this case it only has the project name: “trial-repo”. When we plan to make a website, this will be rendered as a landing (front) page for your site.
 
-ウェブページの右側には以下の機能があります:
-- **7. Green Code button:** をクリックしてリポジトリをローカルでダウンロードします。
-- **8. '+' シンボル:** 新しいリポジトリの作成、リポジトリのインポート、新しい課題の作成ができます。
-- **9. Fork:** 他のユーザーのリポジトリの個人コピーを作成します。 この数字は、現在のリポジトリのフォーク数を示しています。
-- **10: Add file:** リポジトリにファイルを作成またはアップロードします。
-- **11: コミット/クロックシンボル:** をクリックすると、異なる時点で保存されたすべての編集（コミット）のリストとしてこのファイルの履歴を見ることができます。
-- **12: Edit/Pencil symbol:** この鉛筆記号をクリックしてREADME.md ファイルを編集します。
+On the right side of the webpage we have the following features:
+- **7. Green Code button:** click it to download your repository locally.
+- **8. '+' symbol:** where you can create new repository, import repos and create new issues.
+- **9. Fork:** create a personal copy of another user’s repo. The number shows how many forks there are of your current repository.
+- **10: Add file:** create or upload a file to your repository.
+- **11: Commits/clock symbol:** click to see the history of this file as a list of all the edits (commits) saved at different time points.
+- **12: Edit/Pencil symbol:** click this pencil symbol to edit your README.md file.
 ```
 
-## 3. README.md ファイルを編集
+## 3. Edit your `README.md` file
 
-他のファイルを追加したり、リポジトリの作成中にライセンスファイルを含めない限り。 今すぐリポジトリに1つのファイルがあるはずです - README.md 。 リポジトリに関する情報を追加するには、このファイルを編集する必要があります。 このファイルはマークダウンファイルです。ファイル名の後に「.md」があるので、これがわかります。 ここで、Markdown 形式を使い始めます。 このファイルで書いたものは何でも、GitHubのプロジェクトのランディング(フロント)ページに表示されます。 皆にあなたのプロジェクトについて伝えるために使ってください
+Unless you have added any other files or included a license file during repo creation, you should have one file in your repository now - README.md.
+We'll need to edit this file to add information about the repo.
+This file is a Markdown file; you can see this because it has “.md” after the name of the file.
+This is where you start to use the Markdown formatting.
+Whatever you write in this file will be shown on the landing (front) page of your project on GitHub, so use it to tell people all about your project.
 
-### GitHub の編集インターフェイスをナビゲートする
-README.md ファイルを編集します:
+### Navigating the GitHub editing interface
+To edit your `README.md` file:
 
-* ランディングページの中央ボックスの右上にある鉛筆記号をクリックすることができます。
+* You can click on the pencil symbol in the top right of the central box on your landing page.
 
-**または**
+**Or**
 
-* README.md ファイルをクリックし、鉛筆記号をクリックします。
+* Click on the `README.md` file and then click the pencil symbol.
 
-ファイルを編集できるようになりました。 私たちは良いREADMEを書く上でいくつかのポインタの後にあなたの変更を保存する方法について話します。
+You can now edit the file.
+We'll talk about how to save your changes after some pointers on writing a good README.
 
-```{figure} ../../figures/github-readme-before-edit.jpg
+```{figure} ../../figures/github-readme-before-edit.*
 ---
 name: github-readme-before-edit
-alt: README.md ファイルの注釈付きダイアグラムで、ランディングページのファイル名をクリックすると表示されます。 主な特徴は、図の凡例で説明されています。
+alt: Annotated diagram of README.md file, if you click on the file name on your landing page. The main features are explained in the figure legend.
 align: left
 ---
-README.md ファイルの注釈付けられた図で、ランディングページのファイル名をクリックします。
-- **1. リポジトリと現在のファイル:** リポジトリ名と表示しているファイルの名前です。
-- **2. メインブランチ:** 現在アクティブなブランチ ("main" がデフォルトです)。 リポジトリの異なるブランチに変更するために使用します(以前に作成されたブランチが複数ある場合)。
-- **3. コントリビューター:** あなたのファイルにコントリビューター(ユーザー)の数です。
-- **4. README.md ファイルの内容:** ここに、README.md ファイルの内容が表示されます。 情報を追加すると、このコンテンツは拡大されます。
-- **5. 生のファイル:** 生のマークダウンテキストファイルを表示します。
-- **6. Blame:** ファイルの最後に行った変更を表示します。 いつ誰が変更を加えたかを追跡し、バグを修正するためにファイルの古いバージョンに戻るために使用することができます。
-- **7. ファイルを編集:** README.md ファイルを編集するためにこの鉛筆をクリックしてください。
-- **8. ファイルを削除:** このファイルを削除するにはビンをクリックしてください。
+Annotated diagram of README.md file, if you click on the file name on your landing page.
+- **1. Repository and current file:** the repo name and the name of the file you are viewing.
+- **2. Main branch:** currently active branch ("main" is the default). Use to change to different branches of your repo (if there are more branches previously created).
+- **3. Contributors:** number of contributors (users) to your file.
+- **4. README.md file content:** the content of your README.md file appears here. This content will expand once we add more information..
+- **5. Raw file:** view the raw markdown text file.
+- **6. Blame:** view the last modification made to each line of the file. It can be used to track when and who made changes and go back to older versions of the file to fix bugs.
+- **7. Edit file:** click this pencil to edit your README.md file.
+- **8. Delete file:** click the bin to delete this file.
 ```
 
-```{figure} ../../figures/github-readme-after-edit.jpg
+```{figure} ../../figures/github-readme-after-edit.*
 ---
 name: github-readme-after-edit
-alt: README.md ファイルの編集モードでの注釈付きダイアグラム。 タイトルで説明します。
+alt: Annotated diagram of README.md file in edit mode – before editing. Explained in the title.
 align: left
 ---
-README.md ファイルを編集モードで注釈付けたダイアグラムで編集します。
-- **1. 変更をプレビュー:** テキストがレンダリングされているのを見るには、(GitHub または Web ページで表示される方法) を押します。
-- **2. ファイルを編集:** README.md ファイルの内容を編集するには、このタブを押してください。
-- **3. README.md:**に内容を追加し、README.mdファイル用のMarkdownテキストを書きます。 現在、このファイルにはリポジトリのタイトルのみがあります。
+Annotated diagram of README.md file in edit mode – before editing.
+- **1. Preview changes:** press to see your text rendered (how it would appear on GitHub or on a web page).
+- **2. Edit file:** press this tab to edit the content of your README.md file.
+- **3. Add content to README.md:** write the Markdown text for your README.md file. You currently only have the repository title in this file.
 ```
 
-### READMEファイルを書くためのヒント
+### Tips for writing your README file
 
-* シンプルにしておこう！ ソフトウェア工学であろうと天体物理学であろうと、どの分野でも仕事をしているとき。 あなたは専門用語を学び、使用します。あなたのフィールドに特別な意味を持つ用語ですが、そのフィールドに属していない誰にも意味をなさないでしょう。 あまりにも多くの専門用語は新人を混乱させる可能性があるので、単純な言語を使用して、ここで潜在的になじみのないすべての用語を定義します。
-* プロジェクトを他の人と共有しましょう - 今何をしているのか、将来何をしたいかを説明しましょう。
-* あなたが誰で、どのように連絡することができます人々に伝えます。
+* Keep it simple! When you’re working in any field, whether it’s software engineering or astrophysics, you’ll learn and use jargon – terms that have a special meaning to your field but likely won’t make sense to anyone who isn’t part of that field. Too much jargon can confuse newcomers, so use simple language and define all potentially unfamiliar terms here.
+* Share your project with others - describe what you are doing now and what you want to do in the future.
+* Tell people who you are and how you can be contacted.
 
 
-**注意: 始めるのに問題がある場合は、他のユーザの README.md ファイルを参照することをお勧めします。**
+**NOTE: If you’re having trouble getting started, it’s a good idea to look at other peoples' `README.md` files.**
 
-マークダウンの内容を好きなようにレンダリングできない場合。 あなたが望むものを持っているファイルを見つけて生のファイルを見るのも良い考えです 他の人の生のファイルの内容をREADME.md ファイルにコピー&ペーストして編集できます。
+If you can’t get your raw markdown content to render in the way you want, it is also a good idea to find a file that has what you want and then look at the raw file.
+You can copy and paste other people’s raw file content into your `README.md` file and then edit it.
 
-以下は、非常によくフォーマットされたREADME.mdファイルの例です: [STEMMロールモデルアプリ](https://github.com/KirstieJane/STEMMRoleModels/blob/gh-pages/README.md)
+Here is an example of a really well formatted `README.md` file: [STEMM Role Models App](https://github.com/KirstieJane/STEMMRoleModels/blob/gh-pages/README.md)
 
-上記のリンクをクリックすると、README.fileに移動します。 README.md ファイルのテンプレートとして使用できます。
+If you click the link above, it will take you to their README file. You can use this as a template for your `README.md` file.
 
-* 生のマークダウンファイルを見るには、生のボタン(白いボックスの右上)をクリックする必要があります。
-* これにより、GitHub上で適切にフォーマットされたREADME.mdファイルにレンダリングされたマークダウン生ファイルが表示されます。
-* README.md 編集タブにコピーして貼り付けてください。 これをプロジェクト用に編集できるようになりました。
-* プレビューの変更タブをクリックすることで、外観を確認することを忘れないでください。
-* 編集が終わったら、ページの下までスクロールして緑色のコミット変更ボタンを押します。
+* To look at the raw markdown file you need to click on the raw button (top right of the white box).
+* This takes you to the markdown raw file that is rendered into a nicely formatted `README.md` file on GitHub.
+* Now just copy and paste it into your `README.md` edit tab. You can now edit this for your project.
+* Remember to check what it looks like by clicking on the preview changes tab.
+* When you have finished editing, you need to scroll down to the bottom of the page and press the green commit changes button.
 
-```{figure} ../../figures/github-edited-readme.jpg
+```{figure} ../../figures/github-edited-readme.*
 ---
 name: /github-edited-readme
-alt: README.md ファイルの編集モードの注釈付きダイアグラムを追加しました。 特徴は図凡例で説明されています。
+alt: Annotated diagram of README.md file in edit mode – with a template added. Features are explained in the figure legend.
 align: left
 ---
-README.md ファイルを編集モードで注釈付けたダイアグラムを追加しました。
-- **1. README.mdに内容を追加するにはMarkDownを使用してください:**(ファイル拡張子では「.md」と表示されます)README.mdファイルのテキストです。 この例では、異なるセクションを持つテンプレートファイルを示します(ヘッダーとサブヘッダーは1つ以上の ‘#’ シンボルを使用して作成されます。 Markdownを使用する方法の詳細については、コミュニティハンドブックの {ref}`整形一貫性のセクション<ch-consistency-formatting-hr-markdown>を参照してください。
+Annotated diagram of README.md file in edit mode – with a template added.
+- **1. Using MarkDown to add content to README.md:** the Markdown (denoted by ‘.md’ in the file extension) text for your README.md file. This example shows the template file that has different sections (headers and subheaders are created by using one or more of ‘#’ symbol. See the {ref}`formatting consistency section of the Community Handbook<ch-consistency-formatting-hr-markdown>` for some more information on using Markdown.
 ```
-### コミット - または保存 - 変更点
-変更をコミットすることは、ファイルの「保存ボタン」を押すようなものです。 GitHub は自動的に変更を保存しませんので、この手順をスキップしないことが重要です。
+### Committing - or saving - your changes
+Committing your changes is like hitting the "save button" for a file.
+GitHub will not automatically save your changes, so it's important not to skip this step.
 
-ファイル内で行った変更は、リポジトリに入金されます。
+Whatever changes you have made in the file will be deposited into your repository.
 
-commit変更ボックスで何をしたかを説明的なcommitタイトルと簡単な説明を書くことは良い方法です。 ですから、 - commit title: ‘readme ファイルの最初の編集’ のようなもの; description: 'copied template from … and edit it with the details of this project’. コミットに関するこの情報は「コミットメッセージ」と呼ばれます。 コミットのタイトルは、ファイルの変更履歴をすばやく調べることができます(それが記述的にすることが重要な理由です - それはあなたの将来の自分に役立つメモを残すようなものです)。
+It is good practice to write a descriptive commit title and a short description of what you have done in the commit changes box.
+So something like - commit title: ‘first edit of the readme file'; description: 'copied template from … and edited it with the details of this project’.
+This information about the commit is called a “commit message”, and the commit title will enable you to quickly look through the history of changes for a file (which is why making them descriptive is so important - it's like leaving a helpful note to your future self).
 
-ランディングページのクロックシンボルをクリックするか、ファイルごとにページ内でコミットのリスト(またはコミットの履歴)を見ることができます。
+You can see a list of your commits (or your "commit history") by clicking the clock symbol on your landing page or within the page for each file.
 
-## 4. リポジトリにライセンスを追加
+## 4. Add a license to your repository
 
-すべての作品には、最初からライセンスが付与されているか、誰も再利用できないことが重要です。 ライセンスは、他の研究者に、自分の作品を再利用、修正、リミックスする方法を教えてくれます。 帰属であっても、他人があなたの仕事を使用することを *許可されていない* ことを意味するライセンスはありません。 だから、人々ができることとできないこととあなたの仕事のための信用を与える方法を知ることができますライセンスを含める方が良いです。
+It is important that all of your work has a license from the very beginning or no one can reuse it. Licenses tell other researchers how they are able to reuse, modify and remix your work.
+No license implies that others are *not* allowed to use your work, even with attribution.
+So it is better to include a license that lets people know what they can and can't do and how to give you credit for your work.
 
-あなたの分野によっては、多くの仕事は、データやコードだけのドキュメントである可能性があります。 GitHubで提供される標準的なライセンスはソフトウェアの最も適切なものであり、ドキュメントには適切ではありません。
+Depending on your field, much of your work may be documents with only some data or code.
+The standard licenses offered on GitHub are most approriate for software and won’t really be the right kind for documents.
 
-[クリエイティブ・コモンズ](https://creativecommons.org/licenses/) ライセンスは、この目的のために使用するのに最適であり、これらのライセンスのほとんどがCC BY 4.0です。
+[Creative commons](https://creativecommons.org/licenses/) licenses are the best to use for this purpose, and the most open of these is the CC BY 4.0.
 
-リポジトリにライセンスを追加するには、まず LICENSE.md ファイルを作成します。
+To add a license to your repository, the first thing to do is create a `LICENSE.md` file:
 
-* これを行うには、format@@0ボタンをクリックし、format@@1をクリックします。 これは空白のファイルを与えます。
-* 次に、ファイルに名前を付ける必要がありますので、LICENSE.md と呼んでください。 これによりマークダウンファイルになります。
-* 上記のリンクにあるすべてのクリエイティブコモンズライセンスを見つけることができますので、必要なライセンスのテキストをコピーし、このファイルに貼り付けます。
-* 下部の緑色のコミット新しいファイルボタンを押して、あなたが何をしたかを説明するためにコミットメッセージを書くことを忘れないでください。
-* README.md ファイルの下部にライセンスへのリンクを追加することもできます。 ここでは、 [CC BY 4.0 ライセンス](https://github.com/santisoler/cc-licenses) に追加するためにコピーできるリポジトリへのリンクがあります。 お客様のLICENSEのテキストファイルがあります。 DファイルとREADME.mdファイルの下部に置くことができるシールド (またはバッジ) 。
+* To do this, click on the Add file button, and click create file. This will give you a blank file.
+* Then, you need to name the file, so call it `LICENSE.md`. This makes it into a markdown file.
+* You can find all the creative commons licenses in the link above so copy the text of the license you want and then paste it into this file.
+* Don’t forget to press the green commit new file button at the bottom and write a commit message to describe what you have done.
+* You can also add a link to the license to the bottom of your `README.md` file. Here is a link to a repository that you can copy to add in a [CC BY 4.0 license](https://github.com/santisoler/cc-licenses).
+It has a text file for your `LICENSE.md` file and also a shield (or badge) that you can put at the bottom of your `README.md` file.
 
-ライセンスの詳細については、The Turing Wayの {ref}`rr-licensing` 章を参照してください。
+You can find more information about licenses in the {ref}`rr-licensing` chapter of The Turing Way.

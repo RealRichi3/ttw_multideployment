@@ -1,31 +1,48 @@
 (rr-testing-acceptance-regression)=
-# 受け入れと回帰テスト
+# Acceptance and Regression Testing
 
 (rr-testing-acceptance)=
-## 承認テスト
+## Acceptance testing
 
-受け入れテストは、納品前にソフトウェアで実行される最後のテストタイプの1つです。 受入テストは、ソフトウェアの一部がビジネスまたはユーザーの観点からすべての要件を満たすかどうかを判断するために使用されます。 ソフトウェアのこの部分はそれがする必要があることをするか。 これらのテストは、元の仕様に対して構築されることがあります。
+Acceptance tests are one of the last tests types that are performed on software prior to delivery.
+Acceptance testing is used to determine whether a piece of software satisfies all of the requirements from the business or user's perspective.
+Does this piece of software do what it needs to do?
+These tests are sometimes built against the original specification.
 
-研究ソフトウェアは、通常、研究者によって書かれているため、受入テストを使用する(または、少なくともそれらからの重要な入力を持つ)ことは必要ないかもしれません。
+Because research software is typically written by the researcher that will use it (or at least with significant input from them) acceptance tests may not be necessary.
 
 (rr-testing-regression)=
-## 回帰テスト
+## Regression testing
 
-回帰テストは、変更後の再テストに焦点を当てたテストのスタイルです。 変更後のテストの結果は以前の結果と比較され、これらが異なるとエラーが発生します。 回帰テストは、ソフトウェアへの変更(強化や欠陥修正)が悪影響を受けていないことを保証することを意図しています。 コードと直接関連付けられていない関数に影響を与えるコード変更の可能性は常にあり、あるものを修正することが別のものを壊していないことを確認するために、回帰テストが実施されることが不可欠です。 回帰テストは、あらゆるレベルのテスト(単位、統合、システム、または受容)で実行できますが、システムテストではほとんどの場合関係があります。 任意のテストを再利用することができますので、任意のテストは回帰テストになることができます。
+Regression testing is a style of testing that focuses on retesting after changes are made.
+The results of tests after the changes are compared to the results before, and errors are raised if these are different.
+Regression testing is intended to ensure that changes (enhancements or defect fixes) to the software have not adversely affected it.
+The likelihood of any code change impacting functionalities that are not directly associated with the code is always there and it is essential that regression testing is conducted to make sure that fixing one thing has not broken another.
+Regression testing can be performed during any level of testing (unit, integration, system, or acceptance) but it is mostly relevant during system testing.
+Any test can be reused, and so any test can become a regression test.
 
-回帰テストは明らかにチームワークでは特に重要です でも気づかずに 自分のコードを壊すのは 意外と簡単だ。 そして、回帰テストは手作業で十分に行うことが不可能に隣接しているので(単純に退屈すぎます)、自動化にとって明らかなケースです。
+Regression testing is obviously especially important in team working, but it is surprisingly easy to break your own code without noticing it, even if you are working on your own.
+And because regression testing is next to impossible to do satisfactorily by hand (it's simply too tedious), it's an obvious case for automation.
 
-回帰テストは、最初に指定された入力と出力を記録するためのコード(またはその一部)を実行することによって書かれます。 これは、入力ファイルを書き込み、対応する出力ファイルを保存することによって行うことができます。 これらの出力は、対応する入力を与えられたプログラムから期待される出力として機能します。 回帰テストが書かれます。 各回帰テストは、入力のセットのコードを実行します。 次に、コードからの出力と期待される出力を比較し、これらが一致しない場合はエラーを発生させます。
+Regression tests are written by first running the (or part of the) code for given inputs and recording the outputs.
+This could be done by writing input files and saving the corresponding output files.
+These outputs serve as the expected outputs from the program given the corresponding inputs.
+Regression tests are then written.
+Each regression test runs the code for the set of inputs.
+It then compares the output from the code to the expected outputs, and raises an error if these do not match.
 
-回帰テストのアプローチはその焦点が異なります。
+Regression testing approaches differ in their focus.
 
-一般的な例は次のとおりです。
-- バグ回帰: 修正されたとされる特定のバグを再テストします。
-- 古い修正回帰テスト: 修正されたいくつかの古いバグを再テストして、それらが戻っているかどうかを確認します。 (これは回帰の古典的な概念である: プログラムは悪い状態に回帰した。
-- 一般的な機能回帰:以前に作業した領域を含むプロジェクトを広範に再テストし、より最近の変更で作業コードが不安定になったかどうかを確認します。
-- 変換またはポートテスト: プログラムは新しいプラットフォームに移植され、ポートが成功したかどうかを判断するために回帰テストスイートが実行されます。
-- 構成テスト: プログラムは、新しいデバイスまたはオペレーティングシステムの新しいバージョンまたは新しいアプリケーションと組み合わせて実行されます。 これはポートテストのようなものですが、基本的なコードが変更されていないことを除いて、テスト対象のソフトウェアで動作する外部コンポーネントのみです。
+Common examples include:
+- Bug regression: We retest a specific bug that has been allegedly fixed.
+- Old fix regression testing: We retest several old bugs that were fixed, to see if they are back. (This is the classical notion of regression: the program has regressed to a bad state.)
+- General functional regression: We retest the project broadly, including areas that worked before, to see whether more recent changes have destabilized working code.
+- Conversion or port testing: The program is ported to a new platform and a regression test suite is run to determine whether the port was successful.
+- Configuration testing: The program is run with a new device or on a new version of the operating system or in conjunction with a new application.
+This is like port testing except that the underlying code hasn't been changed--only the external components that the software under test must interact with.
 
-### 回帰試験の制限
+### Limitations of Regression Testing
 
-回帰テストはコードのすべての部分をテストする保証はありません。 最も重要なことは、コードによって出力された結果が *正しい*であるかどうかを回帰テストしないことです。 それは変わらなかっただけだ これは、回帰テストが正しさのためのテストを導入するための出発点となる場合がありますが、他の種類のテストの送信. 解析的解決策を使うことで 出力ファイルを読み取り研究者が定義したようにデータの正確性をチェックするテスト機能を使っています
+Regression tests are not guaranteed to test all parts of the code.
+Most importantly, regression tests do not test if the result outputted by a piece of code is *correct*, only that it has not changed.
+This the remit of other kinds of tests, though regression tests can serve as the starting point for introducing tests for correctness, by both the use of analytical solutions, and through test functions which read output files and check the data for correctness, as defined by a researcher.

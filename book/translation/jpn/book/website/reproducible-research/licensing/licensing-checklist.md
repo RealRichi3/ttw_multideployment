@@ -1,22 +1,17 @@
 (rr-licensing-checklist)=
 # Checklist
 
-プロジェクトリポジトリにライセンスを追加するためのチェックリストです。
+This is a checklist for adding a license to your project repository.
 
-- リポジトリフォルダ（ローカルコンピュータまたはGitHub/GitLab/BitBucketのオンラインリポジトリ）に移動します
-- 新しいファイルを作成し、名前は `License.txt` または `License.md` で、ファイル形式の好みに基づいています
-- プロジェクトに適したライセンスの種類を選択してください（ [choosealicense.com](https://choosealicense.com/) をご覧ください）
-- ライセンスの内容を新しく作成したファイルにコピーします。例えば、オープンソースライセンス
-
-CC-BY 4を使用することができます。 [ テキストコンテンツと](https://choosealicense.com/licenses/cc-by-4.0/) ソフトウェアの [MIT ライセンス](https://choosealicense.com/licenses/mit/)</li> 
-  
-  - ファイルを保存し、README.md ファイルに詳細を追加します</ul> 
+- Go to your repository folder (local computer or online repository on GitHub/GitLab/BitBucket)
+- Create a new file and name is `License.txt` or `License.md` based on your  preference of the file format
+- Choose a type of license (or multiple license for mixed content) that is suitable for your project (visit [choosealicense.com](https://choosealicense.com/))
+- Copy the license content to the newly created file, for example, you can use an Open Source license [CC-BY 4.0](https://choosealicense.com/licenses/cc-by-4.0/) for text content and [MIT License](https://choosealicense.com/licenses/mit/) for software
+- Save your file and add details in your `README.md` file
 
 (rr-licensing-reading)=
+## Further Reading
 
+Additional resources you can read to learn more about software licenses.
 
-## さらに読む
-
-ソフトウェアライセンスについての詳細を学ぶために読むことができる追加のリソース。
-
- - [オープンソースライセンス: What, what, and why](https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/)
+ - [Open source licenses: What, which, and why](https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/)

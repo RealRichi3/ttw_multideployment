@@ -1,55 +1,73 @@
 (cm-lay-summaries-personal-stories)=
-# 個人的な物語 - Lay Summaries
+# Personal Stories - Lay Summaries
 
-## Emma Karoune - 古生物学をより身近にする
+## Emma Karoune - Making Palaeoecology More Accessible
 
-**エマ・カルーン博士** は、オープンサイエンスと [Phytolith](https://en.wikipedia.org/wiki/Phytolith) 研究に焦点を当てたアラン・チューリング研究所と歴史イギリスの研究員です。 現在はフィトリスデータのFAIR化に関するプロジェクトを主導している。
+**Dr Emma Karoune** is a Research Associate at The Alan Turing Institute and Historic England focusing on Open Science and [Phytolith](https://en.wikipedia.org/wiki/Phytolith) Research.
+She is currently leading a project concerning the FAIRification of phytolith data.
 
-以下のリンクから彼女の作品の詳細をご覧ください:
-* [FAIR Phytoliths プロジェクトウェブサイト](https://open-phytoliths.github.io/FAIR-phytoliths/)
-* ブログ - [オープン・アーケオボタニスト](https://ekaroune.github.io/The-Open-Archaeobotanist/)
+Find out more about her work from the links below:
+* [FAIR Phytoliths Project Website](https://open-phytoliths.github.io/FAIR-phytoliths/)
+* Blog - [The Open Archaeobotanist](https://ekaroune.github.io/The-Open-Archaeobotanist/)
 * Twitter - [ekaroune](https://twitter.com/ekaroune)
 
-**PalaeoSIG** での仕事に関する私たちのインタビューの質問に答えてくれた [Emma](https://www.britishecologicalsociety.org/membership-community/special-interest-groups/palaeoecology-group/)に感謝します。 英国生態学協会の古生態学の特別利益団体です
+We would like to thank **Emma** for answering our interview questions about her work with [PalaeoSIG](https://www.britishecologicalsociety.org/membership-community/special-interest-groups/palaeoecology-group/), the special interest group for palaeoecology at the British Ecological Society.
 
-コメントは、Althea Davies博士とJane Bunting博士によるこのケーススタディでも行われています。 彼らはPalaeoSIGの秘書であり、このプロジェクトの主催者であり、Eileen Tisdall博士と共にいます。
+Comments are also made in this case study by Dr Althea Davies and Dr Jane Bunting, who are the Secretaries of the PalaeoSIG and the organisers of this project along with Dr Eileen Tisdall.
 
-**1. なぜ、要約をまとめた作品を始めたのですか?**
+**1. Why did you start your work on lay summaries?**
 
-PalaeoSIGが2020年春に開催した [科学の執筆とコミュニケーション](https://palaeosigbes.wordpress.com/2020/05/11/testing-testing/)についてのオンラインワークショップに参加しました。 これはAlthea Davies(セント・アンドリュース大学)とJane Bunting(University Hull)とEileen Tisdall(University Stirling大学)によって運営されました。 このワークショップは、古生物学者を養成し、非専門家とより効果的に研究を伝えることを目的としています。 ワークショップの一環として、私たちは短いものを作ることを任されました。 最近の古生態学特別研究グループ調査で最も影響力のある古生態学的論文として提案された記事のアクセス可能な要約があります そしてこれらはブログで広められるでしょう
-
-
-**2. どうやって始めたのですか。**
-
-ワークショップでは、2つの要約を書くことに協力して取り組むことができるように、ペアになっていました。 私の共同研究者と私はGoogleドキュメントで作業することを選択し、それぞれのレイアウト要約の最初のドラフトのためのドキュメントを個別に開始することができました。しかし、私たちはまた、組み込みの編集とコメント機能を使用して私たちの文章を編集し、議論するためにリアルタイムで共同作業を行うこともできました。
-
-ワークショップパートナーのNick Loughlinと一緒に書いた概要の1つを紹介します。 [エルムがほとんど姿を消した5つの理由を評価する新たな証拠](https://palaeosigbes.wordpress.com/2020/11/18/new-evidence-to-assess-the-5-reasons-elm-almost-disappeared/)。
-
-ワークショップが終わると、誰かが要約を編集し出版するのを手伝いたいかどうか尋ねられました。 私たちの何人かはコピー編集者とサマリー編集者のグループを結成しました 再びペアで作業し、プロジェクトのウェブサイトでリリースされる各レイサマリーを毎週確定します。 目的は、通年、週に1つのレイサマリーをリリースすることでした。
-
-**3. あなたの研究/プロジェクト/コミュニティにあなたの概要が影響を与えていると思いますか?**
-
-WordPressサイトの閲覧回数は、投稿数に応じて毎月c.80~530回となっています。 彼等が持っている影響については、彼女は、これを計測する方法がわかりません。 Althea氏は、「インフルエンサー」として高いヒット率を求めているわけではなく、より多くの支援メカニズムを探しているとコメントしています。 様々な分野で活動している古生物学者の地域資源とつながりのポイントです 例えば、早期キャリアによるブログの機会を提供する ジャーナルのような「大きな」組織にそれを提供することについて不明かもしれない研究者。
-
-**4. レイアウト要約で最も多く使用するツール/ソフトウェアは何ですか?**
-
-古生物学の特別な興味グループは、Google Docsが共同で記述するために使用されたプロジェクトを実行するためにGoogle Driveを使用し、Googleシートを使用してレイアウト要約と編集と公開の進捗を調整しました。 これにより、ワークショップ中に同期的に作業することができ、プロジェクト全体にわたって非同期的に作業することができました。
-
-ブログのウェブサイトはWordPressを使用しています。 Altheaは、ブログをアップロードするのは非常に簡単で、これはおそらくジェーンの初期設定の選択肢だけでなく、WordPressのフォーマットとテンプレートのシンプルさを反映していると述べた。
-
-**5. 概要を始めることに興味があるかもしれない他の人々のための先端はあるか。**
-
-レイアウト要約を書くことは別の種類の書き方なので、それを行う方法を学ばなければなりません。 ワークショップでは、人気のある科学ニュースサイトから専門家の科学編集者による講義が行われ、誰もがライティングスキルを向上させることができました。 これにより、学問的なライティングと一般の人々のライティングの違いについて考えることができました。
-
-また、誰かに手紙を書く必要があります。 コラボレーションは、あなたの文章をさらに改善し、改善するためのもう一つの目として成功の鍵です。
-
-**6. あなたは避けるべきことについて何かヒントがありますか?**
-
-任意の技術的な単語に残さないでください - これは達成するために非常に難しいように思えるかもしれませんが、代わりに単に説明または記述することができる方法が常にあります。 技術的な単語を含める必要がある場合は ウィキペディアなどの単純な用語を説明するウェブサイトへのリンクや括弧に定義を入れるべきです。
+I attended an online workshop that PalaeoSIG organised in spring 2020 about [science writing and communication](https://palaeosigbes.wordpress.com/2020/05/11/testing-testing/).
+This was run by Althea Davies (University St Andrews), Jane Bunting (University Hull) and Eileen Tisdall (University Stirling).
+This workshop aimed to train palaeoecologists to communicate their research more effectively with non-specialists.
+As part of the workshop, we were tasked to produce short, accessible summaries of articles that had been suggested as the most influential palaeoecological papers in a recent Palaeoecology special interest group survey and these would then be disseminated in a blog.
 
 
-**7. あなたの概要が今後のスキルを書くのをどこで見ますか?**
+**2. How did you get started?**
 
-私はこれらのスキルはいくつかの理由で本当に有用であることを発見しました。 私は私が提出した最近の記事のための概要を書かなければならなかった従ってそれは私が抽象に比べて私の執筆スタイルを変更する方法について考えるのを助けた。
+During the workshop, we were put into pairs so that we could work collaboratively on writing our two lay summaries.
+My collaborator and I opted to work in Google docs so that we could start documents for the first draft of each lay summary separately but we could also then go on to collaborate in real-time to edit and discuss our writing using the built-in editing and commenting features.
 
-私はまた、昨年、私の特定の分野の外のプロジェクトだった新しい仕事を始めました。私の最初の仕事は、概要を編集することでした。 これにより、異なる専門性を持つチームメンバーにとって、プロジェクト内で明確なコミュニケーションがいかに重要であるかという観点が異なりました。
+Here is one of the lay summaries I wrote with my workshop partner Nick Loughlin - [New evidence to assess the 5 reasons Elm almost disappeared](https://palaeosigbes.wordpress.com/2020/11/18/new-evidence-to-assess-the-5-reasons-elm-almost-disappeared/).
+
+Once the workshop was over, we were asked if anyone wanted to help with editing and publishing the lay summaries.
+Some of us then formed a group of copy editors and summary editors, again to work in pairs to finalise each lay summary every week for release on the project website.
+The aim was to release one lay summary a week for a whole year.
+
+**3. What impact do you think your lay summaries are making to your research/project/community?**
+
+Althea told me that the WordPress site has between c.80 and 530 views per month, depending on how many posts we have.
+As to what impact they're having, she is not sure how to measure this.
+Althea commented that they didn't set out to be an 'influencer' looking for a high hit rate, rather more of a support mechanism, point of connection and community resource for palaeoscientists working in various disciplines and sectors.
+For instance, providing an opportunity for blogs by Early Career Researchers who might be unsure about offering one to a 'bigger' organisation, like a journal.
+
+**4. What tools/software do you use most in your lay summaries?**
+
+The Palaeoecology special interest group used Google Drive to run the project as Google Docs were used to write collaboratively and Google Sheets were used to coordinate the lay summaries and the editing and publishing progress.
+This allowed us to work synchronously during the workshop and asynchronously over the whole time of the project.
+
+The blog website uses WordPress.
+Althea said that she found uploading blogs quite straightforward and this probably reflects Jane's initial setup choices as well as the simplicity of the WordPress format and templates.
+
+**5. Do you have any top tips for other people that might be interested in starting lay summaries?**
+
+Writing lay summaries is a different type of writing so you do have to learn how to do it.
+The workshop training helped everyone to improve their writing skills as we were given lectures by an expert scientific editor from a popular science news website.
+This helped me to think about the differences between academic writing and writing for lay audiences.
+
+Also, you need to write to someone.
+Collaboration is the key to success as another pair of eyes helps to refine and improve your writing further.
+
+**6. Do you have any tips on things to avoid?**
+
+Don't leave in any technical words - this might seem a very hard thing to achieve but there is always a way you can explain or describe them simply instead.
+If you do have to include a technical word, you should put a definition in brackets or a link to a website that explains the term simply such as Wikipedia.
+
+
+**7. Where do you see your lay summaries writing skills going in the future?**
+
+I have found these skills really useful for several reasons.
+I had to write a lay summary for a recent article I submitted so it helped me to think about how to change my writing style compared to the abstract.
+
+I have also started a new job in the last year that was a project outside of my particular discipline and my first task was to edit lay summaries.
+This gave me a different perspective about how important they are for clear communication within projects for team members with different specialisms.

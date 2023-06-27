@@ -1,26 +1,32 @@
 (er-activism-robodebt)=
-# ケーススタディ：ロボット債務への挑戦
+# Case Study: Tackling Robodebt
 
-```{figure} ../../figures/robo-debt.jpg
+```{figure} ../../figures/robo-debt.*
 ---
-name: robot-debut
-alt: この図は、「あなたは私たちに借りがある」と言う大きなマシンを示しています。 それは車椅子の人がある- 低所得コミュニティに影響を与えている債務呼び出しを自動化する少数の人々を持っている。 幼児と幼児を連れた疲れた母親と彼女の隣に立っている悲しげな男。
+name: robo-debt
+alt: This illustration shows a big machine that says 'you owe us'. It has a few people automating debt call, which is impacting the low-income community - there is person on wheelchair, a tired looking mother with an infant and a toddler and a distressed man standing next to her.
 ---
-自動意思決定の図は、低所得コミュニティに過度に影響を与えるものである。
-_Scriberiaによるチューリング方法_プロジェクトのイラスト。 CC-BY 4.0ライセンスの下で使用される。 DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
+Illustration of automated decision-making disproportionately affecting low-income communities.
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-オーストラリアのオンライン・コンプライアンス・イニシアチブ(OCI、メディアによる「ロボット・デブ」と呼ばれる)は、連邦税務署とヒューマンサービス省との間で大規模なデータマッチングプロジェクトを実施した。 このデータマッチング演習に基づいて債務通知を送信する自動システムは、大規模に設定され、社会経済的地位の低い人々に不均衡な影響をもたらしました。
+The Australian Online Compliance Initiative (OCI - dubbed the 'robodebt' debacle by media) involved a large-scale data matching project between the Federal Tax Office and the Department of Human Services.
+The automated system sending out debt notices based on this data matching exercise was set up at scale quite quickly resulting in disproportionate impact on those with low socioeconomic status.
 
-これらの自動債務コールに抵抗しようとする試みのいくつかは、オンラインコンプライアンスイニシアチブの自動化されたアーキテクチャを巧みに模倣しました。 活動家団体は法的支援団体と協力して正式なアピールプロセスを設定しました。 取得！ 福利厚生上の誰かがいくつかの詳細を入力することによって、それらに対して提起された債務請求に挑戦することができるFraudStopと呼ばれるキャンペーンを通じて、自動アピールテンプレートを作成しました。 なぜアピールしたいのかを説明し、送信を打つのです システムは、レビューのための正式な要求をコンパイルし、それを印刷し、それを郵便でCentrelink、最前線の社会サービス提供機関に送信します。 それもまた:
+Some of the attempts at resisting these automated debt calls, very cleverly imitated the automated architecture of the Online Compliance Initiative.
+Activist organizations collaborated with legal aid groups to set up formal appeals processes.
+GetUp! created an automated appeal template through a campaign called FraudStop where someone on welfare benefit can challenge the debt claim raised against them by entering a few details, explaining why they want to appeal, and hitting send.
+The system compiles a formal request for review, prints it off, and sends it by post to Centrelink, the frontline social services delivery agency. It also:
 
-* 彼らの地元のMPに助けを求めます — これはプロセスを実際にスピードアップすることができます。
-* この自動化された債務手紙の報告書の責任者であるヒューマンサービス大臣に苦情を送ります。
-* 個人のCentrelinkファイルに対する情報の自由要求を提出します。反撃に必要な情報がすべて揃うようにします。
-* キャンペーンはここにアーカイブされています: [リンク](https://fraudstop.com.au/) と ここ [リンク](https://www.getup.org.au/campaigns/income-support/chip-in-to-expand-fraudstop/)
+* Asks their local MP for assistance — as this could really speed up the process.
+* Sends a complaint to the Human Services Minister — responsible for this automated debt letter debacle.
+* Submits a Freedom of Information request for the individual's Centrelink file — so that they have all the necessary information to fight back.
+* The campaign is archived here: [link](https://fraudstop.com.au/) and here [link](https://www.getup.org.au/campaigns/income-support/chip-in-to-expand-fraudstop/)
 
 
-## さらに読む
-Data and Society Research Instituteのミシェル・ギルマンによる2020年9月の報告書では、法律上の既存の枠組みに基づいて、低所得コミュニティを不均衡に脅かす自動化された意思決定に挑戦する方法について弁護士に指針を提供しています。
+## Further Reading
+A September 2020 report by Michele Gilman at the Data and Society Research Institute draws on existing public law frameworks to provide guidance to lawyers on how to challenge automated decision making that disproportionately harms low income communities.
 
-POVERTYLAWGORITHMS:貧困弁護士が自動的に意思決定を行うことについてのガイド 低所得コミュニティでの有害性 消費者法からの権利を参照する 家族法、住宅、公共の利益、学校、教育、労働者の権利、移民監視 [リンク](https://datasociety.net/library/poverty-lawgorithms)
+POVERTYLAWGORITHMS: A Poverty Lawyer’s Guide to Fighting Automated Decision-Making Harms on Low-Income Communities
+Refers to rights from Consumer Law, Family Law, Housing, Public Benefits, Schools and Education, Workers’ Rights, Immigration Surveillance
+[link](https://datasociety.net/library/poverty-lawgorithms)

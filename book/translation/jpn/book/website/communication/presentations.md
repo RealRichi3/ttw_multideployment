@@ -1,18 +1,23 @@
 (cm-presentations)=
-# ポスターと会議トークのプレゼンテーション
+# Presenting Posters and Conference Talks
 
-書くのと同じように概要やブログを書く。 学会での研究発表は慎重に検討する必要があります
+Much like writing lay summaries and blogs, presentation of your work at conferences that are not within your immediate research environment need to be carefully thought through.
 
-ここでも同じ原則が適用されます:聴衆を知って、あなたのスタイルを適応させ、一般的に言語の面であなたの執筆/話をあまり技術的にさせます。
+The same principles apply here: know your audience, adapt your style and generally make your writing/talk less technical in terms of the language.
 
-これらの点に加えて、プレゼンテーションのアクセシビリティと発見性を向上させるには、以下の点をお勧めします。
-* トーク中に、アクセシビリティを支援するためにキャプションを使用してください。
-* トークを録音し、共有するときにプレゼンにこのリンクを追加します。
-* プレゼンテーションにトークノートを追加する(PowerPointファイルで行うことができます)か、共有する別のファイルに保存します。 また、あなたの話に基づいてブログ記事を書くこともできます。
-* ORCID、ResearchGate、Academiaなどの学術ソーシャルメディアを使用して、あなたの作品をさらに普及させてください。
-* ソーシャルメディア上の会議スライドを永続的な識別子で共有します(以下で説明します)。
+In addition to these points, to increase the accessibility and findability of your presentations it is a good idea to:
+* During the talk, use captions to aid accessibility.
+* Record the talk and add this link to the presentation when shared.
+* Add talk notes to the presentation (this can be done in a PowerPoint file) or have them in a separate file to be shared.
+You could also write a blog post based on your talk.
+* Use academic social media, such as ORCID, ResearchGate or Academia, to help disseminate your work further.
+* Share the conference slides on social media with a persistent identifier (discussed below).
 
 (cm-presentations-sharing)=
-## プレゼンテーションを共有
+## Sharing your Presentations
 
-トークのポスターやスライドを公開する方法はたくさんあります。 たとえば、アクセス可能な形式(pdf、画像ファイル、PowerPointスライド、Markdown形式など)でそれぞれのファイルを共有するなど。 これらのファイルは、オンラインリポジトリ（ [GitHub](https://github.com/) や [Bitbucket](https://bitbucket.org/)など）で共有できます。 共有可能なリンク(DropboxやGoogleドライブなど)の共有ドライブ、またはあなたの仕事を提示するイベントによって配置されたプラットフォーム。 他の人があなたの作業を再利用する方法を知るように、あなたの選択したライセンスの下であなたのファイルを共有することをお勧めします ( {ref}`rr-licensing` を参照してください)。 さらに、 選択したサーバーにプレゼンテーションファイルをアップロードすることで、デジタルオブジェクト識別子や DOI を取得できます ( [Zenodo](https://zenodo.org/) や [FigShare](https://figshare.com/) など)。 詳細は {ref}`DOI<cm-citable-steps-doi>` の章を参照してください。
+There are many ways you can make your poster and slides for your talks publicly available, such as by sharing the respective files in accessible formats (such as pdf, image file, PowerPoint slides, Markdown format).
+These files can be shared via an online repository (like [GitHub](https://github.com/) or [Bitbucket](https://bitbucket.org/)), a shared drive with a shareable link (like Dropbox and Google Drive) or the platform put in place by the event where you present your work.
+It is advisable to share your file under a license of your choice so that others know how to reuse your work (see {ref}`rr-licensing`).
+Furthermore, you can get a digital object identifier or DOI by uploading your presentation files to a server of your choice (like [Zenodo](https://zenodo.org/) and [FigShare](https://figshare.com/)).
+See the chapter on {ref}`DOI<cm-citable-steps-doi>` for details.

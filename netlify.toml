@@ -3,6 +3,10 @@
   command = "pip install -r requirements.txt && jupyter-book build ."
   publish = "book/website/_build/html"
 
+[dev]
+    base = "book/website"
+    command = "pip install -r requirements.txt && jupyter-book build ."
+
 # Do not build deploy previews for branches from all-contributors bot
 [context.deploy-preview]
   ignore = '''

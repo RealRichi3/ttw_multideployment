@@ -1,15 +1,15 @@
 (rr-binderhub-resources)=
-# リソース
+# Resources
 
-## 詳細を読む
+## Further reading
 
-- [バインダードキュメント](https://mybinder.readthedocs.io/en/latest/)
-- [BinderHub ドキュメント](https://binderhub.readthedocs.io/en/latest/index.html)
-- [KubernetesドキュメントでZero-to-JupyterHub](https://zero-to-jupyterhub.readthedocs.io/en/latest/index.html)
-- [JupyterHub ドキュメント](https://jupyterhub.readthedocs.io/en/stable/)
+- [Binder documentation](https://mybinder.readthedocs.io/en/latest/)
+- [BinderHub documentation](https://binderhub.readthedocs.io/en/latest/index.html)
+- [Zero-to-JupyterHub with Kubernetes documentation](https://zero-to-jupyterhub.readthedocs.io/en/latest/index.html)
+- [JupyterHub documentation](https://jupyterhub.readthedocs.io/en/stable/)
 - [_The Turing Way_ Build a BinderHub Workshop](http://bit.ly/zero-to-binderhub-workshop)
 
-## この章の特定の参照
+## References specific for this chapter
 
 - **Kubernetes documentation**: [https://kubernetes.io/](https://kubernetes.io/)
 - **Helm documentation**: [https://helm.sh/](https://helm.sh/)

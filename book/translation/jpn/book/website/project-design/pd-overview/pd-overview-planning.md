@@ -1,50 +1,111 @@
 (pd-overview-planning)=
-# プロジェクト設計の計画
+# Getting Started with Project Design
 
-プロジェクトの最初から再現性について考えることは、時間を節約し、利用可能なツールを最大限に活用するための最善の方法です。 データ、コード、方法論、および多様なコラボレーター間の接続の作成 最初から計画されていない場合は、困難なタスクのように見えることができます ( {ref}`リサーチサイクル<research-cycle>` のこの図を参照してください)。 研究者や研究者のためのプロジェクトのワークフローやプロセスを文書化し、共有することにより、開発者と将来のユーザーの両方にとって、研究の持続可能性と再利用性を確保することができます。
+Thinking about reproducibility from the start of your project is the best way to save time and get the most out of the available tools. 
+Creating connections between data, code, methodology, as well as diverse collaborators, can seem like a daunting task if it has not been planned from the beginning (see this illustration of the {ref}Research Cycle<research-cycle>). 
+By documenting and sharing project workflows and processes for research and researchers, we can ensure the sustainability and reusability of research for both developers and future users. 
+In addition, planning your project at the start can help you make sure that you are meeting any funder requirements.
 
-研究プロジェクトの文脈における人間中心のアプローチは,我々の作業のより良い開発プロセス,メンテナンス及び将来の延長につながる可能性がある。 さらに、将来のプロジェクト設計の質を向上させるのに役立ちます。何が働いたのか、何が改善されるのかを学ぶことができるからです。
+A human-centered approach in the context of the research project can lead to a better development process, maintenance, and future extension of our work. Furthermore, it will help improve the quality of future project design as we can learn lessons from what worked and what can be improved.
 
 (pd-overview-planning-expectation)=
-## 期待値の設定
+## Setting Expectations Explicitly
 
-プロジェクト設計のプラクティスは、指針を提供し、明示的に規範を伝達し、異なる階層レベルのプロジェクトメンバーに公平にコラボレーションする力を与えることによって明確な期待を設定するのに役立ちます。 再現性のある研究のためのプロジェクト設計は、目的の定義から始まるさまざまな側面を含みます。 主な研究の質問, 期待されるユーザーまたは対象者, 利用可能なリソースとプロジェクトに必要なスキル. また、研究者は、成果の可能性を探求し、期待される課題やリスクに対処するための計画を必要とします。 ステークホルダーの多様性を確保し参加への障壁を減らすことです
+Project design practices help provide guidance and set clear expectations by explicitly communicating norms and empowering project members at different levels of hierarchy to collaborate equitably. 
+Project design for reproducible research encompasses a variety of aspects, starting from defining the purpose, main research questions, expected users or target audience, available resources, and skills required in the project. 
+It also requires researchers to explore the possible outcomes, plans to address expected challenges or risks, ensure diversity of stakeholders, and reduce possible barriers to participation.
 
-プロジェクト設計のプラクティスは、すべてのステークホルダーがその役割と責任、スキル要件について確認するのに役立ちます。 共同研究者のために作りたい環境と研究のセットアップを促進したいと考えています どのようにして共同で目標を達成できるかです
+Project design practices help all stakeholders to be certain about their roles and responsibilities, skill requirements, environment, and research setup they want to create for their collaborators, values they want to promote, and how they can achieve their goals collaboratively.
 
 (pd-overview-planning-started)=
-## はじめに
+## Getting Started Checklist 
 
-プロジェクトの設計プロセスから始めるには、主な研究質問など、私たちの研究のさまざまな部分を特定します。 方法と材料、コードとデータ要件、ワークフロー、コミュニケーションチャネル、作業方法、共同作業方法など。 このプロセスにより、研究が再現可能であることを確実にするために、最初から意図的であることができます。 意思決定が共同でなされる全ての利害関係者を含んでいます 我々は、我々の研究で再現性のための適切なツールと方法を探索し、文書化などのグッドプラクティスを促進することができます. バージョン管理、ピアレビュープロセス、テスト、ワークフロー、アーカイブ、データ管理計画は、最初からプロモーションすることができます。 最後に、プロジェクトの前後で、研究成果の公開や共有を計画することができます。
+We can begin the project design process by identifying different parts of our research, such as main research questions, methods and materials, code and data requirements, workflow, communication channels, ways of working, collaborative practices, and so on. This process allows us to be intentional from the start to ensure that our research is reproducible, well-communicated, and inclusive of all stakeholders where decisions are collaboratively made. We can explore and select the right tools and methods for reproducibility in our research and promote good practices such as documentation, version control, peer-review processes, testing, workflow, archiving, and data management plans from the beginning. Finally, we can plan for publishing and sharing research components before, during, and after the project. **Below is a checklist you can use to help identify areas of project planning you might want to look at.**
+
+### Aims & Values 
+* Define the main research questions and objectives.
+* Identify the core values and principles that guide your project.
+* Useful documentation: [project canvas](https://canvanizer.com/new/project-canvas), values document, [project 1-pagers](https://www.smartsheet.com/content/project-report-templates).
+
+### Timeline & Milestones 
+* Establish a project timeline with key milestones and deadlines.
+* Break down the project into manageable phases or tasks.
+* Useful documentation: [Gantt charts](https://clickup.com/blog/gantt-chart-project-templates/), [roadmaps](https://www.smartsheet.com/free-product-roadmap-templates-smartsheet), or [project boards](https://teamhood.com/project-management/project-board/).
+
+### Methodology
+* Determine the appropriate research methods and materials.
+* Consider the necessary code and data requirements for your project.
+* Document the workflow for data collection, analysis, and interpretation.
+* Useful documentation: [data management plan](rr-rdm-dmp), [code repository](pd-project-repo), [electronic lab notebooks](rr-open-notebooks).
+
+### Operations 
+* Confirm the budget and any funding policies you need to follow.
+* Establish ways of working and collaborative practices for the project team.
+* Identify roles and responsibilities within the project team, using the RACI matrix.
+* Complete any institutional processes for project setup, such as ethics approval or contract signing.
+* Useful documentation: [RACI matrix](https://project-management.com/understanding-responsibility-assignment-matrix-raci-matrix/), [risk register](https://asana.com/resources/risk-register), [project charter](https://www.projectmanager.com/blog/project-charter).
+
+### Stakeholders
+* Identify all individuals, groups, or organizations that have an interest or influence in the project. This includes both internal and external stakeholders
+* Create a visual representation or matrix to understand the relationships between stakeholders and the project. Map their level of engagement, influence, and interest at each stage of the project. This helps prioritise engagement efforts and tailor communication strategies accordingly.
+* Utilise the "Facilitating Stakeholder Engagement" chapter for guidance and template resources.
+* Useful documentation: stakeholder register, stakeholder mapping, stakeholder analysis matrix, [personas](pd-persona).
+
+### Outputs 
+* Plan for the different outputs of your research, such as publications, software, or datasets.
+* Consider licensing and copyright issues for sharing your outputs.
+* Determine how you will manage intellectual property and ownership rights using an IP register.
+* Remember to include any required reporting to funders.
+* Useful documentation: [The Turing Way Guide to Communication](cm-comms-overview) IP register, [licensing](rr-licensing) and copyright statement, [data management plan](rr-rdm-dmp).
+
+### Community & Communications 
+* Identify the target audience for your research.
+* Plan for effective communication and engagement with the community.
+* Consider open and inclusive practices to involve stakeholders in decision-making.
+* Useful documentation: [Code of Conduct](ch-coc), [Contributing Guidelines](cl), [READMEs](https://the-turing-way.netlify.app/collaboration/github-novice/github-novice-firststeps.html?highlight=readmes), communication plan, stakeholder mapping, [governance documentation](er-ethics-open-source-governance).
+
+### Maintenance & Archiving 
+* Develop a plan for the long-term maintenance and sustainability of your project.
+* Establish procedures for data management, including storage, backup, and access.
+* Consider archiving your project's artifacts and documentation for future reference.
 
 (pd-overview-planning-ethics)=
-## 倫理的および法的承認を取得
+## Getting Ethical and Legal Approval
 
-すべての研究は変化を生み出す能力を持っています - これは発見と進歩の基礎です。 そのため、 君の捜査が他人の生活にどのような影響を及ぼすかを考慮する必要がある 倫理的かつ法的基準の下で 行われるべきだ
+Every research has the capacity to generate change - this is the basis of discovery and progress. Therefore, it is necessary to consider how your investigation could impact other people's lives and under which ethical and legal standards it should be conducted.
 
-プロジェクトは、あらゆるステップにおける法的および倫理的な問題を考慮して設計される必要があります: 質問製法から。 データの収集と解析結果と解釈を。 プロジェクトが包括的で持続可能であるように設計されているかどうかを自問することが重要です。 影響と社会的な期待を考慮し倫理的原則と専門的基準に従っています
+A project must be designed considering legal and ethical issues at every step: from the formulation of questions and data collection to analysis, results, and interpretation. It's important to ask yourself if your project is designed to be inclusive and sustainable, taking into account the implications and social expectations and adhering to ethical principles and professional standards.
 
-倫理的および法的承認を得ることは、プロジェクトの重要なステップです。 こうすれば研究が責任ある倫理的な方法で行われていることを確認できます 研究倫理委員会(RECs)が進める方法はいくつかあります。 倫理委員会が知りたがる主なテーマは5つあります
+Obtaining ethical and legal approval is a crucial step in the project to ensure that your research is being conducted in a responsible and ethical manner. Research ethics committees (RECs) proceed in several ways, but there are five principal topics that the ethics committee might want to know about:
 
-1. プロジェクトの説明
-2. データと方法
-3. 同意
-4. プライバシーとセキュリティ
-5. さらなる社会の結果
+1. Project Description
+2. Data and Methodology
+3. Consent
+4. Privacy and Security
+5. Further Societal Consequences
 
-{ref}`研究倫理委員会は、各項目についての詳細情報を<er-committees>` 章で処理します。 倫理的研究のための {ref}`ガイド<er>` の他の章を読んでください。
+The {ref}`Research Ethics Committees Processes<er-committees>` chapter provides more information about each item. Refer to other chapters in the {ref}`Guide for Ethical Research<er>` for further guidance.
 
-## ファイルとドキュメントの管理
-
-```{note}
-**プロジェクトデザインのプラクティスを使う利己的な理由トップ3**
-1. **時間を節約**: プロジェクトが設計され、研究の異なる部分の間のすべての接続は、少しの努力で整理することができます。
-2. **あなたの研究をオープンに利用できるようにします**: 最初からあなたの研究をオープンにすることは、他の人が同じような科目で働いたり、研究を開始するのに役立ちます。
-3. **人々に興味を持ってもらう**: プロジェクトがドキュメント化されているので、最初から人々に手伝ってもらうことができます。
+```{warning}
+Even if you do not need institutional ethical approval, your project will still benefit from planning using self-relfection techniques and including ethical considerations in the project design. 
+Ethics should not be tied to institutions, it is everyone's responsibility. 
 ```
 
-共有リポジトリを作成すると、プロジェクトに関連する情報やさまざまなドキュメントに簡単にアクセスできます。 オープンソースプロジェクトを開発している場合、または共同作業者とのみ共有できる場合は、プロジェクトリポジトリをオープンに利用できます。 章 {ref}`pd-project-repo`で ランディングページ、コントリビューションガイドライン、通信経路などの主要なドキュメントでリポジトリを設定する方法を学ぶことができます。
+## Organising Files and Documents
 
-README ファイル内のビジョン、ミッション、目標、ロードマップを文書化することから始めましょう（ {ref}`pd-project-repo-readme` 章を参照してください） 次に、協力とコミュニケーションのためのリソースと規範を説明します。 次章では、プロジェクトデザインがどのように研究において良好なコミュニケーションとコラボレーションを可能にするかについて説明します。 その後の章では、研究の再現性を確保するためのさまざまな方法とツールについて説明します。
+```{note}
+**Top three 'selfish' reasons to use project design practices**
+1. **Saves time**: once the project is designed and all the connections between different parts of research can be organized with little effort.
+2. **Makes your research openly available**: having your research open from the start can help others working in similar subjects or starting research.
+3. **Get people interested**: you can get people to help you from the start since your project is documented and is easy to share.
+```
 
-***チャプタータグ**: このチャプターは、 `チューリングデータ研究グループ` (`turing-dsg` ) のためにキュレーションされています。*
+Create a shared repository to allow easy access to information and different documents related to your project.
+A project repository can be openly available if you are developing an open source project, or can be shared only with your collaborators.
+In the chapter {ref}`pd-project-repo`, you can learn about how to set up a repository with key documents like a landing page, contribution guidelines and communication pathways.
+
+Start by documenting your vision, mission, goals and roadmap in a README file (see the {ref}`pd-project-repo-readme` chapter), followed by a description of resources and norms for collaboration and communication.
+In the next chapter, we discuss how project design enables good communication and collaboration in research.
+In the subsequent chapters, we describe different methods and tools for ensuring research reproducibility.
+
+***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*

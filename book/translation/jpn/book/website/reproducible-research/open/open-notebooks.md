@@ -1,10 +1,20 @@
 (rr-open-notebooks)=
-# ノートブックを開く
+# Open Notebooks
 
-電子実験ノートブック(ELN)は、研究者が実験手順を整理し、保存することができます。 プロトコル、計画、メモ、データ、さらにはコンピュータやモバイルデバイスを使用した解釈。 それらはほとんどの研究者が保持するペーパーノートブックへのデジタルアナログである。 ELNsは、プロジェクトの活発な段階での研究を文書化する際に、従来の紙ノートよりもいくつかの利点を提供することができます。 複数の冗長性を備えたセキュアストレージ リモートからノートブックにアクセスでき、チームメンバーや共同研究者の間でノートブックを簡単に共有することができます。
+Electronic Lab Notebooks (ELNs) enable researchers to organize and store experimental procedures, protocols, plans, notes, data, and even unfiltered interpretations using their computer or mobile device.
+They are a digital analogue to the paper notebook most researchers keep.
+ELNs can offer several advantages over the traditional paper notebook in documenting research during the active phase of a project, including; searchability within and across notebooks, secure storage with multiple redundancies, remote access to notebooks, and the ability to easily share notebooks among team members and collaborators.
 
-ノートブックを開く [{term}`def<Open Notebooks>`] の研究は、単にノートブックを公然とオンラインで利用できるようにすることです。 プロジェクトの最初からノートを開いたままにしておく研究者もいます。 現在の慣行であるようにジャーナル出版を通じて彼らの研究を共有する月、または年を待つよりもむしろ。 これにより、研究者は実験データとプロトコルをオンラインでリアルタイムで公開できます。 このオープンでタイムリーな方法で研究を共有することは、作業の重複を減らすのに役立ちます。 新たなコラボレーションを促進し他者とのより開かれた対話を育むのに役立ちます それはまた研究者が死んだ終わりを探検し、彼らの同僚によってすでにカバーされているかもしれない間違いをすることを避けるのに役立ちますが、科学的興味の不足のために非公開になった。
+Open notebook [{term}`def<Open Notebooks>`] research is simply the practice of making such notebooks openly available, usually online.
+Some researchers choose to keep their notebooks open from the very beginning of their projects.
+Rather than wait months, or years, to share their research through journal publication as is the current practice, this allows researchers to post their experimental data and protocols online and in real-time.
+Sharing research in this open and timely manner helps to reduce duplication of work, helps foster new collaborations, and cultivates a more open dialogue with others.
+It also helps researchers avoid exploring dead ends and making mistakes that may have already been covered by their colleague but went unpublished because of lack of scientific interest.
 
-オープンノートブックは、研究者に注意深く、徹底して明示的にすることを強制することによって、科学的アウトプットの質を高めるというさらなる利点があります。 研究をオープンにすることは、調査で行われたエラーがすぐに発見される可能性を高めることの追加の利点を持っています 線を下りる代わりに 即時の修正は、研究プロジェクトへの影響がはるかに少なくなり、研究時間、研究費、プライドを節約できます。
+Open notebooks have the further benefit of increasing the quality of scientific outputs by forcing researchers to be careful, thorough, and explicit.
+Making research open has the added benefit of increasing the likelihood that any errors made in an investigation will be spotted quickly, instead of down the line.
+Immediate fixes will have much less impact on a research project, which will save research time, lab money, and pride.
 
-理想的には、すべての科学者は、彼らの研究のすべての側面を含むオープンノートブックを、リアルタイムで維持する必要があります。 しかし、完全なオープンアクセス、知的財産や出版物との競合、オンラインデータの過負荷に対処することについての恐怖は、この動きを妨げます。 これと戦うために 実践者は、たとえそれが何年も前に日の光を見たことのないプロジェクトのためにいくつかの情報をアップロードすることを意味する場合でも、オープンノートブック研究のあらゆる形態を奨励します ("あなたができることを開けてください") 。
+Ideally, every scientist should maintain an open notebook, which would encompass all aspects of their research, in real-time.
+However, fears about dealing with complete open access, conflicts with intellectual property and publications, and online data overload hamper this movement.
+To combat this, practitioners encourage any form of open notebook research ("make open what you can") even if that means uploading some information for a project from many years ago that never saw the light of day.

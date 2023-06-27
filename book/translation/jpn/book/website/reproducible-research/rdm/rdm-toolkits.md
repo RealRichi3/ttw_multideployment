@@ -1,26 +1,26 @@
-# データ管理ツールキットの研究
+# Research data management toolkits
 
-## 研究データ管理ツールキットとは?
+## What is a research data management toolkit?
 
-研究データ管理ツールキットは、データライフサイクル全体のデータ管理活動に関する情報とアドバイスを提供します。 そのため、研究者は国際標準に基づいてデータを管理する戦略を提供します。
+A research data management toolkit provides information and advice about the data management activities in the whole data lifecycle. As such, it provides researchers with a strategy to manage their data to international standards.
 
-研究データ管理のライフサイクルを基にしたウェブサイトの隣には、研究データ管理ツールキットには「現実世界の」ユースケースやシナリオも含まれています。 さらに、研究者をサポートするためのツールのコレクションが、多くのツールキットで利用可能である可能性があります。
-
-
-## 研究データ管理ツールキットを使用する理由は?
-
-研究データ管理ツールキットは、研究の効率と整合性を最大化し、可視性と影響を高めるのに役立ちます。 研究データ管理ツールキットのコンサルティングでは、資金調達者や出版社などからの要件を満たす方法も学びます。 最後に、ツールキットは自分の研究のためにデータセットを見つけて再利用するのに役立ちます。
+Next to a website based around the research data management lifecycle, a research data management toolkit may also include "real world" use cases and scenarios. Additionally, a collection of tools to support the researcher may be available in a number of toolkits.
 
 
-## 研究データ管理ツールキットを選択するには?
+## Why should you use a research data management toolkit?
 
-情報や資料はトピックや視聴者によって分類されることが多い。 貴社の役割(研究者、研究支援、IT専門家)、貴社の研究領域(生命科学:植物表現型、ヒトデータ)に関連する資料を見つけることができます。 ) またはあなたの問題 (ストレージ、データ転送など)。
+A research data management toolkit will help you to maximize the efficiency and integrity of your research, and to increase your visibility and impact. Consulting a research data management toolkit will also learn you how to comply with requirements from funders, publishers and others. Last but not least, the toolkit can assist in finding and re-using datasets for your own research.
 
 
-幅広い研究データ管理ツールキットが利用可能です。 ここでは、いくつかのツールキットをリストします。
+## How to choose a research data management toolkit?
 
-* [JISC研究データ管理ツールキット](https://rdmtoolkit.jisc.ac.uk/rdm-for-researchers/)
-* [ELIXIR リサーチデータ管理ツールキット](https://rdm.elixir-europe.org/index.html)
-* [ニューハンプシャー大学のデータ管理ツールキット](https://libraryguides.unh.edu/datamanagement)
+Information and materials are often sorted by topic and audience. Materials can be found relevant to your role (researcher, research support, IT specialist), your research domain (for life sciences: plant phenotyping, human data,...) or your problem (such as storage, data transfer).  
 
-*多くのツールキットが利用可能です:それらの多くは、ツールキットよりもむしろガイドです。 RDMツールキットの定義について議論することができます*
+
+A wide variety of research data management toolkits are available. Here, we list a number of toolkits:
+
+* [JISC research data management toolkit](https://www.jisc.ac.uk/guides/rdm-toolkit)
+* [ELIXIR research data management toolkit](https://rdm.elixir-europe.org/index.html)
+* [University of New Hampshire data management toolkit](https://libraryguides.unh.edu/datamanagement)
+
+*Many more toolkits are available: lots of them are rather guides than toolkits. One could argue about the definition of a RDM toolkit*

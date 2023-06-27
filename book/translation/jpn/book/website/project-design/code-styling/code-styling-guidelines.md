@@ -1,86 +1,105 @@
 (pd-code-styling-guidelines)=
-# コードのスタイル設定に関するガイドライン
+# Guidelines for Code Styling
 
-スタイルガイドラインは組織、言語、時間の経過とともに異なります。 さらに、Python スタイルガイド Python Enhancement Proposal 8 (PEP 8) は、2001 年にリリースされて以来、数多くのリビジョンを持っています。 自分の目的に合ったフレームワークを選択する必要があります。自分の利益のためにあるか、他人の利益のためにあるかです。 一貫性のある(そして一貫性のない)ことも重要です!
+Style guidelines differ between organisations, languages, and over time. 
+Even, the Python style guide Python Enhancement Proposal 8 (PEP 8) has had numerous revisions since it was released in 2001.
+You must choose a framework that is best for your purposes: be they for your benefit or the benefit of others.
+It is also important to remain consistent (and not consistently inconsistent)!
 
-スタイルガイドラインには、ファイル名、変数名、コメントの使用、空白および括弧に関するアドバイスが含まれます。
+Style guidelines include advice for file naming, variable naming, use of comments, and whitespace and bracketing.
 
-以下は、コードのフォーマット方法を決定する際に使用される可能性のある既存のスタイルガイドへのリンクです。
+The following are links to existing style guides that may be of use when deciding how to format your code:
 
 * [PEP8](https://www.python.org/dev/peps/pep-0008/) for Python.
-* [Hadley Wickhamの](http://adv-r.had.co.nz/Style.html) スタイルガイド for R.
-* [Google の](https://google.github.io/styleguide/Rguide.xml) スタイルガイド for R
-* [Microsoft の](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions) スタイルガイド for C#.
-* [PEP7](https://www.python.org/dev/peps/pep-0007/) for C
+* [Hadley Wickham's](http://adv-r.had.co.nz/Style.html) style guide for R.
+* [Google's](https://google.github.io/styleguide/Rguide.xml) style guide for R.
+* [Microsoft's](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions) style guide for C#.
+* [PEP7](https://www.python.org/dev/peps/pep-0007/) for C.
 
-しかし、すぐに始めるために、以下のセクションでは、コードスタイルについていくつかのアドバイスを示します。
+However, to get started quickly, the following sections present some advice for code style.
 
-## ファイル名
+## File Naming
 
-[オープンサイエンスセンター](http://help.osf.io/m/bestpractices/l/609932-file-naming) には、ファイルの名前付けに有用な提案があります。 特に人間と機械の両方で読めるようにしています これには、ワイルドカード文字(@£$%)の使用を避け、アンダースコア("\_")を使用して情報を区切り、ダッシュ("\-")を情報やスペースを関連付けることを含みます。 また、FinAL(FINAL-FINAL)のような単語を避け、デートや番号付けを行うこともお勧めします。 日付 提案は、長い形式です `YYYY-MM-DD`, ファイル名とバージョン番号が続きます. これは自動的に、時系列順になります。 例:
+The [Centre for Open Science](http://help.osf.io/m/bestpractices/l/609932-file-naming) has some useful suggestions for the naming of files, particularly ensuring that they are readable for both humans and machines.
+This includes avoiding the use of wildcard characters (@£$%) and using underscores ("\_") to delimit information, and dashes ("\-") to conjunct information or spaces.
+They also suggest dating or numbering files and avoiding words like FINAL (or FINAL-FINAL).
+The dating suggestion is the long format `YYYY-MM-DD`, followed by the name of the file, and the version number.
+This results in automatic, chronological order. For example:
 
 ```r
 data <- read.csv("2019-05-17_Turing-Way_Book-Dash.csv")
 
 ```
-R スタイルガイドでは、ファイル名を基本的に保つことをお勧めします。 これは、小さいコンパクトなプロジェクトに適していますが、似たようなファイルがたくさんある大規模なプロジェクトよりも適しています。 もしくはバージョン管理を使用していない場合(章/? を参照)。 COSガイドラインを使用する方が適切かもしれません。 詳細については、 {ref}`File Naming<pd-filenaming>` の章を参照してください。
+The R style guide suggests keeping file names basic.
+This might be appropriate for small compact projects, however over larger projects with lots of similar files, or if you are not using version control (see chapter /?) it may be more appropriate to use the COS guidelines.
+For more details please see the chapter on {ref}`File Naming<pd-filenaming>`.
 
 ### Versioning
 
-ファイル名に対する余分な考慮事項は、ソフトウェアのバージョン管理です。 バージョン管理のガイドラインを使用すると、 `_FINAL.R` のような単語の使用を避けるのに役立ちます。 典型的な慣習はMajorMinorPatch(またはMajorMinorRevision)アプローチです。 この場合、パッケージやライブラリの最初の試みは以下のようになります:
+An extra consideration to file-naming is versioning your software.
+Using versioning guidelines will help avoid using words like `_FINAL.R`.
+A typical convention is the MajorMinorPatch (or MajorMinorRevision) approach.
+In this, your first attempt at a package or library might look like this:
 ```
 my-package_1_0_0.py
 ```
-これは、ソフトウェアが最初のメジャーリリースの未修正/パッチ適用されたアルファステージ(0)にあることを示しています。
+This indicates that the software is in the unrevised/patched alpha stage (0) of the first major release.
 
-## 変数名
+## Variable Naming
 
-学校での数学プロジェクトでは、変数は "x", "y", "z" と想像を絶する名前がしばしばあります。 この簡潔さは、おそらく教師(理解している)は、ボード上の長い変数名を繰り返し書きたくないためです。 しかし、コーディングでは、変数に好きな名前を付ける自由があります。 これはスクリプトの流れを表すのに役立ちます。
+In maths projects at school,  variables are often unimaginatively named "x", "y", and "z".
+This brevity is probably because teachers (understandably) do not want to repeatedly write long variable names on the board.
+In coding, however, you have the freedom to name your variables anything you like.
+This can be useful for representing the flow of your script.
 
-クリエイティブになろう！
+Be creative!
 
-### 命名規則
+### Naming conventions
 
-明快さと読みやすさのために、変数の命名規則のセットを選択することが便利です。 大きな種類があり、一部の人々は「正しい」(あなたに合ったものを選んでください!)について非常に声高にすることができます。 これらには以下が含まれます:
+For clarity and readability, choosing a set of naming conventions for your variables is useful.
+There is a large variety, and some people can be quite vocal about which one is 'correct' (pick one that is right for you!).
+These include:
 
 - CamelCase
-- 小キャメルケース
+- lowerCamelCase
 - Underscore_Methods
-- Mixed_Case_With_Undercores
-- 小文字
+- Mixed_Case_With_Underscores
+- lowercase
 
-例:
+For example:
 
 ```r
-raw_data <- read.csv("data.csv") # あまり創造的ではない
-rawData <- read.csv("data.csv") #lowerCamelCase
+raw_data <- read.csv("data.csv") # Not very creative
+rawData <- read.csv("data.csv")  #lowerCamelCase
 ```
 
-`raw_data` があまり創造的ではありません。 しかし、スクリプトで理にかなっていれば、簡単に`スパム`や `卵` であったり、 `卵` であった可能性があります。 変数を再コードする関数もあります。
+OK, `raw_data` is not very creative, but it could easily have been `spam` or `eggs` if that makes sense in your script.
+You may also have a function that recodes a variable:
 
 ```r
 rawDat <- recode(rawDat)
 ```
 
-変数名を再利用すると、rawDat が経過したプロセスに関する情報は提供されません。 これを別の変数として保存すると、元の変数に対してどのような変換が行われたかを確認できます:
+Reusing the variable name provides no information about the process that rawDat has been through.
+Storing it as a separate variable lets us see what transformations have been carried out on the original variable:
 
 ```
-rawDat_recoded <- recode(rawDate)
+rawDat_recoded <- recode(rawDat)
 ```
 
-好きな場合は、上記のようにremoveを使用して古い変数を消去できます。
+If you like you can clear out the old variable using remove as above.  
 
 ```
 remove(rawDat) #In R
 del(rawDat) # In Python
 ```
 
-一つのスタイルを選択し、それに固執することが重要です:
+It is important to choose one style and stick to it:
 
 ```
-ThisIs Because_SwitchingbetweenDifferentformats is differentformat@@0 is different to read.
+ThisIs Because_SwitchingbetweenDifferentformats is.difficult to read.
 ```
 
 ```
-Where_as if_to one_style, your_code will_be easer_to_follow!
+Where_as if_you stick_to one_style, your_code will_be easier_to_follow!
 ```

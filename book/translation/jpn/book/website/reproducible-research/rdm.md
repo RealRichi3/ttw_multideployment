@@ -1,38 +1,44 @@
-```{figure} ../figures/data-ecosystem.jpg
+```{figure} ../figures/data-ecosystem.*
 ---
 height: 400px
 name: data-ecosystem
-alt: プライベートおよびパブリックデータを持つデータエコシステムのイメージ
+alt: image of the data ecosystem with private and public data
 ---
-再現性のためにデータを開いて閉じます。
-_Scriberiaによるチューリング方法_プロジェクトのイラスト。 善王堂原本。 http://doi.org/10.5281/zenodo.3695300. 
+Open and closed data for reproducibility.
+_The Turing Way_ project illustration by Scriberia. Original version on Zenodo. http://doi.org/10.5281/zenodo.3695300. 
 ```
 
 (rr-rdm)=
-# 研究データ管理
+# Research Data Management
 
-(rr-rdm-requireites)=
-## 前提条件
+(rr-rdm-prerequisites)=
+## Prerequisites
 
-このハンドブックの以下のセクションは、この章への有用なコンテキストと補完的な情報を提供します:
+The following sections in this handbook provide useful context and complementary information to this chapter:
 
-| 前提条件           | 重要度    |
-| -------------- | ------ |
-| {ref}`rr-vcs`  | 役に立つもの |
-| {ref}`rr-open` | 役に立つもの |
+| Prerequisite                                        | Importance |
+| --------------------------------------------------- | ---------- |
+| {ref}`rr-vcs` | Helpful    |
+| {ref}`rr-open`      | Helpful    |
 
 (rr-rdm-summary)=
 ## Summary
 
-Research Data Management (RDM) [{term}`def<Research Data Management>`] は、研究データをどのように保存、記述、再利用できるかをカバーしています。 ここでのデータは、すべてのデジタルオブジェクトを包含する一般的な用語として使用されます。 RDMは、再現可能な研究を可能にするために不可欠な部分です。 RDM は、データが FAIR (ファインダブル、アクセシブル、相互運用可能、再利用可能) になるにつれて、研究ワークフローの効率性、およびより大きな範囲と影響を保証します。 データは、損失やデータの破損を防ぐために、複数の場所に保存し、定期的にバックアップする必要があります。 ドキュメントとメタデータを使用してデータを明確に記述することで、他の人がアクセスする方法を知ることができます。 データの使用と再利用、およびデータの共有と公開の条件の概要を有効にします。
+Research Data Management (RDM) [{term}`def<Research Data Management>`] covers how research data can be stored, described and reused.
+Data here is used as a generic term to encompass all digital objects.
+RDM is a vital part of enabling reproducible research.
+RDM ensures efficiency in research workflows, and also greater reach and impact, as data become FAIR (Findable, Accessible, Interoperable and Reusable).
+Data should be stored in multiple locations and backed-up regularly to prevent loss or data corruption.
+Clearly describing data using documentation and metadata ensures that others know how to access, use and reuse your data, and also enable conditions for sharing and publishing data to be outlined.
 
 
 
-(rr-rdm-usefic)=
-## これが便利な理由
+(rr-rdm-useful)=
+## Why This is Useful
 
-- データを管理することで、常にデータを見つけ、科学的実践の質を確保することができます。
-- データを適切に保存し、定期的にバックアップすることで、データの損失を防ぎます。
-- すべての研究成果について、 {ref}`認識 <cm-citable-orcid>` を使用することができます。
-- 他の人との **コラボレーション** を刺激します。誰がデータを理解し、再利用するのが簡単になります。
-- RDM は、常にあなたのデータを見つけて使用することができるので、コスト/時間効率的です。
+- {ref}`Managing your data <rr-rdm-storage-organisation>` allows you to always find your data and ensure the quality of scientific practice.
+- {ref}`Storing your data properly <rr-rdm-storage>` and backing-up regularly prevents data loss.
+- It can help with {ref}`recognition <cm-citable-orcid>` for all research outputs.
+- It stimulates **collaboration** with others, who will find it easier to {ref}`understand and reuse your data <rr-rdm-metadata>`.
+- RDM is cost/time efficient, especially if {ref}`shared publicly <rr-rdm-sharing>`, as you will always be able to find and use your data.
+

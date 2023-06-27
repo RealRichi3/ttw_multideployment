@@ -1,39 +1,46 @@
 (er-activism)=
-# 研究者のための活動
+# Activism for Researchers
 
-(er-activism-requireites)=
-## 前提条件
+(er-activism-prerequisites)=
+## Prerequisites
 
-この章には前提条件はありません。
+There are no prerequisite for this chapter.
 
 (er-activism-summary)=
 ## Summary
 
-この章では、なぜ行動主義が倫理的データサイエンスの実践において重要な役割を果たすのかについて説明します。 また、さまざまな種類の活動と、職場の活動家になる方法をカバーしています。 お前のフィールド、国、世界が広い!
+This chapter covers why activism can be an important part of ethical data science practice.
+It also covers different kinds of activism and how you can be an activist within your workplace, your field, your country, or the world at large!
 
 (er-activism-motivation)=
-## モチベーションと背景
+## Motivation and Background
 
-オープンデータに関する異なる制度的方針のように、科学者や研究者が変化を達成するための活動に取り組むさまざまなシナリオがあります。 倫理的な研究水準の向上( {ref}`er`を参照)、または労働条件の改善。 科学者は、彼らの仕事、機関、分野に関連するトピックを横断して活動することができます。 オープンリサーチのような分野横断的な問題やキャリアに関係のないトピックなどです
+There are many different scenarios where scientists and researchers would engage in activism to achieve change, such as a different institutional policy on open data, increasing ethical standards of research (see the {ref}`er`), or improving working conditions.
+Scientists may engage in activism across topics related to their work, institutions, fields, or cross-disciplinary issues such as open research, or on topics unrelated to their career.
 
-[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/activism) では、「結果を達成するための直接的かつ顕著な行動の使用、通常は政治的または社会的な行動」と定義されています。 行動主義は様々な形態をとり様々なことを成し遂げることができますが、共通の目標を持つコミュニティとして一緒に働くことが最も効果的です。
+The [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/activism) defines activism as "the use of direct and noticeable action to achieve a result, usually a political or social one".
+Activism can take many forms and achieve many different things, but it's most effective when people work together as a community with a shared goal.
 
-これらの方法のいくつかを実際に置くために- またはあなた自身を活動家と呼ぶ- の多くの経験を有する必要はない。 しかし、変更したいときにどこから始めればいいのかを知るのは難しいことがあります。
+You don't have to have a lot of experience in activism - or even call yourself an activist - to put some of these methods into practice.
+However, it can be difficult to know where to start when you want to make a change.
 
 (er-activism-ways)=
-## 変更する方法
+## Ways to make change
 
-職場でのアクティビティには以下のものがあります:
-* *{ref}`er-activism-unionisation`* 労働条件を改善するための労働者の集団組織
-* *{ref}`er-internal-policy`* 所属教育機関の意思決定方法や特定の状況に対処する方法を変更するキャンペーン。これには以下が含まれます。 例えばオープンデータ実践の提唱などです
-* *{ref}`機関の問題に対する当局または報道に警告する行為`*
+Activism in your workplace can include:
+* *{ref}`er-activism-unionisation`* collective organisation of workers to improve working conditions
+* *{ref}`er-internal-policy`* campaigning to change the way your institution makes decisions or handles certain situations: this can include, for example, advocating for open data practices!
+* *{ref}`er-activismwhistleblowing`* the act of alerting authorities or the press to problems in your institution
+* *{ref}`er-activism-cultural-change`*: taking steps to change research/organisational culture
 
-今後,この章では,科学者のためのより広い社会における活動主義のガイドを取り入れたいと考えています。 例えば政府の政策決定プロセスにどう関わるかです
+In the future, we would like to expand this chapter to include guides to activism in wider society for scientists, for example, how to engage with government policy-making processes.
 
-あなたの分野でのアクティビティには、
-* 専門的な組織のポリシーと慣行を変更するために働く。
-* あなたの分野で働く人々、特に過小評価されている背景を持つ人々を奨励するためのアウトリーチ。
+Activism in your field can include
+* Working to change policies and practices for professional organisations.
+* Outreach to encourage people to work in your field, especially people from backgrounds that are underrepresented
 
-アクティヴィズムは、法律やポリシーの変更にも取り組むことができます。例えば、 お住まいの国でより良いデータ保護法や既存の法律を実施するためのリソースのロビー活動を行っています。 オーストラリアで 活動家たちは法的援助団体と協力して、 {ref}`「ロボ債務」<er-activism-robodebt>` (彼らはお金を借りている福祉給付受取人に伝えた自動化システム) に抵抗しました。
+Activism can also work towards changing laws or policies: for example, lobbying for better data protection legislation in your country, or for resources to implement existing laws.
+In Australia, activists collaborated with legal aid groups to {ref}`resist 'Robodebt'<er-activism-robodebt>` (an automated system that told welfare benefits recipients that they owed money).
 
-アクティヴィズムは世界をより良いものに変えることの一部でもあります! これは、例えば、データリテラシーに関する意識向上を含むことができます。
+Activism can also be part of changing the world for the better!
+This can include for example awareness-raising about data literacy.

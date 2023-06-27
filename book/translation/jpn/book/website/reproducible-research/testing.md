@@ -1,55 +1,77 @@
 (rr-testing)=
-# コードテスト
+# Code Testing
 
-| 前提条件                                                                     | 重要度 |
-| ------------------------------------------------------------------------ | --- |
-| [コマンドラインでの経験](https://programminghistorian.org/en/lessons/intro-to-bash) | 必要な |
+| Prerequisite | Importance |
+| -------------|------------|
+| [Experience with the command line](https://programminghistorian.org/en/lessons/intro-to-bash) | Necessary |
 
 ## Summary
 
-研究者が書いたコードが研究の多くの部分を形成するようになりました コードに間違いがあれば結果の一部または完全に信頼できない可能性があります 信頼性の高い再現性のある研究を確保するためには、コードを徹底的かつ頻繁にテストすることが不可欠です。 この章では、テストを書くための一般的なガイダンスと、さまざまな種類のテストについて説明します。 彼らの使い方と実装方法を教えてくれます
+Researcher-written code now forms a part of a huge portion of research, and if there are mistakes in the code the results may be partly or entirely unreliable.
+Testing code thoroughly and frequently is vital to ensure reliable, reproducible research.
+This chapter will provide general guidance for writing tests and describe a number of different kinds of testing, their uses and how to go about implementing them.
 
-```{figure}  ../figures/error-management.jpg
+```{figure}  ../figures/error-management.*
 ---
 name: error-management
-alt: 人は幸せにコーディングされ、エラーがスローされ、コーダーが混乱します。 その後、コーダーはエラーを見つけて修正できます。
+alt: A person is happily coding, then a error throws and the coder gets confused. Then the coder can find the error and fix it.
 ---
-_Scriberiaによるチューリング方法_プロジェクトのイラスト。 CC-BY 4.0ライセンスの下で使用される。 DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-## モチビーション
+## Motivation
 
-コーディングを行うときにミスを犯すのは非常に簡単です。 単一の置き違えられた文字は、プログラムの出力が完全に間違っている可能性があります。 上記の例の一つはマイナスであるべきプラス記号によって引き起こされました。 別のものはメートルで作業するコードの一部によって引き起こされました 別の研究者によって書かれたコードの一部が 足で働いていました ** は誰でも間違いを犯し、研究ではその結果は壊滅的なものになる可能性がある。 キャリアは損傷/終了することができます, 膨大な量の研究資金を無駄にすることができます, そして、貴重な時間は、不正確な道を探索するために失われる可能性があります. これがテストが不可欠な理由です。
+It is very, very easy to make mistakes when coding.
+A single misplaced character can cause a program's output to be entirely wrong.
+One of the examples above was caused by a plus sign which should have been a minus.
+Another was caused by one piece of code working in meters while a piece of code written by another researcher worked in feet.
+*Everyone* makes mistakes, and in research the results can be catastrophic.
+Careers can be damaged/ended, vast sums of research funds can be wasted, and valuable time may be lost to exploring incorrect avenues. This is why tests are vital.
 
-テストを書くべき理由を示すイラストをいくつか紹介します。
+Here's a couple of illustrations exemplifying of why should write tests:
 
-```{figure}  ../figures/testing-motivation1.png
+```{figure}  ../figures/testing-motivation1.*
 ---
 name: testing-motivation1
 alt:
 ---
 ```
 
-```{figure}  ../figures/testing-motivation2.png
+```{figure}  ../figures/testing-motivation2.*
 ---
 name: testing-motivation2
 alt:
 ---
 ```
 
-研究発表前にプログラムの問題が収集されたとしても、どのような結果が汚染されているのかを把握することは困難であり、再度行う必要があります。 これは、時間と労力の大きな損失を表します。 これらの問題をできるだけ早くキャッチすると、それらを修正するためにかかる作業量を最小限に抑えることができます。 ほとんどの研究者にとっては最も不足している資源です 時間が短いため、テストの書き込みをスキップしないでください。 *時間が短いため、* テストを書く必要があります。 研究者たちは、何ヶ月も何年も作業を続ける余裕はありません。 数百から数十万行のプログラムの細部を手動で調べる余裕はありません あなたのためにテストを書くことは、時間を節約するオプションであり、それは安全なオプションです。
+Even if problems in a program are caught before research is published it can be difficult to figure out what results are contaminated and must be re-done.
+This represents a huge loss of time and effort.
+Catching these problems as early as possible minimises the amount of work it takes to fix them, and for most researchers time is by far their most scarce resource.
+You should not skip writing tests because you are short on time, you should write tests *because* you are short on time.
+Researchers cannot afford to have months or years of work go down the drain, and they can't afford to repeatedly manually check every little detail of a program that might be hundreds or hundreds of thousands of lines long.
+Writing tests to do it for you is the time-saving option, and it's the safe option.
 
-研究者がコードを書くとき、彼らは通常、印刷文を追加し、出力をチェックすることによって、いくつかのテストを行います。 しかし、これらのテストは合格するとすぐに捨てられ、何をチェックすることを意図していたかを確認するためにもはや存在しなくなります。 これらのテストを機能に組み込んで、将来いつでも実行できるように保つことは、比較的少ない作業です。 追加の労働は最小限であり、保存された時間と保障措置は非常に貴重です。 さらに、テストプロセスをテストのスイートに形式化することにより、独立して自動的に実行することができます。 ソフトウェアが正しく動作し欠陥が発見される確率を高めることができます
+As researchers write code they generally do some tests as they go along, often by adding in print statements and checking the output.
+However, these tests are often thrown away as soon as they pass and are no longer present to check what they were intended to check.
+It is comparatively very little work to place these tests in functions and keep them so they can be run at any time in the future.
+The additional labour is minimal, the time saved and safeguards provided are invaluable.
+Further, by formalising the testing process into a suite of tests that can be run independently and automatically, you provide a much greater degree of confidence that the software behaves correctly and increase the likelihood that defects will be found.
 
-テストはまた、プロジェクトの作業/改善を行う際に、研究者によりはるかに安心感を与えます。 コードを変更した後、研究者は自分の変更や修正が何も壊れていないことを確認したいと思うでしょう。 研究者に失敗の速い環境を提供することで、コードの変更によって導入された障害の迅速な識別が可能になります。 代替案： どのような小さなテストでも書いて実行することで コードを徹底的にチェックできる 優れたテストスイートよりも はるかに劣っています
+Testing also affords researchers much more peace of mind when working on/improving a project.
+After changing their code a researcher will want to check that their changes or fixes have not broken anything.
+Providing researchers with a fail-fast environment allows the rapid identification of failures introduced by changes to the code.
+The alternative, of the researcher writing and running whatever small tests they have time for is far inferior to a good testing suite which can thoroughly check the code.
 
-テストを書くことのもう一つの利点は、通常、研究者がクリーナーを書くことを強制することです。 このようなコードのモジュール化されたコードは、テストを書くのがはるかに簡単になり、コードの品質が向上します。
-{ref}`良い品質のコード<rr-code-quality>` は、ラットの巣に絡まったコードよりもはるかに簡単に(そして、全体としてより快適な)作業できます。私たちは誰もが知っていると確信しています。 正直に言っておこう この点はセクション {ref}`rr-testing-unittest` で展開されます。
+Another benefit of writing tests is that it typically forces a researcher to write cleaner, more modular code as such code is far easier to write tests for, leading to an improvement in code quality.
+{ref}`Good quality code<rr-code-quality>` is far easier (and altogether more pleasant) to work with than tangled rat's nests of code I'm sure we've all come across (and, let's be honest, written). This point is expanded upon in the section {ref}`rr-testing-unittest`.
 
-## 研究のためのテストの利点
+## The advantages of testing for research
 
-個々の研究者がテストする利点だけでなく、全体としての研究にも利益をもたらします。 「このコードがどのように機能するのか」という質問に答えることで、研究をより再現可能にします。 テストが保存されない場合は、簡単に証拠を再現することはできません。
+As well as advantaging individual researchers testing also benefits research as a whole.
+It makes research more reproducible by answering the question "how do we even know this code works".
+If tests are never saved, just done and deleted the proof cannot be reproduced easily.
 
-テストはまた、コード内のミスによって部分的または全体的に欠陥が生じる可能性のあるプロジェクトに費やされる貴重な補助金を防ぐのに役立ちます。 さらに悪いことに、間違いが見つからず、作業が公開されている場合、プロジェクトに基づいて作成されたその後の作業も同様に欠陥が生じます。
+Testing also helps prevent valuable grant money being spent on projects that may be partly or wholly flawed due to mistakes in the code.
+Worse, if mistakes are not at found and the work is published, any subsequent work that builds upon the project will be similarly flawed.
 
-おそらく、テストが全体として研究にとって重要である理由の最もクリーンな表現は、 [Software Sustainability Institute](https://www.software.ac.uk/) のスローガンにあります: より良いソフトウェア。 もっと良い研究だ
+Perhaps the cleanest expression of why testing is important for research as a whole can be found in the [Software Sustainability Institute](https://www.software.ac.uk/) slogan: better software, better research.

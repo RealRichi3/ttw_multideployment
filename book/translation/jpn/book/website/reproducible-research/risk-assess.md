@@ -1,26 +1,30 @@
-(rr-risk-ase)=
-# リスク評価 - ソフトウェアの管理方法を決める
+(rr-risk-assess)=
+# Risk Assessment - deciding how to manage your software
 
 ## TL;DR
-リスクアセスメントを使用して、プロジェクトに適した持続可能なソフトウェアコンセプトを選択できます。 あまりにも少ないため、あなたのソフトウェアは持続不可能です。あまりにも多く、あなたはそれをやり遂げることができません。 それはほんの数秒かかることができますが、右足であなたをオフにします。
+Use a risk assessment to help choose the appropriate sustainable software concepts for your project. Too little and your software is unsustainable; too much and you won’t be able to Get On With It. It can take just a few seconds, but gets you off on the right foot.
 
-## 長く読む…
-私たちは皆、リスクアセスメントを常に使用しています。 場合によっては、活動が安全であることを確認するための正式な手順です。 でもほとんどの場合彼らは一瞬のことを考えています 「このコーヒーは熱すぎる？ , "バスは来ていますか?" ソフトウェアも変わらず、下記のようなリスクアセスメントアプローチを使用することで、作業を成功させ、持続可能にすることができます。
+## Longer read…
+We all use risk assessments all the time. Sometimes they’re formal procedures to ensure an activity is safe, but most of the time they’re the thought of a moment: "Is this coffee too hot?", "Is there a bus coming?". Software is no different, and using a risk assessment approach like the one described below can really help make your work successful and sustainable.
 
-### リスク行列
-リスク行列は、あなたが興味を持っていることで何が起こっているかを定量化する非常に一般的な方法です。 一方の軸は何らかの方法で露出を測定し、もう一方は事故の影響を測定します。 起源から離れるほど、リスクを受け入れるためには、より多くの安全対策が必要です。
+### The risk matrix
+A risk matrix is a very popular way of quantifying what’s going on with the thing you’re interested in. One axis measures exposure in some way, and the other the impact of a mishap. The further from the origin, the more safeguards are needed to make the risk acceptable.
 
-私たちの場合、2つの軸として「複雑さ」と「影響」を使用します。 いくつかのケーススタディは、それがどのように動作するかを示しています…
+In our case, we will use ‘complexity’ and ‘impact’ as the two axes. Some case studies illustrate how it works…
 
-ケース 1
+Case 1
 
-> リチャードは、簡単なパターンに応じて、ジョブの名前が異なると、部門のクラスターに100の小規模な仕事を提出する必要があります。 これは退屈で、彼は外に出て遊びたいと思っています。 そこでリチャードは、すべての仕事を提出するために、短いシェルスクリプトを書くことにしました。 彼は数秒間休止し、尋ねる: これはどれくらい複雑であるか。 テキストの約1画面になります。 「それがうまくいかなかったらどうしますか? ジョブが送信されず、実行されません。失敗メールが届きます。
+> Richard needs to submit 100 small jobs to the department cluster, with the names of the jobs varying according to a simple pattern. This is tedious and he wants to go outside and play. Therefore, Richard decides to write a short shell script to submit all the jobs. He pauses for a few seconds and asks:
+  "How complicated is this? It’ll only be about 1 screen of text."
+  "What if it goes wrong? The jobs won’t submit or run and I’ll get some failure emails."
 
-## 前提条件/推奨スキルレベル
-> 書き込みが必要です
+## Prerequisites/recommended skill level
+> This needs writing
 
 ## Summary
-リスクアセスメントを使用して、プロジェクトに適した持続可能なソフトウェアコンセプトを選択できます。 あまりにも少ないため、あなたのソフトウェアは持続不可能です。あまりにも多く、あなたはそれをやり遂げることができません。 それはほんの数秒かかることができますが、右足であなたをオフにします。
+Use a risk assessment to help choose the appropriate sustainable software concepts for your project.
+Too little and your software is unsustainable; too much and you won’t be able to Get On With It.
+It can take just a few seconds, but gets you off on the right foot.
 
-## これがあなたを助ける方法/これが有用である理由
-> 書き込みが必要です
+## How this will help you/why this is useful
+> This needs writing

@@ -1,8 +1,19 @@
 (rr-testing-driven-development)=
-# テスト駆動開発
+# Test Driven Development
 
-プロジェクトでテストが無視されないようにする一つの方法は、テスト主導の開発を採用することです。 これは、コードの前に単体テストを書くアプローチです。 テストは、コードが遵守することが期待される「契約」を記述します。 これにより、(テストコントラクトによって強制できる限り)コードが正しく書かれていることが保証されます。 コードをどのように設計すべきかを考えるのに役立つフレームワークを提供します どのようなインターフェースを提供すべきかアルゴリズムがどのように機能するかです これはトリッキーなアルゴリズムを開発する上で非常に満足のいく精神的援助になることができます。
+One way of ensuring tests are not neglected in a project is to adopt test-driven development.
+This is an approach in which unit tests are written before the code.
+The tests thus describe a "contract" that the code is expected to comply with.
+This ensures that the code will be correct (as far as can be enforced by the testing contract) as written, and it provides a useful framework for thinking about how the code should be designed, what interfaces it should provide, and how its algorithms might work.
+This can be a very satisfying mental aid in developing tricky algorithms.
 
-テストが書き込まれると、関連するすべてのテストに合格するようにコードが開発されます。 最初からコードをテストすることで、コードが常にリリース可能な状態(テストに合格している限り)になることが保証されます。 テスト駆動型の開発では、コードを小さな離散ユニットに分割し、テストを容易にすることができます。コードはモジュール式である必要があります。 この利点は、 {ref}`ユニットテスト<rr-testing-unittest>` のセクションで説明されています。
+Once the tests are written, the code is developed so that it passes all the associated tests.
+Testing the code from the outset ensures that your code is always in a releasable state (as long as it passes the tests!).
+Test driven development forces you to break up your code into small discrete units, to make them easier to test; the code must be modular.
+The benefits of this were discussed in the section on {ref}`unit testing<rr-testing-unittest>`.
 
-別の開発アプローチは、挙動主導型の開発です。 簡単に言えば、テスト駆動の開発パラダイムの下で、私たちは「正しく行われたことがありますか?」と確認します。 行動主導の開発では、「正しいことが行われていますか?」をテストします。 商用ソフトウェアの開発では、ソフトウェアをできるだけシンプルで効果的にすることに焦点を当てるためによく使用されます。 ユーザーエクスペリエンスは、研究のために書かれたコードの中心にあることはほとんどありません。 しかしそのようなソフトウェアが 大規模なユーザベースを念頭に置いて書かれている場合があります このような場合、行動主導型の開発は考慮すべき道です。
+An alternative development approach is behaviour driven development.
+Simply put, under the test driven development paradigm, we check "has the thing been done correctly?", whereas under behaviour driven development we test "has the correct thing been done?".
+It is more often used in commercial software development to focus development on making the software as simple and effective as possible for users.
+User experience is very rarely at the heart of code written for the purposes of research, but there are cases where such software is written with a large user-base in mind.
+In such cases behaviour-driven development is a path worth considering.

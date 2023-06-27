@@ -1,56 +1,59 @@
 (rr-code-reuse-recommendations)=
-# コード再利用の概要
+# Overview of Code Reuse
 
-このセクションには、ソフトウェアをより再利用可能にするための推奨事項のチェックリストが含まれています。
-{ref}`rr-code-reuse-details` セクションには、これらのレコメンデーションの詳細な説明が含まれています。 あなたのソフトウェアのタイプに適した推奨事項に従い、あなたの場合には関連しないものをスキップすることができます。
+This section contains a checklist of recommendations for making your software more reusable.
+The {ref}`rr-code-reuse-details` section contains a more in-depth explanation of each of these recommendations.
+You can follow the recommendations that are more suitable for your type of software and skip the ones which are not relevant in your case.
 
-## Recommendations
+## Repeatable Recommendations
 
-1. 確認してください (スペースで; 意味: リポジトリ/プロジェクトを見つけることができます)
-1. 確認してください（時間内：特定のバージョンを見つけることができる）
-1. 同じ一連の操作を実行できることを確認してください
-1. あなたの環境と一連の操作が堅牢であることを確認してください。何が行われたかを再現するために人間は必要ありません。
-1. コードをライセンスしてください
-    - 再利用を可能にするライセンスを持っています
-    - 依存関係のライセンスと互換性のあるライセンス
-1. 引用可能であることを確認してください
-1. 必要なデータを含める
-1. 便利なドキュメントを書く*
+1. Make sure you can find it (in space; meaning: being able locate the repository/project)
+1. Make sure you can find it (in time; meaning: being able to locate a particular version)
+1. Make sure you can execute the same sequence of operations
+1. Make sure your environment and sequence of operations is robust and no human is needed to replicate what was done
+1. License your code
+    - with a license that allows for reuse;
+    - with a license compatible with the dependencies’ licenses
+1. Make sure it is citable
+1. Include necessary data
+1. Write useful documentation*
 
-## 再実行可能な推奨事項
+## Re-runnable Recommendations
 
-1. ハードコードされたビット(パイプラインが実行されたハードドライブ上にのみ存在したパスなど)を削除し、コードをモジュール化する
-1. 作成したモジュールは、さまざまな種類の入力データまたはパラメータを取ることができることをテストします
-1. モジュールをパッケージ/ツールボックスに変えます
-1. 便利なドキュメントを書く*
+1. Remove hardcoded bits (such as paths that only existed on the hard drive where the pipeline was run) and make the code modular
+1. Test that the modules you made can take different types of input data or parameters
+1. Turn the modules into a package/toolbox
+1. Write useful documentation*
 
-## ポータブル推奨事項
-1. それが住んでいた環境を再現できることを確認してください
-1. 便利なドキュメントを書く*
+## Portable Recommendations
+1. Make sure you can recreate the environment where it lived
+1. Write useful documentation*
 
-## 拡張可能な推奨事項
-1. 便利なドキュメントを書く*
+## Extendable Recommendations
+1. Write useful documentation*
 
-## 変更可能な推奨事項
-1. 人間がコードを読み取れるようにしてください
-1. コメントがあることを確認してください
-1. 便利なドキュメントを書く*
+## Modifiable Recommendations
+1. Make sure your code is readable by humans
+1. Make sure comments are present
+1. Write useful documentation*
 
-注意深い読者は、 `便利なドキュメント` があらゆるレベルの再利用について言及されていることに気づくかもしれません。 これは、異なるレベルの再利用に異なるレベルのドキュメントが必要であるためです。
+The observant reader might will notice that `Write useful documentation` is mentioned for every level of reuse.
+This is because different levels of documentation are required for different levels of reuse.
 
-## ドキュメント
+## Documentation
 
-*異なるレベルの再利用に対する異なるドキュメントの要件*
+*Different documentation requirements for different levels of reuse*
 
-便利なドキュメントを書くことは、すべてのレベルの再利用にとって重要な要件です。 しかし、異なるレベルの再利用には、異なるドキュメント要件があります。
+Writing useful documentation is an important requirement for all levels of reuse.
+However, for the different levels of reuse, there are different documentation requirements:
 
-ドキュメント:
-- 使用方法を説明します。
-  - ソフトウェアが何をするか; (繰り返し可能にするために必要)
-  - どのように使用することができるか; (再現可能にするために必要)
-  - どのオプション/パラメータが利用可能か。 （繰り返し可能にするには必須）
-- 実行方法の例が含まれています （繰り返し可能にするには必須）
-- 以下の良い説明を含むインストール手順があります:
-  - 依存するハードウェア（GPUsなど）。（ポータブルに必要）
-  - ソフトウェアがテストされているオペレーティングシステム; (ポータブルに必要)
-  - ソフトウェア要件(ライブラリやシェルの設定など)があります。 (ポータブルに必須)
+The documentation:
+- explains usage, specifying:
+  - what the software does; (required for repeatable)
+  - how it can be used; (required for repeatable)
+  - what options/parameters are available. (required for repeatable)
+- contains examples of how to run it. (required for repeatable)
+- has installation instructions, including good descriptions of:
+  - the hardware it depends on (for example GPUs); (required for portable)
+  - the operating system the software has been tested on; (required for portable)
+  - software requirements (such as libraries and shell settings). (required for portable)

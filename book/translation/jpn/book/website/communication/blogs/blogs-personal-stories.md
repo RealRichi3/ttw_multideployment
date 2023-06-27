@@ -1,56 +1,68 @@
 (cm-blogs-personal-stories)=
-# 個人的なストーリー - ブログ
+# Personal Stories - Blogs
 
-## Veronika Cheplygina: ブログシリーズを書く
+## Veronika Cheplygina: Writing a Successful Blog Series
 
-**Veronika Cheplygina** は、IT大学コペンハーゲンの准教授です。 ヴェロニカは科学をよりオープンで包括的にするよう努めています。
+**Dr Veronika Cheplygina** is an Associate Professor at the IT University Copenhagen. Veronika strives to make science more open and inclusive.
 
-彼女の仕事についての詳細は、以下のリンクからご覧ください:
-* 個人サイト: [veronikach.com](https://veronikach.com/)
+You can find out more about her work from the links below:
+* Personal website: [veronikach.com](https://veronikach.com/)
 * Twitter: [@DrVeronikaCH](https://twitter.com/DrVeronikaCH)
 * ORCID: [0000-0003-0176-9324](https://orcid.org/0000-0003-0176-9324)
 
-私たちは感謝したいと思います **Veronika Cheplygina** と呼ばれる彼女の非常に成功したブログシリーズについてのインタビューの質問に答えてくれた ['How I fail'](https://veronikach.com/failure/).
+We would like to thank **Dr Veronika Cheplygina** for answering our interview questions about her very successful blog series called ['How I fail'](https://veronikach.com/failure/).
 
-## 1. なぜブログを始めたのですか?
+## 1. Why did you start your blog?
 
-もともと(大学時代)ブログを書きたいと思っていたのは、実際には書いていないので、設定に興味があったからです。 私はいくつかの厄介な投稿を書こうとしましたが、ほとんどそれらについて恥ずかしいと感じ、それらを削除することになりました。 PhD / postdocの間だけ、私はより頻繁に書き始め、主に私の仕事についての更新、生産性ツールの探索、および失敗を始めたと思います。
+Very originally (during university) I wanted to have a blog because I was interested in setting it up, and not actually in writing anything.
+I did try to write some awkward posts, but felt mostly embarrassed about them and ended up deleting them.
+Only during my PhD/postdoc, I think, I started writing more frequently, mostly updates about my work, exploring productivity tools, and failures.
 
-## 2. どうやって始めたのですか。
+## 2. How did you get started?
 
-上記のように、私が設定した最初のブログは、PHPで自分自身でプログラムしました(そしてそれはたくさんのバグを持っていました)。 それから私は無料のWordPressのブログに切り替え、私のウェブサイトにWordPressをインストールしました。 ブログに書くことに関しては、私がもっと書くようになったとき。 週に一度(例えば)書くことを習慣にし、しばらくすると自然になりました。 また、何が「私の」トピックについて書くかどうかも明らかになりました。 私がポスドクの間に共有した失敗のCVは共鳴し、それは後に「How I Fail」シリーズに変わりました。
+As described above it was quite gradual, the first blog I set up, I programmed in PHP myself (and it had lots of bugs).
+Then I switched to a free WordPress blog and then installed WordPress on my website.
+As for writing on the blog, when I did start to write more, I made it a habit to write (for example) once a week, and it became more natural after a while.
+Also, it became more clear what is really "my" topics to write about, or not.
+The CV of Failures I shared during my postdoc resonated, and that later turned into the How I Fail series.
 
-## 3. あなたのブログがあなたの研究/プロジェクト/コミュニティに影響を与えていると思いますか?
+## 3. What impact do you think your blog is making on your research/project/community?
 
-それは、人々が他の実際の人々によって物語を見ることを助け、議論された問題に関連しています。
+It helps people to see stories by other real people, and relate to the issues that are discussed.
 
-## インパクトの質問を拡大してもらえますか? あなたのブログはプロジェクトにもっと影響を与えましたか?それとも、仕事を確保するためにもっと気付かれたり、コミュニティを構築するのに役立ちましたか?
+## Can I just get you to expand on the impact question? Did your blog lead to more impact in a project, or perhaps got you more noticed to secure a job, or help build a community?
 
-私のTwitterやブログから私を知っているので、私は気づかれます。通常、これはトーク招待状に翻訳されます。 去年、在職期間を終えると発表した時には、仕事の提案もいくつかありました。 最終的には現在の(テニュア)ポジションに翻訳されています
+Yes, I get noticed because people know me from my Twitter and blog, usually this translates into talk invitations.
+Last year when I announced I was leaving my tenure track, I also had a few suggestions for jobs, which in the end translated into my current (tenured) position.
 
-明示的なコミュニティがあるかどうかは分かりませんが、私はTwitterで支援的なコミュニティを持っているように感じています。 それはまた、より良い科学のためのアベンジャーズワークショップのような素晴らしいプロジェクトをもたらしました。 Twitterに関する10のシンプルルールの論文から資金を得ました
+I am not sure there is an explicit community, but I do feel like I have a supportive community on Twitter.
+It has also resulted in some great projects, like the Avengers for Better Science workshop, which was funded by the Mozilla Foundation, or the Ten Simple Rules paper about Twitter.
 
-ブログでは、一度も会ったことがなくても、どんな人が自分のブログを読んでくれるかという感覚があります。 以前のブログ記事の統計を見ると、感謝のメールやメッセージを時々受け取るのは素晴らしいことです。
+For the blog, I have a sense of what kind of person reads my blog, even if I have never met them.
+It's great to see the statistics for previous blog posts, and receive a thank you email or message once in a while.
 
 
-## 4. あなたのブログを作成するために最も多くのツール/ソフトウェアを使用していますか?
+## 4. What tools/software do you use most to produce your blog?
 
-主にWordPress. Mailchimpを使ってニュースレターを送信し(新しい投稿がある場合のみ)、グラフィックスを作成する場合はCanvaを使用します(通常はあまりにも遅延します)。 WordPressは私の新しい投稿をTwitterとLinkedInに共有します。
+Primarily WordPress. I use Mailchimp to send out a newsletter (only if there are any new posts) and Canva if I make graphics (but usually I'm too lazy).
+WordPress shares my new posts to Twitter and LinkedIn.
 
-## 5. ブログを始めることに興味を持っているかもしれない他の人のためのトップのヒントはありますか?
+## 5. Do you have any top tips for other people that might be interested in starting a blog?
 
-何かを投稿する習慣を作る。 頻繁に使用するタグ/カテゴリの種類、およびどの種類がより多くの反応を得るかを確認するには、しばらく後に投稿を確認してください。
+Make it a habit to post something. Review your posts after a while to see what kind of tags/categories you seem to use more often, and which kind get more responses.
 
-## 6. あなたは避けるべきことについて何かヒントがありますか?
+## 6. Do you have any tips on things to avoid?
 
-多くのクリックで短いコンテンツを作成するように最適化されている「ブロガーのためのXステップシンプルな式」に該当しないでください。 これをしない"実質の" blogs の多くのタイプがあり、専任の読者がある。
+Don't fall into the "X step simple formula for bloggers" which is optimized to create short content with lots of clicks.
+There are lots of types of "real" blogs that do not do this, and which have dedicated readers.
 
-## 7. あなたのブログは今後どこへ向かっているのでしょうか?
+## 7. Where do you see your blog going in the future?
 
-去年は少しバックバーナーにあったので、まずは定期的に書き直したいと思います。 私はまた、いくつかの情報を本に圧縮することを考えています, 例えば, しかし、私はまだフォーマットについて全く決めていません.
+It's been on the back burner a bit last year, so first of all I would like to get back to writing regularly.
+I'm also thinking about compressing some of the information into a book, for example, but I haven't quite decided on the format yet.
 
-## 8. 他に共有したいものはありますか。
+## 8. Is there anything else that you want to share?
 
-ランニングのように、プロの靴を履くまで待つのではなく、定期的に始めた方が良いです。
+It's like running, it's better to just start and go regularly, instead of waiting until you have professional shoes.
 
-*このインタビューはエマ・カルーンが行ったものです*
+*This interview was conducted by Emma Karoune*

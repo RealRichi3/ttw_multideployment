@@ -1,18 +1,19 @@
 (er)=
-# 倫理的研究ガイド
+# Guide for Ethical Research
 
-***このガイドでは、データサイエンスの倫理的側面に関するトピックについて説明します。***
+***This guide covers topics related to ethical aspects in data science.***
 
-データサイエンティストは、健康に深刻な影響を及ぼす可能性のあるデータの収集とモデル構築アプローチを必要とするデータ主導の意思決定を行います。 彼らに関連付けられているものすべてです 研究者やデータサイエンスのあらゆる種類のステークホルダーは、倫理基準と人々の生活への影響を考慮する義務があります {cite:ps}`Loyola2020倫理`.
+Data scientists make data-driven decisions that require the collection of data and model building approaches that can have serious implications for health, security, politics, society and everything associated with them.
+Researchers or any kind of stakeholders in data science have an obligation to consider the ethical standards and their impact of people's lives {cite:ps}`Loyola2020Ethics`.
 
-```{figure} ../figures/ethics.jpg
+```{figure} ../figures/ethics.*
 ---
-name: 倫理学
-alt: 法でラベル付けされた木製の裁判官ハンマーのイラストが、「異なる種類のデータを共有するために必要な制限を考慮する」という引用で板に当たっている
+name: ethics
+alt: An illustration of a wooden judge hammer labeled with law is hitting a plank labeled with ethics with a quotation "consider necessary restriction around sharing different types of data
 ---
-研究倫理。 _Scriberiaによるチューリング方法_プロジェクトのイラスト。 CC-BY 4.0ライセンスの下で使用される。 DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
+Research Ethics. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-このガイドでは、 データサイエンティストが心に留めておくべき倫理的考慮事項について議論と指導を行います彼らの研究が高い倫理的誠実性を維持しているだけでなく 彼らの研究は最高水準の科学的水準で行われています
+In this guide, we invite discussions and guidance on ethical considerations that a data scientist should keep in mind to ensure not only that their work maintains a high level of moral integrity, but also that their work is carried out at the highest scientific standards.
 
-私たちの [貢献ガイドライン](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) をご覧ください。
+Check out our [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) to get involved.

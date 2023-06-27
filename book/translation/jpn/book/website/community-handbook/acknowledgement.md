@@ -1,24 +1,27 @@
-(ch-agreement)=
-# 貢献者の承認
+(ch-acknowledgement)=
+# Acknowledging Contributors
 
-_チューリングウェイ_ は、研究者、学習者、教育者、その他のステークホルダーの多様なコミュニティによって共同で開発されています。 このプロジェクトは、このプロジェクトの共同作業の性質と、この本を作成するために協力的に働くコミュニティメンバーの意欲なしに、単に存在することはできません。
+_The Turing Way_ is collaboratively developed by its diverse community of researchers, learners, educators, and other stakeholders.
+This project can simply not exist without the collaborative nature of this project and the willingness of our community members to work cooperatively to create this book.
 
-誰もが誰かに役立つスキルを持っているので、誰でも _The Turing Way_ に貢献できます。 私たちは、このプロジェクトにおけるあらゆる種類の貢献を評価し、それぞれを公平に認識することにコミットしています。
+Everyone has a skill that is useful for someone, and therefore anyone can contribute to _The Turing Way_.
+We value all kinds of contributions in this project and are committed to recognising each of them fairly.
 
-```{figure} ../figures/theturingway-acknowledgement.jpg
+```{figure} ../figures/theturingway-acknowledgement.*
 ---
 height: 400px
-name: theturingway-confirgement
-alt: この図は、伝統的な承認システムが壊れていることを示しています。 貢献者の情報をすべてキャッチし、貢献者の記録に保存するコントリビューターボットがあります
+name: theturingway-acknowledgement
+alt: This illustration shows that the traditional acknowledgement system is broken then it shows how we try to acknowledge them fairly. We have a contributors bot that catches all the contributors information and stores them in contributors record
 ---
-貢献者を*The Teuring Way*で認めるプロセス。 _Scriberiaによるチューリング方法_プロジェクトのイラスト。 CC-BY 4.0ライセンスの下で使用される。 DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
+The process of acknowledging contributors in *The Turing Way*. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-私たちは、このプロジェクトで可能なあらゆる種類の貢献を認識しています。
-{ref}`貢献者テーブル<contributors-record-contributors>` を、 _The Turing Way_ 内での貢献者の仕事を適切に認めることによって更新します。 さらに、 私たちはすべてのコミュニティメンバーに、 {ref}`貢献記録<contributors-record-highlights>` を個人的な見どころと共に更新するよう招待します。 _The Turing Way_ では、オープンサイエンス全般への貢献を促進するために使用します。
+We recognise all kinds of contributions that are possible in this project.
+We update our {ref}`Contributors Table<contributors-record-contributors>` by appropriately acknowledging our contributors' work within _The Turing Way_.
+Furthermore, we invite every community member to update the {ref}`Record of Contributions<contributors-record-highlights>` with their personal highlights in _The Turing Way_ and use it for promoting their contributions to open science in general.
 
-この章では、以下の側面について詳しく説明します。
-- 私たちの貢献者やコミュニティメンバーが
-- このプロジェクトの所有権を共有する機会を作る方法は
-- 貢献の記録を活用してコミュニティのメンバーの活動を強調する方法は
-- 貢献のための異なる種類と可能な経路が _The Turing Way_
+In this chapter, we provide details on the following aspects:
+- who our contributors and community members are
+- how we create opportunities for a shared ownership of this project
+- how we can use record of contributions to highlight work of our community members
+- what the different types and possible pathways for contributions exist in _The Turing Way_

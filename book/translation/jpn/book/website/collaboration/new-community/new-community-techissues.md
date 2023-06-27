@@ -1,44 +1,59 @@
 (cm-new-community-techissue)=
-# 技術的な問題への対処中
+# Addressing Technical Issues
 
-あなたのプロジェクトに貢献したいが、監督や指導なしで非常に速くあなたの元の目標から逸脱するかもしれない人々のための計画があることを確認しなさい。 誰かがあなたのプロジェクトに貢献するために特定のスキルやプラクティスが必要な場合 彼らがあなたのプロジェクトに効果的に関与できるように人々を関連させることができるはずです
+Make sure that you also have plans in place for people who want to contribute to your project but might deviate from your original goals very fast without supervision or guidance.
+If specific skills or practices are required for someone to contribute to your project, you should be able to point people to relevant resources so that they can engage with your project effectively.
 
-あなたのチームやコミュニティメンバーが直面する可能性の高い技術的な問題に対処するためのプロジェクトを準備するためのいくつかの推奨事項を以下に示します。
+Here are some recommendations to prepare your project for addressing technical issues that your team or community members can most likely face.
 
-## コラボレーションを有効にするためのツールをセットアップします
+## Setup tools to enable collaboration
 
-最終報告のいずれかまたは予備的所見を共有するための研究を書き上げるとき どのソフトウェアを使って結果を書き出すかを意識的に判断する必要があります この決定は、プロジェクト内のコラボレーションがどのように見えるかに影響します。 コラボレーションへの潜在的な障壁を回避するには、以下の点を考慮してください。
-* **ソフトウェアの利用可否**: すべてのコラボレーターが、使用しているソフトウェアとプラットフォームにアクセスできることを確認します。 例えば、有料サブスクリプションや独占ソフトウェアを使用するライセンスなどです。
-* **技術スキル**: すべての協力者がソフトウェアを使用して快適であることを確認します。 例えば、プログラミング言語やマークアップ言語で書かれたファイルを編集する自信があります。
+When writing up research either of the final report or for sharing preliminary findings, there should be a conscious decision about what software you are using to write out your result.
+This decision affects how collaboration will look like in your project.
+To avoid any potential barriers to collaboration, take the following aspects into considerations:
+* **Availability of software**: Ensure that all of the collaborators have access to the software and platform you are using, for example, paid subscription or licence to use proprietary software.
+* **Technical skills**: Ensure that all of the collaborators are comfortable using the software, for example, they are confident to edit a file written in a programming or mark-up language.
 
-チーム内で共有される役割と責任に応じて、コンテキスト固有の問題が表示されることがあります。 したがって、短いチュートリアルを提供することを含むこれらの問題に対処するための潜在的な解決策を計画することができます(次の点を参照してください)。 ソフトウェアが生み出す潜在的な障壁に気づくことは、すべての協力者にとって有効なツールやソリューションを選択することにつながる可能性があります。
+Context-specific issues may appear depending on the roles and responsibilities shared within a team.
+Therefore, potential solutions can be planned to address these issues including providing short tutorials (see the next point).
+Being aware of the potential barriers that the software we use may create can lead to choosing tools and solution that works for all our collaborators.
 
-## 短く簡潔なチュートリアルを提供する
+## Provide short and concise tutorials
 
-研究プロジェクトのほとんどでは、現在急務となっていることに取り組んでいます。 長期的に重要なことを見落としてしまうかもしれません 例えば、 我々のデータについていくつかのアルゴリズムをテストしたいかもしれませんが 他の人がアクセスする中央のプラットフォームで 結果を体系的に記録することには 注意を払わないでください 推奨されるプラクティスでトレーニングや短い事前に録画されたビデオを提供することで、コミュニティメンバーが標準ワークフローを使用して作業したり、他のタスクを引き継いだりすることができます。
+In most of the research projects, we work on what is urgent right now, which might mean that we may overlook what is important in the long term.
+For example, we might want to test several algorithms on our data but don’t pay attention to recording the outcome systematically in a central platform that others access.
+Offering training or short pre-recorded videos on recommended practices can enable your community members to work using a standard workflow or take over some tasks from others.
 
-## テストは重要です
+## Testing is important
 
-誤ることは人間である! 圧力の下で作業する場合、それらはより頻繁になるかもしれません。
+To err is human! And when working under pressure, they might be more frequent.
 
-コードをテストし、お互いのコードを確認してテストすることをコミュニティに奨励します。 問題を解決するコードを書くだけでなく、 ソフトウェアの個々のユニット/コンポーネントが期待どおりに動作するかどうかをテストするために、 [ユニットテスト](http://softwaretestingfundamentals.com/unit-testing/) の実践を教え、促進する必要があります。
+Test your codes and encourage your community to review and test each other's code.
+In addition to writing code that solves problems, you should teach and promote the practice of [unit testing](http://softwaretestingfundamentals.com/unit-testing/) to test if the individual units/components of software work as expected.
 
-{ref}`継続的統合<rr-ci>` 環境を設定して、ワークフローでテストを自動化することもできます。
+You can also set up a {ref}`Continuous Integration<rr-ci>` environment to help automate testing in your workflow.
 
-詳細については、再現可能な研究のためのガイドの {ref}`テスト <rr-testing>` セクションを参照してください。
+See the {ref}`testing <rr-testing>` section in the Guide for Reproducible Research for more information.
 
-## 再現性はさらに重要です
+## Reproducibility is even more important
 
-あまり関与しないチームメンバーにとって素晴らしいことは、あらゆるコード/環境の再現性を常にテストすることです。 最初からこれを行ってください。他の人がコンピュータで動作しない場合は、後で驚くことではありません。
+A great thing for less involved team members to do is constantly test the reproducibility of any code/environment.
+Do this from the start and it won’t be a surprise later when it doesn’t work on somebody else’s computer.
 
-特にレガシーコードを扱う場合は、専門家に連絡してください。 特定の専門知識を持つ他のコミュニティに手を差し伸べ、他のタスクに投資できる労力と時間を節約しましょう。 例えば、多くの科学的知識はFORTRANの結果に基づいて構築されています。 CおよびJavaコードはもはやメンテナンスされておらず、おそらくドキュメント化されていません。 他の開発者が持っている質問に答えるためにレガシーコードの知識と経験を持つ人を見つけることは、大きな時間節約になります。
+Reach out to the experts, especially when dealing with legacy code.
+Reach out to other communities with specific expertise to save effort and time that can be invested in other tasks. For example, a lot of the scientific knowledge is built on top of results from FORTRAN, C, and Java code that isn't maintained any longer and, probably, isn't documented. Finding someone with the knowledge and experience of the legacy code to answer questions that other developers have will be a huge time saver.
 
-詳細については、 {ref}`ガイド <rr>` 章を参照してください。
+See the {ref}`Guide for Reproducible Research <rr>` chapter for more information.
 
-## コード（およびデータ）を早期に共有
+## Share code (and data) early on
 
-開発者は、パブリックバージョン管理のリポジトリ(GitHubやGitLabなど)で自分のコードを共有し、どの機能や修正に取り組んでいるかを調整する必要があります。 特に、時計に対して緊急のプロジェクトを実行する場合 プロジェクトの最後に時間を無駄にしないことが重要だ 最初からそれを行うことができるときに あなたの研究の異なる要素をコンパイルする
+Developers must share their code in a public version-controlled repository (like GitHub and GitLab) and coordinate who is working on what feature or fix.
+Especially, when running on urgent projects against the clock, it is crucial not to waste time at the end of your project in compiling the different components of your research when you can practice doing it from the beginning.
 
-## プライバシーの問題をメモしてください
+## Take note of the privacy issues
 
-このデータにアクセスする必要がある人は、どのようにしてそれを取得することができますか? どのようにデータを再利用し、適切に共有できるか。 データ、スクリプト、およびソフトウェアに適切なオープンソースライセンスを選択します。 移動や位置情報などの機密性の高い情報を確実に保護する関連するライセンスを選択してください 個人の健康問題、連絡先情報、名前、生年月日、住所。 必要ではない個人情報の収集や機密性の侵害は避けてください。
+Ask yourself, how can people who need to access this data get to it.
+How they can re-use and share the data appropriately.
+Choose an appropriate open source license for your data, scripts, and software.
+Choose a relevant license ensuring the protection of information that is sensitive such as movement and location data, personal health issues, contact information, names, date of birth, and personal addresses.
+Avoid gathering personal information that is not necessary or breaches confidentiality.

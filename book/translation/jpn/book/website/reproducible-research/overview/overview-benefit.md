@@ -1,39 +1,53 @@
 (rr-overview-benefits)=
-# 追加の利点
+# Added Advantages
 
-{ref}`rr-overview-definition` セクションでは、科学界にとって有益な再現性のある研究のさまざまな側面について議論しました。 この章では、個々の研究者やチームのために再現的に作業するといういくつかのあまり明白ではない側面を紹介します。
+In the {ref}`rr-overview-definitions` section, we discussed the different aspects of reproducible research that are beneficial for the scientific community.
+In this chapter, we will share some less obvious aspects of working reproducibly for individual researchers and teams.
 
 
-```{figure} ../../figures/reasons-reproducibility.png
+```{figure} ../../figures/reasons-reproducibility.*
 ---
-name: reasons-re複製性
-alt: なぜ再現性のある作業に注意すべきか。
+name: reasons-reproducibility
+alt: Why we should care about working reproducibly.
 ---
-私たちが再現的に作業することに注意すべき理由の図。
+An illustration of reasons why we should care about working reproducibly.
 ```
 
-**1. 研究の履歴を記録する**
+**1. Track a complete history of your research**
 
-再現可能な研究には、プロジェクト計画と開発プロセスの完全な歴史と物語( [証明](https://en.wikipedia.org/wiki/Provenance)とも呼ばれます)が含まれていなければなりません。 これには、研究プロジェクトで使用されるデータ、ツール、メソッド、コード、およびドキュメントに関する情報が含まれます。 私たちの研究の完全な記録を保存することにより、研究の持続可能性を確保することができます。 私たちの研究分野における公正な引用/認識、および他者の仕事の有用性。
+Reproducible research must contain a complete history and narrative (also known as [Provenance](https://en.wikipedia.org/wiki/Provenance)) of the project planning and development process.
+This includes information on the data, tools, methods, codes, and documentation used in the research project.
+By storing a complete track-record of our work, we can ensure research sustainability, fair citation/acknowledgement, and usefulness of our and others' work in our research fields.
 
-**2. コラボレーションとレビュープロセスを容易にする**
+**2. Facilitate collaboration and review process**
 
-再現可能なワークフローを設計し、研究プロジェクトのさまざまなコンポーネントと共有することによって。 私たちの仕事を深く理解することができるのです これにより、彼らは私たちの方法を確認し、私たちのコードをテストし、有用な変更を提案し、私たちのプロジェクトをさらに発展させるために思慮深い貢献をすることができます。 再現可能なワークフローは、査読者が研究成果を検証するために必要なプロジェクトのさまざまな部分にアクセスできるようにすることで、ピア・レビューのプロセスを大幅に促進します。
+By designing reproducible workflows and sharing them with the different components of our research project, we can allow others to develop an in-depth understanding of our work.
+This encourages them to review our methods, test our code, propose useful changes and make thoughtful contributions to develop our project further.
+Reproducible workflows facilitate the peer review process tremendously by allowing reviewers access to the different parts of the projects that are necessary to validate the research outcomes.
 
-**3. 検証済みの研究を公開し、誤った情報を避けます**
+**3. Publish validated research and avoid misinformation**
 
-再現性の欠如は、紙のリトラクションにつながる主な要因の1つである(ソース [Retraction Watch](https://retractionwatch.com/))。 心理学における科学文献の最もよく知られている分析 {cite:ps}`Begley2012` および癌生物学 {cite:ps}`OpenScienceCollaboration2015再現率` は、研究成果の約40named@@4の再現率を見つけました を選択します。 再現性のある作業を行うことで、検証済みの研究開発を行い、研究の再現性を制限し、正確な研究成果を公表できる誤った情報を避けることができます。 この側面は、現在の作業の妥当性をサポートするだけではありません。 しかし、再現可能な研究に基づく将来の研究はすべて {cite:ps}`MozillaScienceLab`.
+Lack of reproducibility is one of the major factors that lead to paper retractions (source [Retraction Watch](https://retractionwatch.com/)).
+The best-known analyses of scientific literature in psychology {cite:ps}`Begley2012` and cancer biology {cite:ps}`OpenScienceCollaboration2015Reproducibility` found the reproducibility rates of their research output of around 40% and 10%, respectively.
+By working reproducibly, we can develop validated research work, avoid misinformation that can limit replicability of our work and publish accurate research outputs.
+This aspect does not only support the validity of the current work, but any future studies that are based on reproducible research {cite:ps}`MozillaScienceLab`.
 
-**4. 論文、論文、レポートを効率的に書く**
+**4. Write your papers, thesis and reports efficiently**
 
-文書化された分析は、効率的に書くことができるプロジェクト内で生成されたすべての結果に簡単にアクセスできるようにします。 チームで作業している場合、共同作業者は貢献に対する著者の認識を簡単に得ることができます。 さらに、基盤となるデータセットや手法を活用することで、最も高いレベルのジャーナルガイドラインに簡単に準拠することができます。
+Well documented analyses help us maintain easy access to all the results generated within a project that can be written up efficiently.
+If working in a team, collaborators can easily get recognition in terms of authorship for their contributions. Furthermore, by availing the underlying dataset and methods we can easily comply with the highest-level journal guidelines.
 
-**5. 公平にあなたの仕事のためのクレジットを取得**
+**5. Get credits for your work fairly**
 
-データなどのプロジェクトのさまざまな部分に再現性の実践を個別に適用し、独立した実行コードやスクリプトを適用します。 プロトコルや報告書により、他の研究者が我々の研究をテストし、再利用することができ、我々の研究に公正な認識をもたらす。 基礎となる情報を使って研究成果を公表する研究者はより頻繁に引用されます, 彼らの研究成果は広く複製され、信頼することができます. この公正なクレジットシステムは、研究者が作業の再現性の慣行をさらに維持することを奨励します。
+Applying reproducibility practices separately on different parts of the project such as data, independently executable codes and scripts, protocols, and reports allow other researchers to test and reuse our work in their research and brings fair recognition for our work.
+Researchers who publish their work with the underlying information, get cited more often as their research outcome can be broadly replicated and trusted.
+This fair credit system encourages researchers to further maintain reproducibility practices in their work.
 
-**6. 作業の継続性を確認する**
+**6. Ensure continuity of your work**
 
-再現性のためのガイドラインに従うことにより、私たちは、上司、資金提供者、査読者、学生、潜在的なコラボレーターなど、さまざまなステークホルダーと簡単に私たちの仕事を伝えることができます。 再現性のこの側面は、他の人が簡単に結果を基に構築できるようにすることで、私たちの研究の有用性を高めます. 研究資料 {cite:ps}`MozillaScienceLab` を再利用します。 これにより、研究アイデアの継続性が保証され、他のコンテキストでも新鮮なアプリケーションを見つけることができます。 そのようなプロジェクトの進捗は簡単に追跡し続けることができます - 他の研究者のいずれか。 長期間 {cite:ps}`Marketowetz2015` の後に自分の作品を構築したい場合は、自分自身。
+By following guidelines for reproducibility, we can easily communicate our work with different stakeholders such as our supervisors, funders, reviewers, students, and potential collaborators.
+This aspect of reproducibility increases the usefulness of our research by enabling others to easily build on our results, and re-use our research materials {cite:ps}`MozillaScienceLab`.
+This ensures the continuity of a research idea and can even find fresh applications in other contexts.
+Progress of such projects can easily be tracked and continued - either by other researchers, or yourself if you want to build on your own work after a longer period {cite:ps}`Markowetz2015`.
 
-Open Research プロジェクトで再現的に作業することのその他の利点については、 {ref}`rr-open` 章で説明します。
+To learn about other benefits of working reproducibly on Open Research projects are covered in our {ref}`rr-open` chapter.

@@ -1,17 +1,20 @@
-(ch-contributoring)=
-# チャプターの貢献と開発 - テンプレートとワークフロー
+(ch-contributing)=
+# Contributing and Developing Chapters - Templates and Workflow
 
-_The Turing Way_ プロジェクトが成長し進化するにつれて。 我々は,新しい章や事例研究という形で,コミュニティメンバーからの継続的な貢献を歓迎し,奨励する。 しかし、これらの新たな貢献は、本書の既存の内容の全体的なテーマ、目的、フォーマット、スタイルと一致する必要があります。
+As _The Turing Way_ project grows and evolves, we actively welcome and encourage continuous contributions from community members in the form of new chapters and case studies.
+However, these new contributions need to be consistent with the overall theme, purpose, format, and style of the book's existing content.
 
-_The Turing Way_ は世界中の複数の著者によって非同期に書かれているため。 様々なコンテンツの開発を指導するテンプレートを作成し一貫した形式の本を維持しています
+Since _The Turing Way_ is written asynchronously by multiple authors around the world, we created a series of templates to guide different kinds of content development while maintaining a consistent format of the book.
 
-```{figure} ../figures/that-could-be-a-chapter.jpg
+```{figure} ../figures/that-could-be-a-chapter.*
 ---
 height: 400px
 name: that-could-be-a-chapter
-alt: 「あれはチャプターになるかもしれない」というキルスティーのスケッチ。
+alt: A sketch of Kirstie saying “That could be a chapter”
 ---
-"それはチューリングの方法での章になるかもしれない！" -キルスティー・ウィテカー。 _Scriberiaによるチューリング方法_プロジェクトのイラスト。 CC-BY 4.0ライセンスの下で使用される。 DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
+"That could be a chapter in The Turing Way!" - Kirstie Whitaker. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-この章では、章を書くためのワークフローと、 _The Turing Way_ のケーススタディの概要を説明します。 貢献を希望される場合は、推奨事項を読んで従うことをお勧めします。 また、貢献を準備する際には、 [スタイル](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) と [一貫性](https://the-turing-way.netlify.app/community-handbook/style.html) の推奨事項に加えて、 [コントリビューターガイドライン](https://the-turing-way.netlify.app/community-handbook/consistency.html) を必ずお読みください。
+This chapter provides a brief overview of the workflow for writing chapters and case studies for _The Turing Way_.
+We encourage you to read through and follow the recommendations if you wish to make a contribution.
+Also, ensure that you read our [Contributor Guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) in addition to our [style](https://the-turing-way.netlify.app/community-handbook/style.html) and [consistency](https://the-turing-way.netlify.app/community-handbook/consistency.html) recommendations as you prepare your contributions.

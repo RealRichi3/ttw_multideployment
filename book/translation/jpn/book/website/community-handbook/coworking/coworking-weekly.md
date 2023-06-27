@@ -1,73 +1,86 @@
-(ch-coorking-weekly)=
-# 毎週のコワーキングコール
+(ch-coworking-weekly)=
+# Weekly Coworking Calls
 
-_チューリングウェイ_ チームは、毎週短いコワーキングコールを主催しています。 これらの通話はコラボカフェに似ていますが、1時間の長さしかありません。 2020年5月以降、これらの通話は毎週11:00GMT/BSTで行われています。 すでにコラボカフェが予定されている日には開催されません。
+_The Turing Way_ team has been hosting shorter coworking calls each week.
+These calls are similar to the Collaboration Cafes, but only 1-hour long.
+Since May 2020, these calls have been taking place multiple days each week at 11:00 GMT/BST.
+It is not hosted on the days when there is a Collaboration Cafe already scheduled.
 
-コラボレーションカフェのように、私たちは [ズーム](https://www.zoom.us/)を使用して、これらの呼び出しをオンラインで開催します。 Shut up & Writeを使用します！ 2つの20-25分間のポモドーロセッションと2つの短い休憩のために割り当てられた時間を提供することによって、我々の仕事についてチャットし、私たちが行ったことを交換する方法。
+Like Collaboration Cafes, we host these calls online using [Zoom](https://www.zoom.us/).
+We use the Shut up & Write! method by providing allocated time for two 20-25 minutes long Pomodoro sessions and two short breaks to chat about our work and exchange what we got done.
 
-これらの呼び出しの主なターゲットは、特定の問題やPRに取り組んでいるメンバーです _The Turing Way_ に沿って、通常の勤務時間内に他のコミュニティメンバーに参加する。 これらの呼び出しはまた、プロジェクトについての疑問を明確にする機会を提供し、PRの見直しを受ける。 様々なアイデアを一緒にブレインストーミングし、コミュニティの他のメンバーとつながり続けましょう。
+The primary target of these calls are members who are working on certain issues or PRs in _The Turing Way_ to come along and join other community members in their usual working hours.
+These calls also provide opportunities to clarify doubts about the project, get PRs reviewed, brainstorm different ideas together, and stay connected with other members in the community.
 
-## オンラインコワーキングコールに参加
+## Attending an online coworking call
 
-これらのコワーキングコールのスケジュールは毎週更新されます [コミュニティカレンダー](https://calendar.google.com/calendar/embed?src=theturingway%40gmail.com&ctz=Europe%2FLondon)。 私たちはこれらを [毎月のニュースレター](https://tinyletter.com/TuringWay/archive) で発表し、 [Slackチャンネル](https://tinyurl.com/jointuringwayslack)に毎週月曜日にリマインダーを送信します。
+The schedule for these coworking calls is updated weekly [community calendar](https://calendar.google.com/calendar/embed?src=theturingway%40gmail.com&ctz=Europe%2FLondon).
+We announce these in our [monthly newsletters](https://tinyletter.com/TuringWay/archive) and send a reminder every Monday on the [Slack channel](https://tinyurl.com/jointuringwayslack).
 
-1時間を予定していますが、スケジュールにより短い期間のご参加を歓迎します。 電話の相手を知らせてください スケジュールに記載されていない日にチームメンバーのいずれかとのコワーキングに興味がある場合 SlackまたはEメールで連絡し、あなたと一緒に作業できるスロットを見つけることができます。
+Though scheduled for 1 hour, you are welcome to join for shorter period as your schedule allows, however, please let the host of the call know so that they know who to expect on the call.
+If you are interested in coworking with one of the team members on a day that is not listed on the schedule, please contact them on Slack or by email so that they can find a common slot to work with you.
 
-### 通話に使用されるリソース
+### Resource used for the call
 
-これらの呼び出しのリソース要件は、コラボレーションカフェと非常によく似ています。
+The resource requirement for these calls is also very similar to the Collaboration Cafe.
 
-1. [HackMD](https://hackmd.io/)による共有ノート : [https://hackmd.io/@turingway/coorking-call](https://hackmd.io/@turingway/coworking-call)
-2. [Zoom](https://www.zoom.us/)によるオンライン通話 : HackMDのZoomリンクが提供されています。
-3. オンラインポモドーロ時計: [https://cuckoo.team/TW-coorking](https://cuckoo.team/TW-coworking)
+1. Shared notes by [HackMD](https://hackmd.io/): [https://hackmd.io/@turingway/coworking-call](https://hackmd.io/@turingway/coworking-call)
+2. Online call by [Zoom](https://www.zoom.us/): The Zoom link is provided in the HackMD.
+3. An online Pomodoro clock: [https://cuckoo.team/TW-coworking](https://cuckoo.team/TW-coworking)
 
-私たちはこれらの通話を記録しません。 複数の人が同じ作業をしている場合を除き、 {ref}`のブレークアウトルーム<ch-coworking-collabcafe-breakout>` も作成しません。
+We don't record these calls.
+We also don't create {ref}`breakout rooms<ch-coworking-collabcafe-breakout>` unless there are multiple people working on same things.
 
-### 通話の形式
+### Format of the call
 
-{ref}`Collaboration Cafes<ch-template-coworking-weekly>`のテンプレートがあります。これは毎週 [shared HackMD](https://hackmd.io/@malvikasharan/TW-coworking) で更新されます。
+We have a template for the {ref}`Collaboration Cafes<ch-template-coworking-weekly>`, which is updated on the [shared HackMD](https://hackmd.io/@malvikasharan/TW-coworking) for each week.
 
-各通話中に次のスケジュールを実行します:
+We'll run the following schedule during each call:
 
-| 期間   | アクティビティ                 |
-| ---- | ----------------------- |
-| 開始   | 👋 Welcome               |
-| 5分   | 紹介と個人の目標設定              |
-| 25 分 | :tomator: 第1回ポモドーロセッション |
-| 5分   | ☕ 破壊して報告                |
-| 25 分 | :tomator: 第2回ポモドーロセッション |
-| 5分   | 議論を開き、👋                 |
+| Duration | Activity |
+| ---- | -------- |
+| Start | 👋 Welcome |
+| 5 mins | Introductions and personal goal setting |
+| 25 mins | 🍅 1st Pomodoro session |
+| 5 mins | ☕️ Break and report out |
+| 25 mins | 🍅 2nd Pomodoro session |
+| 5 mins | Open discussion and Close 👋 |
 
-コラボカフェとは対照的に、これらのコールのスケジュールは、議論の余地が少ないほど強烈に見えます。 しかし、これらの呼び出しに参加者が少ないので、非公式のやり取りの機会が増えます。
+In contrast to the Collaboration Cafes, the schedule for these calls seems more intense with less chance for discussion.
+However, since these calls are attended by fewer participants, it provides more opportunities for informal interactions.
 
 ### Chairing Coworking Calls
 
-以下の手順で毎月ドキュメントを更新してください:
+Please update the document each month using the following steps:
 
-- [毎月HackMD](https://hackmd.io/@turingway/coworking-call) を毎週の通話の日付を追加して更新する
-- テンプレート領域の下に前回の呼び出しからノートを移動します（この通知ページで定期的にアーカイブされます）
-- 日付を告知する Slack と Twitter でノートを共有
-- 通話中にメモを使用して情報を共有します
-- 行動規範のリンクを共有し、共有された Cuckoo (または他のウェブベースの時計) を使用してください
-- 必要に応じてポモドーロセッションを開始する前に、人々のためのブレークアウトルームを作成します
-- 最初のポモドーロセッションが終了すると、任意のブレークアウトルームを閉じ、フィードバックを求めてから、2番目のポモドーロセッションを再開します。
-- 通話は 60 分間予定されているため、ポモドーロセッションを 2 回まで収容できます。
-- すべての人に感謝の気持ちを伝える通話を終了し、次回の通話についてのメモをarhieve
+- [Update the HackMD](https://hackmd.io/@turingway/coworking-call) each month by adding dates for the weekly calls
+- Move the notes from the previous call below the template area (that will be archived in this Notion page periodically)
+- Share the notes on Slack and Twitter announcing the dates
+- Use the notes during the call to share information as you chair the call
+- Make sure that you share the Code of Conduct link and use the shared Cuckoo (or other web-based clocks)
+- Create breakout rooms for people before starting the Pomodoro sessions - when needed
+- As the first Pomodoro session ends, close any breakout rooms, ask for feedback, and then restart the second Pomodoro session
+- The call is scheduled for 60 minutes, and hence can accommodate up to 2 Pomodoro sessions
+- Close the call thanking everyone, and arhieve the notes for the next call
 
-#### 開始
+#### Beginning
 
-通話は、参加者を歓迎し、行動規範を共有し、参加方法を思い出させることから始まります。 誰もが自分の行動や活動内容を分かち合えるようにするのです
+The call begins with the team members welcoming the participants, sharing the Code of Conduct, reminding how to participate in the call, and setting the stage for everyone to share how they are doing and what they will be working on.
 
 #### Pomodoros
 
-セッションチェアは、ポモドーロセッションを追跡するために [タイマー](https://cuckoo.team/TW-coworking) を開始します。 誰もが独立した仕事に取り組むことを計画している場合, 我々はメインルームに残り、静かに仕事をします. コールの2人が取り組んでいるディスカッションや共同作業については、 [ブレークアウトルーム](#breakout-rooms) を作成します。
+The session chair will start the [timer](https://cuckoo.team/TW-coworking) to keep track of the Pomodoro sessions.
+If everyone plans to work on independent tasks, we will remain in the main room and work silently.
+For any discussion or collaborative task that two people of the call are working on, we will create [breakout rooms](#breakout-rooms) for them.
 
-通話中に新しいメンバーが存在する場合 メンバーの1人(通常はコールのホスト)は、新しいメンバーをブレークアウトルームに連れて行って、プロジェクトリポジトリの周りに表示し、開始するためのヒントを共有します。
+If there are new members on the call, one of the members (usually host of the call) will take the new member to a breakout room to show around the project repository and share some tips for getting started.
 
-#### 破壊
+#### Breaks
 
-私たちはポモドーロの後に、私たちが何をすることができるかを反映するために短い休憩を取ります。 出席者が出くわしたエラーをトラブルシュートし、進捗状況を説明し、小さな成功を祝います。
+We will take short breaks after each Pomodoro to reflect on what we could get done, troubleshoot any error that any attendee might have come across, verbalise our progress and celebrate small successes.
 
-#### 後でこの通話に参加する場合
+#### If joining this call later
 
-後で参加すると、静かに仕事をしている人が見えるかもしれません。 ブラウザーで [共有された時計](https://cuckoo.team/TW-coworking) を開くことで、次の休憩の前に残された時間を追跡できます。 あなたが後で参加することを事前に知っていれば。 通話先に連絡するか、共有ドキュメントにメモを残すかのいずれかで、通話先に連絡を取ることができます。
+If you join later, you might see people quietly working on their tasks.
+You can track the time left before the next break by opening the [shared clock](https://cuckoo.team/TW-coworking) in your browser.
+If you know in advance that you'd join later, you can let the host of the call know by either contacting them before the call or leaving a note in the shared document.

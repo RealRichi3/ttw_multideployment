@@ -1,32 +1,32 @@
 (rr-ci-practices)=
-# ベストプラクティスと推奨事項
+# Best Practices and Recommendations
 
-## 小規模で反復的な変更
+## Small, iterative changes
 
-継続的な統合を採用する際の最も重要な慣行の1つは、プロジェクトメンバーが小さな変更を行い、コミットすることを奨励することです。 小さな変更により、統合時の問題の可能性と影響が最小限に抑えられ、統合の時間と労力のコストが最小限に抑えられます。
+One of the most important practices when adopting continuous integration is to encourage project members to make and commit small changes. Small changes minimise the possibility and impact of problems cropping up when they're integrated, which minimises the time and effort cost of integration.
 
-## Trunkベースの開発
+## Trunk-based development
 
-トランクベースの開発では、リポジトリのメインブランチで作業が行われるか、しばしば共有リポジトリにマージされます。 短命なフィーチャーブランチは、小さな変更を表し、できるだけ早くマージされる限り許容されます。
+With trunk-based development, work is done in the main branch of the repository or merged back into the shared repository at frequent intervals. Short-lived feature branches are permissible as long as they represent small changes and are merged back as soon as possible.
 
-トランクベースの開発の背後にある考え方は、上記で述べた小さな反復的な変化の概念に違反する大きなコミットメントを避けることです。 コードは、スコープが小さいときに競合を解決できるように、ピアが早期に利用できます。
+The idea behind trunk-based development is to avoid large commits that violate of concept of small, iterative changes discussed above. Code is available to peers early so that conflicts can be resolved when their scope is small.
 
-## 建物とテスト段階を速く保ちましょう
+## Keep the building and testing phases fast
 
-ビルドステップとテストステップを頻繁に実行する必要があるため、これらのプロセスを合理化して、かかる時間を最小限に抑えることが不可欠です。 ビルド時間の増加は、各コミットがビルドを開始するという事実によって影響が複雑になるため、大きな問題として扱われるべきです。
+Because the build and test steps must be performed frequently, it is essential that these processes be streamlined to minimise the time spent on them. Increases in build time should be treated as a major problem because the impact is compounded by the fact that each commit kicks off a build.
 
-可能な場合、テストスイートの異なるセクションを並列に実行することで、パイプライン内のビルドをより速く移動させることができます。 各タイプの試験の割合が理にかなっていることを確認するためにも注意が必要です。 ユニットテストは通常非常に高速で、最小限のメンテナンスオーバーヘッドを備えています。 対照的に、自動化されたシステムまたは受入テストはしばしば複雑で、破損しやすくなります。 このことを考慮すると、ユニットテストに大きく依存することがよくあります。 かなりの数の統合テストを行い、その後、より複雑なテストを行います。
+When possible, running different sections of the test suite in parallel can help move the build through the pipeline faster. Care should also be taken to make sure the proportion of each type of test makes sense. Unit tests are typically very fast and have minimal maintenance overhead. In contrast, automated system or acceptance testing is often complex and prone to breakage. To account for this, it is often a good idea to rely heavily on unit tests, conduct a fair number of integration tests, and then back off on the number of later, more complex testing.
 
-## 計算費用
+## Computational expense
 
-いくつかのソフトウェアは、ビルドおよび/または実行に重要なコンピューティングリソースを必要とします。 例としては、気象モデルや気候モデルがあります。 これにより、テストに時間がかかりすぎたり、リソースが多すぎたりするため、継続的なインテグレーションを使用することは不可能になります。 したがって、不完全なテストのリスクと使用可能な開発プロセスのバランスをとるために妥協点を見つける必要があります。
+Some software will require significant compute resource to build and/or run. Examples include weather and climate models. This can make the use of continuous integration impractical as the tests either take too long or use too much resource. Therefore, a compromise needs to be found to balance the risk of incomplete testing against a usable development process.
 
-一つのアプローチは、異なるレベルのテストを使用することであり、何が変更されているかによって異なるサブグループが必要になります。 一般的な幅広いサブグループは、すべてのケースで使用でき、特定のエリアをより詳細にテストするために追加のものが呼び出されます。 これは、テストプロセスに判断の要素を導入しますが、正常に適用することができます。
+One approach is to use different levels of testing, with different subgroups being required depending on what is being changed. A common broad subgroup can be used in every case, with additional ones being invoked to test certain areas in more detail. This introduces an element of judgement to the testing process, but can be applied successfully.
 
-## 依存関係の追跡
+## Dependencies tracking
 
-依存関係の更新を定期的に確認する必要があります。 非推奨の機能に依存するコードによるバグを回避し、多くの時間を節約できます。 [David](https://david-dm.org/) のようなサービスは、依存関係管理のために利用可能です。
+Checking for dependency updates should be done regularly. It can save a lot of time, avoiding bugs due to code dependent on deprecated functionality. Services such as [David](https://david-dm.org/) are available for dependency management.
 
-## パイプライン全体の整合性
+## Consistency throughout the pipeline
 
-プロジェクトは、パイプラインの開始時に一度構築する必要があります, 結果のソフトウェアは、再構築せずに保存され、後のプロセスにアクセスする必要があります. 各フェーズでまったく同じアーティファクトを使用することで 異なるビルドツールの結果として矛盾が生じていないことは確かです
+A project should be built once at the beginning of the pipeline, the resulting software should be stored and accessible to later processes without rebuilding. By using the exact same artefact in each phase, you can be certain that you are not introducing inconsistencies as a result of different build tools.

@@ -1,90 +1,90 @@
 (communication-aa-intps)=
-# 個人的な物語 - 学際的なプロジェクトの著者。
+# Personal stories - Authorship on Interdisciplinary projects
 
-## Federico NanniとMario Coll Ardanuy - 機械との生活
+## Federico Nanni and Mariona Coll Ardanuy - Living with Machines
 
-[「機械とともに生きる」](https://livingwithmachines.ac.uk/) は、産業革命における一般の人々の生活に与える技術の影響を再考する研究プロジェクトである。
+[Living with Machines](https://livingwithmachines.ac.uk/) is a research project that rethinks the impact of technology on the lives of ordinary people during the Industrial Revolution.
 
-さまざまな分野の研究者が集結し、研究手法、ツール、データを作成します。 彼らはコラボレーションがどのように行われるかについての認識を変えるために取り組んでおり、これを行う上で、興味深い課題を発見し、取り組んでいます。 学問的作家の問題も含めてね
+It brings together an interdisciplinary group of researchers from a range of disciplines to create research methods, tools and data. They are working to change perceptions of how collaborations can be done and in doing this are discovering and working through some interesting challenges, including the issue of academic authorship. 
 
-#### 彼らの仕事の詳細は以下をご覧ください:
+#### Find out more about their work below:
 
 **Federico Nanni:**
-* [ORCID](https://orcid.org/0000-0003-2484-4331)
+* [ORCID](https://orcid.org/0000-0003-2484-4331) 
 * [Twitter](https://twitter.com/f_nanni)
-* [ウェブサイト](https://github.com/fedenanni)
+* [Website](https://github.com/fedenanni)
 
 **Mariona Coll Ardanuy**
-* [ORCID](http://orcid.org/0000-0001-8455-7196)
-* [ウェブサイト](https://github.com/mcollardanuy)
+* [ORCID](http://orcid.org/0000-0001-8455-7196) 
+* [Website](https://github.com/mcollardanuy)
 
-**1. あなたの分野における学術論文のための著者の *通常の* 実践とは何ですか? それとも普通の練習だったのか?**
+**1. What is the *normal* practice of authorship for academic papers in your discipline? or used to be the normal practice?**
 
-我々は学際的なプロジェクトであり、したがって、2つの異なる分野から著者の通常の実践をもたらします: 計算言語学と人文科学(歴史)。 これは、私たちの出版物上で著者に取り組む方法を決定しようとするとき、それは難しくなります。
+We are an interdisciplinary project and therefore bring with us the usual practices of authorship from two distinct disciplines: Computational linguistics and the Humanities (History). This makes it trickier when trying to decide how to tackle authorship on our publications. 
 
-我々のチームの中には計算言語モデリングに関わる科学分野であるComputational linguistもいる。 本プロジェクトでは,計算言語学の工学的側面である自然言語処理を用いています. 私たちは、著者のチームを持つ論文の作業に慣れており、ペースで作成され、公開されています.
+Some of our team are Computational linguists, which is a scientific field concerned with modelling language computationally. In the project, we use natural language processing that is the engineering side of Computational linguistics. We are used to working on papers that have a team of authors and papers are produced and published at pace. 
 
-他のチームメンバーは、人文学部門の出身で、唯一の著者論文が一般的であり、キャリアの進歩にさえ必要とされています。 人文科学における出版のペースははるかに遅い。
+Other team members are from Humanities disciplines where sole author papers are common and are even required for career progression. The pace of publication in humanities is much slower. 
 
-著者にこれらの2 つの異なったアプローチは著者であるべきであるかだれがちょうど認められるべきか確立すること非常に困難を作る。 誰が最も貢献したのかを調べることも難しく、著者の順位を決めることも難しい。 プロジェクトにおいて異なる役割を持っているのと同じくらい重要なことです
+These two different approaches to authorship make it very hard to establish who should be an author or who should just be acknowledged. It is also difficult to work out who contributed the most, therefore establishing a ranking order of authors for papers, as we all have different roles in the project that are equally important to the overall goals. 
 
-我々がこれまでに出版した出版物は、プロジェクトの計算言語学的側面に焦点を当てているので、我々はチーム全体のための著者と寛大になっています. これは、この研究を達成するためにチームが協力していた計算言語学が受け入れられたためです。
+The publications we have published so far are more focused on the computational linguistics side of the project and therefore we have been generous with authorship for the whole team. This is due to the acceptance in computational linguistics that a team would have worked together to achieve this work. 
 
-ただし、 歴史的に基づいた論文を書くには我々のチームメンバーの中には 単独の著者が必要だと 考える必要があるかもしれません そして 著者をこれらの論文に加えることで 彼らの論文の認識される威信を 奪うことになるかもしれません この場合、以前の技術論文を完全に引用し、承認セクションでチームのすべてを認めるように注意します。
+However, when writing more historically based papers we may need to consider that some of our team members need sole author publications and that adding authors onto these papers devalues the perceived prestige of the paper for them. In this case, we will be careful to fully cite our previous technical papers and acknowledge all of the team in an acknowledgement section.  
 
 
-**2. プロジェクトで著者について話し合ったのはいつですか。**
+**2. When did you discuss authorship in your project?**
 
-私たちはこのプロセスを早期に開始しましたが、プロジェクトの最初の主要な論文が提出されようとするまで、それほど進展はありませんでした。 私たちはその後、私たちのチームのすべての人に適切な信用を与える方法を決定しなければなりませんでした, それはそれを完了する必要が駆動されました.
+We started this process early but did not make much progress really until the first major paper of the project was about to be submitted. We then had to decide how to properly credit everyone in our team and it was driven by the need to get it done.
 
-**3. あなたのプロジェクトで著者の議論をしたのは誰ですか?**
+**3. Who had the discussion of authorship in your project?**
 
-Ruth Ahnert教授が率いる会議で、誰もが著者についての議論に参加しました。 これらの議論では全ての声が聞かれ、プロジェクトの制作者へのアプローチは当初から善意を持っていました。
+Everyone was involved in the discussions about authorship in meetings led by the Principal Investigator - Professor Ruth Ahnert. All our voices were listened to in these discussions and the approach to authorship in the project had good intentions from the start.
 
-議論は非常に学際的でした, プロジェクトは、彼らに専門知識をもたらす多くのポスドク研究者を持っているとして、.
+The discussions were very interdisciplinary as the project has a lot of postdoctoral researchers that all bring with them expert knowledge. 
 
-**4. プロジェクトにどのようなアプローチをとることにしましたか?**
+**4. What approach have you decided to take in your project?**
 
-[CRediTタクソノミ](https://casrai.org/credit/) を採用して、各著者の作品への貢献をより良く紹介しました。 しかし、私たちはプロジェクトのすべての役割をカバーしていないと感じたので、それを適応させました。 私たちは、いくつかのカテゴリーは少し漠然としており、私たちはチームメンバーが果たす役割について具体的にしたいと考えていました。
+We adopted the [CRediT taxonomy](https://casrai.org/credit/) to better present each author's contributions to the work. However, we felt it does not cover all the roles in our project so we adapted it. We felt that some of the categories were a bit vague and we wanted to be specific about the roles played by our team members. 
 
-私たちが追加したカテゴリーは、実装、再現性、解釈、履歴分析、注釈でした。
+The categories that we added were implementation, reproducibility, interpretation, historical analysis and annotation. 
 
-私たちは、平等に認識されていない役割の問題に遭遇しました。 例えば概念化や監督は他の役割よりも威信を持っていると見なされています したがって、チームメンバーがより包括的に貢献することを認識しようとしても、まだ問題が発生しています。
+We encountered an issue with the roles that were not being perceived equally, such as conceptualisation and supervision being seen as having more prestige than other roles. Therefore, even when trying to acknowledge team members contributions more inclusively there are still problems that arise. 
 
-私たちは、最初の方法論文のプレプリント用の表紙を作成することにしました。 私たちは、著者リストから離れ、研究プロジェクトでしばしば隠されている役割の幕を上げるという考え方を反映したかった。
+We decided to produce a cover page for the pre-print of our first methods paper. We wanted to reflect our thinking about moving away from an author list and raise the curtain on roles that are often hidden in research projects. 
 
-カバーページにより、プロジェクトのジョブがより明確になります。 したがって、あなたはリストと同じように著者が何をするかを推測しません。
+The cover page makes the jobs on the project more explicit, you therefore do not presume what the authors do as you would with a list. 
 
-この点については、私たちのブログで詳しく知ることができます - [著者の貢献と機械との学際的なコラボレーションを強調する](https://livingwithmachines.ac.uk/highlighting-authors-contributions-and-interdisciplinary-collaborations-in-living-with-machines/).
+You can find out more about this in our blog - [Highlighting authors' contributions and interdisciplinary collaborations in Living with Machines](https://livingwithmachines.ac.uk/highlighting-authors-contributions-and-interdisciplinary-collaborations-in-living-with-machines/).
 
-私たちは通常、物事がどのように行われているかに挑戦しようとしています, 私たちは、紛争や困難な議論をもたらすためのこのアプローチを期待していました. 誰もがこのプロジェクトに同じような考え方を持って来てくれました。
+As we are trying to challenge how things are usually done, we were expecting this approach to bring conflicts and difficult discussions. Everyone came to this project with a similar mindset and this helped us to resolve any issues. 
 
-**5. 実際にはどのようになったのですか。**
+**5. How have you gone about this practically?**
 
-私たちはGoogleドキュメントを使ってCRediT分類を送信し、誰もがさまざまなカテゴリの下で自分の名前を入力することができました。
+We used a Google doc to send around the CRediT taxonomy and everyone could fill in their own name under the different categories. 
 
-私たちは誰もが異なる意見を持っていたことを発見しました - 何人かの人々は多くのカテゴリーに自分自身を入れており、他の人は彼らがより多くの信用を得るべきであるときにのみ1つに自分の名前を置くでしょう。
+We did find that everyone had different opinions - some people did put themselves in many categories and others would only put their name in one when they should have got credit for more. 
 
-これは、貢献のリストを確定するときに、ある程度の緩和が必要であることを意味しました。
+This meant that there had to be a degree of moderation when finalising the list of contributions.
 
-**6. 何が問題なのでしょうか？**
+**6. What have been the problems with doing this?**
 
-表紙は、公平に貢献を割り当てるという問題と著者のリストの必要性を解決しようとするために、私たちのプリプリントに記載された声明でしたが、最終的な出版された記事の脚注でした。 したがって、まだ著者のリストと出版のための最初の著者がなければならなかった。
+The cover page was a statement that was put in our pre-print to try to solve the issue of assigning contributions fairly and the need for a list of authors but it was a footnote in the final published article. Therefore, there still had to be a list of authors, and a first author for publication. 
 
-主な著者, マリオナ, 主要な作家としての決断が容易であったが、その後は著者の命令が難しかった。
+The main author, Mariona, was easy to decide as she had been the main writer and lead in everything to do with that paper but after that the order of authors was difficult. 
 
-一部のチームメンバーは、他のタイプの出力がある分野で永続的なポジションを保持したり、仕事をしているので、ポスドク研究者と同じ出版物を持っていません。 例えばコードなどの方が重要です これは著者リストについて議論するときに扱う必要がある考慮の別の層を加える。
+Some team members don't have the same need for publications as postdoctoral researchers because they hold permanent positions or work in areas where other types of outputs, such as code, are more important. This adds another layer of consideration that needs to be addressed when discussing the author list. 
 
-いくつかの分野では、チームの監督や年功序列の認識を持つように、対応する著者を割り当てることにも問題があります。 私たちの場合、プロジェクトの詳細を調べるために誰に連絡するのが最善でした。
+There are also issues with assigning corresponding authors as in some fields this carries a perception of supervision or seniority in the team. In our case, it was just who was best to contact to find out more about the project. 
 
-**7. 論文の執筆にはどう近づいているのですか。**
+**7. How are you approaching the writing of the papers?** 
+    
+We had one person leading on a publication. They defined the structure, had an understanding of what was expected by the journal in terms of structure and formatting, they split up the paper into sections for different people to write and then everyone could write their parts. Then one person edited this work. It does need one person to edit the whole paper so they can have an idea of the overall flow and structure. 
 
-私たちには出版物をリードする人が１人いました。 彼らは構造を定義しました, 構造と書式の面でジャーナルによって期待されていたものを理解しました. 紙を各セクションに分割して書けば誰でも書けるようになります それからある人がこの作品を編集しました。 全体の流れと構造を理解できるように、紙全体を編集する人が一人必要です。
+This approach worked well for the technical papers we have written.
 
-このアプローチは、私たちが書いた技術論文にとってうまく機能しました。
+**8. What collaborative tools are you using for the writing and projects?**
 
-**8. ライティングとプロジェクトにどのようなコラボレーションツールを使用していますか?**
+We are using Overleaf, which is a LaTex based writing software, but I think some people are using Google docs for collaborative writing. 
 
-私たちは、LaTexベースのライティングソフトウェアであるOverleafを使用していますが、共同執筆にGoogleドキュメントを使用している人もいると思います。
-
-*このインタビューはエマ・カルーンが行ったものです。 フェデリコとマリオナが学術的な著者について有益な議論をしてくれたことに感謝したいと思います この個人的な話と幅広い学術的な著者の章についてコメントするために*
+*This interview was conducted by Emma Karoune. We would like to thank Federico and Mariona for the useful discussions about academic authorship, and for commenting on this personal story and the wider academic authorship chapter.*

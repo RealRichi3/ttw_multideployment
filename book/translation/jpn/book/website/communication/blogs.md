@@ -1,64 +1,73 @@
 (cm-blogs)=
-# Research Communicationのブログ
+# Blogs for Research Communication
 
-ブログは、通常は中心的なテーマを持つ非公式の記事を含むウェブサイトです。 これは、オープンサイエンスのような学術的なトピックであるか、研究プロジェクトの進捗状況を報告するために使用することができます。 ブログの投稿はウェブサイト上の記事であり、通常はウェブページの上部に最新の投稿が最初に表示されるように、逆時系列で表示されます。
+A blog is a website that contains informal articles, usually with a central theme.
+This could be an academic topic such as open science or be used to report the progress of a research project.
+Blog posts are the articles on the website and they are typically displayed in reverse chronological order so that the most recent post appears first at the top of the web page.
 
-ブログの記事は短く、非公式の文章です。 これらは定期的に書かれ、特定の問題、イベント、またはプロジェクトに勢いを増すために使用することができます。 このように、ブログは研究プロジェクト、特にオープンなプロジェクトやコミュニティに適した投稿をしています 活動や調査結果が頻繁に更新される可能性があるので注目を集めることができます
+Blog posts are short, informal pieces of writing.
+They are meant to be written regularly and can be used to build momentum on a particular issue, event or project.
+In this way, blog posts suit research projects, particularly open projects and communities, because there can be frequent updates of activities and findings to bring greater attention and therefore transparency to your work.
 
-ブログを開始するには、Webプラットフォームを構築する必要があり、ブログは頻繁に新しい投稿で更新する必要があるため、いくつかの投資がかかります。 したがって、何らかの方法でこの作業の負荷をチームと共有したり、ゲスト投稿を作成するためにあなたのすぐ外のチームから人々を取得する計画を立てることが最善です。
+Starting a blog does take some investment as a web platform needs to be built and the blog needs to be frequently updated with new posts.
+It is therefore best to share the load of this work with your team in some way or plan to get people from outside of your immediate team to write guest posts.
 
-(cm-w-comms-blogs-start)=
-## ブログを開始する方法
+(cm-wa-comms-blogs-start)=
+## How to Start a Blog
 
-### テーマとオーディエンスformat@@0
+### Themes and Audience
 
-最初に決めることは、ターゲットにしたいテーマとオーディエンスを選択することです。 これは、読みやすさのレベルとあなたのブログの全体的なスタイルを決定します。
+The first decision to make is to choose the theme and the audience that you want to target.
+This will determine the readability level and overall style of your blog.
 
-* テーマの例としては、興味深い研究トピック、あなたの研究キャリアの個人的な日記ブログなどがあります。 プロジェクト・ブログはプロジェクトのさまざまな側面を記録し コミュニティの構築と維持に役立つブログです
-* 最も重要なことは、テーマは、あなたが書くために多くのコンテンツを持っている必要があります, あなたにとって興味深いものであり、また、他の人のために係合.
+* Examples of themes include interesting research topics, a personal diary blog of your research career, a project blog to keep track of all the different aspects of the project or a community blog to help with building and maintaining the community.
+* Most importantly the theme needs to have plenty of content for you to write about, be interesting to you and also engaging for others.
 
-## メンテナンス計画
+## Planning for Maintenance
 
-計画を立て、それに固執しようとすることは常に良いことです。
+It's always good to make a plan and try to stick to it.
 
-* 次の6 か月または年のためのあなたの主題のために書くことができるものを計画する必要がある。
-* これはあなたのテーマが長期間のために十分実質的であれば教えてくれます。
-* これはあなたに材料を一緒に得るために管理可能な時間の量を与えるので、月に1つの記事は良い出発点です。 進行中のプロジェクトやイベントに参加して書くことができます
+* You need to plan what posts you could write for your theme for the next six months or a year.
+* This will tell you if your theme is substantial enough for a prolonged period.
+* One post a month is a good starting point as this gives you a manageable amount of time to get material together, progress projects or attend events to write about.
 
-## ウェブサイトの作成
+## Building a Website
 
-次に、あなたのblog があることを行っているところに考慮する必要がある。
+Next, you need to consider where your blog is going to be.
 
-* あなたが以前にウェブサイトを作ったことがない場合は、それが鳴るほど難しくはありません。
-* これには無料で簡単なオプションがたくさんありますが、コンピュータのスキルに依存します。
-* ブログ記事を書く練習をして、既存のブログサイト(所属教育機関がすでにあるかもしれません)に掲載することができます。
+* If you have never made a website before, it is not as hard as it sounds.
+* There are lots of free and easy options for this but it does depend on your computer skills.
+* You could practice writing blog posts and put them on existing blogging sites (your institution may already have one) before building your own.
 
-これについては、サブチャプター {ref}`cm-blogs-webpage` で詳しく説明します。
+We discuss this in detail in the subchapter {ref}`cm-blogs-webpage`.
 
-## 最初の投稿を書く
+## Writing Your First Post
 
-頻繁に執筆の部分を開始することは最も困難な部分であり、そしてあなたの最初のblog を書くことはさらに困難に思えるかもしれない。 面倒な最初のドラフトはいつでも後で編集することができるので、どんな方法でも書き始めてみてください。
+Often starting a piece of writing is the hardest part, and writing your first blog may seem even harder.
+Just try to start writing in any way as a messy first draft can always be edited later.
 
-* 最初の記事は、あなた自身への紹介かもしれません, ブログやブログのためのあなたの意図の声明に関与する人々.
-* また、最初のリリースに向けていくつかの投稿を用意して、大きな影響を与えることも良いかもしれません。
+* The first post could be an introduction to yourself, those involved in the blog or a statement of your intentions for the blog.
+* It might also be good to prepare a few posts for the first release to have a greater impact.
 
-## あなたのブログを広告する
+## Advertising Your Blog
 
-あなたのブログに気づかれます。
+Get your blog noticed.
 
-* それはあなたのブログについてのあなたのターゲットオーディエンスを伝えるために良いアイデアであり、再びあなたが投稿をリリースするたびに。
-* あなたの研究にリンクされている主要な団体のメーリングリストを使用してください。
-* TwitterやFacebookなどのソーシャルメディアを使用してください。
-* 同僚にあなたのブログを宣伝するためにリツイートや電子メールを送信するように依頼してください。
+* It's a good idea to tell your target audience about your blog and again each time you release a post.
+* Use mailing lists from key associations linked to your research.
+* Use social media such as Twitter or Facebook.
+* Ask colleagues to retweet or send out emails to advertise your blog.
 
-## インパクトの分析
+## Analysing the Impact
 
-成功は見る人の目には非常に大きいが、あなたのblog の成功を追跡するのに使用できる多くの方法か指標がある。
+Success is very much in the eye of the beholder but there are many methods or metrics that you can use to track the success of your blog.
 
-* Googleアナリティクスは、Googleサイトで使用したり、Githubページに入れたりすることができます。 これはあなたのblog および基づかれているどこにアクセスしているかについての情報を与える。
-* 追跡できるさまざまなメトリックがたくさんあります。 ここでは、成功を測定するためにすべてのブロガーが追跡する必要がある [20 の指標を説明する良い記事があります](https://www.dreamhost.com/blog/metrics-every-blogger-needs-to-track/).
+* Google analytics can be used with Google sites or put into Github pages.
+This gives you information about how many people are accessing your blog and where they are based.
+* There are lots of different metrics that can be tracked.
+Here is a good post that explains [20 metrics every blogger needs to track to measure success](https://www.dreamhost.com/blog/metrics-every-blogger-needs-to-track/).
 
-## 執筆と計画を続ける
+## Keep Writing and Planning
 
-* ゲストブロガーなどの新しい機会に応答するものの、あなたの計画に固執してください。
-* ブログを書いてウェブサイトを維持するためのスケジュールに時間を計画します(ケーススタディのトップヒントを参照してください)。
+* Stick to your plan, although be responsive to new opportunities such as guest bloggers.
+* Plan time in your schedule for writing the blog and maintaining the website (see the top tips from our case study).

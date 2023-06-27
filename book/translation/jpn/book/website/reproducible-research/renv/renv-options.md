@@ -1,46 +1,64 @@
 (rr-renv-options)=
-# 計算環境の取得
+# Capturing Computational Environments
 
-計算環境のキャプチャにはいくつかの方法があります。 この章で取り上げられる主なものは、パッケージ管理システム、バインダー、仮想マシン、およびコンテナです。 それぞれに長所と短所があり、プロジェクトの性質に応じて最適な選択肢があります。
+There are several ways of capturing computational environments.
+The major ones covered in this chapter will be Package Management Systems, Binder, Virtual Machines, and Containers.
+Each has its pros and cons, and the most appropriate option for you will depend on the nature of your project.
 
-それらは大きく2つのカテゴリに分けられます:ソフトウェアと環境で使用されるそのバージョンのみをキャプチャするもの(Package Management Systems) そして、オペレーティングシステムやカスタマイズされた設定(仮想マシンとコンテナ)を含む計算環境全体を複製するもの。
+They can be broadly split into two categories: those that capture only the software and its versions used in an environment (Package Management Systems), and those that replicate an entire computational environment - including the operating system and customised settings (Virtual Machines and Containers).
 
-もう一つの方法は、再現された研究がどのように再現子に提示されるかです。 Binderまたは仮想マシンを使用すると、よりグラフィカルなGUIタイプの結果が生成されます。 これとは対照的に、コンテナとパッケージ管理システムの出力はコマンドラインを介してより簡単に操作できます。
+Another way these can be split is by how the reproduced research is presented to the reproducer.
+Using Binder or a Virtual Machine creates a much more graphical, GUI-type result.
+In contrast, the outputs of Containers and Package Management Systems are more easily interacted with via the command line.
 
-```{figure} ../../figures/computational-environments.jpg
+```{figure} ../../figures/computational-environments.*
 ---
 name: computational-environments
-alt: 計算環境をキャプチャするために使用されるさまざまなツールの説明
---
-計算環境をキャプチャする方法
+alt: A depiction of the various tools used to capture computational environments
+---
+Ways of capturing computational environments
 ```
 
-それぞれのツールの簡単な説明は以下の通りです
+A brief description of each of these tools is given below
 
 
 (rr-renv-options-pms)=
-## パッケージ管理システム
+## Package Management Systems
 
-パッケージ管理システム [{term}`def<Package Management System>`] は、システム上で使用されるソフトウェア(および重要なバージョンのソフトウェア)をインストールおよび追跡するために使用されるツールであり、これらのソフトウェアパッケージ/バージョンを指定してファイルをエクスポートすることができます。 ファイルを使用して、手動またはパッケージ管理システム経由で環境を複製することができます。
+Package Management Systems [{term}`def<Package Management System>`] are tools used to install and keep track of the software (and critically versions of software) used on a system and can export files specifying these required software packages/versions.
+The files can be shared with others who can use them to replicate the environment, either manually or via their Package Management Systems.
 
 
 (rr-renv-options-binder)=
-## バインダー
+## Binder
 
-Binder [{term}`def<Binder>`] は、git リポジトリからプロジェクトの完全に機能するバージョンを生成し、クラウド上でそれらを提供するサービスです。 これらの「binderized」プロジェクトは、Webブラウザを介して他の人とアクセスし、対話することができます。 これを行うには、Binderはプロジェクトを実行するために必要なソフトウェア(および、オプションとして、バージョン)を指定する必要があります。 ユーザは、パッケージ管理システムや Dockerfiles ( {ref}`rr-renv-options-container` セクションで説明) を使用して、これを行うことができます。
+Binder [{term}`def<Binder>`] is a service which generates fully-functioning versions of projects from a git repository and serves them on the cloud.
+These "binderized" projects can be accessed and interacted with by others via a web browser.
+In order to do this, Binder requires that the software (and, optionally, versions) required to run the project are specified.
+Users can make use of Package Management Systems or Dockerfiles (discussed in the {ref}`rr-renv-options-containers` sections) to do this if they so desire.
 
 
 (rr-renv-options-vm)=
-## 仮想マシン
+## Virtual Machines
 
-仮想マシン[{term}`def<Virtual machine>`]はシミュレートされたコンピュータです。 ユーザーは、「仮想」コンピュータを非常に簡単に作ることができ、必要なオペレーティングシステムを指定します。 他のアプリと同じように動作させることができます アプリ内には、デスクトップ、ファイルシステム、デフォルトのソフトウェアライブラリ、および指定されたマシンのその他の機能があります。 これらは実際のコンピュータであるかのように相互作用することができます。 仮想マシンは簡単に複製して共有することができます。 これにより、研究者は仮想マシンを作成し、自分の研究を実行し、ファイル、設定、出力とともに状態を保存することができます。 これらを完全に機能するプロジェクトとして配布することができます。
+Virtual Machines [{term}`def<Virtual machine>`] are simulated computers.
+A user can make a "virtual" computer very easily, specifying the operating system they want it to have, among other features, and run it like any other app.
+Within the app will be the desktop, file system, default software libraries, and other features of the specified machine.
+These can be interacted with as if it was a real computer.
+Virtual Machines can be easily replicated and shared.
+This allows researchers to create Virtual Machines, perform their research on them, and then save their state along with their files, settings and outputs.
+They can then distribute these as a fully-functioning project.
 
 
 (rr-renv-options-containers)=
-## コンテナ
+## Containers
 
-コンテナ [{term}`def<Container>`] は、仮想マシンと同じ利点の多くを提供します。 それらは基本的に、独自のファイル、ソフトウェア、および設定を含むことができる完全に別個のマシンとして機能します。
+Containers [{term}`def<Container>`] offer many of the same benefits as Virtual Machines.
+They essentially act as entirely separate machines which can contain their own files, software and settings.
 
-違いは、仮想マシンには、プロジェクトがその関連するソフトウェアを使用しているかどうかに関係なく、通常はパッケージ化されたすべての関連するソフトウェアとともに、オペレーティングシステム全体が含まれていることです。 コンテナーには、その中で明示的に定義されたソフトウェアとファイルのみが含まれており、プロジェクトを実行することができます。 これにより、仮想マシンよりもはるかに軽量になります。
+The difference is that Virtual Machines include an entire operating system along with all the associated software that is typically packaged with it - regardless of whether the project makes use of that associated software.
+Containers only contain the software and files explicitly defined within them in order to run the project they contain.
+This makes them far more lightweight than Virtual Machines.
 
-コンテナは、高性能コンピューティング環境でプロジェクトを実行する必要がある場合に特に便利です。 すでに _に必要なソフトウェアがすべて_ 含まれているので、 使い慣れていないシステムに何かを設置しなければならない 研究者が必要な許可を得ていない場合に
+Containers are particularly useful if projects need to run on high-performance computing environments.
+Since they already _contain_ all the necessary software, they save having to install anything on an unfamiliar system where the researcher may not have the required permissions to do so.

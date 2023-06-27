@@ -1,16 +1,16 @@
 (communication-aa-resources)=
-# リソース:
-* アメリカの専門家雑誌 [原稿著者の倫理](https://www.aje.com/en/arc/ethics-manuscript-authorship/e) ホワイトペーパーへのリンクを含む - クレジットが支払われるクレジット。
+# Resources: 
+* American Journal of Experts [The ethics of manuscript authorship](https://www.aje.com/en/arc/ethics-manuscript-authorship/e) including a link to the white paper - credit where credits due. 
 
-* [イギリス社会学会著者ガイドライン](https://www.britsoc.co.uk/publications/guidelines-reports/authorship-guidelines.aspx)
+* [British sociological association authorship guidelines](https://www.britsoc.co.uk/publications/guidelines-reports/authorship-guidelines.aspx)
 
-* [出版倫理委員会(COPE)ウェブサイト](https://publicationethics.org/).
+* [Committe of Publication Ethics (COPE) website](https://publicationethics.org/).
+  
+* [How to handle authorship disputes: a guide for new researchers](https://publicationethics.org/files/2003pdf12_0.pdf).
 
-* [著者紛争の対処法:新規研究者向けガイド](https://publicationethics.org/files/2003pdf12_0.pdf).
+* [CRediT Taxonomy](https://casrai.org/credit/)
 
-* [CRediT 分類](https://casrai.org/credit/)
-
-* [London School of Economics impacts of Social Sciencesのブログ on CRediT taxonomy](https://blogs.lse.ac.uk/impactofsocialsciences/2020/01/20/credit-check-should-we-welcome-tools-to-differentiate-the-contributions-made-to-academic-papers/)
+* [London School of Economics Impacts of Social Sciences blog on CRediT Taxonomy](https://blogs.lse.ac.uk/impactofsocialsciences/2020/01/20/credit-check-should-we-welcome-tools-to-differentiate-the-contributions-made-to-academic-papers/)
 
 
 

@@ -1,5 +1,7 @@
-(書誌)=
-# 参考文献表
+(bibliography)=
+# Bibliography
 
-*このファイルは、アルファベット順に並べられたこの本の完全な参考文献から構成されています*
-`{bibliography}`
+*This file consist of a complete bibliography for this book sorted alphabetically*
+
+```{bibliography}
+```

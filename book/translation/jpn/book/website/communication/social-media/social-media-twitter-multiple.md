@@ -1,32 +1,36 @@
 (cm-social-media-twitter)=
-# 複数のTwitterアカウントの管理
+# Managing Multiple Twitter Accounts
 
-Twitter上で複数のアカウントを管理することは難しいことであり、個人アカウントとツイートする方法とは異なる特定のソーシャルメディアポリシーやアプローチに従っている可能性があります。
+Managing multiple accounts on Twitter can be challenging and you might be following a certain social media policy or approach that is different from how you would tweet from your personal account.
 
-多くのプロジェクトや組織は、研究成果やイベントを宣伝するために使用される独自のTwitterアカウントを持っています。
+Many projects and organisations have their own Twitter account that is used for advertising their research outputs and events.
 
-(cm-social-media-twitter-organization)=
-## 組織のTwitterアカウントの管理
+(cm-social-media-twitter-organisation)=
+## Managing an Organisational Twitter Account
 
-**1. アカウントの目的と組織が望んでいるつぶやきの種類について明確であることを確認してください。**
+**1. Be sure that you are clear about what the purpose of the account is and the type of tweets that the organisation wants.**
 
-* それはプロのトーンまたはよりリラックスして楽しくなるだろうか。
-* データや結果を共有しないなど、どのコンテンツについてツイートできるかについて、特定の制限はありますか?
+* Is it going to be a professional tone or more relaxed and fun.
+* Are there certain restrictions about what content you can tweet about such as not sharing data or results?
 
-**2. ツイートの時間にスケジュールを使用する**
+**2. Use scheduling to time your tweets**
 
-* これは、TwitterのWebブラウザまたはTweetdeckなどのTwitterアプリを使用して行うことができます。
-* TweetdeckはTwitterが所有する唯一のアプリで、無料で利用できます。 しかし、すべての異なるプラットフォームに [他のアプリがあります](https://www.reviewgeek.com/52119/the-best-twitter-apps-for-every-platform/)、あなたはしばしば彼らのサービスのために支払う必要がありますが。
-* [Buffer](https://buffer.com/)のような他のアプリがあり、複数のソーシャルメディアチャネルを制御するために使用できます。
-* 重要な情報を与えるために事前にツイートをスケジュールすることができるので、イベントを実行している場合は特に便利です。
+* This can be done through the Twitter web browser or by using a Twitter app such as Tweetdeck.
+* Tweetdeck is the only app owned by Twitter and it is free to use.
+But there are [other apps for all different platforms](https://www.reviewgeek.com/52119/the-best-twitter-apps-for-every-platform/), although you often have to pay for their services.
+* There are other apps, such as [Buffer](https://buffer.com/), that you can use to control multiple social media channels.
+* Scheduling tweets is particularly helpful if you are running an event as you can schedule tweets well in advance to give important information.
 
-**3. ミスツイートの防止**
+**3. Preventing miss tweeting**
 
-* あなたが複数のツイータアカウントを担当している場合、ミスツイートの可能性があります。 これは、たとえば、組織のアカウントを使用して個人的なツイートをつぶやくときです。
-* Tweetdeck には、ツイートする前に追加チェックを実行するための確認ステップを追加する機能があります。 これはこの問題を防ぐのに役立ちます。
+* When you are responsible for multiple tweeter accounts, there is the possibility of miss tweeting.
+This is when you tweet out, for example, a personal tweet using an organisational account.
+* Tweetdeck has a feature that allows you to add a confirmation step to perform an extra check before tweeting.
+This helps to prevent this issue.
 
-**4. 同じアカウントの複数のユーザーを有効にする**
+**4. Enabling multiple users of the same account**
 
-* また、Tweetdeck では、 [チームとしてアカウントを設定して、複数のユーザーが異なるアクセスを許可する](https://help.twitter.com/en/using-twitter/tweetdeck-teams) ができます。
-* アカウントの管理者となり、他のユーザーが貢献者となります。
-* 投稿者として、チームアカウントにツイート、ダイレクトメッセージ、いいね、リツイートを投稿できます。 パスワードを変更したりアカウント設定を管理することはできません。
+* Also on Tweetdeck, you can [set up an account as a team to allow multiple users to have different access](https://help.twitter.com/en/using-twitter/tweetdeck-teams).
+* There will be one person that is the admin for the account and then the other users are contributors.
+* As a contributor you can post Tweets, Direct Message, like, and Retweet for the team account.
+You cannot change the password or manage account settings.

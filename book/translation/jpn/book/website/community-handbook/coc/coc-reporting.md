@@ -1,20 +1,20 @@
-# インシデント報告ガイドライン
+# 3 Incident Reporting Guidelines
 
 (ch-coc-reporting)=
-## 3.1 連絡先
+## 3.1 Contact points
 
-ご希望の場合は、Kirstie Whitaker にメールで [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk) までお問い合わせください。
+If you feel able to, please contact Kirstie Whitaker by email at [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk).
 
-## 3.2 代替コンタクトポイント
+## 3.2 Alternate contact points
 
-Kirstie Whitakerに連絡するのが快適でない場合は、 [a.krystalli@sheffield.ac.uk](mailto:a.krystalli@sheffield.ac.uk) までメールでAnna Krystalliに事件を報告してください。
+If you do not feel comfortable contacting Kirstie Whitaker, please report an incident to Anna Krystalli by email at [a.krystalli@sheffield.ac.uk](mailto:a.krystalli@sheffield.ac.uk).
 
-あるいは、コア開発チーム以外の人に連絡したい場合は、Ben Murtonにメールで [bmurton@turing.ac.uk](mailto:bmurton@turing.ac.uk) までお問い合わせください。
+Alternatively, if you would like to contact someone outside of the core development team, please contact Ben Murton by email at [bmurton@turing.ac.uk](mailto:bmurton@turing.ac.uk).
 
-## 3.3 誰かが身体的な危険にさらされた場合の対処方法
+## 3.3 What to do if someone is in physical danger
 
-誰かが物理的な危険にさらされていると思われる場合は、適切な緊急事態対応者に連絡してください。
+If you believe someone is in physical danger, please contact the appropriate emergency responders.
 
-## 3.4 行動基準 エンフォースメント
+## 3.4 Code of Conduct Enforcement
 
-詳細な執行ポリシーは、以下の施行マニュアルにあります。
+A detailed enforcement policy is available in the Enforcement Manual below.

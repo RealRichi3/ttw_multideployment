@@ -1,67 +1,81 @@
 (ch-coworking-motivation)=
-# 背景、動機、技術
+# Background, Motivations, and Techniques
 
-## 背景と動機付け
+## Background and Motivation
 
-_The Turing Way_ がイギリスに所在する約10人のメンバーから始まったとき リアルタイムで同じ場所で一緒に作業できます 彼らはアイデアを共有しお互いを助け合い、膨大な量の文章を書き、編集、レビューを行い、お互いにやり取りを楽しんでいました。
+When _The Turing Way_ started with around 10 members located in the United Kingdom, they could work in real-time and often together in the same location.
+They shared ideas, helped each other out, got huge amounts of writing, editing and reviewing done, and had lots of fun interacting with each other.
 
-貢献者のコミュニティがコアチームを超えて成長するのを助けるため 個人間の書籍ダッシュ(短いバージョンの [本のスプリント](https://www.booksprints.net/))は、興味のある参加者に、互いに非公式に接続する利点を持つ同様のコラボレーション環境を提供するために主催されました。 しかし、誰もがこのような個人的なイベントに参加することはできません。 これらは、仕事関連および個人的な責任から 1-2 日を取ることができる人々のためにのみ動作します。 さらに、彼らは組織で多くの時間と労力を要し、実行するために高価です。 特に多くの参加者が一緒に仕事をする喜びを感じられるようになりたいのであれば
+To help the community of contributors grow beyond the core team, the in-person book dash (a shorter version of [book sprints](https://www.booksprints.net/)) were hosted to offer interested participants a similar collaborative environment with an advantage to connect with each other informally.
+However, not everyone can join such in-person events.
+These only work for people who can take 1-2 full days from their job-related and personal responsibilities to attend the event.
+Moreover, they take a lot of time and effort in organisation and are expensive to run, especially if we want to host them frequently to allow more and more participants to experience the joy of working together.
 
-これは、オンラインコワーキングの実践がコミュニティプロジェクトとして _The Turing Way_ にとって非常に価値があるところです。
+This is where the practice of online coworking is extremely valuable for _The Turing Way_ as a community project.
 
-これらのオンライン・コールをホスティングする動機は、 _The Turing Way_ コミュニティです。
+The motivation behind hosting these online calls for _The Turing Way_ community are the following:
 
-1. リアルタイムのオリエンテーションを提供することで、プロジェクトに初めて参加するオンボードメンバー
-2. コミュニティのメンバー間の個人的なつながりを構築する
-3. 本の内容の編集、レビュー、デザイン、および書き込みを行う貢献者をサポートします
-4. メンバーがプロジェクトで達成したい目標に対する説明責任と所有権の感覚を作りましょう
-5. _The Turing Way_ の進展を祝い、次のステップと今後の方向性に合意を築きましょう。
+1. Onboard members who are new to the project by providing a real-time orientation
+2. Build personal connections between members of the community
+3. Support contributors as they edit, review, design and write content for the book
+4. Create a sense of accountability and ownership for the goals our members want to accomplish in the project
+5. Celebrate the progress of _The Turing Way_ and collaboratively build consensus on the next steps and future directions.
 
-私たちは、 _The Turing Way_ の分散型コミュニティのために、共有された経験、接続、サポート、コラボレーションのための安全なスペースを作り出すことを目指しています。
+We aim to create a safe space for shared experience, connection, support and collaboration for the distributed community of _The Turing Way_.
 
-あなたがこれらの呼び出しに出席したいが、何を動作するか分からない場合は、心配しないでください! _チューリングウェイ_ のコアチームメンバーは、呼び出しに応じて、プロジェクトのいくつかの出発点や、あなたが変化をもたらすことができる他の継続的な取り組みを指摘します。
+If you want to attend these calls but don't know what to work on, don't worry!
+_The Turing Way_ core team members will be on the call and point you to some starting points in the project and other ongoing efforts where you can make a difference.
 
-## 技術
+## Techniques
 
-私たちは2種類のコワーキングコールを提供しています:コミュニティで進行中のプロジェクトに取り組むために毎週1時間の短いコール。 コミュニティの議論と静かな作業スロットを組み合わせた2時間の長さのコラボレーションカフェ。 私たちは、メンバーのスケジュールが許す限り、指定された時間内に出席することを奨励します. たとえ電話中にいなくても
+We offer two types of coworking calls: 1-hour short calls every week to work on ongoing projects in the community, and 2-hour long bimonthly Collaboration Cafes that offers a mix of community discussion and quiet working slots.
+We encourage our members to attend for as long during these designated hours as their schedule allows, even if they can't be present during the entire call.
 
-これらの呼び出しは、2つのテクニックの組み合わせを使用します。
-1. シャットアップ & 書き込み方法
-2. ポモドーロ間隔技術
+These calls use a combination of two techniques:
+1. Shut up & Write method
+2. Pomodoro Interval Technique
 
-### シャット アップ & 書き込み
+### Shut up & Write
 
-[Shut up & Write!](https://shutupwrite.com/) are *local writing meetups where you get your writing done*. 彼らの [メソッド](https://shutupwrite.com/method) は、書き込みプロセスを、アイデア、構造化、ドラフト、編集、再編成、修正、ポリッシュ、パブリッシング、およびプロモーションの8つのステップに分割します。 彼らは参加者に何を書きたいのか、どこにいるのかを知ることを奨励します。 彼らは彼らの出発点を識別し、一貫性を実践することによって次のステップを通過することにコミットしたら、 *着実に「終了」*.
+The [Shut up & Write!](https://shutupwrite.com/) are *local writing meetups where you get your writing done*.
+Their [method](https://shutupwrite.com/method) divides the writing process into eight steps: ideation, structuring, drafting, editing, restructuring and revising, polishing, publishing, and promoting.
+They encourage their participants to identify what they want to write and where they are in this eight-step process.
+Once they identify their starting point and commit to getting through the next steps by practicing consistency *steadily to “The End”*.
 
-彼らはシャットアップを説明します & 書き込み! イベントは2つのことを提供します:
+They explain that the Shut up & Write! events provide two things:
 
-**1. Accountability & 習慣形成:**
+**1. Accountability & Habit Formation:**
 
-新しい習慣は、特定の日、時間、場所に一貫してそれらを行うことを約束するとき、私たちのルーチンの一部になります. この原則に基づく。 Shut up & Write eventsにより、参加者は毎週1時間同時にライティングイベントに参加するというコミットメントを行うことで、ライティング課題に成功した結果をもたらすことができます。
+A new habit becomes a part of our routine when we commit to doing them consistently on a specific day, time, and location.
+Based on this principle, Shut up & Write events allow participants to yield successful outcomes for their writing assignments by making the commitment to attend the writing event each week at the same time for 1 hour.
 
-**2. ソーシャルモチベーション & サポート:**
+**2. Social Motivation & Support:**
 
-*属性の感覚* は、タスクのパフォーマンスと関与を高めることができます。 別のセクターから2000人の参加者を対象としたアンケートで行われた。 高い属性は、ジョブパフォーマンス {cite:ps}のなんと56%の増加にリンクされました`HBR2019Belonging`. 同じ行に沿って。 Shut Up & Writeイベントは、参加者が他の人がそれらの周りに書いていることによってサポートされ、動機づけられていると感じるコミュニティの感覚を提供します。
+The *sense of belonging* can increase performance and engagement in tasks.
+In a survey conducted on 2000 participants from different sectors, high belonging was linked to a whopping 56% increase in job performance {cite:ps}`HBR2019Belonging`.
+Along the same line, Shut Up & Write events provide a sense of community where attendees feel supported and motivated by everyone else writing around them.
 
-彼らは3つの経験のサイクルを作成します: "習慣の構築と進歩"、"社会的支援と説明責任"と"偉大な執筆経験" 人々を魅了し、コミットし、彼らがしようとしていることを達成させるのです
+They create a cycle of 3 experiences: "habit building and progress", "social support and accountability" and "great writing experience", which keep people engaged, feel committed and accomplish what they set out to do.
 
 ### Pomodoro Technique
 
-[ポモドーロのテクニック](https://en.wikipedia.org/wiki/Pomodoro_Technique) はタイマーを使って、通常は"ポモドーロ"と呼ばれる25分の間隔に分解します。 5分間の短い休憩で区切られています ポモドーロ技術は、従来の技術と同様に、計画、追跡、記録、処理、および手元のタスクを可視化することができます。
+The [pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) uses a timer to break down work into smaller intervals usually of 25 minutes called "Pomodoros", separated by short breaks of 5 minutes.
+Like the previous technique, the Pomodoro technique allows planning, tracking, recording, processing and visualizing the task at hand.
 
-> ポモドーロ、イタリア語の「トマト」から、フランチェスコ・シリロが大学生として使用したトマト型のキッチンタイマーの後。 {cite:ps}`Lifehack2020pomodoro`
+> Pomodoro, from the Italian word for 'tomato', after the tomato-shaped kitchen timer that Francesco Cirillo used as a university student. {cite:ps}`Lifehack2020pomodoro`
 
-このテクニックの目標は、先延ばしを避け、次のワークフローの助けを借りて物事を終えることです。
-- タスクを識別する
-- ポモドーロタイマーを25分間長く設定する
-- タイマーが鳴るまで作業を続けます
-- 5分休憩を取って
-- 次に何をするか特定して
-- タイマーを再起動し、ワークフローを繰り返します
+The goal of this technique is to avoid procrastinating and get things done with the help of the following workflow:
+- identify the task
+- set the Pomodoro timer (25 minutes long)
+- work on the task until the timer rings
+- take a 5 minutes break
+- identify what would you work on next
+- restart the timer and repeat the workflow
 
-元の方法では、ポモドーロの数を数えるために紙にチェックマークを付け、4ポモドーロの後に15〜30分の長い休憩を取ることを提案することを推奨しています。 長い休憩時間は、次のタスクに使用できます。
-- あなたが最後のポモドーロで行うことができる仕事を振り返ります。
-- あなたが学んだことと、今後何をするかを考えてみましょう
-- 次のタスクセットまたはプロジェクト内の次のステップを特定する
+The original method recommends putting a checkmark on a piece of paper to count the number of Pomodoros and suggests taking a longer break of 15-30 minutes after four Pomodoros.
+The longer breaks can be used for the following tasks:
+- Reflect on the work that you could get done in the last Pomodoros
+- Reflect on what you learned and what you would do differently going forward
+- Identify the next set of tasks or the next steps in the project you are working on
 
-次の章では、 この2つのテクニックを組み合わせたコワーキング・コワーキング・コールの形式について説明します。毎週のコラボ・カフェとコミュニティのメンバーのための毎週のコワーキング・コールを開催します。
+In the next subchapters, we explain our coworking call formats where we combine these two techniques to host the biweekly Collaboration Cafes and weekly coworking calls for our community members.

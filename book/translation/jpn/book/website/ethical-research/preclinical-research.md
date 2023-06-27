@@ -1,24 +1,33 @@
-(er-activism-prelinical-research)=
-# Prelinical Research における倫理的決定
+(er-activism-preclinical-research)=
+# Ethical Decisions in Preclinical Research
 
-## 前提条件 / 推奨スキルレベル
-前臨床の科学者の場合 - これまでの知識は必要ありません
+## Prerequisites / recommended skill level
+For preclinical scientists – no previous knowledge needed
 
 ## Summary
-社会は科学的研究において動物の使用を常に議論している。 根本的な疑問は、動物を使った実験が道徳的に正当であるかどうか、そして潜在的な利益がそれらの動物の苦しみを上回るかどうかということです。 これらの疑問は、動物研究による知見の再現性の低さに対する懸念の高まりと相まっている。 翻訳や科学の進歩や資源の利用に影響を与えます しばしば取り上げられない質問は、これらの正当化された実験がどのように設計、実施、分析されるかです。 実験的設計、不適切な統計解析、不適切な報告が大きな懸念のための領域としてフラグを付けられました {cite:ps}`Kilkenny2009AnimalExperiments,Begley2015再現性`. 動物実験が適切に設計されていることを確認することは、道徳的に私たちに課せられています。 それ以外の場合、結果は信頼できないリスクがあります。 結果が信頼性が低い場合は、使用された動物が効果的に無駄にされています {cite:ps}`Ioannidis2014IncreasingValue,deVries2014ReviewAnimalExp`.
+Society continually debate the use of animals in scientific research.
+The fundamental questions are whether experiments using animals are morally justifiable and whether the potential benefits outweigh the suffering of those animals?
+These questions have been coupled with increasing concern about the poor reproducibility of findings from animal research, due to the impact this has on translation, scientific progress and the use of resources.
+A question that is not often addressed is how those justified experiments are designed, conducted and analysed.
+Flawed experimental design, inappropriate statistical analysis and inadequate reporting have been flagged as areas for major concern {cite:ps}`Kilkenny2009AnimalExperiments,Begley2015Reproducibility`.
+It is morally incumbent upon us to ensure that animal experiments are appropriately designed, conducted and analysed otherwise the results are at risk of being unreliable.
+If the results are unreliable then the animals used have in effect have been wasted {cite:ps}`Ioannidis2014IncreasingValue,deVries2014ReviewAnimalExp`.
 
-## これがあなたを助ける方法/これが有用である理由
-多くの前臨床研究者は、自分自身をデータサイエンティストと考えていません。 これは主に、小規模なデータセットで動作するためです。 しかし、オープンな研究テーマは多く、この章では、その理由を理解する前臨床の科学者を支援することを目的としています。 オープンな研究の取り組みをいつ、どのように採用できるのか、あるいは前臨床の科学者による使用のために特別に設計されたものがあります。
-> 上記の文章は、これらの章内の本や流れの構造に適合しない可能性があります - Nadia
+## How this will help you/ why this is useful
+Many preclinical researchers do not think of themselves as data scientists.
+This may be primarily because they work with small datasets.
+However, there are many common open research themes and this chapter aims to assist preclinical scientists in understanding the why, where, when, and how they can employ open research initiatives, some designed specifically for the use by preclinical scientists.
 
-## 実験的なデザインアシスタント
-国立交換センター 研究における動物の精製と削減 (NC3R) には、自由にアクセス可能なウェブベースのツール - 実験設計アシスタント (EDA; https://eda 研究者が動物実験の設計、指揮、分析、報告を行うことを目的としたc3rs.org.uk)。 EDAで実験を設計することで、データを収集する前の実験の設計段階でバイアスの発生源を考慮するようになります。 再現可能な堅牢な発見をもたらす可能性の高い厳格な設計を確保しています このツールは、データを収集する前に精査することができる透明で明確なプロトコルと統計分析の計画を持っていることを保証します。
+## The Experimental Design Assistant
+The National Centre for the Replacement, Refinement and Reduction of Animals in Research (NC3Rs) have a freely accessible web-based tool – The Experimental Design Assistant (EDA; https://eda.nc3rs.org.uk) which aims to help researchers improve the design, conduct, analysis and reporting of animal experiments.
+Designing experiments with the EDA encourages researchers to consider the sources of bias at the design stages of the experiment before the data are collected, ensuring a rigorous design that is more likely to yield robust findings that can be reproduced.
+The tool ensures that you have a transparent, clear protocol and plan for statistical analysis which can be scrutinised before collecting data.
 
-**EDAの特徴:**
-* 実験計画を表すダイアグラムを開発するためのコンピュータ支援設計ツール
-* 実験計画に関する専門家システムからのフィードバックです
-* 分析の提案
-* サンプルサイズ計算 (パワー分析)
-* ランダム化シーケンスの生成
-* 割り当ての隠蔽と盲目化の支援は
-* 実験的な設計と分析の知識を向上させるウェブベースのリソース
+**Features of the EDA:**
+* A computer-aided design tool to develop a diagram representing the experimental plan
+* feedback from an expert system on the experimental plan
+* analysis suggestion
+* sample size calculation (power analysis)
+* randomisation sequence generation
+* support for allocation concealment and blinding
+* web-based resources to improve knowledge of experimental design and analysis

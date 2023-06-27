@@ -1,37 +1,46 @@
-(rrr-binderhub-compute)=
-# リソースを計算
+(rr-binderhub-compute)=
+# Compute Resources
 
-BinderHubはクラウドニュートラルで、任意のクラウドプラットフォームにデプロイできます。 したがって、最小要件は、選択したクラウドプラットフォームへのサブスクリプションです。
+BinderHub is cloud-neutral which means it can be deployed on any cloud platform.
+Therefore, the minimum requirement is a subscription to a cloud platform of your choosing.
 
-実際、BinderHubはクラウドホスティングにまったく依存しておらず、オンプレミスのコンピューティングシステムに展開することができます。
+In fact, BinderHub is not dependent on cloud-hosting at all and can be deployed onto an on-premise computing system.
 
 ## Kubernetes
 
-[Kubernetes](https://kubernetes.io/) は、デプロイメントの自動化、スケーリング(多かれ少なかれコピーの作成)のためのシステムです。 そして、コンピューティングクラスタ全体のコンテナの管理(クラウドベースである必要はありません)を行います。 BinderHubはKubernetesを使用して、Binderサービスのユーザーから要求されたリソースを管理し、環境を構築するツールをサポートします。
+[Kubernetes](https://kubernetes.io/) is a system for automating deployment, scaling (making more or fewer copies), and management of containers across a compute cluster (it doesn't have to be cloud-based).
+BinderHub uses Kubernetes to manage the resources requested by the users of the Binder service, and to support the tools that build the environments.
 
-## ヘルム
+## Helm
 
-[Helm](https://helm.sh/) は Kubernetes のパッケージマネージャです。 パッケージは *チャート* の形で展開する手順のセットです。 Kubernetes クラスター上で実行されているアプリケーションのアップグレードと管理。 Kubernetesアプリケーションのインストールと管理をはるかに容易にし、プロジェクトの特定のチャートをオンラインで公開することができます。 たとえば、BinderHub の Helm チャートは [こちら](https://jupyterhub.github.io/helm-chart/#development-releases-binderhub) から利用できます。
+[Helm](https://helm.sh/) is a package manager for Kubernetes.
+Packages come in the form of *Charts* which are a set of instructions to deploy, upgrade and manage applications running on a Kubernetes cluster.
+They can make installing and managing Kubernetes applications much easier and specific Charts for projects can be published online.
+For example, the Helm Chart for BinderHub is available [here](https://jupyterhub.github.io/helm-chart/#development-releases-binderhub).
 
 ## repo2docker
 
-[repo2docker](https://repo2docker.readthedocs.io/en/latest/?badge=latest) は、設定ファイルを与えられたコードリポジトリから Docker イメージを自動的にビルドするツールです。 この Docker イメージには、リポジトリにリストされているすべてのコード、データ、リソースが含まれます。 コードを実行するために必要なすべてのソフトウェアは、設定ファイルからプリインストールされます。
+[repo2docker](https://repo2docker.readthedocs.io/en/latest/?badge=latest) is a tool that automatically builds a Docker image from a code repository given a configuration file.
+This Docker image will contain all of the code, data and resources that are listed in the repository.
+All the software required to run the code will also be preinstalled from the configuration file.
 
 ## JupyterHub
 
-[JupyterHub](https://jupyter.org/hub) は、Jupyter Notebooks とコンテナ用のマルチユーザサーバです。 Binderのコンテキストでは、JupyterHubの主な役割は、ユーザのブラウザをKubernetesクラスタ上で実行されているBinderHubインスタンスに接続することです。 ただし、JupyterHub は、BinderHub の操作をより詳細に制御するために、さらにカスタマイズすることができます。
+[JupyterHub](https://jupyter.org/hub) is a multi-user server for Jupyter Notebooks and containers alike.
+In the context of Binder, the JupyterHub's main role is to connect the user's browser to the BinderHub instance running on the Kubernetes cluster.
+However, the JupyterHub can be further customised to provide greater control over the operation of the BinderHub.
 
-BinderHub は、repo2docker と JupyterHub の上に位置する薄いレイヤーと考えられており、相互作用をオーケストレーションし、URL を解決します。
+BinderHub can be thought of as thin layer that sits on top of repo2docker and JupyterHub, orchestrating their interactions and resolving URLs.
 
-## バインダーのリンクがクリックされたときはどうなりますか?
+## What happens when a Binder link is clicked?
 
-1. リポジトリへのリンクは BinderHub によって解決されます。
-2. BinderHub は、指定された参照に関連する Docker イメージを検索します (git commit hash, Branch or tag)。
-3. **Docker イメージが見つからない場合**, BinderHub は Kubernetes クラスターからリソースを要求して、repo2docker を実行します。
-   - リポジトリを取得します
-   - 構成ファイルに要求されるソフトウェアを含むDockerイメージを構築する
-   - そのイメージを Docker レジストリにプッシュします。
-4. BinderHub は Docker イメージを JupyterHub に送信します。
-5. JupyterHub は、Kubernetes クラスターから Docker イメージを提供するリソースを要求します。
-6. JupyterHub は、実行中の Docker 環境にユーザーのブラウザーを接続します。
-7. JupyterHub はコンテナのアクティビティを監視し、非アクティブ期間の後にそれを破壊します。
+1. The link to the repository is resolved by BinderHub.
+2. BinderHub searches for a Docker image relating to the provided reference (for example, git commit hash, branch or tag).
+3. **If a Docker image is not found**, BinderHub requests resources from the Kubernetes cluster to run repo2docker to do the following:
+   - Fetch the repository,
+   - Build a Docker image containing the software requested in the configuration file,
+   - Push that image to the Docker registry.
+4. BinderHub sends the Docker image to JupyterHub.
+5. JupyterHub requests resources from the Kubernetes cluster to serve the Docker image.
+6. JupyterHub connects the user's browser to the running Docker environment.
+7. JupyterHub monitors the container for activity and destroys it after a period of inactivity.

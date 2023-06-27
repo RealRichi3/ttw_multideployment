@@ -1,32 +1,33 @@
 (rr-overview)=
-# 再現可能な研究の概要
+# Overview of Reproducible Research
 
-(rr-overview-requireites)=
-## 前提条件
+(rr-overview-prerequisites)=
+## Prerequisites
 
-以前の知識は必要ありません。
+No previous knowledge needed.
 
-```{figure} ../figures/research-cycle.jpg
+```{figure} ../figures/research-cycle.*
 ---
 name: research-cycle
-alt: 研究プロセスは、研究アイデアを生み出す永続的なサイクルとして表現されます。 データ計画と設計、データ収集、データ処理と分析、公開、保存、そのため、データの再利用が可能になります。 
+alt: The research process is represented as a perpetual cycle of generating research ideas, performing data planning and design, data collection, and data processing and analysis, publishing, preserving and hence, allowing re-use of data. 
 ---
-_Scriberiaによるチューリング方法_プロジェクトのイラスト。 CC-BY 4.0ライセンスの下で使用される。 DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 (rr-overview-summary)=
 ## Summary
 
-これらの結果が複数の独立した研究者によって複製され確認されれば、科学的な結果と証拠は強化されます( {ref}`定義 <rr-overview-definitions>` を参照)。
+Scientific results and evidence are strengthened if those results can be replicated and confirmed by several independent researchers (see {ref}`definitions <rr-overview-definitions>`).
 
-研究者が研究の透明性を採用する場合 - 言い換えれば、 分析に関連するデータやプロセスを適切に文書化し共有すると、より広範な研究コミュニティは、公開された結果を複製または構築する際に貴重な時間を節約することができます。 多くの場合、以前のプロジェクトのデータまたはコードは、新しい研究者が古い所見を検証したり、新しい分析を開発するために再利用されます。
+When researchers employ transparency in their research - in other words, when they properly document and share the data and processes associated with their analyses - the broader research community is able to save valuable time when reproducing or building upon published results. 
+Often, data or code from prior projects will be re-used by new researchers to verify old findings or develop new analyses. 
 
-{ref}`Added Advantages <rr-overview-benefits>` subchapterで再現性のある研究のその他の利点について学びましょう。
+Learn about some of the other benefits of reproducible research in the {ref}`Added Advantages <rr-overview-benefits>` subchapter.
 
-主要なメディアは [](https://www.theguardian.com/science/2018/aug/27/attempt-to-replicate-major-social-scientific-findings-of-past-decade-fails) 調査で報告されており、科学的研究のかなりの割合で再現できないことが示されています。 これにより、他の学者や社会が科学的成果への信頼を失うことにつながります。 {cite:ps}`baker2016reproblem`.
+Major media outlets have [reported on](https://www.theguardian.com/science/2018/aug/27/attempt-to-replicate-major-social-scientific-findings-of-past-decade-fails) investigations showing that a significant percentage of scientific studies cannot be reproduced. This leads to other academics and society losing trust in scientific results {cite:ps}`baker2016reproducibility`. 
 
-さらに、「否定的な結果」を簡単に公開することができます {cite:ps}`Dirnagl2010via`.
+In addition, "negative results" can be published easily, helping avoid other researchers wasting time repeating analyses that will not return the expected results {cite:ps}`Dirnagl2010bias`.
 
-再現性に関するリソースをさらに読むには、 {ref}`リソース <rr-overview-resources>` のサブチャプターを参照してください。
+For further reading resources on reproducibility, please check out the {ref}`Resources <rr-overview-resources>` subchapter.
 
-***チャプタータグ**: このチャプターは、 `チューリングデータ研究グループ` (`turing-dsg` ) のためにキュレーションされています。*
+***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*

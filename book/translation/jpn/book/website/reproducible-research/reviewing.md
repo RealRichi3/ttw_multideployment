@@ -1,29 +1,34 @@
 (rr-reviewing)=
-# コードレビュープロセス
+# Code Reviewing Process
 
-(rr-reviewing-requireites)=
-## 前提条件
+(rr-reviewing-prerequisites)=
+## Prerequisites
 
-| 前提条件                         | 重要度 | メモ                                                                         |
-| ---------------------------- | --- | -------------------------------------------------------------------------- |
-| {ref}`バージョン管理<rr-vcs>` | 必要な | [Github](https://github.com) がリポジトリ内でブランチ、フォーク、プルリクエストを配置する方法を理解する必要があります。 |
+| Prerequisite | Importance | Notes |
+| -------------|------------|-------|
+| {ref}`Version Control<rr-vcs>` | Necessary | Understanding the way that [Github](https://github.com) arranges its branches, forks, and pull requests within repositories is needed. |
 
-```{figure} ../figures/bug-catching.jpg
+```{figure} ../figures/bug-catching.*
 ---
 height: 500px
-name: bug-catch
-alt: コードやプロジェクトのバグを表すさまざまな方法で異なる昆虫を捕まえる人。
+name: bug-catching
+alt: People catching different insects in different ways - representing bugs in our code or project.
 ---
-バグをキャッチしています。 _Scriberiaによるチューリング方法_プロジェクトのイラスト。 CC-BY 4.0ライセンスの下で使用される。 DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
+Catching bugs. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 (rr-reviewing-summary)=
 ## Summary
 
-コードレビューは、コードの品質をテストする追加の方法を提供します。 元の作者が自分自身をまとめた {ref}`テスト<rr-testing>` に依存する代わりに コードレビューは別のプログラマーに 新しいコードを調べて評価させます 目標は、強みと改善の潜在的な分野を指摘することです。
+Code review provides an additional way of testing code quality.
+Instead of relying simply on {ref}`tests<rr-testing>` which the original author puts together themselves, code review gets another programmer to look over the new code and assess it. The goal is to point out strengths and also potential areas of improvement.
 
-多くの場合、コードレビューはペアで行われ、各レビュー担当者はパートナーによってレビューされたコードの一部を持っています。 これを行うことは、プログラマーが課題や代替のアプローチを見て議論し、新しいヒントやコツを学ぶのに役立ちます。 これは、コードレビューの実践が、複数の貢献者が変更を加えるプロジェクトに特に適していることを意味します。 それぞれがコードの異なる部分に取り組んでいます それにもかかわらず、小さな規模のプロジェクトでさえ、これらのアプローチをクリエイティブなプロジェクト管理で活用できます。
+Code review is often done in pairs, with each reviewer also having some of their code reviewed by their partner.
+Doing this can help programmers to see and discuss issues and alternative approaches to tasks, and to learn new tips and tricks.
+This also means code review practices are particularly well-suited to projects with more than one contributor making changes, where each is working on different parts of the code.
+Nonetheless, even the smallest scale projects can harness these approaches with some creative project management.
 
-それらの性質のために、コードレビューは定量的なテストというよりも質的なものとして機能しますが、それほど価値のあるものではありません。
+Because of their nature, code reviews act as qualitative - rather than quantitative - tests but are no less valuable for that.
 
-このセクションでは、合理性、ベストプラクティス、およびコードレビューのワークフローの概要を説明します。 いくつかの詳細は、具体的にはGitHubのコードレビュー機能を正式なコードレビューシステムの強力で広く使用されている例として参照してください。 しかし、同等および非常に似たシステムが他の場所で利用可能です（例えば、 [GitLab](https://about.gitlab.com)） 非公式のコードレビューでさえプロジェクトにとって非常に有益です
+This section will provide an overview of rationales, best practices, and some possible workflows for code review.
+Some details refer specifically to GitHub's code review functionality as a powerful and widely-used example of a formal code review system; however, equivalent and very similar systems are available elsewhere (for example, [GitLab](https://about.gitlab.com)), and even informal code review practices can also be very beneficial to a project.

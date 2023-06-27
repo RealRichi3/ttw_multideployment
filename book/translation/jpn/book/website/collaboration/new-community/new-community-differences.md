@@ -1,30 +1,43 @@
 (cl-new-community-differences)=
-# 多様性と違いを大切にする
+# Valuing Diversity and Differences
 
-人々が他の人とコラボレーションするとき、彼らはすでに彼らと一緒に働いているか、彼らは完全に見知らぬ人であっても。 誰もが異なる背景や文化を持つことを考慮する必要があります さまざまなタイムゾーン、スキルのレベル、そして非常に異なる生きた経験。
+When people collaborate with others, no matter if they have already worked with them or they are complete strangers, you need to take into account that everyone will have different backgrounds, different cultures, different time zones, different levels of skills and very different lived experiences.
 
-(cl-new-community-differences-perpectives)=
-## あなたのメンバーから多様な視点を歓迎します
+(cl-new-community-differences-perspectives)=
+## Welcome Diverse Perspectives From Your Members
 
-ステークホルダーが公正な機会を与えられた場合は、あなたのステークホルダーが誰であるかを慎重に考えてください 地域社会の多様性を確保するための戦略があるのであれば
+Think carefully about who your stakeholders are, if they are given fair opportunities to be heard, if certain groups are less represented than others, and if you have strategy in place to ensure diversity in your community.
 
-あなたのメンバーがあなたのプロジェクトに参加するために後ろに持っているであろう様々な動機に注意することは重要である。 たとえば、COVID-19関連プロジェクトの場合。 COVID-19のどんなデータがあるのか知りたいから加わる人もいるでしょう いくつかのスキルを学びながらグループの一員になるつもりです あなたがしていることを見る人もいるでしょう COVID-19感染に苦しんでいる親戚がいるので、一部の人々はあなたに参加しますが、彼らは診断プロセスをスピードアップしたいと考えています。 多様な視点をあなたのプロジェクトに歓迎する準備をしなさい。
+It is important to be mindful of the varying motivations your members will have behind joining to work on your project.
+For example, in the case of COVID-19 related projects, you can expect that some people will join you because they want to know what kind of data on COVID-19 exist, some will come with an intention to be part of a group while learning some skills, some will simply hang out to watch what you are doing, whereas some people will join you because they have relatives who are suffering from COVID-19 infection and they want to speed up the diagnostic process.
+Be prepared to welcome their diverse perspectives into your project.
 
-(cl-new-community-differences-conditiones)=
-## 人々は異なる個人的な状況を持っています
+(cl-new-community-differences-circumstances)=
+## People Have Different Personal Circumstances
 
-個人として、誰もが私たちと同じ労働条件を持っていると考えるかもしれません。 ツールやリソースへのアクセスや作業セットアップなどですが現実とはかけ離れています 同じ都市にいる同僚でも生活環境が違うかもしれませんし、思いやりのある責任、医療の状況、そして彼らが利用できる資源が違うかもしれません。 誰もがあなたのプロジェクトに参加するための平等なアクセスまたは能力を持っていると仮定しないでください。 誰にとっても公平な機会を作るために、(ハードウェアなどの)さまざまな要件のタスクリストを作成してください。 人々が彼らに利用できる資源に基づいて貢献する場所を選ぶことができるようにソフトウェア、参照材料またはインターネット帯域幅) 。
+As an individual we may think that everyone has the same working conditions as us, such as access to the tools and resources or their work setup, whereas the reality is far from that.
+Our colleagues even in the same city may have different living situations, caring responsibilities, medical conditions and resources available to them.
+Don’t assume that everyone will have equal access or capacity to participate in your project.
+To create equitable opportunities for everyone, create task lists with varying requirements of time and resources (like hardware, software, reference materials or internet bandwidth) so that people can choose where to contribute based on resources available to them.
 
 (cl-new-community-differences-resources)=
-## 想定された知識とリソースへのアクセスを許可する
+## Allow Access to Assumed Knowledge and Resources
 
-異なる分野や背景を持つチームメンバーと協力することで、豊富な新しい視点が得られます。 しかし、生産的なコラボレーションのために、すべての当事者が慣れているべき概念を標準化することは重要です。 例えば、専門用語と頭字語をより明確な選択肢に置き換えると、すべてのチームメンバーが情報にアクセスできるようになります。 いくつかの技術用語が必要な場合は、共有された、編集可能な定義文書を持つことが便利です。 また、見下ろされることなく、誰でも解明を求められるような支援環境を作ることが重要です。
+Working with team members from different disciplines and backgrounds can provide a wealth of new perspectives. 
+However, it is important to standardise which concepts all parties should be familiar with for productive collaboration. 
+For example, replacing jargon and acronyms with clearer alternatives will make information accessible to all team members. 
+Where some technical terminology is necessary, it can be useful to have a shared, editable definitions document. 
+Additionally, it is important to create a supportive environment where anyone can ask for clarification without feeling looked down upon.
 
-さらに、誰もが共通の理解を得る機会があることを保証するために、いつでもリソースへのアクセスを提供します。 たとえば、あなたのプロジェクトのアイデアがペイウォールの後ろにある最近の査読付き論文に基づいている場合。 その論文に掲載されていない低所得機関の会員は、その論文に掲載されている情報にアクセスしない限り参加できません。
+Additionally, provide access to resources whenever you can to ensure that everyone has the opportunity to gain a common understanding.
+For example, if your project idea is based on a recent peer reviewed paper that is behind the paywall, members from low income institutes who don't hold a subscription to that journal will not be able to participate unless given access to the information discussed in that paper.
 
 (cl-new-community-differences-viewpoints)=
-## 視点を拡大するのに役立つ人を招待する
+## Invite Those Who Can Help You Expand Your Viewpoints
 
-リーダーシップの不均一性と公正な分配を維持するために、メンバーから視点を招待することを確認してください。 さまざまなシナリオまたは異なるプラットフォームで再現できるメソッド、データセット、ソリューション。 例えば、選択した医療関連の研究データセットに基づいて推奨を行う場合 先進国や発展途上国など様々な地理的条件に適用されると考えてください そうでない場合は、何を変更すべきか、そして誰を招待してプロジェクトを改善することができます。
+Make sure that you invite perspectives from your members who can help you maintain heterogeneity and fair distribution in leadership, methods, dataset and solutions that can be reproduced for different scenarios or across different platforms.
+For example, when making recommendations based on the selected dataset for health care related research, think if they will apply to different geographic conditions, such as both developed and developing countries.
+If not, consider what you should change, and who you can invite to help improve your project.
 
-プロジェクトで重要な声や視点が欠けている場合、どのように招待できますか? あなた自身ではない場合は、専門家(臨床医、疫学者、コミュニティリード、コミュニケーション担当者など)に相談してください。 さまざまなステークホルダーが、新しい、しかし重要で、しばしば予期しない視点を導入し、誤ったり非効果的な仮定を避けるのに役立つことを常に忘れないでください。
+If crucial voices and viewpoints are missing in your project, how can you invite them in? Talk to an expert (such as clinician, epidemiologist, community lead, and communication officer) if you are not one yourself.
+Always remember that different stakeholders can introduce new but critical and often unexpected viewpoints and help you avoid incorrect or ineffective assumptions.

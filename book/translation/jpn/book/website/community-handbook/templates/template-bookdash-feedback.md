@@ -1,24 +1,25 @@
 (ch-template-bookdash-feedback)=
-# フィードバック用のHackMDテンプレート
+# HackMD template for feedback
 
-*このテンプレートは、ブックダッシュイベントの最後にある HackMD の参加者によって匿名のフィードバックのために使用できます。 アクセス権限を設定することで、ノートを誰でも閲覧、編集できるようになります。*
+*This template can be used for anonymous feedback by the participants on HackMD at the end of the book dash events.
+The access permission can be set so that the notes can be read by everyone and edited by anyone.*
 
 ```
 
-# Turing Way Book <Month Year>: Pluss and Delta - <Location>
+# Turing Way Book <Month Year>: Pluses and Deltas - <Location>
 
-➕Pluss
---
-
-Book Dashについて気に入ったものを追加してください。 これらを使用してチューリングウェイプロジェクトや、資金提供者のインパクトレポートを宣伝することができます。 コメントを GitHub リポジトリに追加したくない場合(したがって公開される)、行頭に 🤫 を追加してください。
-
--
--
-
-:arrow_up_small:Delta
+:heavy_plus_sign:Pluses
 ---
 
-ブックダッシュについて変更するものを追加してください。 私たちはこれまでに実行したことがないので、すべてのコメントは本当に価値があります。 コメントを GitHub リポジトリに追加したくない場合(したがって公開される)、行頭に 🤫 を追加してください。
+Please add something you liked about the Book Dash. We might use these to advertise the Turing Way project and in impact reports for our funders. If you do not want your comment to be added to the GitHub repository (and therefore be made public) please add the 🤫 at the beginning of the line.
+
+-
+-
+
+:arrow_up_small:Deltas
+---
+
+Please add something that you would change about the Book Dash. We've never run one before and so all of your comments will be really valuable. If you do not want your comment to be added to the GitHub repository (and therefore be made public) please add the 🤫 at the beginning of the line.
 
 -
 -
