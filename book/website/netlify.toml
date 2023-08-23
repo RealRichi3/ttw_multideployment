@@ -1,0 +1,108 @@
+# example netlify.toml
+[build]
+  command = "pip install -r requirements.txt && jupyter-book build ."
+  functions = "netlify/functions"
+  publish = "book/website/_build/html"
+
+[dev]
+  command = "npm run serve" # Command to start your dev server
+  targetPort = 5002 # Port that the dev server will be listening on
+  publish = "_build/html" # Folder with the static content for _redirect file
+
+  [[redirects]]
+    from = "/en/*"
+    to = "/:splat"
+    status = 301
+    
+  [[redirects]]
+    from = "/fra/*"
+    to = "http://localhost:8888/fra/:splat"
+    status = 200
+
+  [[redirects]]
+    from = "/ar/*"
+    to = "http://localhost:64978/ar/:splat"
+    status = 200
+    
+    # A redirect rule with all the supported properties
+  [[redirects]]
+    # Root page changed in https://github.com/alan-turing-institute/the-turing-way/pull/2994
+    from = "/welcome"
+    to = "/index.html"
+    # The default HTTP status code is 301, but you can define a different one.
+    status = 301
+    force = true
+
+    # A redirect rule with all the supported properties
+  [[redirects]]
+    from = "http://127.0.0.1"
+    to = "http://127.0.0.1:8888/index.html"
+    # The default HTTP status code is 301, but you can define a different one.
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "http://127.0.0.1:8888/introduction/*"
+    to = "http://127.0.0.1:8888/index.html"
+    # The default HTTP status code is 301, but you can define a different one.
+    status = 200
+    force = true
+
+  [[redirects]]
+    from = "/reproducible-research"
+    to = "/reproducible-research/reproducible-research"
+    # The default HTTP status code is 301, but you can define a different one.
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/communication"
+    to = "/communication/communication"
+    # The default HTTP status code is 301, but you can define a different one.
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/collaboration"
+    to = "/collaboration/collaboration"
+    # The default HTTP status code is 301, but you can define a different one.
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/project-design"
+    to = "/project-design/project-design"
+    # The default HTTP status code is 301, but you can define a different one.
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/ethical-research"
+    to = "/ethical-research/ethical-research"
+    # The default HTTP status code is 301, but you can define a different one.
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/community-handbook"
+    to = "/community-handbook/community-handbook"
+    # The default HTTP status code is 301, but you can define a different one.
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/version_control/*"
+    to = "/reproducible-research/vcs"
+    # The default HTTP status code is 301, but you can define a different one.
+    status = 301
+    force = true
+
+  [[redirects]]
+    from = "/binderhub/*"
+    to = "/reproducible-research/binderhub"
+    # The default HTTP status code is 301, but you can define a different one.
+    status = 301
+    force = true
+
+
+    ## more info on configuring this file: https://docs.netlify.com/configure-builds/file-based-configuration/
