@@ -18,3 +18,9 @@ workshops/boost-research-reproducibility-binder/workshop-presentations/*pptx
 # Python virtual environments
 venv/
 env/
+
+# Local Netlify folder
+.netlify
+book/translation/*/book/website/_build
+book/translation/*/book/website/node_modules
+node_modules
