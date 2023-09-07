@@ -24,4 +24,4 @@ files:
       - node_modules
       - package.json
       - package-lock.json
-    translation: /book/translation/%three_letters_code%/book/website/%original_path%/%original_file_name%
+    translation: /book/translation/%three_letters_code%/book/website/%three_letters_code%/%original_path%/%original_file_name%
