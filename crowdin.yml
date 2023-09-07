@@ -1,6 +1,5 @@
 files:
   - source: /book/website
-    ignore_settings: 1
     ignore:
       - LICENSE.md
       - _toc.yml
@@ -25,3 +24,5 @@ files:
       - package.json
       - package-lock.json
     translation: /book/translation/%three_letters_code%/book/website/%three_letters_code%/%original_path%/%original_file_name%
+  - source: /book/website/**
+    translation: /book/translation/%three_letters_code%/%original_path%/%three_letters_code%
