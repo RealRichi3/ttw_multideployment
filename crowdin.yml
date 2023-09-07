@@ -25,4 +25,4 @@ files:
       - package-lock.json
     translation: /book/translation/%three_letters_code%/book/website/%three_letters_code%/%original_path%/%original_file_name%
   - source: /book/website/**
-    translation: /book/translation/%three_letters_code%/%original_path%/%three_letters_code%
+    translation: /book/translation/%three_letters_code%/%original_path%/%original_file_name%
