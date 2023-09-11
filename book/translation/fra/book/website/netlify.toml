@@ -1,6 +1,6 @@
 # example netlify.toml
 [build]
-  base = ""
+  base = "/translation/fra"
   command = "pip install -r requirements.txt && jupyter-book build ."
   publish = "book/website/fra/_build/html"
 
