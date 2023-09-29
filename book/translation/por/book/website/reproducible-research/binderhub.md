@@ -12,14 +12,14 @@ Este capítulo vai discutir o [BinderHub](https://binderhub.readthedocs.io/en/la
 
 Este capítulo destina-se principalmente aos Engenheiros de Software de Pesquisa e Serviços de TI que desejam fornecer um serviço à BinderHub como um grupo de pesquisadores. Embora qualquer um possa construir um BinderHub.
 
-```{figure} ../figures/binderhub.jpg
+```{figure} ../figures/binderhub.*
 ---
 nome: binderhub
 alt: Uma representação da arquitetura do BinderHub que envolve GitHub, repo2docker, docker, jupyterhub e envio para clientes na empresa.
 --- Ilustração sobre a arquitetura de BinderHub.
-_O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: 10.5281/zenodo.3332807.
+Ilustração do _projeto Turing Way_ por Scriberia. Usada sob uma licença CC-BY 4.0. DOI: 10.5281/zenodo.3332807.
 ```
 
-## Motivação
+## Motivação e fundo
 
 Ao ler este capítulo, você terá uma imagem mais clara de como os serviços de Binder (tais como [mybinder. rg](https://mybinder.org)) operam, as tecnologias que ligam BinderHub e como eles interagem entre si. Este capítulo também cobre razões pelas quais você pode construir seu próprio BinderHub, ao invés de usar o serviço público em mybinder.org.
