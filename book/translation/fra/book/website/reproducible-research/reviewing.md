@@ -8,7 +8,7 @@
 | ---------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | {ref}`Contrôle de version<rr-vcs>` | Nécessaire | Comprendre la manière dont [Github](https://github.com) organise ses branches, forks, et demandes de fusion dans les dépôts est nécessaire. |
 
-```{figure} ../figures/bug-catching.jpg
+```{figure} ../figures/bug-catching.*
 ---
 hauteur : 500px
 : nom : capture de bugs
