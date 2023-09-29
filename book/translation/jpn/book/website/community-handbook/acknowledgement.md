@@ -5,7 +5,7 @@ _チューリングウェイ_ は、研究者、学習者、教育者、その�
 
 誰もが誰かに役立つスキルを持っているので、誰でも _The Turing Way_ に貢献できます。 私たちは、このプロジェクトにおけるあらゆる種類の貢献を評価し、それぞれを公平に認識することにコミットしています。
 
-```{figure} ../figures/theturingway-acknowledgement.jpg
+```{figure} ../figures/theturingway-acknowledgement.*
 ---
 height: 400px
 name: theturingway-confirgement
