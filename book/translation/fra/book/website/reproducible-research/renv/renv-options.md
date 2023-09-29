@@ -7,7 +7,7 @@ Ils peuvent être largement divisés en deux catégories : celles qui ne capture
 
 Une autre façon de les diviser est la façon dont la recherche reproduite est présentée au lecteur. L'utilisation de Binder ou d'une Machine Virtuelle crée un résultat de type GUI beaucoup plus graphique. Par contre, les sorties des conteneurs et des systèmes de gestion des paquets sont plus facilement interagées via la ligne de commande.
 
-```{figure} ../../figures/computational-environments.jpg
+```{figure} ../../figures/computational-environments.*
 ---
 nom : environnements computationnels
 alt : Une représentation des divers outils utilisés pour capturer des environnements de calcul
