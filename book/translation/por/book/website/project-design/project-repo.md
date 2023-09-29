@@ -16,12 +16,12 @@ Este capítulo introduz um guia passo a passo sobre como configurar um repositó
 
 Os repositórios de projetos online requerem documentação para que todos os colaboradores sejam informados sobre as atualizações e os contribuidores recebam detalhes que precisam contribuir de forma eficiente. Documentos compartilhados podem ajudá-lo a transmitir suas ideias a novos ou potenciais colaboradores. Contribuições podem ir de novas ideias para relatórios de bugs e contribuições reais para código. As práticas de Ciência Aberta descritas aqui também facilitarão a condução de projetos de código aberto para suas equipes, de forma colaborativa e transparente.
 
-```{figure} ../figures/file-management-manual.jpg
+```{figure} ../figures/file-management-manual.*
 ---
 nome: file-management-manual
 alt: imagem mostra duas pessoas organizando arquivos. Uma pessoa é holdinng de um arquivo README e outra pessoa está lendo os detalhes para configurar os dados e os arquivos de análise na gaveta
 --- A Illustração sobre como gerenciar arquivos em um repositório.
-_O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: 10.5281/zenodo.3332807.
+Ilustração do _projeto Turing Way_ por Scriberia. Usada sob uma licença CC-BY 4.0. DOI: 10.5281/zenodo.3332807.
 ```
 
 Neste capítulo, descrevemos os seguintes documentos que devem ser adicionados a um repositório de projeto:
