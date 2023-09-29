@@ -3,13 +3,13 @@
 
 El formato de archivo de citas [](https://citation-file-format.github.io) le permite proporcionar metadatos de citación, para software o conjuntos de datos, en archivos de texto plano que son fáciles de leer tanto por humanos como por máquinas.
 
-```{figure} ../../figures/recognition.jpg
+```{figure} ../../figures/recognition.*
 ---
 name: reconocimiento
 ancho: 500px
 alt: Los desarrolladores de software de investigación obtienen reconocimiento al hacer citable de software.
 ---
-Los desarrolladores de software de investigación obtienen reconocimiento al hacer citable de software. _The Turing Way_ proyecto de ilustración por Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+Los desarrolladores de software de investigación obtienen reconocimiento al hacer citable de software. _The Turing Way_ project illustration by Scriberia. Zenodo. [http: //doi. org/10.5281/zenodo.3332807](http: //doi. org/10.5281/zenodo.3332807)
 ```
 
 Para proporcionar estos metadatos, comience escribiendo un archivo `CITATION.cff` e introdúzcalo con su software o conjunto de datos. El archivo</code> agrega la información en un formato clave-valor que puede ser fácilmente interpretado y actualizado por humanos, y fácilmente analizada y convertida con herramientas existentes.
@@ -21,13 +21,13 @@ Para proporcionar estos metadatos, comience escribiendo un archivo `CITATION.cff
 
 Es más fácil para ti: Cuando alojas tu código fuente de software en GitHub y tienes una `CITACIÓN. De` en su repositorio, puede utilizar la integración Zenodo-GitHub para publicar automáticamente nuevas versiones del software. Zenodo usará la información de `CITATION.cff` y la mostrará junto con la publicación. Ya no tiene que editar esta información manualmente en Zenodo.
 
-```{figure} ../../figures/software-credit.jpg
+```{figure} ../../figures/software-credit.*
 ---
 name: software-credit
 width: 500px
 alt: Más créditos para los creadores de software.
 ---
-Más créditos para los creadores de software. _The Turing Way_ proyecto de ilustración por Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+Más créditos para los creadores de software. _The Turing Way_ project illustration by Scriberia. Zenodo. [http: //doi. org/10.5281/zenodo.3332807](http: //doi. org/10.5281/zenodo.3332807)
 ```
 
 Es más fácil para los usuarios de su software:
@@ -129,7 +129,7 @@ Si ha encontrado software o conjuntos de datos que contienen una CITACIÓN `. De
 
 - Alternativamente, si el software o los conjuntos de datos que desea citar están disponibles en GitHub, puede utilizar la interfaz de GitHub para copiar la referencia en formatos APA o BibTeX haciendo clic en el botón "Citar este repositorio" (ver la zona verde de la imagen de abajo). Para obtener más detalles sobre la cita de software en GitHub, consulte [la guía de GitHub sobre la cita de software](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files).
 
-  ```{figure} ../../figures/github-cff-integration.jpg
+  ```{figure} ../../figures/github-cff-integration.*
   ---
   name: github-cff-integration
   alt: Botón en GitHub que proporciona automáticamente la conversión del archivo `CITATION.cff` al formato de APA y BibTex.
