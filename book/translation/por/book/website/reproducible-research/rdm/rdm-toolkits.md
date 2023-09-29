@@ -19,7 +19,7 @@ A informação e os materiais são frequentemente classificados por tópico e p�
 
 Uma grande variedade de kits de gestão de dados de pesquisa estão disponíveis. Aqui listamos uma série de toolkits:
 
-* [Ferramentas de gerenciamento de dados de pesquisa JISC](https://rdmtoolkit.jisc.ac.uk/rdm-for-researchers/)
+* [Ferramentas de gerenciamento de dados de pesquisa JISC](https://www.jisc.ac.uk/guides/rdm-toolkit)
 * [Ferramentas de gerenciamento de dados ELIXIR](https://rdm.elixir-europe.org/index.html)
 * [Kit de ferramentas de gerenciamento de dados da Universidade New Hampshire](https://libraryguides.unh.edu/datamanagement)
 
