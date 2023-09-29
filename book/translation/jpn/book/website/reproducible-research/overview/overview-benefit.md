@@ -4,7 +4,7 @@
 {ref}`rr-overview-definition` セクションでは、科学界にとって有益な再現性のある研究のさまざまな側面について議論しました。 この章では、個々の研究者やチームのために再現的に作業するといういくつかのあまり明白ではない側面を紹介します。
 
 
-```{figure} ../../figures/reasons-reproducibility.png
+```{figure} ../../figures/reasons-reproducibility.*
 ---
 name: reasons-re複製性
 alt: なぜ再現性のある作業に注意すべきか。
