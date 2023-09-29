@@ -10,15 +10,15 @@ Os direitos humanos proporcionam um quadro jurídico para a protecção dos indi
 
 As leis e as políticas são feitas pelas pessoas e estão sujeitas a negociações e a exercícios de poder: também podem ser alteradas.
 
-```{figure} ../figures/human-rights.jpg
+```{figure} ../figures/human-rights.*
 ---
 nome: direitos humanos
 alt: Imagem mostra duas pessoas sentadas no chão. Estão a sorrir e a olhar para o muro de betão denominado "direitos humanos", que é assegurado por uma cadeia pesada e por um bloqueio pesado. Por detrás do muro há vários monstros que ilustram os violadores dos direitos humanos e elementos nocivos da sociedade que podem violar leis e políticas na ausência deste muro de protecção.
 --- Ilustração sobre direitos humanos, leis e políticas.
-_O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: 10.5281/zenodo.3332807.
+Ilustração do _projeto Turing Way_ por Scriberia. Usada sob uma licença CC-BY 4.0. DOI: 10.5281/zenodo.3332807.
 ```
 
-## Fundo e Motivação
+## Motivação e fundo
 
 É útil saber como a ética que orienta seu trabalho assenta em outros quadros, incluindo lei, política e direitos humanos. Conhecer a lei, a política e os direitos humanos que estão na base da ética da pesquisa te dará uma compreensão mais profunda de como realizar pesquisa ética. Pode também ajudá-lo a defender o trabalho ético com colegas e colaboradores.
 
