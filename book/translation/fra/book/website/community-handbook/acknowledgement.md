@@ -5,7 +5,7 @@ _La voie Turing_ est développée en collaboration par sa communauté diversifi�
 
 Tout le monde a une compétence qui est utile pour quelqu'un, et donc n'importe qui peut contribuer à _La Voie Turante_. Nous apprécions toutes sortes de contributions à ce projet et nous nous engageons à reconnaître chacune d'entre elles de manière équitable.
 
-```{figure} ../figures/theturingway-acknowledgement.jpg
+```{figure} ../figures/theturingway-acknowledgement.*
 ---
 hauteur : 400px
 : theturingway-reconnaissance
