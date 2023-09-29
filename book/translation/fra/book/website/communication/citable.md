@@ -14,7 +14,7 @@ De nombreux chercheurs soutiennent que le temps consacré aux pratiques de reche
 
 Et si vous pouviez également obtenir du crédit pour vos efforts de reproductibilité ? Dans ce chapitre, nous décrirons comment le travail reproductif vous permettra de publier la plupart de vos résultats de recherche d'une manière qui peut être citée par d'autres (pas seulement par votre papier)!
 
-```{figure} ../figures/orcid-ids.jpg
+```{figure} ../figures/orcid-ids.*
 ---
 nom: orcid-ids
 alt : Cette image montre une chercheuse féminine au centre avec ses bras levés. Elle est entourée d'une orbite par différents types de documents. En haut à gauche, il y a une légende indiquant 'ORCID IDS', tandis qu'en bas à droite, il y a le texte qui dit - "Une bague pour déterminer toutes les sorties".
