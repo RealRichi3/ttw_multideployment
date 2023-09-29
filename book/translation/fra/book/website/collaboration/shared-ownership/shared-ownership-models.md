@@ -21,7 +21,7 @@ Contrairement à l'exemple précédent, où les rôles sont « assumés » en fo
 
 Comme il a été dit, un ensemble de rôles et de responsabilités clairement définis permettent à des personnes ou à des groupes de se forger un sens du but commun et de définir une attente claire autour de la propriété partagée du projet. Ces rôles peuvent être développés en fonction des tâches, des responsabilités et des compétences requises dans le projet.
 
-```{figure} ../../figures/mountain-of-engagement.png
+```{figure} ../../figures/mountain-of-engagement-graphic.*
 ---
 name : mountain-of-engage
 alt: Cinq étapes pour le développement d'une « montagne d'engagement » pour les contributeurs de projets Open Source décrits dans le titre de la figure.
