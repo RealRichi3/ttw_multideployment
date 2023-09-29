@@ -8,12 +8,12 @@
 | --------------------------------------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | {ref}`Controle de Versão<rr-vcs>` | Necessário  | Entender como o [Github](https://github.com) organiza seus branches, bifurcações e pull requests dentro dos repositórios é necessário. |
 
-```{figure} ../figures/bug-catching.jpg
+```{figure} ../figures/bug-catching.*
 ---
 height: 500px
 nome: caçando bugs
 alt: pessoas pegando insetos diferentes de maneiras diferentes - representando bugs em nosso código ou projeto.
---- Caçando bugs. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+--- Caçando bugs. Ilustração do _projeto Turing Way_ por Scriberia. Usada sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 (rr-reviewing-sumy)=
