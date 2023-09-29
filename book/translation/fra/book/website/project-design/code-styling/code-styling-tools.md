@@ -7,7 +7,7 @@ Comme mentionné précédemment, il y a quelques outils automatiques que vous po
 
 [lintr](https://cran.r-project.org/web/packages/lintr/lintr.pdf) est un paquet R qui vérifie votre code en utilisant une variété de directives de style.  Il peut être installé à partir de CRAN. La fonction `lint` prend un nom de fichier comme argument et une liste de 'linters' qu'il devrait vérifier votre code. Cela va des conventions d'espacement à la vérification que les accolades n'ont pas leurs lignes. La sortie fournit une liste de marqueurs avec des recommandations pour changer le formatage de votre code ligne par ligne, ce qui signifie qu'il est mieux utilisé tôt et souvent dans votre projet.
 
-```{figure} ../../figures/lintr-output.png
+```{figure} ../../figures/lintr-output.*
 ---
 hauteur: 500px
 nom: lintr_output
