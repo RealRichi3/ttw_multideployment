@@ -6,7 +6,7 @@
 
 リスク行列は、あなたが興味を持っていることで何が起こっているかを定量化する非常に一般的な方法です。 一方の軸は何らかの方法で露出を測定し、もう一方は事故の影響を測定します。 起源から離れるほど、リスクを受け入れるためには、より多くの安全対策が必要です。
 
-```{figure} ../../figures/risk-matrix.png
+```{figure} ../../figures/risk-matrix.*
 ---
 name: risk-matrix
 alt: Impact vs complexity risk matrix
