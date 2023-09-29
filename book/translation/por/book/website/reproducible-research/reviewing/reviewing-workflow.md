@@ -3,13 +3,13 @@
 
 *Este capítulo tem particular referência ao Github*
 
-```{figure} ../../figures/readable-code.jpg
+```{figure} ../../figures/readable-code.*
 ---
 altura: 500px
 : código legível
 alt: Esta imagem destaca a importância da legibilidade de código.
 ---
-_A Turing Way_ ilustração de projeto por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_A Turing Way_ ilustração de projeto por Scriberia. Usada sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 ## Avaliações Formal vs Informais
