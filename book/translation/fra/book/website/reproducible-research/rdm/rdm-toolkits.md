@@ -19,7 +19,7 @@ L'information et le matériel sont souvent triés par sujet et par public. Les m
 
 Une grande variété de trousses d'outils de gestion des données de recherche sont disponibles. Ici, nous listons un certain nombre de kits d'outils :
 
-* [Outils de gestion des données de recherche JISC](https://rdmtoolkit.jisc.ac.uk/rdm-for-researchers/)
+* [Outils de gestion des données de recherche JISC](https://www.jisc.ac.uk/guides/rdm-toolkit)
 * [Outils de gestion des données de recherche ELIXIR](https://rdm.elixir-europe.org/index.html)
 * [Boîte à outils de gestion des données de l'Université du New Hampshire](https://libraryguides.unh.edu/datamanagement)
 
