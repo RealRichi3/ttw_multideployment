@@ -7,7 +7,7 @@ _La communauté de Turing Way_ est distribuée à travers le monde. Nos membres 
 
 Nous apportons la pratique de cotravailler à _The Turing Way_ en utilisant des appels de coworking en ligne, à travers lequel nous avons l'intention de développer un sens de l'énergie et de l'inspiration semblable aux interactions en personne, mais sans le temps et les engagements de voyage.
 
-```{figure} ../figures/coworking.png
+```{figure} ../figures/coworking.*
 ---
 hauteur : 300px
 nom : coworking
