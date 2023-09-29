@@ -9,7 +9,7 @@ Aucune.
 ## Summary
 Un persona est un détail d'un utilisateur ou d'un membre imaginaire, basé sur des observations et des compréhensions du monde réel des membres existants ou des futurs membres potentiels. Elle a un sens lorsqu’elle est jumelée à des voies à travers lesquelles ces personnalités s’engagent dans un projet.
 
-```{figure} ../figures/personas.png
+```{figure} ../figures/personas.*
 ---
 hauteur : 400px
 nom : les personnes
