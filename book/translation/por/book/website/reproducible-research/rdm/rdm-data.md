@@ -4,7 +4,7 @@
 (rr-rdm-data-definição)=
 ## O que são Dados?
 
-Os dados são objetos que você usa e produz durante seu ciclo de vida de pesquisa, abrangendo conjuntos de dados, software, código, fluxo de trabalho, modelos, figuras, tabelas, imagens e vídeos, entrevistas, artigos. Os dados são seu ativo de pesquisa. Em alguns domínios, é óbvio o que significa dados - há observações ou resultados de simulações. No entanto, em outros domínios, especialmente em Ciências Sociais, Humanidades ou Artes, podem estar a pensar "Acho que não tenho quaisquer dados". Uma boa maneira de pensar sobre o que pode ser classificado como dados que precisam ser geridos é fazer a si mesmo as perguntas: "Quais são as informações de que eu preciso usar e escrever no meu papel ou livro? , "Que informação precisaria para fundamentar as minhas conclusões? e "Que informação é necessária para que outras pessoas entendam e, possivelmente, replicem a pesquisa que eu fiz?". Esta informação é de seus dados.
+Os dados são objetos que você usa e produz durante seu ciclo de vida de pesquisa, abrangendo conjuntos de dados, software, código, fluxo de trabalho, modelos, figuras, tabelas, imagens e vídeos, entrevistas, artigos. Os dados são seu ativo de pesquisa. Uma boa maneira de pensar sobre o que pode ser classificado como dados que precisam ser geridos é fazer a si mesmo as perguntas: "Quais são as informações de que eu preciso usar e escrever no meu papel ou livro? , "Que informação precisaria para fundamentar as minhas conclusões? e "Que informação é necessária para que outras pessoas entendam e, possivelmente, replicem a pesquisa que eu fiz?". Esta informação é de seus dados.
 
 (rr-rdm-dado-lifecycle)=
 ## O ciclo de dados de pesquisa - Um modelo para a gestão de dados
