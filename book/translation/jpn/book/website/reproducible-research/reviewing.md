@@ -8,7 +8,7 @@
 | ---------------------------- | --- | -------------------------------------------------------------------------- |
 | {ref}`バージョン管理<rr-vcs>` | 必要な | [Github](https://github.com) がリポジトリ内でブランチ、フォーク、プルリクエストを配置する方法を理解する必要があります。 |
 
-```{figure} ../figures/bug-catching.jpg
+```{figure} ../figures/bug-catching.*
 ---
 height: 500px
 name: bug-catch
