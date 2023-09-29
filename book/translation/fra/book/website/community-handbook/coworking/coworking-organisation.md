@@ -98,4 +98,4 @@ Vous pouvez également planifier vos appels de colocation avec un petit groupe d
 
 Vous pouvez lire une version adaptée de leur blog ainsi que d'autres idées pour des événements virtuels dans le document par Center for Scientific Collaboration and Community Engagement {cite:ps}`CSCCE2020virtual`.
 
-Si vous organisez ou organisez un appel de coworking dans votre communauté, vous êtes invités à les mettre en évidence dans ce chapitre en créant une [pull request](https://github.com/alan-turing-institute/the-turing-way/pulls) sur le dépôt GitHub (voir [lignes directrices](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) pour plus de détails).
+If you organise or host a coworking call in your community, you are welcome to highlight them in this chapter by creating a [pull request](https://github.com/the-turing-way/the-turing-way/pulls) on the GitHub repository (see [contributing guidelines](https://github.com/the-turing-way/the-turing-way/blob/main/CONTRIBUTING.md) for details).
