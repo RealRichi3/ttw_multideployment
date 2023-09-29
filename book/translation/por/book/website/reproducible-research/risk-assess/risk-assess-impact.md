@@ -6,7 +6,7 @@ Todos nós usamos avaliações de risco o tempo todo. Às vezes são procediment
 
 Uma matriz de risco é uma maneira muito popular de quantificar o que está acontecendo com a coisa em que você está interessado. Um eixo mede de alguma forma a exposição e o outro o impacto de um mau acaso. Quanto mais longe for a origem, mais salvaguardas são necessárias para tornar o risco aceitável.
 
-```{figure} ../../figures/risk-matrix.png
+```{figure} ../../figures/risk-matrix.*
 ---
 nome: matriz de risco
 alt: impacto vs matriz de risco de complexidade
