@@ -7,7 +7,7 @@ _A comunidade_ Modo Turístico é distribuída ao redor do mundo. Os nossos memb
 
 Nós trazemos a prática de trabalho para _The Turing Way_ usando chamadas de trabalho online, através do qual tencionamos desenvolver um sentido de energia e inspiração semelhante às interacções presenciais, mas sem os compromissos de tempo e de viagem.
 
-```{figure} ../figures/coworking.png
+```{figure} ../figures/coworking.*
 ---
 height: 300px
 name: coworking
