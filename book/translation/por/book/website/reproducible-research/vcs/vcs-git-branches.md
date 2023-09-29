@@ -13,7 +13,7 @@ Se você testar um recurso em um branch que não funciona, você pode excluir ou
 
 O uso de branches continua funcionando com código seguro, especialmente em colaborações. Cada colaborador pode ter seus próprios branches ou branches que só são mesclados no projeto principal quando eles estiverem prontos.
 
-```{figure} ../../figures/sub-branch.png
+```{figure} ../../figures/sub-branch.*
 ---
 nome: sub-branch
 alt: uma ilustração de ramificação no Git. Há quatro ramos mostrados nomeados principal, Recurso A, Recurso B e Recurso A-1. Recurso A e B são ramos do ramo principal, enquanto Feature A-1 é um ramo feito do Feature A.
