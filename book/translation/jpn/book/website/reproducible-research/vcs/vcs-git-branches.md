@@ -13,7 +13,7 @@ Git ブランチは、これらの問題のいずれかに対処する際に非�
 
 ブランチを使用すると、特にコラボレーションでは、コードが安全に動作します。 各貢献者は、準備が整ったらメインプロジェクトにのみマージされる独自のブランチまたはブランチを持つことができます。
 
-```{figure} ../../figures/sub-branch.png
+```{figure} ../../figures/sub-branch.*
 ---
 name: sub-branch
 alt: Gitで分岐する図。 main、Feature A、Feature B、Feature A-1の4つのブランチがあります。 Feature AとBはメインブランチ、Feature A-1はFeature Aから作られたブランチです。
