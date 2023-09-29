@@ -16,7 +16,7 @@ Ce chapitre introduit un guide étape par étape sur la façon de configurer un 
 
 Les dépôts de projets en ligne nécessitent de la documentation afin que tous les collaborateurs soient informés des mises à jour et que les contributeurs reçoivent les détails dont ils ont besoin pour contribuer efficacement. Les documents partagés peuvent vous aider à faire connaître vos idées à des contributeurs nouveaux ou potentiels. Les contributions peuvent être n'importe quoi, des nouvelles idées aux rapports de bogues et aux contributions de code réelles. Les pratiques scientifiques ouvertes décrites ici vous permettront également de mener plus facilement des projets à source fermée en collaboration et en transparence pour vos équipes.
 
-```{figure} ../figures/file-management-manual.jpg
+```{figure} ../figures/file-management-manual.*
 ---
 nom: file-management-manual
 alt : image montre deux personnes organisant des fichiers. Une personne est holdinng vers le haut un fichier README et une autre personne lit les détails pour configurer les fichiers de données et d'analyse dans le tiroir
