@@ -47,8 +47,8 @@ L'appel commence avec les membres de l'équipe qui accueillent les participants,
 - [Mettre à jour le HackMD](https://hackmd.io/@turingway/coworking-call) chaque mois en ajoutant des dates pour les appels hebdomadaires
 - Déplacer les notes de l'appel précédent sous la zone du modèle (qui seront archivées périodiquement dans cette page de notion)
 - Partagez les notes sur Slack et Twitter annonçant les dates
-- Utilisez les notes pendant l'appel pour partager des informations pendant que vous présidez l'appel
-- Assurez-vous de partager le lien Code de Conduite et d'utiliser le Cuckoo partagé (ou d'autres horloges basées sur le web)
+- Trouver une faute de frappe dans le livre et/ou dans le dépôt et la réparer.
+- Recherche d'informations dupliquées dans le livre et ouverture d'un problème pour discuter de la façon dont il peut être combiné.
 - Créer des salles d'arrêts pour les personnes avant de commencer les sessions de Pomodoro - si nécessaire
 - À la fin de la première session Pomodoro, fermez toutes les salles d'arrachage, demandez des commentaires, puis redémarrez la seconde session Pomodoro
 - L'appel est programmé pour 60 minutes, et peut donc accueillir jusqu'à 2 sessions Pomodoro
