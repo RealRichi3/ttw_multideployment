@@ -4,10 +4,49 @@
 (rr-renv-pré-requisitos)=
 ## Pré-requisitos
 
-| Pré-requisito                                                                                   | Importância | Observações                                                                             |
-| ----------------------------------------------------------------------------------------------- | ----------- | --------------------------------------------------------------------------------------- |
-| [Experimente com a linha de comando](https://programminghistorian.org/en/lessons/intro-to-bash) | Necessário  | Experiência com download de software através da linha de comando é particularmente útil |
-| {ref}`rr-vcs`                                                                                   | Útil        | Experiência usando o git e o GitHub são úteis                                           |
+<table spaces-before="0">
+  <tr>
+    <th>
+      Pré-requisito
+    </th>
+    
+    <th>
+      Importância
+    </th>
+    
+    <th>
+      Observações
+    </th>
+  </tr>
+  
+  <tr>
+    <td>
+      <a href="https://programminghistorian.org/en/lessons/intro-to-bash">Experimente com a linha de comando</a>
+    </td>
+    
+    <td>
+      Necessário
+    </td>
+    
+    <td>
+      Experiência com download de software através da linha de comando é particularmente útil
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      {ref}`Sistemas de controle de versões<rr-vcs>`
+    </td>
+    
+    <td>
+      Útil
+    </td>
+    
+    <td>
+      Experiência usando o git e o GitHub são úteis
+    </td>
+  </tr>
+</table>
 
 **Nível de Habilidade Recomendado**: _Intermediário-Avançado_
 
@@ -29,7 +68,7 @@ As versões de software são frequentemente definidas através de [versão semâ
 - *PATCH*: para correções de bugs
 
 (rr-renv-útil)=
-## Por que isso é Útil
+## Motivação e fundo
 
 Vamos analisar um exemplo de por que os ambientes computacionais são importantes. Diga que tenho um script Python muito simples:
 
