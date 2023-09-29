@@ -3,11 +3,11 @@
 
 A defesa da política interna é quando indivíduos ou grupos associados a uma campanha de organização a favor de uma mudança na forma como a organização toma decisões, executa projetos, escolhe colaboradores, desenvolve produtos ou em outras áreas. Pode ser um instrumento verdadeiramente poderoso de mudança, independentemente de o grupo de pessoas a fazer campanha estar ou não unido.
 
-```{figure} ../figures/advocacy.jpg
+```{figure} ../figures/advocacy.*
 ---
 nome: advocacy
 alt: Uma pessoa assina uma petição realizada por outra pessoa, em frente a um grupo de pessoas marchando sob um estandarte lendo "Advogada!"
---- Existem diferentes maneiras de participar do advocacia. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.4906004](https://doi.org/10.5281/zenodo.4906004).
+--- Existem diferentes maneiras de participar do advocacia. Ilustração do _projeto Turing Way_ por Scriberia. Usada sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.4906004](https://doi.org/10.5281/zenodo.4906004).
 ```
 
 ## Como defender internamente
