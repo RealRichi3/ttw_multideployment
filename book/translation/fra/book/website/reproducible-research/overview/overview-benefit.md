@@ -4,7 +4,7 @@
 Dans la section {ref}`rr-overview-definitions` , nous avons discuté des différents aspects de la recherche reproductible qui sont bénéfiques pour la communauté scientifique. Dans ce chapitre, nous partagerons certains aspects moins évidents du travail reproductible pour les chercheurs et les équipes individuelles.
 
 
-```{figure} ../../figures/reasons-reproducibility.png
+```{figure} ../../figures/reasons-reproducibility.*
 ---
 name: reasons-reproduccibility
 alt: Pourquoi nous devrions nous soucier de travailler reproduccibly.
