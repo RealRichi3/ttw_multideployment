@@ -9,12 +9,12 @@ Nenhum.
 ## Summary
 Uma persona é um detalhe de um usuário ou membro imaginário, baseado em observações e entendimentos do mundo real de membros existentes ou futuros membros. É significativo quando emparelhado com percursos através dos quais essas pessoas se relacionam com um projeto.
 
-```{figure} ../figures/personas.png
+```{figure} ../figures/personas.*
 ---
 height: 400px
 nome: pessoa,
 alt: 4 pessoas com diversas aparências estão conversando uma com a outra. partilhar ideias directamente entre si e também partilhar nas redes sociais.
---- Pessoas compartilhando suas ideias por meio de conversas diretas e nas redes sociais. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+--- Pessoas compartilhando suas ideias por meio de conversas diretas e nas redes sociais. Ilustração do _projeto Turing Way_ por Scriberia. Usada sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 
