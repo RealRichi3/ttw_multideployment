@@ -7,7 +7,7 @@ Se não tiver - então somos um dos afortunados! Mas se já o experimentámos, t
 
 Este capítulo irá destacar maneiras de evitar tais desafios em seus projetos introduzindo alguns diretores de "higiene de código", caso conhecido como *linhamento*.
 
-```{figure} ../figures/zen-of-python.png
+```{figure} ../figures/zen-of-python.*
 ---
 height: 500px
 nome: zen-of-python
