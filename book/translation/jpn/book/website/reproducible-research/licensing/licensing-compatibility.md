@@ -20,7 +20,7 @@
 
 このセクションの多くの例は [xtas](http://xtas.net) に関係しています。 xtasは多くのサードパーティ製ライブラリを再利用するPython用の自然な言語処理ツールキットです。 したがって、さまざまな優れた例を提供します。
 
-```{figure} ../../figures/xtas-overview96.png
+```{figure} ../../figures/xtas-overview96.*
 ---
 name: xtas-overview96
 alt: xtasのグラフィカルな概要。 大きな長方形は、ワークxtasを表します。 この長方形の中には、xtas Python コードを表す広い低い長方形があります。Apache License v2 の下でライセンスされています。 この下には、xtasで使用されているそれぞれPythonライブラリ、ソフトウェア、およびデータを表す3つのサイドバイサイドの正方形があります。 Python ライブラリの正方形には、3 つのボックスがあります。 最初のボックスには、「BSD」、「MIT」、「ALv2」という単語が含まれています。 2番目のボックスには「LGPLv2.1」が含まれています。 3つ目のボックスには「GPLv2+」が含まれています。 ソフトウェア広場には、4つのボックスがあります。 最初のボックスには「Webサービス」が含まれています。 2番目のボックスには「LGPL v2.1+」が含まれています。 3番目のボックスには「Researchのみ」があり、4番目のボックスには「GPL 2+/3+」が含まれています。 データ四角には、4つのボックスが含まれています。 最初のボックスには「CC BY-SA 3.0」が含まれています。 2番目の箱には「研究のみ」が入っています。 3番目のボックスには「ライセンスなし」が含まれており、4番目のボックスには「CoNLL'02 のみ」が含まれています。
@@ -39,7 +39,7 @@ xtasのPythonコードは、Apache License 2.0の下で配布されています�
 (rr-licensing-compatibility-examples-apachevsbsd)=
 ### Apache と BSD
 
-```{figure} ../../figures/xtas-snowball96.png
+```{figure} ../../figures/xtas-snowball96.*
 ---
 name: xtas-snowball96
 alt: xtas-vs. Snowballの例のイラスト。  大きな長方形は、ワークxtasを表します。 この長方形の中には、xtas Python コードを表す広い低い長方形があります。Apache License v2 の下でライセンスされています。 その下には、"Snowball Stemmer" と "Python lib BSD" という単語を含む正方形があります。
@@ -70,7 +70,7 @@ xtas著者がSnowballを再配布する場合は、Snowball著者によって付
 (rr-licensing-compatibility-examples-apachevslgpl)=
 ### ApacheとLGPLの比較
 
-```{figure} ../../figures/xtas-chardet96.png
+```{figure} ../../figures/xtas-chardet96.*
 ---
 name: xtas-chardet96
 alt: xtas vs chardetの例の図。 大きな長方形は、ワークxtasを表します。 この長方形の中には、xtas Python コードを表す広い低い長方形があります。Apache License v2 の下でライセンスされています。 その下には、"chardet" と "Python lib LGPLv2.1" という単語を含む正方形があります。
@@ -95,7 +95,7 @@ xtas 全体と xtas Python コードは、どのような方法でもライセ�
 (rr-licensing-compatibility-examples-apachevsgplv2)=
 ### Apache 対 GPLv2
 
-```{figure} ../../figures/xtas-unidecode96.png
+```{figure} ../../figures/xtas-unidecode96.*
 ---
 name: xtas-unidecode96
 alt: xtas と unidecode の例の図。 大きな長方形は、ワークxtasの組み合わせを表します。 この長方形の中には、xtas Python コードを表す広い低い長方形があります。Apache License v2 の下でライセンスされています。 その下には、"unidecode" と "Python lib GPLv2+" という単語を含む正方形があります。
@@ -136,7 +136,7 @@ xtasの著者は、xtas Pythonコードのライセンスを選択する必要�
 (rr-licensing-compatibility-examples-apachevsall)=
 ### Apache vs BSD vs LGPL vs GPLv2
 
-```{figure} ../../figures/xtas-all-python-libs96.png
+```{figure} ../../figures/xtas-all-python-libs96.*
 ---
 name: xtas-all-python-libs96
 alt: xtasとすべてのPythonライブラリの例のイラスト。 大きな長方形は、ワークxtasを表します。 この長方形の中には、xtas Python コードを表す広い低い長方形があります。Apache License v2 の下でライセンスされています。 この下には三つの正方形があります。 最初の正方形には "Snowball" と "Python lib BSD" という単語が含まれています。 2 番目の正方形は "chardet" と "Python lib LGPLv2.1" です。 3 番目の正方形には、"unidecode" と "Python lib GPLv2+" という単語が含まれています。
@@ -163,7 +163,7 @@ xtas Python コードは、Apache License v2 の下でライセンスされ、GP
 
 xtasはJavaで書かれ、GNU GPLバージョン3以降で配布されている [スタンフォードのCoreNLPプログラム](https://stanfordnlp.github.io/CoreNLP/)を実行することができます。 ユーザーが対応する xtas 関数を呼び出すと、CoreNLP は xtas によって開始されます。 ユーザーの入力はパイプを介して送信され、CoreNLP出力はユーザーに返されるか、さらに処理されます。
 
-```{figure} ../../figures/xtas-corenlp1-96.png
+```{figure} ../../figures/xtas-corenlp1-96.*
 ---
 name: xtas-corenlp1-96
 alt: xtas と CoreNLP の例の図。 正方形は、組み合わせた作業 xtasを表します。 この正方形の中には、xtas Python コードを表す広い低い長方形があります。Apache License v2 の下でライセンスされています。 その下には、"Stanford CoreNLP" と "Java プログラム GPLv3+" という単語を含む正方形があります。
@@ -173,7 +173,7 @@ xtas vs. CoreNLP 例の例です。
 
 この状況の解釈としては、ライブラリ内で関数を呼び出すことと、xtasのどの配布とも変わらないということです。 ですから、CoreNLPを含む全体として、GPLv3+の下にあるべきです。 この解釈に貢献することは、必要に応じてxtasがCoreNLPを自動的にダウンロードしてインストールするという事実です。
 
-```{figure} ../../figures/xtas-corenlp2-96.png
+```{figure} ../../figures/xtas-corenlp2-96.*
 ---
 name: xtas-corenlp2-96
 alt: xtas と CoreNLP の例の別の図。 左側の正方形は、組み合わせた作業xtaを表します。 この正方形には、xtas Python コードを表す長方形があり、Apache License v2 の下でライセンスされています。 右側はCoreNLPを表す別の正方形で、"Stanford CoreNLP" と "Java プログラム GPLv3+" のテキストがあります。 正方形の間には2つの矢印があり、1つはxtaからCoreNLPまでを指す上部に、1つはCoreNLPからxtaまでを指す下部にあります。
