@@ -3,7 +3,7 @@
 
 ***Cette page sert d'index pour toutes les ressources de modèle fournies dans le Manuel communautaire de Turing Way***
 
-```{figure} ../figures/templates.png
+```{figure} ../figures/templates.*
 ---
 hauteur : 200px
 nom : templates
