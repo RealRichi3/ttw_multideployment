@@ -21,7 +21,7 @@ GitHub 組織の場合、 [さまざまなロールとアクセスレベルを�
 
 議論されたように 明確に定義された役割と責任のセットは、個人またはグループが共通の目的意識を構築し、プロジェクトの共有された所有権に関する明確な期待を設定することを可能にします。 これらの役割は、プロジェクトのタスク、責任、スキル要件に基づいて開発することができます。
 
-```{figure} ../../figures/mountain-of-engagement.png
+```{figure} ../../figures/mountain-of-engagement-graphic.*
 ---
 name: mountain of Engagement
 alt: 図のタイトルで説明されているオープンソースプロジェクト貢献者のための「Mountain of Engagement」を開発するための5つのステップ。
