@@ -24,10 +24,11 @@ Por exemplo, [termos que começam com 'A'](https://the-turing-way.netlify.app/af
  Um nível do processo de teste do software onde um sistema é testado para aceitabilidade. O objectivo deste teste é avaliar a conformidade do sistema com os requisitos do projecto e avaliar se é aceitável para o fim.
 
 Adiciona
- o Comando usado para adicionar arquivos à área de preparo. Permite ao usuário especificar quais arquivos ou diretórios devem incluir no próximo commit.
+ o Comando usado para adicionar arquivos à área de preparo. Adiciona
+ o Comando usado para adicionar arquivos à área de preparo.
 
-Autores
-  neste contexto são os contribuidores do projeto The Turing Way_ que deram uma contribuição substancial para o projeto, como escrever um subcapítulo, facilitando interações comunitárias, mantendo a infraestrutura do projeto e apoiando a participação de outros através de contribuições mentais. Todos os autores são co-autores do livro como um todo.
+Permite ao usuário especificar quais arquivos ou diretórios devem incluir no próximo commit. Autores
+  neste contexto são os contribuidores do projeto The Turing Way_ que deram uma contribuição substancial para o projeto, como escrever um subcapítulo, facilitando interações comunitárias, mantendo a infraestrutura do projeto e apoiando a participação de outros através de contribuições mentais.
 
 ```
 
