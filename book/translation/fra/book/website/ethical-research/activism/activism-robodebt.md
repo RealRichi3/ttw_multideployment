@@ -1,7 +1,7 @@
 (er-activism-robodebt)=
 # Étude de cas: Tackling Robodebt
 
-```{figure} ../../figures/robo-debt.jpg
+```{figure} ../../figures/robo-debt.*
 ---
 name : robo-debt
 alt : Cette illustration montre une grande machine qui dit 'tu nous dois'. Il y a quelques personnes qui automatisent l'appel de la dette, ce qui affecte la communauté à faible revenu - il y a une personne en fauteuil roulant, une mère fatiguée avec un bébé et un tout-petit et un homme en détresse debout à côté d'elle.
