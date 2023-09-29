@@ -98,7 +98,7 @@ Ce ne sont bien sûr que des lignes directrices, et vous devez choisir des élé
 
 Si vous partagez des fichiers texte ou travaillez en collaboration sur des manuels ou des documents, puis il y a beaucoup de controverse autour de savoir s'il faut utiliser un ou deux espaces après une période. Lorsque vous utilisez Markdown, il peut être plus clair d'inclure une nouvelle ligne après chaque phrase. Ce chapitre (et la plupart, sinon la totalité, de ce livre) a une nouvelle ligne après chaque phrase qui rend le texte brut plus facile à lire, examiner et résoudre le problème de l'espacement.
 
-```{figure} ../../figures/xkcd1285.png
+```{figure} ../../figures/xkcd1285.*
 ---
 hauteur : 500px
 nom : xkcd1285
