@@ -19,7 +19,7 @@
 
 幅広い研究データ管理ツールキットが利用可能です。 ここでは、いくつかのツールキットをリストします。
 
-* [JISC研究データ管理ツールキット](https://rdmtoolkit.jisc.ac.uk/rdm-for-researchers/)
+* [JISC研究データ管理ツールキット](https://www.jisc.ac.uk/guides/rdm-toolkit)
 * [ELIXIR リサーチデータ管理ツールキット](https://rdm.elixir-europe.org/index.html)
 * [ニューハンプシャー大学のデータ管理ツールキット](https://libraryguides.unh.edu/datamanagement)
 
