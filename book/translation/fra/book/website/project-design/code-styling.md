@@ -7,7 +7,7 @@ Si vous n'en avez pas - alors vous êtes l'un des chanceux! Mais si vous en avez
 
 Ce chapitre mettra en évidence des moyens d'éviter de tels défis dans vos projets en introduisant quelques principes d''hygiène du code', autrement connu sous le nom de *linting*.
 
-```{figure} ../figures/zen-of-python.png
+```{figure} ../figures/zen-of-python.*
 ---
 hauteur : 500px
 nom : zen-of-python
