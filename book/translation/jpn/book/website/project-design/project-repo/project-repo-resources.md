@@ -16,7 +16,7 @@
 
 GitHub は、コミュニティガイドラインでコラボレーションの実践を奨励しています。 GitHubプロジェクトのインサイトタブには、プロジェクトが持つべき推奨ドキュメントの一覧を含む「コミュニティ」というセクションがあります。
 
-```{figure} ../../figures/community-profile.png
+```{figure} ../../figures/community-profile.*
 ---
 name: community-profile
 alt: GitHub プロジェクトの Insights タブの Community セクションでのチェックリストの画像。
