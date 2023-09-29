@@ -9,7 +9,7 @@ Aucune.
 
 En nommant vos fichiers, dossiers et autres composants de recherche de manière cohérente et descriptive, vous pouvez rendre votre travail trouvé, compréhensible et réutilisable par vous-même, vos collaborateurs et d'autres personnes intéressées par vos recherches. Il permet aux autres de comprendre de quoi porte l'objet numérique : ce que contiennent les fichiers et où les trouver. De plus, en suivant des conseils simples pour le nommage de fichiers, vous pouvez faciliter l’identification et le traitement de vos fichiers pour les ordinateurs.
 
-## Comment cela va vous aider/pourquoi cela est utile
+## Motivation et arrière-plan
 
 Utiliser de bons noms est probablement le moyen le plus simple d'améliorer la reproductibilité et la réutilisabilité de votre projet de recherche.
 
