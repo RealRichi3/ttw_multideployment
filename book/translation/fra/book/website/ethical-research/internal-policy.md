@@ -3,7 +3,7 @@
 
 La défense des politiques internes est le cas lorsque des individus ou des groupes associés à une campagne d'organisation pour un changement dans la manière dont l'organisation prend des décisions, gère des projets, choisit des collaborateurs, développe des produits ou dans d'autres domaines. Cela peut être un outil vraiment puissant pour le changement, que le groupe de personnes fasse campagne ou non dans un syndicat.
 
-```{figure} ../figures/advocacy.jpg
+```{figure} ../figures/advocacy.*
 ---
 nom: plaidoyer
 alt : Une personne signe une pétition délivrée par une autre personne, devant un groupe de personnes qui marchent sous une bannière en lisant "Advocacité!"
