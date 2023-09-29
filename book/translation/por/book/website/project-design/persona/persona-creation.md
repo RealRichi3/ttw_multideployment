@@ -11,7 +11,7 @@ Neste capítulo, fornecemos um guia passo a passo simples que podemos usar para 
 
 Comece dando à sua persona um nome real e um papel real com a ajuda de algumas habilidades profissionais adquiridas. Isso vai te ajudar a ancorá-los na realidade. Você pode usar o site gerador de nomes aleatórios [behindthename.com](https://www.behindthename.com/random/) para criar nomes diversos.
 
-```{figure} ../../figures/persona-creation.png
+```{figure} ../../figures/persona-creation.*
 ---
 nome: persona-criação
 alt: Persona Canvas por DESIGNBETTERBUSINESS.COM
