@@ -7,7 +7,7 @@ Podem ser amplamente divididos em duas categorias: aquelas que capturam apenas o
 
 Outra forma de as separar é através do modo como a investigação reproduzida é apresentada ao reprodutor. Usar Binder ou uma Máquina Virtual cria um resultado muito mais gráfico, do tipo GUI. Em contraste, as saídas dos contêineres e dos Sistemas de Gestão de Pacotes são mais facilmente interagidas através da linha de comando.
 
-```{figure} ../../figures/computational-environments.jpg
+```{figure} ../../figures/computational-environments.*
 ---
 nome: ambientes computacionais
 alt: Uma imagem das várias ferramentas usadas para capturar ambientes computacionais
