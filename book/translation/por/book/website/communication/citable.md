@@ -14,11 +14,11 @@ Muitos pesquisadores argumentam que o tempo gasto em práticas de pesquisa repro
 
 E se você conseguisse crédito pelos seus esforços de reprodução? Neste capítulo, nós descreveremos como trabalhar reprodutivamente permitirá que você obtenha a maioria dos seus resultados de pesquisa publicados de uma forma que possa ser citada por outros (não apenas o seu papel)!
 
-```{figure} ../figures/orcid-ids.jpg
+```{figure} ../figures/orcid-ids.*
 ---
 nome: orcid-ids
 alt: Esta imagem mostra uma pesquisadora feminina no centro com seus braços gerados. Está rodeada de uma órbita de vários documentos. No canto superior esquerdo, há uma legenda que diz 'ORCID IDS', enquanto no canto inferior direito há o texto que diz - "Um anel para governar todos os resultados".
---- ORCID permite que um pesquisador conecte seu perfil a todos os objetos de pesquisa publicados, Cada um deles tem também os seus identificadores persistentes e únicos. Você aprenderá sobre isso neste capítulo. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+--- ORCID permite que um pesquisador conecte seu perfil a todos os objetos de pesquisa publicados, Cada um deles tem também os seus identificadores persistentes e únicos. Você aprenderá sobre isso neste capítulo. Ilustração do _projeto Turing Way_ por Scriberia. Usada sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 (motivação-cm-citabível)=
