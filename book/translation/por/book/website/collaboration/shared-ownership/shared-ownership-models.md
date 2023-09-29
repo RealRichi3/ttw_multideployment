@@ -21,7 +21,7 @@ Ao contrário do exemplo anterior, em que os papéis são “assumidos” com ba
 
 Como discutido, um conjunto de papéis e responsabilidades claramente definidos permitem que indivíduos ou grupos construam um sentido de propósito comum e estabeleçam uma expectativa clara em torno da propriedade compartilhada no projeto. Estas funções podem ser desenvolvidas com base nas tarefas, responsabilidades e requisitos de competência do projecto.
 
-```{figure} ../../figures/mountain-of-engagement.png
+```{figure} ../../figures/mountain-of-engagement-graphic.*
 ---
 nome: montanha de engajamento
 alt: Cinco passos para desenvolver um "Mountain of Engagement" para contribuintes de projetos Open Source descritos no título da figura.
