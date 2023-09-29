@@ -9,7 +9,7 @@ Nenhum.
 
 Ao nomear seus arquivos, pastas e outros componentes de pesquisa de forma consistente e descritiva, você pode tornar seu trabalho encontrável, compreensíveis e reutilizáveis por você, seus colaboradores, e outras pessoas interessadas na sua pesquisa. Ele permite que os outros entendem o que é o objeto digital: o que os arquivos contêm e onde encontrá-los. Além disso, seguindo dicas simples para a nomeação de arquivos, você pode facilitar a identificação e o processo de seus arquivos.
 
-## Como isso irá ajudá-lo/por que isso é útil
+## Motivação e fundo
 
 Usar bons nomes é provavelmente a maneira mais fácil de melhorar a reprodutibilidade e a reutilização do seu projeto de pesquisa.
 
