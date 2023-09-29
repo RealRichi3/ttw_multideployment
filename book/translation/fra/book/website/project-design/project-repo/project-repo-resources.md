@@ -16,7 +16,7 @@ Ces documents sont également des outils efficaces pour la construction de la co
 
 GitHub encourage la pratique de la collaboration dans les directives de leur communauté. L'onglet Aperçu de votre projet GitHub fournit une section appelée "Communauté" qui inclut une liste de documents recommandés que votre projet devrait avoir.
 
-```{figure} ../../figures/community-profile.png
+```{figure} ../../figures/community-profile.*
 ---
 nom : profil de la communauté
 alt : Image d'une liste de contrôle dans l'onglet Communauté Insights d'un projet GitHub.
