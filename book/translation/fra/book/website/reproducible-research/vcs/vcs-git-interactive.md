@@ -5,7 +5,7 @@ L'un des plus grands défis pour débuter avec Git est de comprendre la structur
 
 L'outil [LearnGitBranching](https://learngitbranching.js.org/) créé par [pcottle](https://github.com/pcottle/learnGitBranching) fournit une introduction interactive et visuelle à Git. Cet outil interactif basé sur un navigateur comprend des tutoriels et vous permet de vous entraîner à utiliser Git à travers un "dépôt" virtuel et un bac à sable. En complétant les défis intégrés, devenir à l'aise avec les commandes Git est plus comme un jeu qu'une corvée.
 
-```{figure} ../../figures/interactive-learn-git.png
+```{figure} ../../figures/interactive-learn-git.*
 ---
 nom : interactive-learn-git
 alt : Une illustration de l'interactif, visual Learn Git Brnaching interface d'outil
