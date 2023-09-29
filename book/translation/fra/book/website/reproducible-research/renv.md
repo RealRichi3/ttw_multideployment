@@ -29,7 +29,7 @@ Les versions logicielles sont souvent définies via [le versionnage sémantique]
 - *PATCH*: pour les corrections de bugs
 
 (rr-renv-utiles)=
-## Pourquoi cela est utile
+## Motivation et arrière-plan
 
 Examinons un exemple de l'importance des environnements informatiques. Disons que j'ai un script Python très simple :
 
