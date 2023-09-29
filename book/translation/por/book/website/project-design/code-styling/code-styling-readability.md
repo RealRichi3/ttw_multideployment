@@ -97,7 +97,7 @@ Estas são, obviamente, apenas diretrizes e você deve escolher elementos que se
 
 Se você está compartilhando arquivos de texto ou trabalhando colaborativamente em manuais ou documentos, depois há muita controvérsia em torno da utilização de um ou dois espaços ao fim de um período. Ao usar Markdown, pode ser mais claro incluir uma nova linha após cada frase. Esse capítulo (e a maioria, se não a totalidade, desse livro) tem uma nova linha depois de cada frase que torna o texto em bruto mais fácil de ler, revisar e resolver a questão de espaçamento.
 
-```{figure} ../../figures/xkcd1285.png
+```{figure} ../../figures/xkcd1285.*
 ---
 height: 500px
 name: xkcd1285
