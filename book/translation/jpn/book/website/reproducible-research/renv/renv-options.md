@@ -7,7 +7,7 @@
 
 もう一つの方法は、再現された研究がどのように再現子に提示されるかです。 Binderまたは仮想マシンを使用すると、よりグラフィカルなGUIタイプの結果が生成されます。 これとは対照的に、コンテナとパッケージ管理システムの出力はコマンドラインを介してより簡単に操作できます。
 
-```{figure} ../../figures/computational-environments.jpg
+```{figure} ../../figures/computational-environments.*
 ---
 name: computational-environments
 alt: 計算環境をキャプチャするために使用されるさまざまなツールの説明
