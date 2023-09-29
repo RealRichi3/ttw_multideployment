@@ -4,7 +4,7 @@
 Na seção {ref}`rr-over-definitions` (definições), discutimos os diferentes aspectos de pesquisa reprodutível que são benéficos para a comunidade científica. Neste capítulo, partilharemos alguns aspectos menos óbvios do trabalho reprodutível para investigadores e equipas individuais.
 
 
-```{figure} ../../figures/reasons-reproducibility.png
+```{figure} ../../figures/reasons-reproducibility.*
 ---
 nome: reasons-reproducibility
 alt: Por que devemos nos importar em trabalhar reprodutível.
