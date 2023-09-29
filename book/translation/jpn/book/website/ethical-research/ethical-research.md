@@ -5,7 +5,7 @@
 
 データサイエンティストは、健康に深刻な影響を及ぼす可能性のあるデータの収集とモデル構築アプローチを必要とするデータ主導の意思決定を行います。 彼らに関連付けられているものすべてです 研究者やデータサイエンスのあらゆる種類のステークホルダーは、倫理基準と人々の生活への影響を考慮する義務があります {cite:ps}`Loyola2020倫理`.
 
-```{figure} ../figures/ethics.jpg
+```{figure} ../figures/ethics.*
 ---
 name: 倫理学
 alt: 法でラベル付けされた木製の裁判官ハンマーのイラストが、「異なる種類のデータを共有するために必要な制限を考慮する」という引用で板に当たっている
@@ -15,4 +15,4 @@ alt: 法でラベル付けされた木製の裁判官ハンマーのイラスト
 
 このガイドでは、 データサイエンティストが心に留めておくべき倫理的考慮事項について議論と指導を行います彼らの研究が高い倫理的誠実性を維持しているだけでなく 彼らの研究は最高水準の科学的水準で行われています
 
-私たちの [貢献ガイドライン](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) をご覧ください。
+Check out our [contributing guidelines](https://github.com/the-turing-way/the-turing-way/blob/main/CONTRIBUTING.md) to get involved.
