@@ -16,7 +16,7 @@ Esses documentos também são ferramentas eficazes para a construção de comuni
 
 O GitHub incentiva as práticas de colaboração em suas diretrizes da comunidade. A aba de dicas do seu projeto GitHub fornece uma seção chamada "Comunidade" que inclui uma lista de documentos recomendados que seu projeto deve ter.
 
-```{figure} ../../figures/community-profile.png
+```{figure} ../../figures/community-profile.*
 ---
 nome: perfil da comunidade
 alt: Imagem de uma lista de verificação na guia seção da Comunidade de Insights de um projeto GitHub.
