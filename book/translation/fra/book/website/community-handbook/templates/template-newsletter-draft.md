@@ -43,16 +43,16 @@ Trouvez plus de détails sur ces sujets ci-dessous 👇
 
 ## Connectez-vous avec nous !
 
-- [À propos du projet](https://www.turing.ac.uk/research/research-projects/turing-way-handbook-reproducible-data-science)
-- [The Turing Way_ book](https://the-turing-way.netlify.com)
-- [dépôt GitHub.com/alan-turing-institute/the-turing-way)
-- [canal Slack](https://join.slack.com/t/theturingway/shared_invite/zt-fn608gvb-h_ZSpoA29cCdUwR~TIqpBw)
-- [canal Gitter public](https://gitter. m/alan-turing-institute/the-turing-way)
+- [About the project](https://www.turing.ac.uk/research/research-projects/turing-way-handbook-reproducible-data-science)
+- [_The Turing Way_ book](https://the-turing-way.netlify.com)
+- [GitHub repository](https://github.com/the-turing-way/the-turing-way)
+- [Slack channel](https://join.slack.com/t/theturingway/shared_invite/zt-fn608gvb-h_ZSpoA29cCdUwR~TIqpBw)
+- [Public Gitter channel](https://gitter.im/the-turing-way/the-turing-way)
 - [YouTube Videos](https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA)
 - [Twitter Channel](https://twitter.com/turingway)
 
-Vous êtes les bienvenus pour contribuer au contenu de la prochaine newsletter par
-email [Malvika Sharan](mailto:msharan@turing.ac.uk).
+You are welcome to contribute content for the next newsletter by
+emailing [Malvika Sharan](mailto:msharan@turing.ac.uk).
 
 *Avez-vous manqué les dernières newsletters?*
 *Allez les voir [here](https://tinyletter.com/TuringWay/archive).*
