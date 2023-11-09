@@ -16,7 +16,7 @@
     
   [[redirects]]
     from = "/fra/*"
-    to = "http://localhost:37357/fra/:splat"
+    to = "https://ttw-cus-fr.netlify.app/fra/:splat"
     status = 200
 
   [[redirects]]
