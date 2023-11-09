@@ -44,4 +44,4 @@ En plus de profiter des tests individuels des chercheurs, la recherche dans son 
 
 Les tests aident également à éviter que des fonds précieux ne soient dépensés pour des projets qui peuvent être partiellement ou totalement imparfaits en raison d'erreurs dans le code. Pire encore, si des erreurs ne sont pas détectées et que le travail est publié, tout travail ultérieur qui s'appuie sur le projet sera tout aussi imparfait.
 
-Peut-être l'expression la plus propre des raisons pour lesquelles les tests sont importants pour la recherche dans son ensemble se trouve dans le slogan de [Software Sustainability Institute](https://www.software.ac.uk/) : meilleur logiciel, meilleur logiciel. une meilleure recherche.
+Peut-être l'expression la plus propre des raisons pour lesquelles les tests sont importants pour la recherche dans son ensemble se trouve dans le slogan de [Software Sustainability Institute](https://www.software.ac.uk/) : meilleur logiciel, meilleur logiciel.
