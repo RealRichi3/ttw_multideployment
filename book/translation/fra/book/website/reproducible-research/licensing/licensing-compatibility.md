@@ -28,7 +28,7 @@ alt : Une vue d'ensemble graphique de xtas. Un grand rectangle représente le tr
 Un aperçu graphique de xtas.
 ```
 
-xtas lui-même est écrit en Python, et il utilise un certain nombre de bibliothèques Python qui sont sous licence libre courante. Celles-ci incluent la simple licence permissive BSD et MIT, la permissive Apache License version 2. (ALv2), la GNU Lesser General Public License version 2.1 (LGPLv2.1), et la GNU General Public License version 2 ou ultérieure (GPLv2+).
+Les auteurs de xtas devraient choisir une licence pour le code Python xtas qui est compatible avec au moins une des licences sous lesquelles unidecode peut être distribué pour que d'autres puissent assembler et distribuer des travaux combinés. L'ALv2 est compatible avec la GPLv3 (mais pas avec la GPLv2, pour des raisons techniques), donc ils peuvent l'utiliser ici.
 
 (Notez que la dépendance à la bibliothèque Python GPLv2+ est dépréciée, mais pour le bien de ces exemples, nous supposerons que ce sera toujours là.)
 
@@ -123,7 +123,7 @@ Unidecode est sous licence GPL version 2 ou ultérieure. Ceci est connu sous le 
 
 Si les auteurs xtas distribuent undecode, ils devraient le faire sous la version 2 de la GPL ou supérieure, car la suppression arbitraire des licences du code de quelqu'un d'autre n'a pas de sens. Le travail combiné xtas doit être distribué sous les mêmes licences ou sous un sous-ensemble d'eux. Le code Python xtas peut être licencié comme il le veut.
 
-Les auteurs de xtas devraient choisir une licence pour le code Python xtas qui est compatible avec au moins une des licences sous lesquelles unidecode peut être distribué pour que d'autres puissent assembler et distribuer des travaux combinés. L'ALv2 est compatible avec la GPLv3 (mais pas avec la GPLv2, pour des raisons techniques), donc ils peuvent l'utiliser ici.
+xtas lui-même est écrit en Python, et il utilise un certain nombre de bibliothèques Python qui sont sous licence libre courante. Celles-ci incluent la simple licence permissive BSD et MIT, la permissive Apache License version 2. (ALv2), la GNU Lesser General Public License version 2.1 (LGPLv2.1), et la GNU General Public License version 2 ou ultérieure (GPLv2+). L'ALv2 est compatible avec la GPLv3 (mais pas avec la GPLv2, pour des raisons techniques), donc ils peuvent l'utiliser ici.
 
 Le travail combiné devrait alors être sous licence GPL version 3 ou ultérieure. S'il est important qu'il puisse également être utilisé sous la GPLv2 alors les auteurs de xtas peuvent licencier le code Python xtas sous ALv2 et la GPLv2 (signifiant, ils offrent les deux licences, et l'utilisateur peut choisir d'accepter l'un ou l'autre ou les deux), et le travail combiné sous la version 2 ou supérieure.
 
