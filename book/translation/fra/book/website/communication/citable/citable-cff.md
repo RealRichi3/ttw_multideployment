@@ -46,21 +46,17 @@ Un exemple minimal d'un fichier `CITATION.cff` valide, qui ne contient que les c
 auteurs:
   - noms familiaux : Doe
     prénoms: Jean
-cff-version: 1.2.
-message: "Si vous utilisez ce logiciel, veuillez le citer en utilisant les métadonnées de ce fichier."
-titre: "Mon logiciel de recherche"
+cff-version: 1.2. message: "Si vous utilisez ce logiciel, veuillez le citer en utilisant les métadonnées de ce fichier." titre: "Mon logiciel de recherche"
 ```
 
 Cependant, ajouter plus de champs peut vous aider à créer plus de métadonnées descriptives de votre logiciel. L'exemple ci-dessous fournit également des informations importantes sur les logiciels tels que la version, la date de publication, le DOI, la licence, les mots-clés.
 
 ```yaml
-abstrait : "C'est mon logiciel de recherche génial. Il fait beaucoup de choses.
-auteurs :
+abstrait : "C'est mon logiciel de recherche génial. auteurs :
   - noms de famille : Doe
     noms donnés: Jean
     orcid: "https://orcid. rg/0000-0001-8888-9999"
-cff-version: 1.2.
-date de sortie : "2021-10-13"
+cff-version: 1.2. date de sortie : "2021-10-13"
 identifiants :
   - description : "C'est la collection de snapshots archivés de toutes les versions de mon logiciel de recherche"
     type : doi
@@ -71,9 +67,7 @@ identifiants :
 mots clés :
   - "logiciel incroyable"
   - recherche
-licence: Apache-2.
-message: "Si vous utilisez ce logiciel, veuillez le citer en utilisant les métadonnées de ce fichier."
-repository-code: "https://github. om/citation-file-format/my-research-software"
+licence: Apache-2. message: "Si vous utilisez ce logiciel, veuillez le citer en utilisant les métadonnées de ce fichier." repository-code: "https://github. om/citation-file-format/my-research-software"
 title: "My Research Software"
 version: 0.11.2
 ```
