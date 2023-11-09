@@ -1,7 +1,7 @@
 (solução)=
 # Chamadas de Co-trabalho Comunitário
 
-O conceito de trabalho profissional está geralmente associado à prática de partilha de espaços de escritório físico com diferentes pessoas que trabalham de forma independente, como funcionários remotos ou freelancers. Isto permite que as pessoas, que de outra forma podem sentir-se isoladas enquanto trabalham sozinhas em casa, usem instalações de escritório tradicionais, crie uma rotina de trabalho e construa um sentimento de companhia com os outros com quem compartilham os seus espaços de escritório.
+O conceito de trabalho profissional está geralmente associado à prática de partilha de espaços de escritório físico com diferentes pessoas que trabalham de forma independente, como funcionários remotos ou freelancers. O conceito de trabalho profissional está geralmente associado à prática de partilha de espaços de escritório físico com diferentes pessoas que trabalham de forma independente, como funcionários remotos ou freelancers.
 
 _A comunidade_ Modo Turístico é distribuída ao redor do mundo. Os nossos membros provêm de diversas origens, competências e interesses, que trabalham em muitos empregos diferentes e contribuem para este projecto por uma grande variedade de razões. São também, na sua maioria, não pagos para contribuir para este projeto de código aberto.
 
