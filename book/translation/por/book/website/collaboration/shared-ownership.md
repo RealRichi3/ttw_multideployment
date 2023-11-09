@@ -8,7 +8,7 @@ Código aberto ou movimento de pesquisa aberta permite que qualquer pessoa use, 
 nome: colaboração de código aberto
 alt: Esta ilustração mostra que os projetos de código aberto são orientados pelas necessidades da instituição ou dos indivíduos, enquanto a comunidade de código aberto permite que diferentes pessoas interagam, ideias de intercâmbio, colabore e crie recursos usando "pela comunidade - para os princípios da comunidade
 ---
-caminho colaborativo de código aberto comparado a projetos de fonte fechada que são guiados pela motivação pessoal do Instituto. Crédito de imagem: _The Turing Way_ Community, & Scriberia. (2020, Novembro). Ilustrações do Caminho de Turing book dashes. Zenodo. http://doi.org/10.5281/zenodo.4323154
+caminho colaborativo de código aberto comparado a projetos de fonte fechada que são guiados pela motivação pessoal do Instituto. Crédito de imagem: _The Turing Way_ Community, & Scriberia. (2020, Novembro). Ilustrações do Caminho de Turing book dashes. Zenodo. Zenodo.
 ```
 
 ## Motivação
