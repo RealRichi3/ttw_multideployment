@@ -29,7 +29,7 @@ Liste de contrôle des documents recommandés
 
 - Voir le chapitre {ref}`rr-compendia`.
 - Max Joseph, [Comment (et pourquoi) faire une compendia de recherche](https://mbjoseph.github.io/intro-research-compendia/#1). (2020, 19 mars). Présentation.
-- Nüst, D., Boettiger, C., & Marwick, B. (2018). [Comment lire un Compendium de recherche](https://arxiv.org/abs/1806.09525v1). arXiv, 1806.09525. « Manuscrit. »
+- Nüst, D., Boettiger, C., & Marwick, B. (2018). [Comment lire un Compendium de recherche](https://arxiv.org/abs/1806.09525v1). arXiv, 1806.09525. « Manuscrit.
 - Perez-Riverol, Y., Gatto, L., Wang, R., Sachsenberg, T., Uszkoreit, J., da Veiga Leprevost, F., Christian Fufezan, Ternent, T. Eglen, S. J., Katz, D. S., Pollard, T. J., Konovalov, S., Flight, R. M., Blin, K., Vizcaíno, J. A. (2016). [Dix règles simples pour prendre avantage de Git et GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004947). Ordinateur PLoS. Biol., 12(7), e1004947. doi : 10.1371/journal.pcbi.1004947. Article révisé par les pairs.
 - Venigalla, A. S. M., & Chimalakonda, S. (2021). [Que se passe-t-il dans un dépôt GitHub ? -- Une perspective de documentation du logiciel](https://arxiv.org/abs/2102.12727v2). arXiv, 2102.12727.
 - [La relation entre l'utilisation de dossiers et le nombre de forks : Une étude de cas sur des dépôts Github](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.650.8150). (2021, Juillet 02).
