@@ -16,7 +16,7 @@
     
   [[redirects]]
     from = "/fra/*"
-    to = "http://localhost:8888/fra/:splat"
+    to = "http://localhost:37357/fra/:splat"
     status = 200
 
   [[redirects]]

@@ -12,11 +12,11 @@
   [[redirects]]
     from = "/en/*"
     to = "http://localhost:8888/:splat"
-    status = 200
+    status = 301
     
    [[redirects]]
     from = "/fra/*"
-    to = "http://localhost:8888/:splat"
+    to = "http://localhost:37357/fra/:splat"
     status = 200
 
   [[redirects]]
