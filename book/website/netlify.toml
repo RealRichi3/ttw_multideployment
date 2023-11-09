@@ -2,7 +2,7 @@
 [build]
   command = "pip install -r requirements.txt && rm -r node_modules && jupyter-book build ."
   functions = "netlify/functions"
-  publish = "book/website/_build/html"
+  publish = "_build/html"
 
 [dev]
   command = "npm run serve" # Command to start your dev server
