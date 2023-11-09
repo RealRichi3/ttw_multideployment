@@ -31,5 +31,5 @@
 - [مبادئ الاستشهاد بالبيانات فورس11 (FORCE11)](https://www.force11.org/datacitationprinciples)
 - [مبادئ الاقتباس من برنامج فورس11 (FORCE11)](https://www.force11.org/software-citation-principles)
 - [الشروع في استخدام المعرف المفتوح للباحثين والمساهمين (ORCID) الخاصة بك](https://support.orcid.org/hc/en-us/articles/360006896894-Getting-started-with-your-ORCID-record)
-- [جعل البرمجيات قابلة للاقتباس ](https://guide.esciencecenter.nl/citable_software/making_software_citable.html)
+- [جعل البرمجيات قابلة للاقتباس](https://guide.esciencecenter.nl/citable_software/making_software_citable.html)
 - [دليل أوبينير (OpenAIRE) حول معرفات الأشخاص](https://www.openaire.eu/how-can-identifiers-improve-the-dissemination-of-your-research-outputs)
