@@ -8,7 +8,7 @@ Le mouvement open source ou ouvert de recherche permet à n'importe qui d'utilis
 nom : open-source-collaboration
 alt : Cette illustration montre que les projets sources fermés sont animés par les besoins de l'institution ou des individus alors que la communauté open source permet à différentes personnes d'interagir, échanger des idées, collaborer et construire des ressources en utilisant les principes "par la communauté - pour la communauté"
 ---
-Chemin de collaboration Open source comparé aux projets sources fermés qui sont animés par la motivation personnelle de l'institut. Crédit d'image : Communauté _Le chemin de Tur_ & Scriberia. (2020, novembre). Illustrations tirées des tirets du livre de Turing Way. Zenodo. http://doi.org/10.5281/zenodo.4323154
+Chemin de collaboration Open source comparé aux projets sources fermés qui sont animés par la motivation personnelle de l'institut. Crédit d'image : Communauté _Le chemin de Tur_ & Scriberia. (2020, novembre). Illustrations tirées des tirets du livre de Turing Way. Zenodo. Zenodo.
 ```
 
 ## Motivation

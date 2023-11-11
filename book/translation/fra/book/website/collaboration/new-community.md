@@ -10,7 +10,7 @@ L'exemple le plus récent est la pandémie COVID-19 et les événements connexes
 name : nouvelle communauté
 alt : Une illustration de 2 personnes qui travaillent ensemble et discutent d'un tableau de données. Certains d'entre eux aident d'autres personnes à travailler ensemble.
 ---
-Decolonating Knowledge through inclusive and collaborative approaches. _La Communauté Turing Way_ & Scriberia. (2020, novembre). Illustrations tirées des tirets du livre de Turing Way. Zenodo. http://doi.org/10.5281/zenodo.4323154
+Decolonating Knowledge through inclusive and collaborative approaches. _La Communauté Turing Way_ & Scriberia. (2020, novembre). Illustrations tirées des tirets du livre de Turing Way. Zenodo. Zenodo.
 ```
 
 Ces efforts orientés vers l'action résultent d'une motivation à rassembler et à combiner nos connaissances scientifiques pour faire face à des situations sans précédent. Néanmoins, la formation de collaborations efficaces est un processus stimulant, même dans le meilleur des temps. Maintenir une équipe engagée est une activité continue qui nécessite un contrôle et une évaluation réguliers. Sur la base de chaque évaluation, nous pouvons changer et améliorer notre flux de travail et nos pratiques communautaires. Cependant, lorsque nous créons à la hâte un projet pour résoudre un problème immédiat, nous n'avons pas le temps de procéder à une telle évaluation. C'est pourquoi il est encore plus important d'être intentionnel lors de la création d'équipes et de communautés et d'appliquer les meilleures pratiques éprouvées dès le début.

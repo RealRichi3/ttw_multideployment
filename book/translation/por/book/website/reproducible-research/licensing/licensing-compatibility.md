@@ -27,7 +27,7 @@ alt: Uma visão gráfica de xtas. Um retângulo grande representa as xtas de tra
 --- Uma visão gráfica de xtas.
 ```
 
-Os quatro componentes não-xtas estão sob licenças de software gratuitas e os autores de xtas detêm os direitos autorais do código xtas Python, para que todos os cinco componentes possam ser distribuídos pelos autores de xtas. A BSD, LGPLv2. e o GPLv2+ permitem licenciamento de trabalhos combinados sob a versão 2 ou maior, portanto, há pelo menos uma licença pela qual o trabalho combinado pode ser licenciado.
+Os quatro componentes não-xtas estão sob licenças de software gratuitas e os autores de xtas detêm os direitos autorais do código xtas Python, para que todos os cinco componentes possam ser distribuídos pelos autores de xtas. (ALv2), a GNU Lesser General Public License versão 2.1 (LGPLv2.1) e a GNU General Public License versão 2 ou posterior (GPLv2+).
 
 (Note que a dependência da biblioteca GPLv2+ Python está obsoleta, mas, por estes exemplos, partimos do princípio de que ainda lá estam.)
 
@@ -95,8 +95,8 @@ xtas como um todo, e o xtas código Python, podem ser licenciados da maneira que
 ```{figure} ../../figures/xtas-unidecode96.*
 ---
 nome: xtas-unidecode96
-alt: Uma ilustração do xtas vs. exemplo de unidecode. O retângulo grande representa as xtas de trabalho combinadas. Dentro deste retângulo, há um retângulo baixo no topo representando o código xtas Python, licenciado sob a Licença Apache v2. Abaixo está um quadrado contendo as palavras "unidecode" e "Python lib GPLv2+".
---- Uma ilustração dos xtas vs. exemplo de unidecode.
+alt: Uma ilustração do xtas vs. exemplo de unidecode. O retângulo grande representa as xtas de trabalho combinadas. Dentro deste retângulo, há um retângulo baixo no topo representando o código xtas Python, licenciado sob a Licença Apache v2. Dentro deste retângulo, há um retângulo baixo no topo representando o código xtas Python, licenciado sob a Licença Apache v2.
+Abaixo está um quadrado contendo as palavras "unidecode" e "Python lib GPLv2+".
 ```
 
 xtas usadas anteriormente [unidecode](https://pypi.org/project/Unidecode/), uma biblioteca Python para converter texto codificado de acordo com o The Unicode® Standard em uma aproximação ASCII da mesma. O Unidecode é publicado sob a GNU General Public License versão 2 ou posterior (GPLv2+). Considerando apenas xtas e unidecodificação, podemos responder às três perguntas da seguinte forma.
@@ -147,7 +147,7 @@ Existem cinco trabalhos: Bola de Neve, Carteiras, Unidecodificação, código xt
 
 #### As obras derivadas podem ser distribuídas? As licenças permitem isso e são compatíveis?
 
-Os quatro componentes não-xtas estão sob licenças de software gratuitas e os autores de xtas detêm os direitos autorais do código xtas Python, para que todos os cinco componentes possam ser distribuídos pelos autores de xtas. (ALv2), a GNU Lesser General Public License versão 2.1 (LGPLv2.1) e a GNU General Public License versão 2 ou posterior (GPLv2+).
+Os quatro componentes não-xtas estão sob licenças de software gratuitas e os autores de xtas detêm os direitos autorais do código xtas Python, para que todos os cinco componentes possam ser distribuídos pelos autores de xtas. A BSD, LGPLv2. e o GPLv2+ permitem licenciamento de trabalhos combinados sob a versão 2 ou maior, portanto, há pelo menos uma licença pela qual o trabalho combinado pode ser licenciado.
 
 #### Como o(s) trabalho(s) deve ser licenciado?
 

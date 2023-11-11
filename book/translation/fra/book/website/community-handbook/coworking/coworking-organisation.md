@@ -81,7 +81,7 @@ Bien que discuté en dernier, cela devrait être votre plus grande priorité.
 
 Vous devriez concevoir ces appels dans le but de faire en sorte que tout le monde se sente le bienvenu, impliqué et en sécurité. Il est fortement recommandé de choisir un code de conduite et de mettre en place des lignes directrices pour les rapports à partager avec tout le monde à l'avance. Voir ce [CoC minimal de la part de Contributor Covenant](https://www.contributor-covenant.org/) et une version étendue de {ref}`The Turing Way CoC<ch-coc>`. De plus, vous devriez également communiquer les étiquettes, comme couper les micros lorsque vous ne parlez pas ou ne pas interrompre les autres lorsque vous travaillez dans une session Pomodoro sauf si nécessaire.
 
-Il est utile de faire savoir à chacun qui il peut contacter s'il a besoin d'aide pour le dépannage pendant l'appel ou d'avoir besoin de plus de temps pour discuter de ses idées. Créer un agenda qui indique clairement ce que l'on attend d'eux, comme si elles devaient mettre leurs tâches et leurs questions dans l'appel ou les communiquer au préalable. Dans _The Turing Way_, nous avons des créneaux dédiés pour les discussions de groupe et le travail silencieux.
+Il est utile de faire savoir à chacun qui il peut contacter s'il a besoin d'aide pour le dépannage pendant l'appel ou d'avoir besoin de plus de temps pour discuter de ses idées. Il est utile de faire savoir à chacun qui il peut contacter s'il a besoin d'aide pour le dépannage pendant l'appel ou d'avoir besoin de plus de temps pour discuter de ses idées. Dans _The Turing Way_, nous avons des créneaux dédiés pour les discussions de groupe et le travail silencieux.
 
 
 ## Quelques exemples

@@ -17,7 +17,7 @@ _The Turing Way_ project illustration by Scriberia. Utilisé sous licence CC-BY 
 (résumé-aperçu de rr)=
 ## Summary
 
-Les résultats scientifiques et les preuves sont renforcés si ces résultats peuvent être répliqués et confirmés par plusieurs chercheurs indépendants (voir les définitions de {ref}` <rr-overview-definitions>`).
+Les résultats scientifiques et les preuves sont renforcés si ces résultats peuvent être répliqués et confirmés par plusieurs chercheurs indépendants (voir les définitions de {ref}`<rr-overview-definitions>`).
 
 Lorsque les chercheurs emploient la transparence dans leurs recherches - en d'autres termes, lorsqu’ils documentent et partagent correctement les données et les processus associés à leurs analyses – la communauté de recherche au sens large est en mesure de gagner un temps précieux en reproduisant ou en tirant parti des résultats publiés. Souvent, les données ou le code provenant de projets antérieurs seront réutilisés par de nouveaux chercheurs pour vérifier les anciennes conclusions ou développer de nouvelles analyses.
 

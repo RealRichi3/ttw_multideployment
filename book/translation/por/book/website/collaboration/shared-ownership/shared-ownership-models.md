@@ -5,9 +5,9 @@ No momento de escrever este capítulo, identificamos os seguintes modelos de pro
 
 ## Papéis baseados no nível de acesso
 
-Para organizações GitHub, há opções para [organizar membros em](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams) equipes com diferentes papéis e níveis de acesso. As permissões para os proprietários de uma organização GitHub podem ser dadas a um grupo de pessoas que gerenciam a conta da organização, como a concessão de níveis de permissão aos contribuidores conforme necessário ([veja detalhes](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization)).
-
 Para organizações GitHub, há opções para [organizar membros em](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams) equipes com diferentes papéis e níveis de acesso. Os diferentes níveis de acesso definem a crescente ordem de direitos e responsabilidades que um colaborador tem em um projeto (consulte a [documentação do GitHub](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/repository-permission-levels-for-an-organization) para mais detalhes).
+
+Para organizações GitHub, há opções para [organizar membros em](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams) equipes com diferentes papéis e níveis de acesso. As permissões para os proprietários de uma organização GitHub podem ser dadas a um grupo de pessoas que gerenciam a conta da organização, como a concessão de níveis de permissão aos contribuidores conforme necessário ([veja detalhes](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization)).
 
 As permissões mínimas padrão para membros permitem ler, forjar, criar issues, corrigir bugs e sugerir alterações menores. É um caminho fácil para novos colaboradores entrarem num projeto, no entanto, não é suficiente para se sentirem parte da comunidade. Para promover um sentido de propriedade partilhada, o nível básico de acesso deve ser “escritor”, que pode rever as novas contribuições, e fazer e aprovar mudanças que lhes permitam partilhar a responsabilidade pelo desenvolvimento e manutenção de um projeto.
 
