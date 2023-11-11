@@ -25,8 +25,7 @@ Par exemple, les [termes commençant par 'A'](https://the-turing-way.netlify.app
 Acceptance Testing
  Un niveau du processus de test logiciel où un système est testé pour être accepté. Le but de ce test est d'évaluer la conformité du système avec les exigences du projet et d'évaluer s'il est acceptable à cette fin.
 
-Ajouter la commande
- utilisée pour ajouter des fichiers à la zone de stockage. Permet à l'utilisateur de spécifier quels fichiers ou répertoires inclure dans la prochaine livraison.
+Le but de ce test est d'évaluer la conformité du système avec les exigences du projet et d'évaluer s'il est acceptable à cette fin. Permet à l'utilisateur de spécifier quels fichiers ou répertoires inclure dans la prochaine livraison.
 
 Auteurs
   Les auteurs dans ce contexte sont les contributeurs du projet _The Turing Way_ qui ont apporté une contribution substantielle au projet comme la rédaction d'un sous-chapitre, faciliter les interactions entre les communautés, maintenir l’infrastructure du projet et soutenir la participation des autres par le biais de contributions encadrées. Tous les auteurs sont nommés coauteurs du livre dans son ensemble.

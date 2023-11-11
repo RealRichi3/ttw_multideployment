@@ -27,7 +27,7 @@ Este repositório básico contém todo o código que vamos precisar neste tutori
 
 ```text
 .
-. ── dados /
+. . ── dados /
 ─── input_file_1.csv
 ── input_file_2.csv
 ── LICENSE
@@ -292,9 +292,7 @@ Vamos mostrar primeiro o Makefile completo e depois descrever as diferentes linh
 
 ```makefile
 # Makefile para o relatório de análise
-#
-
-ALL_CSV = $(wildcard data/*.csv)
+# ALL_CSV = $(wildcard data/*.csv)
 INPUT_CSV = $(wildcard data/input_file_*. sv)
 DADA = $(filter-out $(INPUT_CSV),$(ALL_CSV))
 FIGURES = $(patsubst data/%. sv,output/figure_%.png,$(DATA))
