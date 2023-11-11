@@ -96,7 +96,7 @@ xtas como um todo, e o xtas código Python, podem ser licenciados da maneira que
 ---
 nome: xtas-unidecode96
 alt: Uma ilustração do xtas vs. exemplo de unidecode. O retângulo grande representa as xtas de trabalho combinadas. Dentro deste retângulo, há um retângulo baixo no topo representando o código xtas Python, licenciado sob a Licença Apache v2. Dentro deste retângulo, há um retângulo baixo no topo representando o código xtas Python, licenciado sob a Licença Apache v2.
-Abaixo está um quadrado contendo as palavras "unidecode" e "Python lib GPLv2+".
+Dentro deste retângulo, há um retângulo baixo no topo representando o código xtas Python, licenciado sob a Licença Apache v2.
 ```
 
 xtas usadas anteriormente [unidecode](https://pypi.org/project/Unidecode/), uma biblioteca Python para converter texto codificado de acordo com o The Unicode® Standard em uma aproximação ASCII da mesma. O Unidecode é publicado sob a GNU General Public License versão 2 ou posterior (GPLv2+). Considerando apenas xtas e unidecodificação, podemos responder às três perguntas da seguinte forma.
