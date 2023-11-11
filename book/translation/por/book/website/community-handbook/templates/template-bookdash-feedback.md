@@ -16,6 +16,5 @@
 :arrow_up_small:Deltas
 --- Por favor, adicione algo que você mudaria no Dash. Nós nunca executamos um antes e todos os seus comentários serão muito valiosos. Se você não deseja que seu comentário seja adicionado ao repositório do GitHub (e, portanto, que seja publicado), por favor adicione o 🤫 no início da linha.
 
--
--
+Se você não deseja que seu comentário seja adicionado ao repositório do GitHub (e, portanto, que seja publicado), por favor adicione o 🤫 no início da linha.
 ```
