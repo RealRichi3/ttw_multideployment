@@ -25,7 +25,7 @@ _チューリングウェイ_ チームは、毎週短いコワーキングコ�
 
 ### 通話の形式
 
-{ref}`Collaboration Cafes<ch-template-coworking-weekly>`のテンプレートがあります。これは毎週 [shared HackMD](https://hackmd.io/@malvikasharan/TW-coworking) で更新されます。
+{ref}`Collaboration Cafes<ch-template-coworking-weekly>`のテンプレートがあります。 これは毎週 [shared HackMD](https://hackmd.io/@malvikasharan/TW-coworking) で更新されます。
 
 各通話中に次のスケジュールを実行します:
 
