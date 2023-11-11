@@ -75,7 +75,7 @@ Estas são também perguntas que tenho em conta: será um painel exclusivamente 
 
 ## 5. Quais são as perspectivas que você tem para suas futuras conversações? O que você estaria interessado em tentar?
 
-Ultimamente, foi-me pedido que realizasse conversações sobre três temas: comunidades de práticas. ciência e dados aplicados à agricultura (com casos) e ciência e dados na geo-tecnologia. É difícil manter o entusiasmo de dizer sempre o mesmo porque, além disso, é difícil manter o mesmo entusiasmo. você se sente como um impostor pensando sobre quantas vezes mais você vai entregar a mesma conversa. O que acontece é que, por vezes, os cidadãos convidam porque o viram e querem repeti-lo noutro cenário.
+Últimamente, me piden que haga charlas sobre tres temas: comunidades de práctica, ciencia y datos aplicados al agro (con casos), y ciencias y datos en geotecnología. Es complejo mantener el entusiasmo de contar siempre lo mismo porque, además, uno se siente medio impostor pensando en cuántas veces más va a dar la misma charla. Es complejo mantener el entusiasmo de contar siempre lo mismo porque, además, uno se siente medio impostor pensando en cuántas veces más va a dar la misma charla. El tema es que, a veces, te invitan porque la vieron y quieren replicarla en otro ámbito.
 
 O que eu geralmente faço é atualizar as conversações quando tenho novos resultados ou casos de uso e, dependendo do público esperado, Eu explico mais detalhadamente os conceitos que preciso que eles saibam para tirar mais proveito da conversa.
 
@@ -97,7 +97,7 @@ Podés interiorizarte en su trabajo en los siguientes links:
 * [ORCID](https://orcid.org/0000-0002-4522-7466)
 * [Twitter](https://twitter.com/yabellini)
 
-**Yanina** es investigadora del [INTA en La Pampa, Argentina](https://inta.gob.ar/personas/bellini.yanina) aplicando ciencia de datos al sector agropecuario. Es Licenciada en Sistemas de Información y Magíster en Explotación de Datos y Gestión del Conocimiento. Es cofundadora y organizadora en múltiples espacios colaborativos como Metadocencia, RLadies y LatinR entre otros. Organizações de 70 eventos (de alcance regional e internacional) entre os que são destacados como presidente geral das Jornadas Argentinas de Informaëtica (2020-2021) e fundadora e atual cadeira de LatinR, uma das conferências mais recentes americanas é grande sobre o uso de R em pesquisas e esvaziar e uma das coordenadas globais de uso! 2021. Tanto en su rol como investigadora como con la comunidad R trabaja buscando hacer que la ciencia sea lo más reproducible y abierta posible utilizando herramientas informáticas abiertas.
+**Yanina** es investigadora del [INTA en La Pampa, Argentina](https://inta.gob.ar/personas/bellini.yanina) aplicando ciencia de datos al sector agropecuario. Es Licenciada en Sistemas de Información y Magíster en Explotación de Datos y Gestión del Conocimiento. Es cofundadora y organizadora en múltiples espacios colaborativos como Metadocencia, RLadies y LatinR entre otros. Organizações de 70 eventos (de alcance regional e internacional) entre os que são destacados como presidente geral das Jornadas Argentinas de Informaëtica (2020-2021) e fundadora e atual cadeira de LatinR, uma das conferências mais recentes americanas é grande sobre o uso de R em pesquisas e esvaziar e uma das coordenadas globais de uso! 2021. 2021.
 
 ## 1. ¿Cuándo comenzaste a dar charlas sobre tu trabajo como investigadora en eventos no académicos?
 
@@ -171,7 +171,7 @@ Estas también son cuestiones que yo tomo en cuenta, ¿es un panel todo de homb
 
  ## 5. ¿Qué perspectivas tenés de tus futuras charlas? A fila de interesse,em um probar?
 
-Últimamente, me piden que haga charlas sobre tres temas: comunidades de práctica, ciencia y datos aplicados al agro (con casos), y ciencias y datos en geotecnología. Es complejo mantener el entusiasmo de contar siempre lo mismo porque, además, uno se siente medio impostor pensando en cuántas veces más va a dar la misma charla. Es complejo mantener el entusiasmo de contar siempre lo mismo porque, además, uno se siente medio impostor pensando en cuántas veces más va a dar la misma charla. El tema es que, a veces, te invitan porque la vieron y quieren replicarla en otro ámbito.
+Ultimamente, foi-me pedido que realizasse conversações sobre três temas: comunidades de práticas. ciência e dados aplicados à agricultura (com casos) e ciência e dados na geo-tecnologia. É difícil manter o entusiasmo de dizer sempre o mesmo porque, além disso, é difícil manter o mesmo entusiasmo. você se sente como um impostor pensando sobre quantas vezes mais você vai entregar a mesma conversa. El tema es que, a veces, te invitan porque la vieron y quieren replicarla en otro ámbito.
 
 Lo que hago, en general, es ir actualizándolas cuando tengo nuevos resultados o casos de uso y, dependiendo de la audiencia que me dicen que va a haber, ejemplifico en detalle o explico con más detalle los conceptos que necesito que se conozcan para que se aproveche más la charla.
 
