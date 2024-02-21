@@ -2,7 +2,7 @@
 # Personas et Chemins
 
 (prérequis de la persona-pj) =
-## Pré-requis
+## Prerequisites
 Aucune.
 
 (résumé pd-persona)=
