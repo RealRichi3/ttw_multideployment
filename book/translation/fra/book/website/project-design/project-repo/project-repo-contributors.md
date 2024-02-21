@@ -23,10 +23,10 @@ Quand vous avez sélectionné quelques personnes qui captent votre idée de cont
 ## Définition des chemins de communication
 
 Lors de la mise en place de vos voies de communication, il y a des choses importantes à considérer telles que :
-- Est-il facile pour la communauté de trouver ces canaux et de les désabonner ou de les désabonner ?
-- Sont-elles modérées? Les groupes sous-représentés ne peuvent pas participer si un canal est gratuit pour tous.
-- Est-il facile pour les membres de la communauté de trouver et de rejoindre des conversations spécifiques qui les intéressent?
+- How easy is it for the community to find these channels and subscribe/unsubscribe to them?
+- Are they moderated? Les groupes sous-représentés ne peuvent pas participer si un canal est gratuit pour tous.
+- How easy is it for members of the community to find and join specific conversations they are interested in?
 - Sera-t-il un canal “bruyant” (par exemple, beaucoup de notifications)?
-- Les utilisateurs peuvent-ils contrôler ou filtrer les informations qu'ils reçoivent ?
+- Can users control or filter what kind of information they receive?
 
 Voir {ref}`cm-os-comms` pour comprendre diverses fonctionnalités que vous pouvez envisager pour définir un canal de communication pour votre projet.

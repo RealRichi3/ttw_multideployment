@@ -1,7 +1,7 @@
 (co-travail) =
 # Appels de coworking communautaire
 
-Le concept de cotravail est généralement associé à la pratique consistant à partager des espaces de travail physiques avec différentes personnes qui travaillent de façon indépendante comme des employés éloignés ou des indépendants. Cela permet aux gens, qui autrement se sentent isolés lorsqu'ils travaillent seuls à la maison, d'utiliser les installations de bureau traditionnelles, créer une routine de travail et bâtir un sentiment de compagnon avec les autres avec qui ils partagent leurs espaces de bureau.
+The concept of coworking is generally associated with the practice of sharing physical office space with different people who work independently such as remote employees or freelancers. Cela permet aux gens, qui autrement se sentent isolés lorsqu'ils travaillent seuls à la maison, d'utiliser les installations de bureau traditionnelles, créer une routine de travail et bâtir un sentiment de compagnon avec les autres avec qui ils partagent leurs espaces de bureau.
 
 _La communauté de Turing Way_ est distribuée à travers le monde. Nos membres sont issus de milieux variés, de compétences et d’intérêts différents, travaillent de nombreux emplois différents et contribuent à ce projet pour une grande variété de raisons. Ils sont aussi, pour la plupart, non rémunérés pour contribuer à ce projet open source.
 

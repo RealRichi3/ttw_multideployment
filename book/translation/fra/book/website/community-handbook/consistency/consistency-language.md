@@ -1,10 +1,10 @@
 (ch-consistcy-language)=
-# Langue
+# Language
 
 La langue se préoccupe de la manière dont les concepts et les idées dans _La Voie Turing_ sont exprimés. Un langage cohérent garantit que _The Turing Way_ est clair et compréhensible.
 
 (ch-consistcy-language-hr)=
-## Exigences difficiles
+## Hard Requirements
 
 Les vérifications dures qui traitent du langage _The Turing Way's_ incluent :
 
@@ -19,7 +19,7 @@ Des outils tels que [Grammarly](https://grammarly.com), [Grammar Ginger](https:/
 
 En ce qui concerne le ton, assurez-vous que les chapitres adhèrent à un style formel d'écriture et que les phrases sont faciles à digérer. Une règle à considérer est que si une phrase doit être lue plus d'une fois pour être comprise, alors il doit probablement être reformulé.
 
-#### Démo
+#### Demo
 
 <div class="video-container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Prv23kGekVY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

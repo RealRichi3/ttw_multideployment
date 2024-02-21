@@ -53,7 +53,7 @@ Par conséquent, la clé pour rendre votre écriture plus accessible est de tran
 
 Essayez d'utiliser l'une des ressources ci-dessous pour tester la lisibilité du résumé de la traduction que vous avez écrit.
 
-Tests de lisibilité:
+Readability tests:
 * [Hemingway app](http://www.hemingwayapp.com/)
 * [Le test de lisibilité du premier mot](http://thefirstword.co.uk/readabilitytest/)
 
