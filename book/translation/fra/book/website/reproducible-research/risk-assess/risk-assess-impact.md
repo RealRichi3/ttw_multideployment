@@ -4,7 +4,7 @@ Nous utilisons tous des évaluations des risques en permanence. Parfois, ce sont
 
 ## La matrice de risque
 
-Une matrice de risque est une façon très populaire de quantifier ce qui se passe avec ce qui vous intéresse. Un axe mesure l'exposition d'une certaine manière, et l'autre l'impact d'un malentendu. Plus l'origine est éloignée, plus il faut des garanties pour rendre le risque acceptable.
+Une matrice de risque est une façon très populaire de quantifier ce qui se passe avec ce qui vous intéresse. One axis measures exposure in some way, and the other the impact of a mishap. The further from the origin, the more safeguards are needed to make the risk acceptable.
 
 ```{figure} ../../figures/risk-matrix.*
 ---
