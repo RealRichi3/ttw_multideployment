@@ -23,10 +23,10 @@ Quando você tiver escolhido algumas pessoas que capturam sua ideia de contribui
 ## Definindo caminhos de comunicação
 
 Ao configurar seus caminhos de comunicação, há algumas coisas importantes a considerar como as seguintes:
-- Quão fácil é para a comunidade encontrar esses canais e assinar/cancelar sua assinatura?
-- São moderados? Grupos com baixa representação podem não participar se um canal for gratuito para todos.
-- Qual é a facilidade de os membros da comunidade encontrarem e participarem de conversas específicas nas quais estão interessados?
+- How easy is it for the community to find these channels and subscribe/unsubscribe to them?
+- Are they moderated? Grupos com baixa representação podem não participar se um canal for gratuito para todos.
+- How easy is it for members of the community to find and join specific conversations they are interested in?
 - Será um canal de “ruído” (por exemplo, muitas notificações)?
-- Os usuários podem controlar ou filtrar que tipo de informação receberam?
+- Can users control or filter what kind of information they receive?
 
 Veja {ref}`cm-os-comms` para entender vários recursos que você pode considerar para definir um canal de comunicação para seu projeto.
