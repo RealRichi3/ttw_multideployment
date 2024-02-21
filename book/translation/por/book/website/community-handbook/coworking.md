@@ -1,7 +1,7 @@
 (solução)=
 # Chamadas de Co-trabalho Comunitário
 
-The concept of coworking is generally associated with the practice of sharing physical office space with different people who work independently such as remote employees or freelancers. O conceito de trabalho profissional está geralmente associado à prática de partilha de espaços de escritório físico com diferentes pessoas que trabalham de forma independente, como funcionários remotos ou freelancers.
+The concept of coworking is generally associated with the practice of sharing physical office space with different people who work independently such as remote employees or freelancers. The concept of coworking is generally associated with the practice of sharing physical office space with different people who work independently such as remote employees or freelancers.
 
 _A comunidade_ Modo Turístico é distribuída ao redor do mundo. Os nossos membros provêm de diversas origens, competências e interesses, que trabalham em muitos empregos diferentes e contribuem para este projecto por uma grande variedade de razões. São também, na sua maioria, não pagos para contribuir para este projeto de código aberto.
 
