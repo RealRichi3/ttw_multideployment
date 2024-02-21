@@ -19,7 +19,7 @@ Gostaríamos de agradecer **Zoe Ingram** e **Emma Harris** por responder nossas 
 
 **Emma** - achamos que um podcast, com o formato de entrevistas com especialistas em diferentes temas, seria uma maneira fácil e divertida de comunicar conceitos abertos de ciência a pesquisadores e outros. Mesmo com o aparecimento de e-learning e de oficinas em linha, existe um limite máximo para o número de pessoas que podem ser contactadas com a formação tradicional. O podcast permite que todos tenham acesso e que diferentes aspectos da ciência aberta sejam explorados em profundidade.
 
-## 2. Como você se começou?
+## 2. How did you get started?
 
 **Zoe** - Era algo que nenhum de nós havia feito antes. Tínhamos uma colega cuja mulher tinha competências nesta área, por isso ela nos ensinou como começar. Ela deu a Emma e Luiza feedback sobre como falar e como ajustar suas vozes para falar sobre o podcast.
 
@@ -69,7 +69,7 @@ Se você está tentando iniciar uma base de ouvinte. em seguida, tente entrevist
 
 Além disso, assegure-se de bloquear o dia inteiro para a entrevista, uma vez que ela é morosa e consome muita energia.
 
-## 6. Você tem dicas para evitar?
+## 6. Do you have any tips on things to avoid?
 
 **Emma** - Veja outros podcasts como oportunidades de colaboração e promoção cruzada, não concorrência.
 
