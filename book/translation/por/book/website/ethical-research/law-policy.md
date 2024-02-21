@@ -18,7 +18,7 @@ alt: Imagem mostra duas pessoas sentadas no chão. Estão a sorrir e a olhar par
 Ilustração do _projeto Turing Way_ por Scriberia. Usada sob uma licença CC-BY 4.0. DOI: 10.5281/zenodo.3332807.
 ```
 
-## Motivação e fundo
+## Motivation and Background
 
 É útil saber como a ética que orienta seu trabalho assenta em outros quadros, incluindo lei, política e direitos humanos. Conhecer a lei, a política e os direitos humanos que estão na base da ética da pesquisa te dará uma compreensão mais profunda de como realizar pesquisa ética. Pode também ajudá-lo a defender o trabalho ético com colegas e colaboradores.
 

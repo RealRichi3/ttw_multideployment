@@ -63,22 +63,22 @@ Deuxième page du formulaire, pour les auteurs. [^cffinitversion]
 
 ```{figure} ../../figures/gifs/cffinit-2-add-author.gif
 ---
-nom : cffinit-2-add-author
-largeur : 80%
-alt : Seconde page de la forme, pour auteurs. Ajout de l'auteur en cours.
+nom : cffinit-2-rempli
+largeur: 80%
+alt : Seconde page du formulaire, pour auteurs. Un auteur a rempli.
 ---
-Deuxième page du formulaire, pour les auteurs. Ajout de l'auteur en cours. [^cffinitversion]
+Deuxième page du formulaire, pour les auteurs. Un auteur a rempli. [^cffinitversion]
 ```
 
 Après avoir ajouté un auteur, vous avez le minimum d'informations requises pour un fichier `CITATION.cff` valide. Ajouter plus d'auteurs si nécessaire. Cliquez ensuite sur suivant pour continuer.
 
 ```{figure} ../../figures/gifs/cffinit-2-filled.gif
 ---
-nom : cffinit-2-rempli
-largeur: 80%
-alt : Seconde page du formulaire, pour auteurs. Un auteur a rempli.
+nom : cffinit-2-add-author
+largeur : 80%
+alt : Seconde page de la forme, pour auteurs. Ajout de l'auteur en cours.
 ---
-Deuxième page du formulaire, pour les auteurs. Un auteur a rempli. [^cffinitversion]
+Deuxième page du formulaire, pour les auteurs. Ajout de l'auteur en cours. [^cffinitversion]
 ```
 
 ## Fichier minimal `CITATION.cff`

@@ -20,6 +20,5 @@ Veuillez ajouter quelque chose que vous avez aimé dans le Dash. Nous pourrions 
 
 Veuillez ajouter quelque chose que vous changeriez à propos du Dash. Nous n'en avons jamais fait une auparavant, donc tous vos commentaires seront vraiment précieux. Si vous ne voulez pas que votre commentaire soit ajouté au dépôt GitHub (et donc rendu public), veuillez ajouter le 🤫 au début de la ligne.
 
--
--
+Si vous ne voulez pas que votre commentaire soit ajouté au dépôt GitHub (et donc rendu public), veuillez ajouter le 🤫 au début de la ligne.
 ```

@@ -68,7 +68,7 @@ $ bits que podem ser finalizados no checkout
 
 Neste branch você vai notar que há um novo script no diretório **scripts** chamado `generate_qplot.py`. Este script funciona de forma semelhante ao `generate_histogram. y` script (ele tem a mesma sintaxe de linha de comando), mas ele gera um [QQ-plot](https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot). O arquivo **report.tex** também foi atualizado para incorporar estes pontos.
 
-Após mudar para o branch `em latas` , haverá um repositório que contém uma regra separada para gerar os PQ-Q. Este Makefile se parece com isto: Este Makefile se parece com isto:
+Após mudar para o branch `em latas` , haverá um repositório que contém uma regra separada para gerar os PQ-Q. Este Makefile se parece com isto: Este Makefile se parece com isto: Este Makefile se parece com isto:
 
 ```makefile
 # Makefile for analysis report
