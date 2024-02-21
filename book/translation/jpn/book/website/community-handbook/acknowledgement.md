@@ -11,7 +11,7 @@ height: 400px
 name: theturingway-confirgement
 alt: この図は、伝統的な承認システムが壊れていることを示しています。 貢献者の情報をすべてキャッチし、貢献者の記録に保存するコントリビューターボットがあります
 ---
-貢献者を*The Teuring Way*で認めるプロセス。 _Scriberiaによるチューリング方法_プロジェクトのイラスト。 CC-BY 4.0ライセンスの下で使用される。 DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
+貢献者を*The Teuring Way*で認めるプロセス。 _The Turing Way_ project illustration by Scriberia. CC-BY 4.0ライセンスの下で使用される。 DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 ```
 
 私たちは、このプロジェクトで可能なあらゆる種類の貢献を認識しています。
