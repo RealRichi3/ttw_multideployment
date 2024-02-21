@@ -16,7 +16,7 @@ alt: The Zen of Python, por Tim Peters. Que bonito é melhor que feio. Mais vale
 *Ponto 7 do [Zen de Python](https://www.python.org/dev/peps/pep-0020/) é "Readability Counts". (Isso pode ser impresso com o comando python `>>> importar isso`)*
 ```
 
-## Geral
+## Overview
 
 O Linting inclui {ref}`diretrizes para o estilo<pd-code-styling-guidelines>` como para nomenclatura, e garantir que o código de {ref}`seja legível para uso humano<pd-code-styling-readability>` , por exemplo, usando uma formatação útil e escrevendo comentários.  
 Alguns ambientes de desenvolvimento integrados (IDEs) incluem cunhagem automática, mas há {ref}`pacotes e ferramentas gratuitos para linhar<pd-code-styling-tools>` que vão ficar em código pra você (por exemplo, [autopep8](https://pypi.org/project/autopep8/)).
